@@ -31,6 +31,12 @@ Café Siam song data is derived from the cafesiam repo catalog (`data/songs_cata
 python channels/siam/jpth/scripts/build-songs-data.py
 ```
 
+Then fill missing sheets + Thai romanization from the local n20dle thjp catalog:
+
+```bash
+/path/to/n20dle/.venv/bin/python channels/siam/jpth/scripts/enrich-songs-lyrics.py
+```
+
 ## Deploy (Cloud Run)
 
 Project: `silentricenation` · region: `asia-east1` · service: `ricenation`

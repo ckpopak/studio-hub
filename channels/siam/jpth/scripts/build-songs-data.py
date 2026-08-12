@@ -12,6 +12,7 @@ OUT = CHANNEL_ROOT / "data" / "songs.json"
 
 # Prefer local cafesiam / idea2025 checkout; override with CAFESIAM_CATALOG.
 DEFAULT_CATALOGS = [
+    Path("/Users/apple123/_home/_thai_lang/data/songs_catalog.json"),
     Path(r"D:\_home\private\idea2025\data\songs_catalog.json"),
     Path(r"D:\_home\private\cafesiam\data\songs_catalog.json"),
 ]

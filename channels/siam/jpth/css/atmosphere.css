@@ -271,7 +271,8 @@ a:hover {
 .atm-sheet__body {
   flex: 1 1 auto;
   min-height: 0;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -279,12 +280,21 @@ a:hover {
   font-size: 17px;
   line-height: 1.55;
   font-family: "Noto Serif JP", "Noto Sans Thai", serif;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(168, 179, 166, 0.35) transparent;
 }
 
 .atm-lyric-line {
   display: block;
   color: rgba(243, 239, 230, 0.92);
   text-shadow: 0 6px 22px rgba(0, 0, 0, 0.35);
+}
+
+.atm-lyric-roman {
+  color: rgba(196, 184, 158, 0.88);
+  font-family: "Outfit", "Noto Sans Thai", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.01em;
 }
 
 .atm-lyric-gap {

@@ -104,6 +104,21 @@
     return "section";
   }
 
+  function formatLyricLine(line) {
+    // Highlight Thai (romanization) so JP — TH (roman) reads clearly.
+    return escapeHtml(line).replace(
+      /([\u0E00-\u0E7F]+(?:\s+[\u0E00-\u0E7F]+)*)\s*\(([^)]+)\)/g,
+      function (_m, th, roman) {
+        return (
+          th +
+          ' <span class="atm-lyric-roman">(' +
+          roman +
+          ")</span>"
+        );
+      }
+    );
+  }
+
   function renderFullLyrics(lyrics) {
     var lines = String(lyrics || "").split(/\r?\n/);
     var html = [];
@@ -135,7 +150,9 @@
         return;
       }
 
-      html.push('<span class="atm-lyric-line">' + escapeHtml(line) + "</span>");
+      html.push(
+        '<span class="atm-lyric-line">' + formatLyricLine(line) + "</span>"
+      );
       lastWasGap = false;
     });
 
@@ -146,8 +163,9 @@
 
   function fitLyricsToBox() {
     if (!lyricsBody) return;
-    var min = 10;
-    var max = 20;
+    // Prefer readable type; sheet scrolls when the song is long.
+    var min = 13;
+    var max = 18;
     var size = max;
     lyricsBody.style.fontSize = size + "px";
     while (size > min && lyricsBody.scrollHeight > lyricsBody.clientHeight + 1) {
