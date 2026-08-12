@@ -7,7 +7,7 @@ import re
 import urllib.request
 from pathlib import Path
 
-OUT = Path(r"D:\_home\private\ricenation\data\video-ids.json")
+OUT = Path(__file__).resolve().parents[1] / "data" / "video-ids.json"
 
 # Distinctive title needles per episode (English / roman / known fragments)
 NEEDLES = {

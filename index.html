@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Cafe QuietLY 靜 — Field Notes</title>
+    <title>ricenation — studio</title>
     <meta
       name="description"
-      content="Official QuietLY field notes: imaginary worlds to read—scene first, sparse lyrics, music at the edge."
+      content="ricenation studio hub. Channel side products live under /channels/{name}/."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,420 +14,209 @@
       href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Noto+Serif+TC:wght@400;500;600&family=Outfit:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/quietly.css" />
     <style>
-      code {
-        font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
-        font-size: 0.86em;
-        color: var(--amber-soft);
+      :root {
+        --ink: #0b1018;
+        --navy: #121a28;
+        --mist: #8b97ab;
+        --paper: #e8e2d6;
+        --amber: #c8924a;
+        --amber-soft: #d4a574;
+        --line: rgba(232, 226, 214, 0.12);
+        --ease: cubic-bezier(0.22, 1, 0.36, 1);
       }
 
-      .hero {
-        position: relative;
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
         min-height: 100svh;
-        display: grid;
-        align-items: end;
-        overflow: hidden;
-        background: var(--navy);
-      }
-
-      .hero__media {
-        position: absolute;
-        inset: 0;
-        z-index: 0;
-      }
-
-      .hero__media img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center 42%;
-        transform: scale(1.04);
-        animation: drift 30s ease-in-out infinite alternate;
-      }
-
-      .hero__veil {
-        position: absolute;
-        inset: 0;
         background:
-          linear-gradient(
-            180deg,
-            rgba(11, 16, 24, 0.45) 0%,
-            rgba(11, 16, 24, 0.2) 40%,
-            rgba(11, 16, 24, 0.78) 70%,
-            rgba(11, 16, 24, 0.98) 100%
-          ),
           radial-gradient(
-            ellipse 55% 40% at 70% 36%,
-            var(--amber-glow),
-            transparent 70%
-          );
-        pointer-events: none;
+            ellipse 70% 45% at 78% 0%,
+            rgba(200, 146, 74, 0.16),
+            transparent 55%
+          ),
+          linear-gradient(180deg, var(--navy), var(--ink) 58%);
+        color: var(--paper);
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        letter-spacing: 0.02em;
+        line-height: 1.65;
       }
 
-      .hero__content {
-        position: relative;
-        z-index: 1;
+      a {
+        color: var(--amber-soft);
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+        transition:
+          color 0.3s var(--ease),
+          border-color 0.3s var(--ease);
+      }
+
+      a:hover {
+        color: var(--amber);
+        border-bottom-color: var(--amber);
+      }
+
+      .wrap {
         width: min(920px, calc(100% - 2.5rem));
         margin: 0 auto;
-        padding: 0 0 3.75rem;
-        animation: rise 1.4s var(--ease) both;
+        padding: 4.5rem 0 4rem;
       }
 
-      .brand {
-        display: flex;
-        align-items: baseline;
-        gap: 0.85rem;
-        margin-bottom: 1.6rem;
-      }
-
-      .brand__mark {
+      .mark {
         font-family: "Noto Serif TC", serif;
-        font-size: clamp(3rem, 8vw, 4.8rem);
-        font-weight: 500;
+        font-size: clamp(2.4rem, 6vw, 3.4rem);
         line-height: 1;
-        color: var(--paper);
-        text-shadow: 0 0 48px var(--amber-glow);
+        margin: 0 0 0.85rem;
       }
 
-      .brand__name {
-        font-size: clamp(1.05rem, 2.4vw, 1.35rem);
-        font-weight: 400;
-        letter-spacing: 0.14em;
-        text-transform: uppercase;
-      }
-
-      .brand__sub {
-        display: block;
-        margin-top: 0.25rem;
+      .eyebrow {
+        margin: 0 0 0.7rem;
         font-size: 0.72rem;
         letter-spacing: 0.22em;
         text-transform: uppercase;
-        color: var(--mist);
-        font-family: "Outfit", sans-serif;
+        color: var(--amber);
       }
 
-      .hero__title {
-        margin: 0 0 0.9rem;
-        font-size: clamp(2rem, 5.2vw, 3.2rem);
+      h1 {
+        margin: 0 0 0.85rem;
+        font-family: "Instrument Serif", "Noto Serif TC", serif;
+        font-size: clamp(2.1rem, 5vw, 3rem);
         font-weight: 400;
         line-height: 1.15;
-        max-width: 14ch;
       }
 
-      .site-nav__links {
-        display: flex;
-        gap: 1.25rem;
-      }
-
-      .hero__actions {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem 1.5rem;
-        align-items: center;
-      }
-
-      .hero__cta--ghost {
-        color: var(--mist);
-        border-bottom-color: transparent;
-      }
-
-      .hero__cta--ghost span {
-        background: var(--mist);
-      }
-
-      .hero__lede {
-        max-width: 32rem;
-        margin: 0 0 1.85rem;
+      .lede {
+        margin: 0 0 3rem;
+        max-width: 34rem;
         color: var(--mist);
         font-size: 1.05rem;
       }
 
-      .hero__cta {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.65rem;
-        font-size: 0.78rem;
-        letter-spacing: 0.18em;
-        text-transform: uppercase;
-        color: var(--paper);
-        border-bottom: 1px solid var(--line);
-        padding-bottom: 0.35rem;
-      }
-
-      .hero__cta span {
-        width: 1.5rem;
-        height: 1px;
-        background: var(--amber);
-        transition: width 0.35s var(--ease);
-      }
-
-      .hero__cta:hover {
-        border-bottom-color: var(--amber);
-        color: var(--amber-soft);
-      }
-
-      .hero__cta:hover span {
-        width: 2.25rem;
-      }
-
-      .atlas {
-        width: min(920px, calc(100% - 2.5rem));
-        margin: 0 auto;
-        padding: 5rem 0 1rem;
-      }
-
-      .atlas__eyebrow {
-        margin: 0 0 0.85rem;
-        font-size: 0.72rem;
-        letter-spacing: 0.24em;
-        text-transform: uppercase;
-        color: var(--amber);
-      }
-
-      .atlas__title {
-        margin: 0 0 0.75rem;
-        font-size: clamp(1.7rem, 3.5vw, 2.2rem);
+      .section-title {
+        margin: 0 0 0.35rem;
+        font-family: "Instrument Serif", serif;
+        font-size: 1.45rem;
         font-weight: 400;
       }
 
-      .atlas__note {
-        margin: 0 0 2.75rem;
-        max-width: 34rem;
+      .section-note {
+        margin: 0 0 1.5rem;
         color: var(--mist);
-      }
-
-      .world-list {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-      }
-
-      .world-list li {
-        border-top: 1px solid var(--line);
-      }
-
-      .world-list li:last-child {
-        border-bottom: 1px solid var(--line);
-      }
-
-      .world-list a,
-      .world-list .world-row {
-        display: grid;
-        grid-template-columns: 4.5rem 1fr auto;
-        gap: 1rem;
-        align-items: baseline;
-        padding: 1.25rem 0;
-        color: inherit;
-        border-bottom: none;
-      }
-
-      .world-list a:hover {
-        color: var(--amber-soft);
-      }
-
-      .world-list a:hover .world-name {
-        color: var(--amber-soft);
-      }
-
-      .world-ep {
-        font-size: 0.7rem;
-        letter-spacing: 0.16em;
-        text-transform: uppercase;
-        color: var(--mist);
-      }
-
-      .world-name {
-        margin: 0;
-        font-size: clamp(1.15rem, 2.4vw, 1.4rem);
-        font-weight: 400;
-        line-height: 1.35;
-        transition: color 0.3s var(--ease);
-      }
-
-      .world-name .zh {
-        display: inline;
-        margin-left: 0.35rem;
-        color: var(--mist);
-        font-size: 0.88em;
-      }
-
-      .world-list a:hover .world-name .zh {
-        color: var(--amber);
-      }
-
-      .world-state {
-        font-size: 0.68rem;
-        letter-spacing: 0.16em;
-        text-transform: uppercase;
-        color: var(--amber);
-      }
-
-      .world-row.is-quiet .world-name {
-        color: rgba(232, 226, 214, 0.55);
-      }
-
-      .world-row.is-quiet .world-state {
-        color: var(--mist);
+        font-size: 0.95rem;
       }
 
       .channel {
-        width: min(920px, calc(100% - 2.5rem));
-        margin: 3.5rem auto 0;
-        padding: 2.5rem 0 4rem;
         border-top: 1px solid var(--line);
+        padding: 1.5rem 0 1.75rem;
       }
 
-      .channel p {
-        margin: 0 0 1.25rem;
-        max-width: 32rem;
+      .channel:last-of-type {
+        border-bottom: 1px solid var(--line);
+      }
+
+      .channel__name {
+        margin: 0 0 0.35rem;
+        font-family: "Instrument Serif", "Noto Serif TC", serif;
+        font-size: 1.55rem;
+        font-weight: 400;
+      }
+
+      .channel__name .zh {
+        font-family: "Noto Serif TC", serif;
+        color: var(--mist);
+        font-size: 0.88em;
+        margin-left: 0.35rem;
+      }
+
+      .channel__blurb {
+        margin: 0 0 1rem;
+        max-width: 36rem;
         color: var(--mist);
       }
 
-      .channel a.action {
-        display: inline-flex;
-        gap: 0.65rem;
+      .channel__links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.85rem 1.35rem;
         font-size: 0.78rem;
-        letter-spacing: 0.16em;
+        letter-spacing: 0.14em;
         text-transform: uppercase;
-        color: var(--paper);
-        border: 1px solid var(--line);
-        padding: 0.8rem 1.2rem;
       }
 
-      .channel a.action:hover {
-        border-color: var(--amber);
-        background: rgba(200, 146, 74, 0.08);
-        color: var(--amber-soft);
+      .channel.is-reserved {
+        opacity: 0.72;
       }
 
-      @media (max-width: 700px) {
-        .world-list a,
-        .world-list .world-row {
-          grid-template-columns: 3.2rem 1fr;
-          gap: 0.65rem 0.85rem;
-        }
-
-        .world-state {
-          grid-column: 2;
-        }
-
-        .brand {
-          flex-direction: column;
-          gap: 0.35rem;
-        }
+      .channel.is-reserved .channel__name {
+        color: rgba(232, 226, 214, 0.7);
       }
 
-      @media (prefers-reduced-motion: reduce) {
-        .hero__media img,
-        .hero__content {
-          animation: none !important;
-        }
+      .path {
+        margin-top: 2.5rem;
+        color: var(--mist);
+        font-size: 0.8rem;
+        font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+      }
+
+      footer {
+        margin-top: 3rem;
+        color: var(--mist);
+        font-size: 0.78rem;
       }
     </style>
   </head>
   <body>
-    <nav class="site-nav" aria-label="Primary">
-      <a class="site-nav__brand" href="index.html">靜</a>
-      <div class="site-nav__links">
-        <a href="atmosphere.html">Atmosphere</a>
-        <a href="about.html">About</a>
-      </div>
-    </nav>
-
-    <header class="hero">
-      <div class="hero__media" aria-hidden="true">
-        <img
-          src="assets/ep11-autumn-river-hero.png"
-          alt=""
-          width="1920"
-          height="1080"
-        />
-        <div class="hero__veil"></div>
-      </div>
-      <div class="hero__content">
-        <div class="brand">
-          <span class="brand__mark" aria-hidden="true">靜</span>
-          <div>
-            <div class="brand__name serif">Cafe QuietLY</div>
-            <span class="brand__sub">Field notes</span>
-          </div>
-        </div>
-        <h1 class="hero__title serif">Rooms you can read</h1>
-        <p class="hero__lede">
-          Each episode is one imaginary world. Let imagery and song carry the
-          room—lyrics and scenes unfold by themselves.
-        </p>
-        <div class="hero__actions">
-          <a class="hero__cta" href="atmosphere.html">
-            Begin atmosphere
-            <span aria-hidden="true"></span>
-          </a>
-          <a class="hero__cta hero__cta--ghost" href="#atlas">
-            Browse worlds
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-      </div>
-    </header>
-
-    <main>
-      <section class="atlas" id="atlas" aria-labelledby="atlas-title">
-        <p class="atlas__eyebrow reveal">World index</p>
-        <h2 class="atlas__title serif reveal" id="atlas-title">
-          Places in the QuietLY atlas
-        </h2>
-        <p class="atlas__note reveal">
-          Episodes 01–11 include complete lyrics from n20dle prompts, quiet
-          frames, and embedded YouTube sessions with chapter seek.
-        </p>
-
-        <ol class="world-list" id="world-list">
-          <li class="reveal">
-            <div class="world-row is-quiet">
-              <span class="world-ep">…</span>
-              <h3 class="world-name serif">Loading worlds</h3>
-              <span class="world-state">Wait</span>
-            </div>
-          </li>
-        </ol>
-      </section>
-
-      <section class="channel reveal">
-        <p>
-          Long listening sessions live on YouTube. This site keeps the fiction
-          readable.
-        </p>
-        <a
-          class="action"
-          href="https://www.youtube.com/@cafequietlysoftmusic"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Cafe QuietLY on YouTube
-          <span aria-hidden="true">→</span>
-        </a>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <p>
-        <span class="mark">靜</span>
-        Cafe QuietLY — official field notes. Prototype structure for scene and
-        lyric reading.
+    <main class="wrap">
+      <p class="eyebrow">Studio</p>
+      <p class="mark" aria-hidden="true">靜</p>
+      <h1>ricenation</h1>
+      <p class="lede">
+        A quiet studio hub for channel side products. Each channel keeps its own
+        rooms under <code>/channels/{name}/</code>.
       </p>
-      <div class="site-footer__links">
-        <a href="about.html">About</a>
-        <a
-          href="https://www.youtube.com/@cafequietlysoftmusic"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Channel</a
-        >
-      </div>
-    </footer>
 
-    <script src="js/reveal.js"></script>
-    <script src="js/atlas.js"></script>
+      <p class="section-title">Channels</p>
+      <p class="section-note">
+        QuietLY is live. More channel spaces can open beside it without sharing
+        one homepage.
+      </p>
+
+      <article class="channel">
+        <h2 class="channel__name">
+          Cafe QuietLY
+          <span class="zh">靜</span>
+        </h2>
+        <p class="channel__blurb">
+          Slow Mandarin jazz worlds: field notes to read, Atmosphere to let the
+          room play itself.
+        </p>
+        <div class="channel__links">
+          <a href="channels/quietly/">Field notes atlas</a>
+          <a href="channels/quietly/atmosphere.html">Atmosphere</a>
+          <a href="channels/quietly/about.html">About</a>
+        </div>
+      </article>
+
+      <article class="channel is-reserved" aria-label="Reserved channel space">
+        <h2 class="channel__name">Next channel</h2>
+        <p class="channel__blurb">
+          Reserved for another channel’s side product pages at
+          <code>/channels/{slug}/</code>.
+        </p>
+      </article>
+
+      <p class="path">
+        QuietLY Atmosphere → /channels/quietly/atmosphere.html
+      </p>
+
+      <footer>
+        Channel products stay namespaced. The hub only points the way.
+      </footer>
+    </main>
   </body>
 </html>

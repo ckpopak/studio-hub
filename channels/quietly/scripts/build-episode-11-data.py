@@ -73,7 +73,7 @@ out = {
     "logline": "傳聞追不到江邊。遠山還在，心卻輕了。",
     "tracks": tracks,
 }
-out_path = Path(r"D:\_home\private\ricenation\data\episode-11.json")
+out_path = Path(__file__).resolve().parents[1] / "data" / "episode-11.json"
 out_path.parent.mkdir(parents=True, exist_ok=True)
 out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
 print(f"wrote {out_path} tracks={len(tracks)}")

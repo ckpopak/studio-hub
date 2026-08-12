@@ -13,7 +13,7 @@
   var trackZh = document.getElementById("track-zh");
   var sceneLine = document.getElementById("scene-line");
   var sceneZh = document.getElementById("scene-zh");
-  var lyricsLine = document.getElementById("lyrics-line");
+  var lyricsBody = document.getElementById("lyrics-body");
   var progressBar = document.getElementById("progress-bar");
   var timeLabel = document.getElementById("time-label");
   var playerShell = document.getElementById("player-shell");
@@ -25,9 +25,9 @@
   var visualNodes = [];
   var visualIndex = -1;
   var trackIndex = -1;
-  var lyricIndex = -1;
   var tickTimer = null;
   var visualTimer = null;
+  var fitTimer = null;
 
   function qsEp() {
     var m = /[?&]ep=(\d+)/.exec(window.location.search);
@@ -41,32 +41,88 @@
     return m + ":" + String(s).padStart(2, "0");
   }
 
-  function vocalLines(lyrics) {
-    return String(lyrics || "")
-      .split(/\r?\n/)
-      .map(function (l) {
-        return l.trim();
-      })
-      .filter(function (l) {
-        if (!l) return false;
-        if (/^\[[^\]]+\]$/.test(l)) return false;
-        return true;
-      });
-  }
-
-  function trackDuration(i) {
-    var tracks = episode.tracks;
-    var start = tracks[i].start;
-    if (i + 1 < tracks.length) return Math.max(20, tracks[i + 1].start - start);
-    return 180;
+  function escapeHtml(s) {
+    return String(s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
   }
 
   function indexFromTime(t) {
     var i = 0;
-    for (var n = 0; n < episode.tracks.length; n += 1) {
-      if (t >= episode.tracks[n].start) i = n;
+    var tracks = episode.tracks;
+    for (var n = 0; n < tracks.length; n += 1) {
+      if (t + 0.35 >= tracks[n].start) i = n;
     }
     return i;
+  }
+
+  // Listener-facing lyric page: keep words + poetry; drop instrumental stage directions.
+  function renderFullLyrics(lyrics) {
+    var lines = String(lyrics || "").split(/\r?\n/);
+    var html = [];
+    var lastWasGap = true;
+
+    lines.forEach(function (raw) {
+      var line = raw.trim();
+      if (!line) {
+        if (!lastWasGap && html.length) {
+          html.push('<span class="atm-lyric-gap"></span>');
+          lastWasGap = true;
+        }
+        return;
+      }
+
+      var tag = line.match(/^\[([^\]]+)\]$/);
+      if (tag) {
+        var label = tag[1];
+        var lower = label.toLowerCase();
+        if (lower.indexOf("instrumental") === 0) return;
+        var kind = "section";
+        if (lower.indexOf("poetry") === 0) kind = "poetry";
+        else if (lower.indexOf("english") === 0) kind = "english";
+        else if (lower.indexOf("bridge") === 0) kind = "bridge";
+        else if (lower.indexOf("chorus") === 0 || lower.indexOf("final") === 0) {
+          kind = "chorus";
+        } else if (lower.indexOf("verse") === 0) {
+          kind = "verse";
+        }
+        html.push(
+          '<span class="atm-lyric-tag atm-lyric-tag--' +
+            kind +
+            '">' +
+            escapeHtml(label.replace(/\s*—.*$/, "").trim()) +
+            "</span>"
+        );
+        lastWasGap = false;
+        return;
+      }
+
+      html.push('<span class="atm-lyric-line">' + escapeHtml(line) + "</span>");
+      lastWasGap = false;
+    });
+
+    lyricsBody.innerHTML = html.join("") || '<span class="atm-lyric-line">—</span>';
+    scheduleFitLyrics();
+  }
+
+  function fitLyricsToBox() {
+    if (!lyricsBody) return;
+    var min = 11;
+    var max = 22;
+    var size = max;
+    lyricsBody.style.fontSize = size + "px";
+    // Shrink until the whole song fits with no scrolling.
+    while (size > min && lyricsBody.scrollHeight > lyricsBody.clientHeight + 1) {
+      size -= 0.5;
+      lyricsBody.style.fontSize = size + "px";
+    }
+  }
+
+  function scheduleFitLyrics() {
+    window.clearTimeout(fitTimer);
+    fitTimer = window.setTimeout(fitLyricsToBox, 30);
   }
 
   function buildVisuals() {
@@ -83,9 +139,7 @@
       var node = document.createElement("div");
       node.className =
         "stage__visual" + (slide.kind === "blank" ? " stage__visual--blank" : "");
-      if (slide.src) {
-        node.style.backgroundImage = 'url("' + slide.src + '")';
-      }
+      if (slide.src) node.style.backgroundImage = 'url("' + slide.src + '")';
       visualsEl.appendChild(node);
       visualNodes.push(node);
       if (i === 0) {
@@ -107,14 +161,12 @@
 
   function sceneForProgress(p) {
     var comics = episode.comics || [];
-    if (!comics.length) {
-      return { en: episode.logline || "", zh: "" };
-    }
+    if (!comics.length) return { en: episode.logline || "", zh: "" };
     var idx = Math.min(comics.length - 1, Math.floor(p * comics.length));
     return comics[idx];
   }
 
-  function showTrack(i, forceLyricReset) {
+  function showTrack(i, force) {
     if (!episode || !episode.tracks.length) return;
     i = Math.max(0, Math.min(episode.tracks.length - 1, i));
     var changed = i !== trackIndex;
@@ -129,45 +181,12 @@
       (t.time || formatTime(t.start));
     trackTitle.textContent = t.en;
     trackZh.textContent = t.zh;
-    if (changed || forceLyricReset) {
-      lyricIndex = -1;
-      lyricsLine.classList.remove("is-on");
-      lyricsLine.textContent = "";
-    }
-  }
-
-  function showLyricForTime(absSec) {
-    var t = episode.tracks[trackIndex];
-    if (!t) return;
-    var lines = vocalLines(t.lyrics);
-    if (!lines.length) {
-      lyricsLine.classList.remove("is-on");
-      lyricsLine.textContent = "";
-      return;
-    }
-    var local = Math.max(0, absSec - t.start);
-    var dur = trackDuration(trackIndex);
-    // Soft lead-in: hold first line after a short instrumental breath
-    var usable = Math.max(12, dur - 18);
-    var offset = Math.min(local, usable);
-    var idx = Math.min(
-      lines.length - 1,
-      Math.floor((offset / usable) * lines.length)
-    );
-    if (idx === lyricIndex) return;
-    lyricIndex = idx;
-    lyricsLine.classList.remove("is-on");
-    window.setTimeout(function () {
-      lyricsLine.textContent = lines[idx];
-      lyricsLine.classList.add("is-on");
-    }, 180);
+    if (changed || force) renderFullLyrics(t.lyrics);
   }
 
   function updateAtmosphere(absSec, duration) {
     if (!episode) return;
-    var i = indexFromTime(absSec);
-    showTrack(i);
-    showLyricForTime(absSec);
+    showTrack(indexFromTime(absSec));
 
     var total = duration || episode.tracks[episode.tracks.length - 1].start + 180;
     var p = total ? Math.min(1, absSec / total) : 0;
@@ -175,10 +194,8 @@
     sceneLine.textContent = scene.en || episode.logline || "";
     sceneZh.textContent = scene.zh || "";
 
-    // Map whole-session progress across visuals with a slow drift
     if (visualNodes.length > 1) {
-      var v = Math.floor(p * visualNodes.length) % visualNodes.length;
-      setVisual(v);
+      setVisual(Math.floor(p * visualNodes.length) % visualNodes.length);
     }
 
     progressBar.style.width = (p * 100).toFixed(2) + "%";
@@ -188,11 +205,8 @@
   function onTick() {
     if (!player || typeof player.getCurrentTime !== "function") return;
     try {
-      var t = player.getCurrentTime() || 0;
-      var d = player.getDuration && player.getDuration();
-      updateAtmosphere(t, d);
-      var state = player.getPlayerState();
-      if (state === YT.PlayerState.ENDED) {
+      updateAtmosphere(player.getCurrentTime() || 0, player.getDuration && player.getDuration());
+      if (player.getPlayerState() === YT.PlayerState.ENDED) {
         btnToggle.textContent = "Replay";
       }
     } catch (e) {}
@@ -205,6 +219,7 @@
       })
       .then(function (data) {
         episode = data;
+        trackIndex = -1;
         worldTitle.textContent = data.title.en;
         worldSub.textContent = data.title.zh;
         document.title = data.title.en + " · Atmosphere — Cafe QuietLY 靜";
@@ -213,8 +228,8 @@
         updateAtmosphere(0, data.tracks[data.tracks.length - 1].start + 180);
 
         if (!data.videoId) {
-          lyricsLine.textContent = "This world has lyrics, but no video id yet.";
-          lyricsLine.classList.add("is-on");
+          lyricsBody.innerHTML =
+            '<span class="atm-lyric-line">This world has lyrics, but no video id yet.</span>';
           return;
         }
 
@@ -232,13 +247,12 @@
               onReady: function () {
                 if (autoplay) player.playVideo();
                 if (!tickTimer) tickTimer = window.setInterval(onTick, 500);
+                scheduleFitLyrics();
               },
               onStateChange: function (ev) {
-                if (ev.data === YT.PlayerState.PLAYING) {
-                  btnToggle.textContent = "Pause";
-                } else if (ev.data === YT.PlayerState.PAUSED) {
-                  btnToggle.textContent = "Play";
-                } else if (ev.data === YT.PlayerState.ENDED) {
+                if (ev.data === YT.PlayerState.PLAYING) btnToggle.textContent = "Pause";
+                else if (ev.data === YT.PlayerState.PAUSED) btnToggle.textContent = "Play";
+                else if (ev.data === YT.PlayerState.ENDED) {
                   btnToggle.textContent = "Replay";
                   maybeAdvanceWorld();
                 }
@@ -246,7 +260,7 @@
             },
           });
         } else {
-          player.loadVideoById(data.videoId);
+          player.loadVideoById({ videoId: data.videoId, startSeconds: 0 });
           if (autoplay) player.playVideo();
         }
       });
@@ -261,7 +275,6 @@
   }
 
   function maybeAdvanceWorld() {
-    // Soft auto-continue into the next published world.
     var i = currentIndex();
     if (i + 1 >= index.length) return;
     window.setTimeout(function () {
@@ -308,19 +321,16 @@
   btnBegin.addEventListener("click", begin);
   btnToggle.addEventListener("click", function () {
     if (!player) return begin();
-    var st = player.getPlayerState();
-    if (st === YT.PlayerState.PLAYING) player.pauseVideo();
+    if (player.getPlayerState() === YT.PlayerState.PLAYING) player.pauseVideo();
     else player.playVideo();
   });
   btnNext.addEventListener("click", function () {
-    var i = currentIndex();
-    var next = index[(i + 1) % index.length];
+    var next = index[(currentIndex() + 1) % index.length];
     episodeSelect.value = String(next.episode);
     loadEpisode(next, started);
   });
   btnPrev.addEventListener("click", function () {
-    var i = currentIndex();
-    var prev = index[(i - 1 + index.length) % index.length];
+    var prev = index[(currentIndex() - 1 + index.length) % index.length];
     episodeSelect.value = String(prev.episode);
     loadEpisode(prev, started);
   });
@@ -332,9 +342,13 @@
     if (meta) loadEpisode(meta, started);
   });
 
-  // Gentle visual breathing even while waiting at the gate
+  window.addEventListener("resize", scheduleFitLyrics);
+
   visualTimer = window.setInterval(function () {
-    if (visualNodes.length > 1 && (!player || player.getPlayerState() !== YT.PlayerState.PLAYING)) {
+    if (
+      visualNodes.length > 1 &&
+      (!player || player.getPlayerState() !== YT.PlayerState.PLAYING)
+    ) {
       setVisual(visualIndex + 1);
     }
   }, 9000);

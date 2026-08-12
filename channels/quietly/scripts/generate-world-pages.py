@@ -1,13 +1,13 @@
-"""Generate static world HTML pages for Ep02-11 from episodes-index.json."""
+"""Generate static world HTML pages from episodes-index.json."""
 
 from __future__ import annotations
 
 import json
 from pathlib import Path
 
-ROOT = Path(r"D:\_home\private\ricenation")
-INDEX = ROOT / "data" / "episodes-index.json"
-OUT_DIR = ROOT / "worlds"
+CHANNEL_ROOT = Path(__file__).resolve().parents[1]
+INDEX = CHANNEL_ROOT / "data" / "episodes-index.json"
+OUT_DIR = CHANNEL_ROOT / "worlds"
 
 TEMPLATE = """<!DOCTYPE html>
 <html lang=\"en\">
@@ -34,6 +34,7 @@ TEMPLATE = """<!DOCTYPE html>
       <div class=\"site-nav__links\">
         <a href=\"../atmosphere.html?ep={ep}\">Atmosphere</a>
         <a href=\"../index.html\">Worlds</a>
+        <a href=\"../../../index.html\">Studio</a>
       </div>
     </nav>
 

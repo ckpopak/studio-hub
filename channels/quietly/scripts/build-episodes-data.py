@@ -7,7 +7,8 @@ import re
 from pathlib import Path
 
 N20DLE = Path(r"D:\_home\private\n20dle")
-OUT_DIR = Path(r"D:\_home\private\ricenation\data")
+CHANNEL_ROOT = Path(__file__).resolve().parents[1]
+OUT_DIR = CHANNEL_ROOT / "data"
 
 # Manual map: episode -> YouTube videoId (filled/updated by resolve script or known IDs)
 VIDEO_IDS = {

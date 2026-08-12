@@ -155,13 +155,19 @@
 
 .atm-copy {
   position: fixed;
-  left: 50%;
-  bottom: 5.8rem;
-  transform: translateX(-50%);
+  left: max(1rem, calc(50% - 490px));
+  top: 4.8rem;
+  bottom: 5.6rem;
   z-index: 8;
-  width: min(720px, calc(100% - 2.4rem));
-  text-align: left;
+  width: min(420px, calc(100% - 2rem));
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   pointer-events: none;
+}
+
+.atm-copy__head {
+  flex: 0 0 auto;
 }
 
 .atm-kicker {
@@ -174,49 +180,101 @@
 
 .atm-track {
   margin: 0;
-  font-size: clamp(1.7rem, 4vw, 2.5rem);
+  font-size: clamp(1.45rem, 3.2vw, 2rem);
   font-weight: 400;
   line-height: 1.15;
   text-shadow: 0 10px 40px rgba(0, 0, 0, 0.45);
 }
 
 .atm-track-zh {
-  margin: 0.35rem 0 1.1rem;
+  margin: 0.3rem 0 0.85rem;
   color: var(--amber-soft);
-  font-size: clamp(1.05rem, 2.4vw, 1.3rem);
+  font-size: clamp(1rem, 2.2vw, 1.2rem);
 }
 
 .atm-scene {
   margin: 0;
   max-width: 28rem;
-  font-size: clamp(1.05rem, 2.2vw, 1.25rem);
+  font-size: clamp(0.98rem, 2vw, 1.12rem);
   line-height: 1.45;
   color: rgba(232, 226, 214, 0.92);
 }
 
 .atm-scene-zh {
-  margin: 0.4rem 0 1.25rem;
+  margin: 0.35rem 0 0;
   color: var(--mist);
-  font-size: 0.98rem;
+  font-size: 0.92rem;
 }
 
-.atm-lyrics {
-  min-height: 3.2rem;
-  max-width: 26rem;
-  font-size: clamp(1.15rem, 2.6vw, 1.45rem);
-  line-height: 1.7;
-  color: var(--paper);
-  opacity: 0;
-  transform: translateY(0.5rem);
-  transition:
-    opacity 0.8s var(--ease),
-    transform 0.8s var(--ease);
-  text-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+.atm-sheet {
+  flex: 1 1 auto;
+  min-height: 0;
+  pointer-events: none;
+  padding: 1rem 1.1rem 1.15rem;
+  background: rgba(7, 11, 18, 0.58);
+  border: 1px solid rgba(232, 226, 214, 0.12);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
 }
 
-.atm-lyrics.is-on {
-  opacity: 1;
-  transform: none;
+.atm-sheet__label {
+  margin: 0 0 0.65rem;
+  font-size: 0.64rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--amber);
+}
+
+.atm-sheet__body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.08rem;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.atm-lyric-line {
+  display: block;
+  color: rgba(232, 226, 214, 0.92);
+  text-shadow: 0 6px 22px rgba(0, 0, 0, 0.35);
+}
+
+.atm-lyric-gap {
+  display: block;
+  height: 0.42em;
+  flex: 0 0 auto;
+}
+
+.atm-lyric-tag {
+  display: block;
+  margin: 0.45em 0 0.12em;
+  font-family: "Outfit", sans-serif;
+  font-size: 0.62em;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(139, 151, 171, 0.72);
+}
+
+.atm-lyric-tag--poetry {
+  color: var(--amber);
+}
+
+.atm-lyric-tag--english {
+  color: var(--amber-soft);
+  font-style: italic;
+  text-transform: none;
+  letter-spacing: 0.06em;
+}
+
+.atm-lyric-tag--bridge,
+.atm-lyric-tag--chorus,
+.atm-lyric-tag--verse {
+  color: rgba(212, 165, 116, 0.8);
 }
 
 .atm-player {
@@ -366,15 +424,20 @@
 }
 
 @media (max-width: 720px) {
-  .atm-player {
-    width: 148px;
-    bottom: 6.2rem;
+  .atm-copy {
+    left: 0.75rem;
     right: 0.75rem;
-    opacity: 0.4;
+    width: auto;
+    top: auto;
+    bottom: 5.8rem;
+    max-height: 48svh;
   }
 
-  .atm-copy {
-    bottom: 6.4rem;
+  .atm-player {
+    width: 132px;
+    bottom: 5.8rem;
+    right: 0.75rem;
+    opacity: 0.35;
   }
 
   .atm-chrome__center .serif {
@@ -388,7 +451,6 @@
 
 @media (prefers-reduced-motion: reduce) {
   .stage__visual,
-  .atm-lyrics,
   .atm-gate {
     transition: none !important;
   }
