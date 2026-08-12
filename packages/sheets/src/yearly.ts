@@ -1,6 +1,10 @@
 import { YEARLY_ROLLUP_LABELS } from "./config";
 import { parseAmount } from "./parse";
-import type { YearlyLineItem, YearlyMatrix } from "./types";
+import type {
+  YearlyAmountUpdate,
+  YearlyLineItem,
+  YearlyMatrix,
+} from "./types";
 
 export function parseYearlyMatrix(
   values: string[][],
@@ -63,4 +67,52 @@ export function monthCategoryBreakdown(
     .filter(
       (x): x is { label: string; amount: number; isDebt: boolean } => x !== null,
     );
+}
+
+/** 1-based column number ? A, B, ... Z, AA */
+export function columnIndexToLetter(colNumber: number): string {
+  let n = colNumber;
+  let s = "";
+  while (n > 0) {
+    const rem = (n - 1) % 26;
+    s = String.fromCharCode(65 + rem) + s;
+    n = Math.floor((n - 1) / 26);
+  }
+  return s;
+}
+
+export function yearlyUpdateA1(
+  tab: string,
+  values: string[][],
+  update: YearlyAmountUpdate,
+): { range: string; amount: number; label: string; month: string } {
+  const label = update.label.trim();
+  if (!label) throw new Error("Label is required");
+  if (!Number.isFinite(update.amount)) throw new Error("Invalid amount");
+  if (!values.length) throw new Error("Yearly sheet is empty");
+
+  const months = (values[0] ?? [])
+    .slice(1)
+    .map((h) => String(h ?? "").trim())
+    .filter(Boolean);
+  const monthIndex = months.findIndex((m) => m === update.month);
+  if (monthIndex < 0) throw new Error(`Unknown month: ${update.month}`);
+
+  let rowNumber = -1;
+  for (let i = 1; i < values.length; i++) {
+    const rowLabel = String(values[i]?.[0] ?? "").trim();
+    if (rowLabel.toLowerCase() === label.toLowerCase()) {
+      rowNumber = i + 1;
+      break;
+    }
+  }
+  if (rowNumber < 0) throw new Error(`Unknown line item: ${label}`);
+
+  const col = columnIndexToLetter(monthIndex + 2);
+  return {
+    range: `'${tab}'!${col}${rowNumber}`,
+    amount: update.amount,
+    label,
+    month: months[monthIndex],
+  };
 }

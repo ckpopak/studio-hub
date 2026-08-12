@@ -38,6 +38,13 @@ export type CashflowAppendInput = {
   bal?: number | null;
 };
 
+/** Update one B(Y) cell: line label × month column. */
+export type YearlyAmountUpdate = {
+  label: string;
+  month: string;
+  amount: number;
+};
+
 export type MonthSummary = {
   month: string;
   salary: number | null;

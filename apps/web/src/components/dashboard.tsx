@@ -13,6 +13,7 @@ import {
   YAxis,
 } from "recharts";
 import { AddCashflowForm } from "@/components/add-cashflow-form";
+import { CategoryEditor } from "@/components/category-editor";
 import { formatHkd } from "@/lib/format";
 
 function StatCard({
@@ -188,28 +189,11 @@ export function Dashboard() {
           />
 
           <section className="grid gap-8 lg:grid-cols-2">
-            <div>
-              <h2 className="font-display text-xl">
-                Categories · {summary.selectedMonth}
-              </h2>
-              <ul className="mt-4 max-h-[28rem] space-y-2 overflow-y-auto pr-1">
-                {summary.month.categories.map((c) => (
-                  <li
-                    key={c.label}
-                    className="flex items-baseline justify-between gap-3 border-b border-[var(--line)]/70 py-2 text-sm"
-                  >
-                    <span className="text-[var(--ink)]">{c.label}</span>
-                    <span
-                      className={
-                        c.isDebt ? "text-[var(--danger)]" : "text-[var(--muted)]"
-                      }
-                    >
-                      {formatHkd(c.amount)}
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            <CategoryEditor
+              month={summary.selectedMonth}
+              categories={summary.month.categories}
+              onUpdated={() => void load(month)}
+            />
 
             <div>
               <h2 className="font-display text-xl">Recent cash movements</h2>

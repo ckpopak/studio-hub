@@ -12,11 +12,12 @@ import {
   latestBalance,
   parseCashflowLedger,
 } from "./cashflow";
-import { parseYearlyMatrix } from "./yearly";
+import { parseYearlyMatrix, yearlyUpdateA1 } from "./yearly";
 import type {
   CashflowAppendInput,
   CashflowLedger,
   CashflowRow,
+  YearlyAmountUpdate,
   YearlyMatrix,
 } from "./types";
 
@@ -137,5 +138,23 @@ export class SheetsClient {
     });
 
     return row;
+  }
+
+  /** Update one B(Y) amount cell for label × month. */
+  async updateYearlyAmount(
+    update: YearlyAmountUpdate,
+    spreadsheetId = YEARLY_SPREADSHEET_ID,
+    tab = YEARLY_TAB,
+  ): Promise<{ label: string; month: string; amount: number; range: string }> {
+    const values = await this.getValues(spreadsheetId, tab);
+    const target = yearlyUpdateA1(tab, values, update);
+    const sheets = await this.getSheets();
+    await sheets.spreadsheets.values.update({
+      spreadsheetId,
+      range: target.range,
+      valueInputOption: "USER_ENTERED",
+      requestBody: { values: [[target.amount]] },
+    });
+    return target;
   }
 }
