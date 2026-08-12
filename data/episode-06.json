@@ -1,0 +1,235 @@
+{
+  "episode": 6,
+  "slug": "late-library",
+  "title": {
+    "en": "Late Library",
+    "zh": "深夜舊圖書館"
+  },
+  "logline": "A midnight old library: closing hour to the last unread page.",
+  "videoId": "Ko619MZWns8",
+  "youtubeTitle": "[playlist] QuietLY · 深夜舊圖書館 — Slow Mandarin Jazz for Night Reading",
+  "comics": [
+    {
+      "en": "Shelves keep their own weather.",
+      "zh": "書架有自己的天氣。"
+    },
+    {
+      "en": "A lamp stays loyal to one desk.",
+      "zh": "燈忠於一張桌。"
+    },
+    {
+      "en": "Dust turns footsteps into soft drums.",
+      "zh": "灰塵把腳步變成輕鼓。"
+    },
+    {
+      "en": "Closing hour is still a kind of opening.",
+      "zh": "打烊仍是一種開始。"
+    }
+  ],
+  "hero": "",
+  "comicImages": [],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "00:00",
+      "en": "Closing Hour",
+      "zh": "閉館時",
+      "voice": "female",
+      "lyrics": "閉館的燈光一盞一盞暗下\n書架還站在原位\n目錄櫃輕輕合上\n像一天被慢慢收好\n\n[Verse 1]\n最後一位讀者已經走遠\n椅子沒有推動\n一本翻開的書\n停在沒有讀完的句子\n走廊很長\n足音被地毯接住\n\n[Refrain — rise gently]\n慢慢關\n不要急著把夜關完\n慢慢關\n讓紙頁再留一點溫\n慢慢關\n讓字還醒著\n\n[Poetry]\n奇文共欣賞\n疑義相與析\n\n[Bridge — almost spoken]\n如果閉館是一種呼吸\n我願意把氣放得很慢\n把喧鬧留在門外\n把安靜留在書脊之間\n\n[Final]\n慢慢關\n不要叫醒黎明\n最後一盞燈\n還亮著",
+      "source": "songs/prompts/episode-06/01-closing-hour.md"
+    },
+    {
+      "n": "02",
+      "start": 134,
+      "time": "02:14",
+      "en": "Wooden Stairs",
+      "zh": "木梯",
+      "voice": "male",
+      "lyrics": "木梯一級一級\n把夜往上送\n扶手有舊漆的溫度\n像被人握過很多次\n\n[Verse]\n我走得很輕\n怕驚動上層的字\n每一步都發出細細的應答\n像有人在更高處聽\n卻不開口\n\n[Refrain]\n再上一級\n不要急\n再上一級\n讓木紋記住腳步\n再上一級\n樓座還醒著\n\n[Poetry]\n綠蟻新醅酒\n紅泥小火爐\n\n[Bridge]\n樓梯轉角有一點暖\n不是火\n是舊木頭留下的光\n我停一下\n再繼續\n\n[Final]\n再上一級\n夜還長\n木梯不會催促",
+      "source": "songs/prompts/episode-06/02-wooden-stairs.md"
+    },
+    {
+      "n": "03",
+      "start": 293,
+      "time": "04:53",
+      "en": "Card Catalog",
+      "zh": "目錄櫃",
+      "voice": "female",
+      "lyrics": "目錄櫃一格一格\n像被整理過的夜晚\n卡片寫著名字\n也寫著找不到的人\n\n[Verse]\n抽屜輕輕拉開\n紙角微微捲起\n一個舊編號\n停在指尖\n像一封沒寄出的地址\n\n[Refrain — sway]\n慢慢找\n不必一次找到\n慢慢找\n讓字母排好隊\n慢慢找\n書還在原位\n\n[Poetry]\n小時不識月\n呼作白玉盤\n\n[Bridge]\n如果知識是一座樓\n目錄櫃是它最安靜的門\n我只推開一點\n就夠了\n\n[Final]\n慢慢找\n不要合上太快\n卡片還留著體溫",
+      "source": "songs/prompts/episode-06/03-card-catalog.md"
+    },
+    {
+      "n": "04",
+      "start": 402,
+      "time": "06:42",
+      "en": "Two Reading Lamps",
+      "zh": "兩盞閱讀燈",
+      "voice": "restrained male/female duet",
+      "lyrics": "長桌上兩盞閱讀燈\n把夜分成兩邊\n中間是未讀完的空白\n\n[Verse — alternating]\n[Female] 我的光照在左邊的字\n[Male] 我的光照在右邊的空白\n[Female] 我們沒有對視\n[Male] 只是同時醒著\n\n[Refrain]\n兩盞燈\n不必合併\n兩盞燈\n各自亮著就夠\n兩盞燈\n把安靜分給彼此\n\n[Poetry]\n海上生明月\n天涯共此時\n\n[Bridge — soft]\n[Both] 不用靠近\n[Both] 不用借光\n只要桌還在\n夜就還溫柔\n\n[Final]\n兩盞閱讀燈\n亮一下\n暗一下\n像兩次呼吸",
+      "source": "songs/prompts/episode-06/04-two-reading-lamps.md"
+    },
+    {
+      "n": "05",
+      "start": 512,
+      "time": "08:32",
+      "en": "Reserved Seat",
+      "zh": "預留座位",
+      "voice": "male",
+      "lyrics": "椅子上放著一張紙條\n寫著預留\n沒有名字\n只有一個還沒回來的時間\n\n[Verse]\n靠背微微凹陷\n像有人剛站起\n又像從來沒有人坐過\n桌角的鉛筆\n停在半截字\n\n[Refrain]\n坐一下\n不必登記\n坐一下\n讓位子還溫著\n坐一下\n書會自己打開\n\n[Poetry]\n空山不見人\n但聞人語響\n\n[Bridge — half spoken]\n我沒有拿走紙條\n怕弄亂一個約定\n夜很長\n座位可以再等\n\n[Final]\n坐一下\n不要催\n預留還有效",
+      "source": "songs/prompts/episode-06/05-reserved-seat.md"
+    },
+    {
+      "n": "06",
+      "start": 620,
+      "time": "10:20",
+      "en": "Quiet Stacks",
+      "zh": "靜書架",
+      "voice": "female",
+      "lyrics": "書架一排一排\n站成安靜的牆\n書脊的金字\n在暗處仍可辨認\n\n[Verse]\n我從A走到Z\n像走過一整個世紀\n沒有人說話\n只有紙的氣味\n慢慢上升\n\n[Refrain]\n靜一點\n讓字自己站好\n靜一點\n不要抽得太快\n靜一點\n書架會記住手溫\n\n[Poetry]\n行到水窮處\n坐看雲起時\n\n[Bridge]\n如果知識會呼吸\n此刻它正屏住氣\n等我把燈移近\n再呼出一行字\n\n[Final]\n靜一點\n夜還在頁間\n書架沒有睡",
+      "source": "songs/prompts/episode-06/06-quiet-stacks.md"
+    },
+    {
+      "n": "07",
+      "start": 751,
+      "time": "12:31",
+      "en": "Dust Window",
+      "zh": "塵窗",
+      "voice": "male",
+      "lyrics": "高窗積著薄塵\n月光穿過細粒\n像把舊日子\n慢慢照亮\n\n[Verse — half spoken]\n我抬起頭\n看見外面的夜很遠\n裡面的字很近\n灰塵不動\n時間也不動\n\n[Refrain]\n看一下\n不必擦乾淨\n看一下\n讓光自己進來\n看一下\n塵也是一種記錄\n\n[Poetry]\n月出驚山鳥\n時鳴春澗中\n\n[Bridge]\n如果窗會說話\n它只會說\n慢一點\n書還在下面等你\n\n[Final]\n看一下\n塵窗還亮著\n字沒有走遠",
+      "source": "songs/prompts/episode-06/07-dust-window.md"
+    },
+    {
+      "n": "08",
+      "start": 880,
+      "time": "14:40",
+      "en": "Night Librarian",
+      "zh": "夜館員",
+      "voice": "restrained male/female duet",
+      "lyrics": "夜館員走過過道\n脚步比影子還輕\n手裡一串鑰匙\n像一串還沒說完的句子\n\n[Verse — parallel]\n[Female] 她把燈調暗一格\n[Male] 他把散落的書收回架\n[Female] 沒有人催促閉館\n[Male] 也沒有人催促天亮\n\n[Refrain]\n輕輕走\n不要吵醒紙頁\n輕輕走\n讓秩序自己回來\n輕輕走\n夜也要被照顧\n\n[Poetry]\n深林人不知\n明月來相照\n\n[Bridge — both]\n我們不是管理員\n只是路過的讀者\n卻學會了\n把椅子推回原位\n\n[Final]\n輕輕走\n鑰匙輕響一下\n又靜下去",
+      "source": "songs/prompts/episode-06/08-night-librarian.md"
+    },
+    {
+      "n": "09",
+      "start": 996,
+      "time": "16:36",
+      "en": "Soft Stamp",
+      "zh": "輕蓋章",
+      "voice": "female",
+      "lyrics": "印章落下\n很輕\n日期印在扉頁\n像給夜晚一個名字\n\n[Verse]\n紅印不深\n剛好讓人認出\n這本書被借走過\n也被好好送回\n墨香還在指尖\n\n[Refrain]\n蓋一下\n不要太用力\n蓋一下\n讓時間留下痕跡\n蓋一下\n再把書交回去\n\n[Poetry]\n春眠不覺曉\n處處聞啼鳥\n\n[Bridge — silence between lines]\n我停住呼吸\n聽印章離開紙面\n那一小聲\n比鐘還溫柔\n\n[Final]\n蓋一下\n夜被登記了\n卻沒有被佔有",
+      "source": "songs/prompts/episode-06/09-soft-stamp.md"
+    },
+    {
+      "n": "10",
+      "start": 1094,
+      "time": "18:14",
+      "en": "Between Pages",
+      "zh": "頁與頁",
+      "voice": "male",
+      "lyrics": "頁與頁之間\n夾著一根乾草\n像某人留下的呼吸\n還沒有決定離開\n\n[Verse — short phrases]\n翻過去\n停一下\n再翻\n字在移動\n心沒有\n\n[Refrain]\n留在中間\n不必讀完\n留在中間\n讓句子自己長大\n留在中間\n夜還夠長\n\n[Poetry]\n床前明月光\n疑是地上霜\n\n[Bridge]\n如果故事有縫隙\n我就住在那裡\n不被結局趕上\n也不被開頭推走\n\n[Final — soft, then long instrumental]\n留在中間\n頁還沒合上",
+      "source": "songs/prompts/episode-06/10-between-pages.md"
+    },
+    {
+      "n": "11",
+      "start": 1241,
+      "time": "20:41",
+      "en": "Empty Aisle",
+      "zh": "空過道",
+      "voice": "female",
+      "lyrics": "過道空著\n兩側是高高的書牆\n燈光只照中間一條路\n像專門留給慢的人\n\n[Verse]\n我走過去\n又走回來\n沒有目的\n只有腳步與木地板的對答\n空氣裡有紙與膠的氣味\n\n[Refrain]\n慢慢走\n空過道不會消失\n慢慢走\n讓影子跟在後面\n慢慢走\n書牆替你守夜\n\n[Poetry]\n白日依山盡\n黃河入海流\n\n[Bridge — almost spoken]\n這裡曾經擠滿讀書的人\n此刻只剩我\n和還沒被借走的夜\n\n[Final]\n慢慢走\n空過道還醒著\n不必找到出口",
+      "source": "songs/prompts/episode-06/11-empty-aisle.md"
+    },
+    {
+      "n": "12",
+      "start": 1400,
+      "time": "23:20",
+      "en": "Microfilm Glow",
+      "zh": "縮影微光",
+      "voice": "restrained male/female duet",
+      "lyrics": "縮影機發出極淡的光\n舊報紙在螢幕裡呼吸\n字很小\n夜卻被放大\n\n[Verse]\n[Male] 我看見多年前的標題\n[Female] 我看見沒有署名的人\n[Male] 轉輪輕輕响\n[Female] 像時間被手動前進\n\n[Refrain]\n亮一點\n只要一點\n亮一點\n讓舊日顯影\n亮一點\n再把夜調暗\n\n[Poetry]\n野火燒不盡\n春風吹又生\n\n[Bridge — both]\n我們不是在回憶\n只是在借光\n讀一段\n已經過去的現在\n\n[Final]\n縮影微光\n停在某一行\n還沒捲走",
+      "source": "songs/prompts/episode-06/12-microfilm-glow.md"
+    },
+    {
+      "n": "13",
+      "start": 1543,
+      "time": "25:43",
+      "en": "Clock Tower Soft",
+      "zh": "鐘樓輕響",
+      "voice": "male",
+      "lyrics": "遠處鐘樓輕輕一下\n不是催促\n只是提醒夜還在走\n書架沒有跟著震動\n\n[Verse]\n我數到第二下\n就不再數\n讓時間自己報到\n我繼續停在未讀的段落\n\n[Refrain]\n聽一下\n不必對時\n聽一下\n讓鐘自己遠去\n聽一下\n書比鐘更慢\n\n[Poetry]\n更深月色半人家\n北斗闌干南斗斜\n\n[Bridge]\n這不是寺廟的鐘\n只是城裡的時間\n隔著厚牆\n變得很軟\n\n[Final]\n聽一下\n鐘樓遠了\n字還近",
+      "source": "songs/prompts/episode-06/13-clock-tower-soft.md"
+    },
+    {
+      "n": "14",
+      "start": 1686,
+      "time": "28:06",
+      "en": "Lost Bookmark",
+      "zh": "失落書籤",
+      "voice": "female",
+      "lyrics": "書籤掉在地毯縫裡\n像一個沒被完成的記號\n頁碼還記得\n人已經不在\n\n[Verse]\n我彎腰撿起\n看見褪色的絲線\n和一行鉛筆字\n寫著：改天再讀\n日期已經模糊\n\n[Refrain]\n放回去\n放回它該在的頁\n放回去\n讓約定繼續有效\n放回去\n不必找到主人\n\n[Poetry]\n曾經滄海難為水\n除卻巫山不是雲\n\n[Bridge]\n如果遺忘也有形狀\n大概就是這枚書籤\n輕\n卻指著重要的地方\n\n[Final]\n放回去\n書還等得起\n夜也是",
+      "source": "songs/prompts/episode-06/14-lost-bookmark.md"
+    },
+    {
+      "n": "15",
+      "start": 1822,
+      "time": "30:22",
+      "en": "Far Mezzanine",
+      "zh": "遠樓座",
+      "voice": "male",
+      "lyrics": "樓座在很遠的上方\n欄杆投下細影子\n我從地面抬頭\n像望見另一層安靜\n\n[Verse]\n那裡有更舊的期刊\n和更少被移動的椅子\n空氣略冷\n適合把句子讀慢\n\n[Refrain]\n上去吧\n不必急著下來\n上去吧\n讓視野變寬一點\n上去吧\n字會跟著升高\n\n[Poetry]\n欲窮千里目\n更上一層樓\n\n[Bridge]\n我扶著欄杆\n聽見自己的呼吸\n樓下的燈\n像很多小小的港口\n只是沒有水\n\n[Final]\n上去吧\n遠樓座還空著\n正好留給現在",
+      "source": "songs/prompts/episode-06/15-far-mezzanine.md"
+    },
+    {
+      "n": "16",
+      "start": 1977,
+      "time": "32:57",
+      "en": "Warm Radiator",
+      "zh": "暖氣管",
+      "voice": "restrained male/female duet",
+      "lyrics": "暖氣管輕輕響\n像夜裡最小的樂器\n熱氣沿著窗緣上升\n把冷字烘暖一點\n\n[Verse]\n[Female] 我把手靠近\n[Male] 我把書靠近\n[Both] 金屬的溫度\n比燈更老實\n\n[Refrain]\n暖一下\n不要烤乾紙頁\n暖一下\n讓手指能夠翻動\n暖一下\n冬天就在牆外\n\n[Poetry]\n暖暖遠人村\n依依墟里煙\n\n[Bridge]\n我們坐得更近一點\n不是為了說話\n是為了\n讓句子不要發抖\n\n[Final]\n暖氣管\n還在輕響\n書還沒冷",
+      "source": "songs/prompts/episode-06/16-warm-radiator.md"
+    },
+    {
+      "n": "17",
+      "start": 2107,
+      "time": "35:07",
+      "en": "Last Checkout",
+      "zh": "最後借還",
+      "voice": "female",
+      "lyrics": "櫃檯燈還亮著\n最後一本書被推過來\n條碼輕輕叫一聲\n像道別也很克制\n\n[Verse]\n封面有舊指紋\n扉頁有別人的簽名\n我把它抱進臂彎\n像抱走一小段別人的夜\n也像把自己留下\n\n[Refrain]\n借走吧\n也記得還\n借走吧\n讓故事出門走走\n借走吧\n館還在原位\n\n[Poetry]\n洛陽親友如相問\n一片冰心在玉壺\n\n[Bridge]\n如果離開需要手續\n那就蓋一個輕章\n說：還會回來\n不必寫保證\n\n[Final]\n最後借還\n門還沒鎖死\n燈還給我留路",
+      "source": "songs/prompts/episode-06/17-last-checkout.md"
+    },
+    {
+      "n": "18",
+      "start": 2242,
+      "time": "37:22",
+      "en": "Unopened Letter",
+      "zh": "未拆的信",
+      "voice": "male",
+      "lyrics": "夾在百科全書裡\n一封未拆的信\n信封邊角發黃\n收件人只寫一個字：你\n\n[Verse]\n我沒有打開\n怕驚動裡面的句子\n也怕它其實\n只是尋常的問候\n被時間弄得很重\n\n[Refrain]\n先放下\n不必拆\n先放下\n讓紙自己休息\n先放下\n夜已經夠滿\n\n[Poetry]\n此情可待成追憶\n只是當時已惘然\n\n[Bridge — warmer]\n也許明天\n會有人來認領\n也許永遠不會\n那也沒關係\n信還在書裡\n書還在架上\n\n[Final]\n未拆的信\n繼續沉睡\n字不會抱怨",
+      "source": "songs/prompts/episode-06/18-unopened-letter.md"
+    },
+    {
+      "n": "19",
+      "start": 2410,
+      "time": "40:10",
+      "en": "Before Opening",
+      "zh": "開館前",
+      "voice": "restrained male/female duet",
+      "lyrics": "天色還沒有亮透\n鐵門還關著\n裡面的燈\n像提前醒來的人\n\n[Verse — separated]\n[Female] 我整理椅背\n[Male] 我擦去桌塵\n[Female] 還沒有讀者\n[Male] 已經有秩序\n\n[Refrain]\n再開門\n再等一等\n再開門\n讓夜先把字放好\n再開門\n白天會自己來\n\n[Poetry]\n雞聲茅店月\n人跡板橋霜\n\n[Bridge — closer]\n我們把最後一本書\n推回正確的架位\n像把黎明\n輕輕放回原處\n\n[Final — harmony]\n開館前\n一切都準備好了\n只差第一位腳步",
+      "source": "songs/prompts/episode-06/19-before-opening.md"
+    },
+    {
+      "n": "20",
+      "start": 2513,
+      "time": "41:53",
+      "en": "The Last Lamp",
+      "zh": "最後一盞燈",
+      "voice": "female with soft optional duet shade",
+      "lyrics": "[Instrumental — long opening]\n\n最後一盞燈\n守在長桌盡頭\n其他都已暗下\n只有這一圈暖黃\n還肯陪著未讀完的夜\n\n[Verse 1]\n我坐回原位\n把椅子拉近一點\n書還翻在昨天的頁\n像時間願意重來一次\n卻不必重說\n\n[Refrain]\n留著吧\n不要熄\n留著吧\n讓最後的字看清\n留著吧\n開館以前都算夜\n\n[Poetry]\n不知江月待何人\n但見長江送流水\n\n[Bridge — almost spoken]\n如果整座圖書館\n只剩這一盞燈\n那就夠了\n夠我把呼吸放慢\n夠我把告別延後\n\n[Final]\n最後一盞燈\n還亮著\n不必醒來\n也不必睡去\n\n[Instrumental — long outro]",
+      "source": "songs/prompts/episode-06/20-the-last-lamp.md"
+    }
+  ],
+  "warnings": [],
+  "lyricsSource": "songs/prompts/episode-06/*.md"
+}

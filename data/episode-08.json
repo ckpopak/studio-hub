@@ -1,0 +1,235 @@
+{
+  "episode": 8,
+  "slug": "midnight-old-cinema",
+  "title": {
+    "en": "Midnight Old Cinema",
+    "zh": "午夜舊戲院"
+  },
+  "logline": "A midnight old cinema after the last screening: empty seats still warm.",
+  "videoId": "FAkrI0-ivDA",
+  "youtubeTitle": "[playlist] QuietLY · 午夜舊戲院 — Slow Mandarin Jazz for Night Listening",
+  "comics": [
+    {
+      "en": "Empty aisle seats keep a faint heat.",
+      "zh": "空座還留一點溫度。"
+    },
+    {
+      "en": "The screen goes blank, not empty.",
+      "zh": "銀幕空白，卻不空虛。"
+    },
+    {
+      "en": "Projector dust floats like slow snow.",
+      "zh": "放映機塵像慢雪。"
+    },
+    {
+      "en": "Credits ended; the room continues.",
+      "zh": "字幕結束，房間還在。"
+    }
+  ],
+  "hero": "",
+  "comicImages": [],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "0:00",
+      "en": "Empty Aisle Seats",
+      "zh": "空座",
+      "voice": "女聲",
+      "lyrics": "[Intro — piano and room tone]\n銀幕已經暗了\n座位還記得體溫\n\n[Verse 1]\n走道很窄\n脚步被地毯接住\n扶手上的舊漆\n像被人握過很多次\n空氣裡有甜的灰塵\n\n[Refrain — repeat softly]\n慢慢坐\n不必急著走\n慢慢坐\n讓夜再播一場\n\n[Poetry]\n江天一色無纖塵\n皎皎空中孤月輪\n白雲一片去悠悠\n青楓浦上不勝愁\n\n[English — after poetry]\nStay in the dark a little longer.\nThe story is still unfinished,\nand the quiet knows your name.\n\n[Bridge — almost spoken]\n如果散場也是一種留\n我就把票根放回口袋\n不要對折\n\n[Final]\n慢慢坐\n最後一盞太平門\n還亮著",
+      "source": "songs/prompts/episode-08/01-empty-aisle-seats.md"
+    },
+    {
+      "n": "02",
+      "start": 130,
+      "time": "2:10",
+      "en": "Velvet Curtain",
+      "zh": "絲絨幕",
+      "voice": "男聲",
+      "lyrics": "[Intro]\n絲絨幕垂得很低\n像還沒說完的句子\n\n[English — after intro]\nLet the curtain keep its secret.\nWe came here to listen,\nnot to leave right away.\n\n[Verse]\n我伸手沒有拉開\n只聽布料輕輕響\n幕後是空的舞台\n幕前是空的夜\n\n[Refrain]\n慢慢垂\n不要急著見光\n慢慢垂\n讓故事多停一息\n\n[Poetry]\n空山新雨後\n天氣晚來秋\n明月松間照\n清泉石上流\n\n[Bridge]\n幕的褶皺裡\n藏著掌聲的影子\n我站在外面\n不敢吵醒它\n\n[Final]\n慢慢垂\n絲絨還暖\n夜還在",
+      "source": "songs/prompts/episode-08/02-velvet-curtain.md"
+    },
+    {
+      "n": "03",
+      "start": 254,
+      "time": "4:14",
+      "en": "Projection Booth",
+      "zh": "放映室",
+      "voice": "女聲",
+      "lyrics": "[Intro]\n放映室的小窗\n透出一點琥珀光\n\n[Verse]\n機器輕輕轉動\n像有人還在值班\n膠片氣味很淡\n卻把時間拉長\n\n[Refrain]\n慢慢轉\n不要停在正中\n慢慢轉\n讓光自己找路\n\n[Poetry]\n獨坐幽篁裡\n彈琴復長嘯\n深林人不知\n明月來相照\n\n[Bridge — with English]\n窗內很熱\n窗外很靜\nIn the booth the machine still breathes.\nA thin beam holds the dust\nlike a private constellation.\n\n[Final]\n慢慢轉\n放映室還醒著\n銀幕還空著",
+      "source": "songs/prompts/episode-08/03-projection-booth.md"
+    },
+    {
+      "n": "04",
+      "start": 367,
+      "time": "6:07",
+      "en": "Two Exit Lights",
+      "zh": "兩盞太平門",
+      "voice": "男女混唱",
+      "lyrics": "[Intro]\n兩盞太平門\n把夜分成兩邊\n\n[Verse — alternating]\n[Female] 左邊的光偏綠\n[Male] 右邊的光更遠\n[Female] 我們沒有對視\n[Male] 只是同時留下\n\n[Refrain]\n兩盞燈\n不必合併\n兩盞燈\n各自亮著就夠\n\n[Poetry]\n海上生明月\n天涯共此時\n\n[English — call and response]\n[Female] Stay on your side of the dark.\n[Male] I'll keep mine warm and slow.\n[Both] We still share the same silence.\n\n[Final]\n兩盞太平門\n亮一下\n暗一下",
+      "source": "songs/prompts/episode-08/04-two-exit-lights.md"
+    },
+    {
+      "n": "05",
+      "start": 485,
+      "time": "8:05",
+      "en": "Ticket Stub",
+      "zh": "半截票根",
+      "voice": "男聲",
+      "lyrics": "[Intro]\n半截票根\n還在口袋裡發熱\n\n[Verse]\n日期已經模糊\n場次還能辨認\n我沒有丟掉它\n像沒有丟掉那場夜\n\n[Refrain]\n留著吧\n不必完整\n留著吧\n半截也是證明\n\n[Rap — slow English jazz pocket, not trap]\nHalf a ticket in my pocket—\nproof I stayed for the ending\nthat never really ended.\n\n[Poetry]\n行到水窮處\n坐看雲起時\n\n[Bridge — almost spoken]\n如果結局需要票根\n我就把它攤平\n放在掌心\n給夜看一眼\n\n[Final]\n留著吧\n半截票根\n還溫著",
+      "source": "songs/prompts/episode-08/05-ticket-stub.md"
+    },
+    {
+      "n": "06",
+      "start": 567,
+      "time": "9:27",
+      "en": "Film Dust",
+      "zh": "膠片塵",
+      "voice": "女聲",
+      "lyrics": "[Intro]\n膠片塵在光柱裡\n慢慢落下\n\n[Verse]\n我伸出手\n沒有接住\n只看見一年\n被切成細小的亮\n\n[Refrain — rise gently]\n慢慢落\n不要掃乾淨\n慢慢落\n讓舊日顯影\n\n[Poetry]\n月出驚山鳥\n時鳴春澗中\n\n[Bridge]\n如果記憶有形狀\n大概就是這種塵\n輕\n卻不肯消失\n\n[English — before final]\nFilm dust falls slower than rain.\nCatch one flake and you catch\na year you almost forgot.\n\n[Final]\n慢慢落\n膠片塵還在\n光還沒關",
+      "source": "songs/prompts/episode-08/06-film-dust.md"
+    },
+    {
+      "n": "07",
+      "start": 683,
+      "time": "11:23",
+      "en": "Broken Seat Number",
+      "zh": "壞座號",
+      "voice": "男聲",
+      "lyrics": "[Intro]\n座號掉了一角\n椅子還在原位\n\n[English — before poetry]\nThe seat number is broken,\nbut the place still remembers\nwho sat here without speaking.\n\n[Poetry]\n床前明月光\n疑是地上霜\n舉頭望明月\n低頭思故鄉\n\n[Verse — half spoken]\n我坐下\n金屬扶手很涼\n腳下有舊糖紙\n像別人留下的句號\n\n[Refrain]\n坐一下\n不必對號\n坐一下\n壞座號也認得人\n\n[Bridge]\n數字缺了\n位置沒有缺\n夜把我安排在這裡\n\n[Final]\n坐一下\n壞座號\n還亮著編號的影子",
+      "source": "songs/prompts/episode-08/07-broken-seat-number.md"
+    },
+    {
+      "n": "08",
+      "start": 783,
+      "time": "13:03",
+      "en": "Night Usher",
+      "zh": "夜帶位員",
+      "voice": "男女混唱",
+      "lyrics": "[Intro]\n夜帶位員走過走道\n手电筒很克制\n\n[Verse — parallel]\n[Female] 她不再指路\n[Male] 他只是確認空位\n[Female] 沒有觀眾\n[Male] 也沒有催促\n\n[Refrain]\n輕輕走\n不要吵醒銀幕\n輕輕走\n讓散場自己完成\n\n[Poetry]\n春眠不覺曉\n處處聞啼鳥\n夜來風雨聲\n花落知多少\n\n[English — parallel soft]\nThe night usher walks soft.\nNo more seats to show—\nonly rooms of afterglow.\n\n[Final]\n輕輕走\n手電筒滅一下\n又靜下去",
+      "source": "songs/prompts/episode-08/08-night-usher.md"
+    },
+    {
+      "n": "09",
+      "start": 874,
+      "time": "14:34",
+      "en": "Soft Clap Echo",
+      "zh": "輕掌聲",
+      "voice": "女聲",
+      "lyrics": "[Intro]\n一聲很輕的鼓掌\n在穹頂裡轉了一圈\n\n[Verse]\n沒有第二聲\n只有回音變薄\n像有人想稱讚\n又把話說回去\n\n[Refrain]\n聽一下\n不必再拍\n聽一下\n讓回音自己走\n\n[English — between refrains]\nA soft clap echoes once\nand refuses to return.\nApplause becomes weather.\n\n[Refrain]\n聽一下\n鼓掌變成天氣\n聽一下\n夜收下那一聲\n\n[Poetry]\n白日依山盡\n黃河入海流\n欲窮千里目\n更上一層樓\n\n[Final]\n聽一下\n輕掌聲遠了\n座位還暖",
+      "source": "songs/prompts/episode-08/09-soft-clap-echo.md"
+    },
+    {
+      "n": "10",
+      "start": 1000,
+      "time": "16:40",
+      "en": "Reel Change",
+      "zh": "換片",
+      "voice": "男聲",
+      "lyrics": "[Intro]\n換片的咔嗒\n像夜換了一口氣\n\n[Verse]\n舊卷退出\n新卷還沒咬合\n光柱斷了一秒\n又重新連上\n\n[Rap — slow Mandarin spoken-sung, jazz pocket]\n換片的時候不要說話\n讓機器先把故事接好\n你坐在暗裡也算一種等待\n等待不是空白\n是下一場還沒命名的熱\n\n[Refrain]\n換一下\n不必急\n換一下\n結局可以晚點到\n\n[Poetry]\n野火燒不盡\n春風吹又生\n\n[English — short close]\nChange the reel, change the hour.\nThe story turns its shoulder\nand starts again in dark.\n\n[Final]\n換一下\n膠片還轉\n夜還長",
+      "source": "songs/prompts/episode-08/10-reel-change.md"
+    },
+    {
+      "n": "11",
+      "start": 1082,
+      "time": "18:02",
+      "en": "Empty Balcony",
+      "zh": "空樓座",
+      "voice": "女聲",
+      "lyrics": "[English — opening]\nFrom the empty balcony\nthe whole night looks smaller—\nand somehow more complete.\n\n[Intro]\n空樓座很高\n欄杆投下細影子\n\n[Verse]\n我從樓梯上來\n空氣更涼一點\n下面的座位\n像沉睡的波浪\n\n[Refrain]\n看一下\n整場夜變小\n看一下\n又變得完整\n\n[Poetry]\n更深月色半人家\n北斗闌干南斗斜\n\n[Bridge]\n樓上沒有人\n只有我的呼吸\n和銀幕的呼吸\n輕輕對齊\n\n[Final]\n看一下\n空樓座還空著\n正好留給現在",
+      "source": "songs/prompts/episode-08/11-empty-balcony.md"
+    },
+    {
+      "n": "12",
+      "start": 1191,
+      "time": "19:51",
+      "en": "Screen Glow",
+      "zh": "銀幕微光",
+      "voice": "男女混唱",
+      "lyrics": "[Intro]\n銀幕發出極淡的光\n沒有臉\n卻夠亮\n\n[Verse]\n[Male] 我看見塵在飛\n[Female] 我聽見座位輕響\n[Male] 故事停在中間\n[Female] 我們也不急\n\n[Refrain]\n亮一點\n只要一點\n亮一點\n讓兩個人留下\n\n[Poetry]\n曾經滄海難為水\n除卻巫山不是雲\n\n[English — after poetry, duet]\n[Female] Screen glow without a face—\n[Male] still enough light to keep\n[Both] two strangers from leaving.\n\n[Final]\n亮一點\n銀幕微光\n還沒暗下去",
+      "source": "songs/prompts/episode-08/12-screen-glow.md"
+    },
+    {
+      "n": "13",
+      "start": 1275,
+      "time": "21:15",
+      "en": "Clock Above Exit",
+      "zh": "出口鐘",
+      "voice": "男聲",
+      "lyrics": "[Intro]\n出口上方的鐘\n走得很慢\n\n[Verse]\n指針幾乎不動\n又確實在動\n我數到十二\n就不再數\n\n[Refrain]\n聽一下\n不必對時\n聽一下\n午夜是一條長廊\n\n[Poetry]\n綠蟻新醅酒\n紅泥小火爐\n\n[Bridge — English nested]\n鐘不催促\n門也不催促\nThe clock above the exit\ncounts without hurry.\nMidnight is a long hallway.\n\n[Final]\n聽一下\n出口鐘遠了\n走道還近",
+      "source": "songs/prompts/episode-08/13-clock-above-exit.md"
+    },
+    {
+      "n": "14",
+      "start": 1514,
+      "time": "25:14",
+      "en": "Lost Program",
+      "zh": "失落場刊",
+      "voice": "女聲",
+      "lyrics": "[Intro]\n場刊掉在座下\n紙邊捲起\n\n[Verse]\n演員名字還在\n日期被鞋底帶走\n有一行空白\n像留給還沒寫下的人\n\n[Refrain]\n撿起來\n不必完整\n撿起來\n空白也是位置\n\n[Whisper-rap — slow English]\nA lost program under the seat—\nnames of actors, dates of rain,\nand one blank line for you.\n\n[Poetry]\n此情可待成追憶\n只是當時已惘然\n\n[Bridge]\n我把它夾回原頁\n像把一場雨\n輕輕摺好\n\n[Final]\n撿起來\n失落場刊\n還留著體溫",
+      "source": "songs/prompts/episode-08/14-lost-program.md"
+    },
+    {
+      "n": "15",
+      "start": 1611,
+      "time": "26:51",
+      "en": "Far Back Row",
+      "zh": "最後一排",
+      "voice": "男聲",
+      "lyrics": "[Intro]\n最後一排最暗\n也最自由\n\n[Verse]\n情節來得晚\n咖啡香是錯覺\n只有舊絨布\n把背脊接住\n\n[Refrain — sway]\n坐後面\n看見全部\n坐後面\n也不必加入\n\n[English — mid sway]\nIn the far back row\nthe plot arrives late\nand stays for coffee silence.\n\n[Poetry]\n雞聲茅店月\n人跡板橋霜\n\n[Bridge]\n後面的人\n離出口更近\n卻最不急著走\n\n[Final]\n坐後面\n最後一排\n還醒著",
+      "source": "songs/prompts/episode-08/15-far-back-row.md"
+    },
+    {
+      "n": "16",
+      "start": 1713,
+      "time": "28:33",
+      "en": "Warm Projector",
+      "zh": "暖放映機",
+      "voice": "男女混唱",
+      "lyrics": "[Intro]\n放映機很暖\n像低音小號的溫度\n\n[Verse]\n[Female] 熱氣往上走\n[Male] 光往前走\n[Both] 房間被托住\n像最後一幕還開著\n\n[Refrain]\n暖一下\n不要關機\n暖一下\n讓結尾慢一點\n\n[Poetry]\n暖暖遠人村\n依依墟里煙\n\n[Final — English harmony]\nWarm projector, warm room.\nHeat like a low trumpet—\nholding the last scene open.\n暖放映機\n還在輕輕響",
+      "source": "songs/prompts/episode-08/16-warm-projector.md"
+    },
+    {
+      "n": "17",
+      "start": 1785,
+      "time": "29:45",
+      "en": "Last Screening",
+      "zh": "末場",
+      "voice": "女聲",
+      "lyrics": "[Intro]\n這是末場\n票房燈已暗\n\n[Verse]\n我買了今夜\n沒有買明天\n椅子接受我\n像接受一個決定\n\n[Refrain]\n看完吧\n不必續集\n看完吧\n今夜已經夠\n\n[Poetry]\n洛陽親友如相問\n一片冰心在玉壺\n\n[English — long after poetry]\nThis is the last screening.\nBuy no ticket for tomorrow;\ntonight is already enough.\n\n[Bridge]\n散場音樂沒有響起\n只有我的呼吸\n替它收尾\n\n[Final]\n看完吧\n末場\n還留著一點亮",
+      "source": "songs/prompts/episode-08/17-last-screening.md"
+    },
+    {
+      "n": "18",
+      "start": 1881,
+      "time": "31:21",
+      "en": "Unsent Review",
+      "zh": "未寄影評",
+      "voice": "男聲",
+      "lyrics": "[Half-rap intro — English then Mandarin, slow]\nI never mailed the review.\nSome films are better kept\nbetween the ribs and quiet.\n有些影評不必寄出\n寫在肋骨與安靜之間\n就已經送到了\n\n[Verse]\n紙還是空白\n筆帽沒打開\n我怕寫得太清楚\n反而弄丟感覺\n\n[Refrain]\n先放下\n不必寄\n先放下\n讓電影自己睡\n\n[Poetry]\n不知江月待何人\n但見長江送流水\n\n[Bridge]\n未寄的句子\n在口袋發熱\n像半截票根\n證明我來過\n\n[Final]\n先放下\n未寄影評\n還溫著",
+      "source": "songs/prompts/episode-08/18-unsent-review.md"
+    },
+    {
+      "n": "19",
+      "start": 1974,
+      "time": "32:54",
+      "en": "Before Lights Up",
+      "zh": "亮燈前",
+      "voice": "男女混唱",
+      "lyrics": "[Intro]\n亮燈前的一秒\n最長\n\n[Verse — separated]\n[Female] 我握著扶手\n[Male] 我看著出口\n[Female] 還不想站起\n[Male] 也還沒告別\n\n[Refrain]\n再留一會\n再等一等\n再留一會\n讓暗把結尾捧好\n\n[Poetry]\n山氣日夕佳\n飛鳥相與還\n\n[English — separated then joined]\n[Female] Before the lights come up,\n[Male] hold the dark like a cup—\n[Both] don't spill the ending.\n\n[Final — harmony]\n再留一會\n亮燈前\n一切都還柔",
+      "source": "songs/prompts/episode-08/19-before-lights-up.md"
+    },
+    {
+      "n": "20",
+      "start": 2045,
+      "time": "34:05",
+      "en": "The Last Frame",
+      "zh": "最後一格",
+      "voice": "女聲",
+      "lyrics": "[Instrumental — long opening]\n\n最後一格停住\n像時間被按了靜音\n銀幕上什麼也沒有\n卻什麼都還在\n\n[Verse]\n我可以離開\n也可以再坐一息\n出口的光很遠\n座位的熱很近\n\n[Refrain]\n留著吧\n不要走完\n留著吧\n讓最後一格多停\n\n[Poetry]\n空山不見人\n但聞人語響\n\n[English — before long outro]\nThe last frame freezes.\nWe can leave if we must—\nor stay where the quiet is.\n\n[Final]\n留著吧\n最後一格\n還亮著\n\n[Instrumental — long outro]",
+      "source": "songs/prompts/episode-08/20-the-last-frame.md"
+    }
+  ],
+  "warnings": [],
+  "lyricsSource": "songs/prompts/episode-08/*.md"
+}

@@ -1,0 +1,135 @@
+{
+  "episode": 1,
+  "slug": "night-room-rain-archive",
+  "title": {
+    "en": "Night-Room Rain Archive",
+    "zh": "夜室雨檔"
+  },
+  "logline": "A room that does not hurry. One lamp, late rain, and ten quiet Mandarin jazz scenes.",
+  "videoId": "YmWffBdW3_8",
+  "youtubeTitle": "QuietLY · 靜 — Slow Mandarin Jazz",
+  "comics": [
+    {
+      "en": "One lamp stays after the rain.",
+      "zh": "一盞燈留在雨後。"
+    },
+    {
+      "en": "The window keeps the water moving slowly.",
+      "zh": "窗上的水慢慢走。"
+    },
+    {
+      "en": "An empty chair keeps the tea warm in memory.",
+      "zh": "空椅守著茶香。"
+    },
+    {
+      "en": "No one asks the night to answer.",
+      "zh": "沒有人要夜回答。"
+    }
+  ],
+  "hero": "",
+  "comicImages": [],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "00:00",
+      "en": "Quiet Lamp",
+      "zh": "靜",
+      "voice": "",
+      "lyrics": "[Intro — piano and room tone]\n靜\n一盞燈\n留在雨後\n窗上的水\n慢慢走\n\n[Verse 1]\n夜把房間\n輕輕放下\n一張空椅\n守著茶香\n遠處的街\n沒有回答\n\n[Refrain — repeat softly]\n靜，靜\n不用回答\n靜，靜\n讓時間慢慢落下\n\n[Verse 2 — public-domain poetry]\n江天一色無纖塵\n皎皎空中孤月輪\n白雲一片去悠悠\n青楓浦上不勝愁\n雨聲隔著玻璃\n把月光說得很輕\n\n[English line — once only]\nStay where the quiet is\n\n[Refrain — instrumental space between lines]\n靜，靜\n不用回答\n夜把房間\n輕輕放下\n\n[Bridge — almost spoken]\n一盞燈\n還亮著\n沒有人催促\n沒有人遠去\n只有風\n在門外停留\n\n[Final refrain — longer, very soft]\n靜，靜\n讓雨慢慢走\n靜，靜\n讓夜留在窗口\n一盞燈\n還亮著",
+      "source": "songs/prompts/01-quiet-lamp.md"
+    },
+    {
+      "n": "02",
+      "start": 180,
+      "time": "03:00",
+      "en": "Late Rain",
+      "zh": "雨",
+      "voice": "",
+      "lyrics": "[Intro — brushed cymbal and distant rain]\n雨還沒有停\n街燈在水裡\n一聲\n又一聲\n\n[Verse 1]\n窗沿收著夜色\n桌上的茶已冷\n沒有人急著回去\n沒有人問清晨\n雨落在舊玻璃\n像一封未寄的信\n\n[Refrain — repeat with long pauses]\n慢一點\n再慢一點\n讓夜色\n留在玻璃\n慢一點\n再慢一點\n讓呼吸\n靠近安靜\n\n[Verse 2 — public-domain poetry]\n月落烏啼霜滿天\n江楓漁火對愁眠\n姑蘇城外寒山寺\n夜半鐘聲到客船\n遠鐘穿過雨幕\n落在沒有人的街\n\n[English line — once only]\nLet the night stay near\n\n[Refrain — slightly warmer piano]\n慢一點\n再慢一點\n讓夜色\n留在玻璃\n雨還沒有停\n而房間沒有催促\n\n[Bridge — free time]\n一盞燈\n照著空桌\n一點霧\n停在窗外\n如果春天還遠\n就讓這一刻多留一會\n\n[Final refrain and outro]\n慢一點\n再慢一點\n讓雨\n落在遠處\n一聲\n又一聲",
+      "source": "songs/prompts/02-late-rain.md"
+    },
+    {
+      "n": "03",
+      "start": 359,
+      "time": "05:59",
+      "en": "Empty Window",
+      "zh": "窗",
+      "voice": "",
+      "lyrics": "[Intro]\n窗裡沒有誰\n只有一點天光\n停在桌面\n不肯離開\n\n[Verse 1]\n雨後的玻璃\n收著遠處的山\n一把空椅\n面向沒有人的街\n風從門縫進來\n又在桌邊停下\n\n[Refrain]\n看著窗\n看著風\n看著一個\n沒有名字的晚上\n看著窗\n讓呼吸\n慢慢靠近\n沒有聲音的地方\n\n[Verse 2 — public-domain poetry]\n空山新雨後\n天氣晚來秋\n明月松間照\n清泉石上流\n一點月光\n落在窗框\n\n[English line — once only]\nThe room is still awake\n\n[Bridge]\n如果夜色\n還有一點遠\n就讓這盞燈\n替我們等一等\n不必說明\n不必回頭\n\n[Final refrain]\n看著窗\n看著風\n看著一個\n沒有名字的晚上\n窗\n慢慢暗下來",
+      "source": "songs/prompts/03-empty-window.md"
+    },
+    {
+      "n": "04",
+      "start": 541,
+      "time": "09:01",
+      "en": "Cooling Tea",
+      "zh": "茶",
+      "voice": "",
+      "lyrics": "[Intro]\n茶在桌上\n慢慢冷去\n燈影貼著\n杯沿呼吸\n\n[Verse 1]\n沒有人說話\n雨在屋簷下\n一點溫度\n留在掌心\n遠處的門\n已經關上\n\n[Refrain]\n慢慢喝\n慢慢等\n讓夜色\n坐在我們身旁\n慢慢喝\n慢慢等\n讓一盞燈\n替時間回答\n\n[Verse 2 — public-domain poetry]\n獨坐幽篁裡\n彈琴復長嘯\n深林人不知\n明月來相照\n茶香在空房\n像月光一樣淡\n\n[English line — once only]\nNothing needs to hurry\n\n[Bridge]\n杯底還有一點暖\n窗外還有一點雨\n如果清晨沒有來\n就讓這一刻繼續\n\n[Final refrain]\n慢慢喝\n慢慢等\n讓夜色\n坐在我們身旁\n茶已冷\n燈還亮\n房間沒有催促",
+      "source": "songs/prompts/04-cooling-tea.md"
+    },
+    {
+      "n": "05",
+      "start": 688,
+      "time": "11:28",
+      "en": "Thin Moon",
+      "zh": "月",
+      "voice": "",
+      "lyrics": "[Intro]\n薄月亮\n掛在屋簷\n像一句\n還沒說完的話\n\n[Verse 1]\n不要點亮\n所有的路\n今夜只要\n一小片月\n窗簾沒有動\n水面沒有聲音\n\n[Refrain]\n月在水面呼吸\n夜在杯中安靜\n讓我慢慢看著\n一點銀色的光\n月在水面呼吸\n不要叫醒房間\n\n[Verse 2 — public-domain poetry]\n床前明月光\n疑是地上霜\n舉頭望明月\n低頭思故鄉\n今夜的窗\n沒有要去的地方\n\n[English line — once only]\nMoonlight, stay a little longer\n\n[Bridge]\n遠處的雨\n已經很輕\n只有低音提琴\n在黑暗裡行走\n\n[Final refrain]\n月在水面呼吸\n夜在杯中安靜\n薄月亮\n掛在屋簷\n慢慢\n慢慢",
+      "source": "songs/prompts/05-thin-moon.md"
+    },
+    {
+      "n": "06",
+      "start": 858,
+      "time": "14:18",
+      "en": "Distant Mist",
+      "zh": "霧",
+      "voice": "",
+      "lyrics": "[Intro]\n霧在遠處\n沒有形狀\n一盞燈\n隔著夜色\n\n[Verse 1]\n街的另一邊\n還有微弱的聲音\n走近一點\n又退回霧裡\n窗上的水痕\n替黑夜寫字\n\n[Refrain]\n看不見\n也沒有關係\n讓遠處\n保持遠處\n看不見\n也沒有關係\n讓心\n保持安靜\n\n[Verse 2 — public-domain poetry]\n空山不見人\n但餘鐘聲入\n返景入深林\n復照青苔上\n霧沒有回答\n只把燈光放遠\n\n[English line — once only]\nFar away is enough\n\n[Bridge]\n低音在地面\n鋪開一條路\n琴聲不追趕\n只在門邊停住\n\n[Final refrain]\n看不見\n也沒有關係\n讓遠處\n保持遠處\n霧在遠處\n慢慢散開",
+      "source": "songs/prompts/06-distant-mist.md"
+    },
+    {
+      "n": "07",
+      "start": 1045,
+      "time": "17:25",
+      "en": "Empty Chair",
+      "zh": "椅",
+      "voice": "",
+      "lyrics": "[Intro]\n一張空椅\n靠近窗邊\n椅背上\n還有一點藍\n\n[Verse 1]\n沒有人坐下\n沒有人離開\n木頭記得\n手掌的溫度\n雨停了一次\n又在遠處開始\n\n[Refrain]\n留一個位置\n給沒有說完的話\n留一點安靜\n給慢慢回來的心\n留一個位置\n不用問是誰\n\n[Verse 2 — public-domain poetry]\n千山鳥飛絕\n萬徑人蹤滅\n孤舟蓑笠翁\n獨釣寒江雪\n空椅面向夜\n房間安靜如雪\n\n[English line — once only]\nLeave the chair by the window\n\n[Bridge]\n一聲鐘\n穿過屋簷\n一點光\n停在椅面\n沒有故事\n也可以被記得\n\n[Final refrain]\n留一個位置\n給沒有說完的話\n留一點安靜\n給慢慢回來的心\n一張空椅\n仍然面向窗邊",
+      "source": "songs/prompts/07-empty-chair.md"
+    },
+    {
+      "n": "08",
+      "start": 1204,
+      "time": "20:04",
+      "en": "Old Radio",
+      "zh": "聲",
+      "voice": "",
+      "lyrics": "[Intro]\n收音機\n停在兩個台之間\n一點人聲\n一點雪\n\n[Verse 1]\n旋律沒有名字\n從牆角慢慢升起\n茶杯碰到桌面\n像很遠的雨\n沒有人調高音量\n夜已經聽得見\n\n[Refrain]\n留一點聲音\n不要太清楚\n留一點空白\n讓心可以停住\n留一點聲音\n在房間深處\n\n[Verse 2 — public-domain poetry]\n春眠不覺曉\n處處聞啼鳥\n夜來風雨聲\n花落知多少\n舊電台輕輕響\n像春天還沒有走\n\n[English line — once only]\nKeep the radio low\n\n[Bridge]\n訊號來了\n又慢慢離開\n一個夜晚\n不需要完整\n只要還有\n一點回聲\n\n[Final refrain]\n留一點聲音\n不要太清楚\n留一點空白\n讓心可以停住\n收音機\n停在安靜裡",
+      "source": "songs/prompts/08-old-radio.md"
+    },
+    {
+      "n": "09",
+      "start": 1373,
+      "time": "22:53",
+      "en": "Far Lantern",
+      "zh": "燈",
+      "voice": "",
+      "lyrics": "[Intro]\n遠處一盞燈\n照著沒有人的路\n雨停以後\n夜還很深\n\n[Verse 1]\n燈不問方向\n只把一點暖\n放在風裡\n放在看不見的地方\n桌上的影子\n慢慢靠近門邊\n\n[Refrain]\n亮著就好\n不用照亮全部\n亮著就好\n讓遠方有一個記號\n亮著就好\n讓夜不必回答\n\n[Verse 2 — public-domain poetry]\n渭城朝雨浥輕塵\n客舍青青柳色新\n勸君更盡一杯酒\n西出陽關無故人\n遠燈隔著薄霧\n把告別說得很輕\n\n[English line — once only]\nLet one small light remain\n\n[Bridge]\n沒有誰要離開\n也沒有誰要留下\n只是雨後的路\n需要一點時間乾\n\n[Final refrain]\n亮著就好\n不用照亮全部\n亮著就好\n讓遠方有一個記號\n遠處一盞燈\n慢慢亮著",
+      "source": "songs/prompts/09-far-lantern.md"
+    },
+    {
+      "n": "10",
+      "start": 1530,
+      "time": "25:30",
+      "en": "After the Rain",
+      "zh": "雨後",
+      "voice": "",
+      "lyrics": "[Intro]\n雨後\n一盞燈\n窗上的水\n還沒有乾\n\n[Verse 1]\n街道慢慢亮起\n空氣帶著泥土\n椅子仍在原處\n茶香留在屋裡\n昨天沒有結束\n只是變得很輕\n\n[Refrain]\n雨後\n讓房間呼吸\n雨後\n讓時間回到桌面\n雨後\n沒有什麼要追趕\n\n[Verse 2 — public-domain poetry]\n清明時節雨紛紛\n路上行人欲斷魂\n借問酒家何處有\n牧童遙指杏花村\n遠處的春天\n在霧裡慢慢醒來\n\n[English line — once only]\nAfter the rain, stay near\n\n[Bridge]\n如果窗外還有路\n就讓它安靜地延伸\n如果夜還沒有走\n就讓最後一盞燈\n替我們守著\n\n[Final refrain — loop feeling]\n雨後\n讓房間呼吸\n雨後\n讓時間回到桌面\n雨後\n一盞燈\n還亮著",
+      "source": "songs/prompts/10-after-the-rain.md"
+    }
+  ],
+  "warnings": [],
+  "lyricsSource": "songs/prompts/{01-10}-*.md (Ep01 flat prompts)"
+}

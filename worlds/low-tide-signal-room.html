@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Low Tide Signal Room · 退潮信號室 — Cafe QuietLY 靜</title>
+    <meta
+      name="description"
+      content="QuietLY field notes: comic frames, full sparse lyrics, and embedded long listening for Low Tide Signal Room."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Noto+Serif+TC:wght@400;500;600&family=Outfit:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/quietly.css" />
+    <style>
+      body {
+        padding-bottom: 5.5rem;
+      }
+
+      .hero {
+        position: relative;
+        min-height: 100svh;
+        display: grid;
+        align-items: end;
+        overflow: hidden;
+        background: var(--navy);
+      }
+
+      .hero__media {
+        position: absolute;
+        inset: 0;
+        z-index: 0;
+      }
+
+      .hero__media img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center 40%;
+        transform: scale(1.04);
+        animation: drift 28s ease-in-out infinite alternate;
+      }
+
+      .hero__veil {
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(
+            180deg,
+            rgba(11, 16, 24, 0.35) 0%,
+            rgba(11, 16, 24, 0.15) 35%,
+            rgba(11, 16, 24, 0.72) 68%,
+            rgba(11, 16, 24, 0.96) 100%
+          ),
+          radial-gradient(
+            ellipse 60% 45% at 72% 38%,
+            var(--amber-glow),
+            transparent 70%
+          );
+        pointer-events: none;
+      }
+
+      .hero__content {
+        position: relative;
+        z-index: 1;
+        width: min(920px, calc(100% - 2.5rem));
+        margin: 0 auto;
+        padding: 0 0 3.5rem;
+        animation: rise 1.4s var(--ease) both;
+      }
+
+      .brand {
+        display: flex;
+        align-items: baseline;
+        gap: 0.75rem;
+        margin-bottom: 1.75rem;
+      }
+
+      .brand__mark {
+        font-family: "Noto Serif TC", serif;
+        font-size: clamp(2.6rem, 7vw, 4.2rem);
+        font-weight: 500;
+        line-height: 1;
+        color: var(--paper);
+        text-shadow: 0 0 40px var(--amber-glow);
+      }
+
+      .brand__name {
+        font-size: clamp(0.95rem, 2vw, 1.15rem);
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+
+      .brand__sub {
+        display: block;
+        margin-top: 0.2rem;
+        font-size: 0.72rem;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: var(--mist);
+        font-family: "Outfit", sans-serif;
+      }
+
+      .hero__title {
+        margin: 0 0 0.85rem;
+        font-size: clamp(2rem, 5.5vw, 3.35rem);
+        font-weight: 400;
+        line-height: 1.15;
+      }
+
+      .hero__title .zh {
+        display: block;
+        margin-top: 0.35rem;
+        font-size: 0.72em;
+        color: var(--amber-soft);
+        font-weight: 500;
+      }
+
+      .hero__lede {
+        max-width: 34rem;
+        margin: 0 0 1.75rem;
+        color: var(--mist);
+        font-size: 1.02rem;
+      }
+
+      .hero__cta {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.65rem;
+        font-size: 0.78rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--paper);
+        border-bottom: 1px solid var(--line);
+        padding-bottom: 0.35rem;
+      }
+
+      .hero__cta i {
+        width: 1.5rem;
+        height: 1px;
+        background: var(--amber);
+        transition: width 0.35s var(--ease);
+      }
+
+      .hero__cta:hover {
+        border-bottom-color: var(--amber);
+        color: var(--amber-soft);
+      }
+
+      .hero__cta:hover i {
+        width: 2.25rem;
+      }
+
+      .section {
+        width: min(920px, calc(100% - 2.5rem));
+        margin: 0 auto;
+        padding: 5rem 0 1rem;
+      }
+
+      .section__eyebrow {
+        margin: 0 0 0.85rem;
+        font-size: 0.72rem;
+        letter-spacing: 0.24em;
+        text-transform: uppercase;
+        color: var(--amber);
+      }
+
+      .section__title {
+        margin: 0 0 0.75rem;
+        font-size: clamp(1.7rem, 3.5vw, 2.25rem);
+        font-weight: 400;
+        line-height: 1.2;
+      }
+
+      .section__note {
+        margin: 0 0 2.25rem;
+        max-width: 36rem;
+        color: var(--mist);
+        font-size: 0.98rem;
+      }
+
+      /* Comics */
+      .comics {
+        display: grid;
+        gap: 2.25rem;
+      }
+
+      .comic {
+        display: grid;
+        grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+        gap: 1.25rem 1.75rem;
+        align-items: end;
+        border-top: 1px solid var(--line);
+        padding-top: 1.25rem;
+      }
+
+      .comic:nth-child(even) {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr);
+      }
+
+      .comic:nth-child(even) .comic__media {
+        order: 2;
+      }
+
+      .comic__media {
+        overflow: hidden;
+        background: var(--charcoal);
+      }
+
+      .comic__media img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+        filter: saturate(0.92) contrast(1.04);
+        transition: transform 1.2s var(--ease);
+      }
+
+      .comic:hover .comic__media img {
+        transform: scale(1.03);
+      }
+
+      .comic__cap {
+        padding-bottom: 0.35rem;
+      }
+
+      .comic__num {
+        display: block;
+        margin-bottom: 0.7rem;
+        font-size: 0.68rem;
+        letter-spacing: 0.2em;
+        color: var(--amber);
+      }
+
+      .comic__text {
+        margin: 0;
+        font-size: clamp(1.05rem, 2.2vw, 1.3rem);
+        line-height: 1.45;
+      }
+
+      .comic__text .zh {
+        display: block;
+        margin-top: 0.45rem;
+        font-size: 0.9em;
+        color: var(--mist);
+      }
+
+      /* Session / embed */
+      .session {
+        width: min(920px, calc(100% - 2.5rem));
+        margin: 4rem auto 0;
+        padding: 3.5rem 0 1rem;
+        border-top: 1px solid var(--line);
+      }
+
+      .player-shell {
+        margin-top: 1.5rem;
+        background: #070b12;
+        border: 1px solid var(--line);
+      }
+
+      .player-shell__frame {
+        position: relative;
+        aspect-ratio: 16 / 9;
+        background: #000;
+      }
+
+      .player-shell__frame iframe {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+
+      .player-shell__meta {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 0.75rem 1.5rem;
+        padding: 0.95rem 1.1rem;
+        border-top: 1px solid var(--line);
+        color: var(--mist);
+        font-size: 0.78rem;
+        letter-spacing: 0.06em;
+      }
+
+      .player-shell__now {
+        color: var(--paper);
+      }
+
+      .player-shell__now strong {
+        font-weight: 400;
+        color: var(--amber-soft);
+      }
+
+      /* Lyrics */
+      .tracklist {
+        list-style: none;
+        margin: 0 0 2rem;
+        padding: 0;
+        display: grid;
+        gap: 0.35rem;
+      }
+
+      .tracklist button {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 3rem 1fr auto;
+        gap: 0.85rem;
+        align-items: baseline;
+        text-align: left;
+        background: transparent;
+        border: 0;
+        border-top: 1px solid var(--line);
+        color: var(--paper);
+        padding: 0.7rem 0;
+        cursor: pointer;
+        font: inherit;
+        letter-spacing: inherit;
+        transition: color 0.3s var(--ease);
+      }
+
+      .tracklist li:last-child button {
+        border-bottom: 1px solid var(--line);
+      }
+
+      .tracklist button:hover,
+      .tracklist button.is-active {
+        color: var(--amber-soft);
+      }
+
+      .tracklist__n {
+        font-size: 0.68rem;
+        letter-spacing: 0.14em;
+        color: var(--mist);
+      }
+
+      .tracklist__t {
+        font-family: "Instrument Serif", "Noto Serif TC", serif;
+        font-size: 1.02rem;
+      }
+
+      .tracklist__t .zh {
+        color: var(--mist);
+        font-size: 0.9em;
+      }
+
+      .tracklist button.is-active .tracklist__t .zh,
+      .tracklist button:hover .tracklist__t .zh {
+        color: var(--amber);
+      }
+
+      .tracklist__time {
+        font-size: 0.68rem;
+        letter-spacing: 0.12em;
+        color: var(--mist);
+      }
+
+      .song {
+        padding: 2.5rem 0;
+        border-top: 1px solid var(--line);
+        scroll-margin-top: 6rem;
+      }
+
+      .song:last-of-type {
+        border-bottom: 1px solid var(--line);
+      }
+
+      .song.is-active {
+        background: linear-gradient(
+          90deg,
+          rgba(200, 146, 74, 0.06),
+          transparent 55%
+        );
+      }
+
+      .song__meta {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 0.75rem 1.25rem;
+        margin-bottom: 1.25rem;
+      }
+
+      .song__title {
+        margin: 0;
+        font-size: clamp(1.3rem, 2.8vw, 1.65rem);
+        font-weight: 400;
+      }
+
+      .song__title .zh {
+        color: var(--amber-soft);
+      }
+
+      .song__actions {
+        display: flex;
+        align-items: center;
+        gap: 0.85rem;
+      }
+
+      .song__index {
+        font-size: 0.7rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--mist);
+      }
+
+      .song__play {
+        appearance: none;
+        border: 1px solid var(--line);
+        background: transparent;
+        color: var(--paper);
+        font: inherit;
+        font-size: 0.68rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        padding: 0.45rem 0.7rem;
+        cursor: pointer;
+        transition:
+          border-color 0.3s var(--ease),
+          color 0.3s var(--ease),
+          background 0.3s var(--ease);
+      }
+
+      .song__play:hover,
+      .song.is-active .song__play {
+        border-color: var(--amber);
+        color: var(--amber-soft);
+        background: rgba(200, 146, 74, 0.08);
+      }
+
+      .song__body {
+        max-width: 28rem;
+        margin: 0;
+        font-size: 1.12rem;
+        line-height: 2.05;
+        white-space: pre-line;
+      }
+
+      .song__body .en {
+        display: block;
+        margin-top: 1rem;
+        font-size: 0.9rem;
+        line-height: 1.85;
+        color: var(--mist);
+        font-style: italic;
+        font-family: "Instrument Serif", serif;
+      }
+
+      /* Dock */
+      .dock {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 40;
+        background: rgba(11, 16, 24, 0.92);
+        backdrop-filter: blur(12px);
+        border-top: 1px solid var(--line);
+        transform: translateY(110%);
+        transition: transform 0.45s var(--ease);
+      }
+
+      .dock.is-on {
+        transform: none;
+      }
+
+      .dock__inner {
+        width: min(920px, calc(100% - 2.5rem));
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 0.85rem 0;
+      }
+
+      .dock__label {
+        min-width: 0;
+      }
+
+      .dock__kicker {
+        display: block;
+        font-size: 0.65rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--amber);
+        margin-bottom: 0.2rem;
+      }
+
+      .dock__track {
+        margin: 0;
+        font-size: 0.98rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .dock__track .zh {
+        color: var(--mist);
+        font-size: 0.88em;
+      }
+
+      .dock__btn {
+        flex-shrink: 0;
+        appearance: none;
+        border: 1px solid var(--line);
+        background: transparent;
+        color: var(--paper);
+        font: inherit;
+        font-size: 0.68rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        padding: 0.55rem 0.85rem;
+        cursor: pointer;
+      }
+
+      .dock__btn:hover {
+        border-color: var(--amber);
+        color: var(--amber-soft);
+      }
+
+      .proto-note {
+        margin-top: 2rem;
+        color: var(--mist);
+        font-size: 0.8rem;
+        max-width: 40rem;
+      }
+
+      @media (max-width: 760px) {
+        .comic,
+        .comic:nth-child(even) {
+          grid-template-columns: 1fr;
+        }
+
+        .comic:nth-child(even) .comic__media {
+          order: 0;
+        }
+
+        .brand {
+          flex-direction: column;
+          gap: 0.35rem;
+        }
+
+        .tracklist button {
+          grid-template-columns: 2.4rem 1fr;
+        }
+
+        .tracklist__time {
+          grid-column: 2;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .hero__media img,
+        .hero__content,
+        .comic__media img,
+        .dock {
+          animation: none !important;
+          transition: none !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="site-nav" aria-label="Primary">
+      <a class="site-nav__brand" href="../index.html">靜</a>
+      <a href="../index.html">Worlds</a>
+    </nav>
+
+    <header class="hero">
+      <div class="hero__media" aria-hidden="true">
+        <img
+          src="../assets/ep12-signal-room-hero.png"
+          alt=""
+          width="1920"
+          height="1080"
+        />
+        <div class="hero__veil"></div>
+      </div>
+      <div class="hero__content">
+        <div class="brand">
+          <span class="brand__mark" aria-hidden="true">靜</span>
+          <div>
+            <div class="brand__name serif">Cafe QuietLY</div>
+            <span class="brand__sub">Field notes · Sample</span>
+          </div>
+        </div>
+        <h1 class="hero__title serif">
+          Low Tide Signal Room
+          <span class="zh">退潮信號室</span>
+        </h1>
+        <p class="hero__lede">
+          Read the room first: four quiet frames, twelve sparse songs, then the
+          long listening session embedded below.
+        </p>
+        <a class="hero__cta" href="#comics">
+          Enter the scene
+          <i aria-hidden="true"></i>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="comics" aria-labelledby="comics-title">
+        <p class="section__eyebrow reveal">Quiet comic</p>
+        <h2 class="section__title serif reveal" id="comics-title">
+          Four frames before the words
+        </h2>
+        <p class="section__note reveal">
+          A short vignette for this world only—images hold the breath; captions
+          stay sparse.
+        </p>
+
+        <div class="comics">
+          <article class="comic reveal">
+            <div class="comic__media">
+              <img
+                src="../assets/signal-comic-01.png"
+                alt="Open tide table under an amber desk lamp"
+                width="1200"
+                height="900"
+              />
+            </div>
+            <div class="comic__cap">
+              <span class="comic__num">01</span>
+              <p class="comic__text serif">
+                The tide table is open to yesterday.
+                <span class="zh">潮汐表停在昨天。</span>
+              </p>
+            </div>
+          </article>
+
+          <article class="comic reveal">
+            <div class="comic__media">
+              <img
+                src="../assets/signal-comic-02.png"
+                alt="Rain-beaded window looking onto a dark harbor"
+                width="1200"
+                height="900"
+              />
+            </div>
+            <div class="comic__cap">
+              <span class="comic__num">02</span>
+              <p class="comic__text serif">
+                Rain beads on the glass; the harbor goes matte.
+                <span class="zh">雨在玻璃上成珠，港面變啞。</span>
+              </p>
+            </div>
+          </article>
+
+          <article class="comic reveal">
+            <div class="comic__media">
+              <img
+                src="../assets/signal-comic-03.png"
+                alt="Brass signal lamp glowing warmly on a dark desk"
+                width="1200"
+                height="900"
+              />
+            </div>
+            <div class="comic__cap">
+              <span class="comic__num">03</span>
+              <p class="comic__text serif">
+                The brass lamp clicks once, then decides against it.
+                <span class="zh">銅燈響了一下，又決定不響。</span>
+              </p>
+            </div>
+          </article>
+
+          <article class="comic reveal">
+            <div class="comic__media">
+              <img
+                src="../assets/signal-comic-04.png"
+                alt="Empty wooden chair waiting beside the desk"
+                width="1200"
+                height="900"
+              />
+            </div>
+            <div class="comic__cap">
+              <span class="comic__num">04</span>
+              <p class="comic__text serif">
+                Someone could return. The chair keeps the shape of waiting.
+                <span class="zh">也許有人會回來。椅子仍記得等待的形狀。</span>
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="session reveal" id="session" aria-labelledby="session-title">
+        <p class="section__eyebrow">Long listening</p>
+        <h2 class="section__title serif" id="session-title">
+          Embedded session
+        </h2>
+        <p class="section__note">
+          Start here when you want sound under the reading. Track buttons below
+          seek into the session.
+        </p>
+        <div class="player-shell">
+          <div class="player-shell__frame">
+            <div id="yt-player"></div>
+          </div>
+          <div class="player-shell__meta">
+            <span class="player-shell__now"
+              >Now · <strong id="now-track">Tide Table · 潮汐表</strong></span
+            >
+            <span>Cafe QuietLY · YouTube</span>
+          </div>
+        </div>
+        <p class="proto-note">
+          Prototype wiring: player uses a live QuietLY upload so embed/seek can
+          be tested. Fiction and timestamps on this page are sample mapping, not
+          a claim that this video is「退潮信號室」.
+        </p>
+      </section>
+
+      <section class="section" id="lyrics" aria-labelledby="lyrics-title">
+        <p class="section__eyebrow reveal">Full lyrics</p>
+        <h2 class="section__title serif reveal" id="lyrics-title">
+          Twelve sparse songs
+        </h2>
+        <p class="section__note reveal">
+          Mandarin leads. English is a soft echo. Press a row to play from that
+          cue.
+        </p>
+
+        <ol class="tracklist reveal" id="tracklist"></ol>
+        <div id="songs"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        <span class="mark">靜</span>
+        Sample field notes with comic + lyrics + embed integration.
+      </p>
+      <div class="site-footer__links">
+        <a href="../index.html">All worlds</a>
+        <a href="../about.html">About</a>
+      </div>
+    </footer>
+
+    <div class="dock" id="dock" aria-hidden="true">
+      <div class="dock__inner">
+        <div class="dock__label">
+          <span class="dock__kicker">Listening</span>
+          <p class="dock__track serif" id="dock-track">Tide Table · 潮汐表</p>
+        </div>
+        <button class="dock__btn" type="button" id="dock-jump">
+          Show player
+        </button>
+      </div>
+    </div>
+
+    <script src="../js/reveal.js"></script>
+    <script>
+      window.QUIETLY_EPISODE = {
+        videoId: "Iq842POdO2c",
+        tracks: [
+          {
+            n: "01",
+            start: 0,
+            en: "Tide Table",
+            zh: "潮汐表",
+            lines: "燈還亮著\n水已退去\n\n紙上的數字\n比窗外更誠實",
+            enEcho:
+              "The lamp stays on / the water has left /\nnumbers on paper / more honest than the window",
+          },
+          {
+            n: "02",
+            start: 185,
+            en: "Window Beads",
+            zh: "窗上的珠",
+            lines: "一顆一顆\n把夜關在外面\n\n港沒有聲音\n只有距離",
+            enEcho:
+              "One by one / they keep the night outside /\nthe harbor has no voice / only distance",
+          },
+          {
+            n: "03",
+            start: 370,
+            en: "Matte Harbor",
+            zh: "啞光港",
+            lines: "遠燈不說話\n只留下距離\n\n我把呼吸\n放得很慢",
+            enEcho:
+              "Far lights do not speak / they leave only distance /\nI set my breath / very slow",
+          },
+          {
+            n: "04",
+            start: 555,
+            en: "Folded Chart",
+            zh: "摺好的海圖",
+            lines: "航線還在\n人已不急\n\n摺痕像一條\n較溫柔的岸",
+            enEcho:
+              "The route remains / no one is rushing /\nthe crease is like / a gentler shore",
+          },
+          {
+            n: "05",
+            start: 740,
+            en: "Brass Hesitation",
+            zh: "銅的猶豫",
+            lines: "想亮一下\n又收回去\n\n像一句話\n停在喉嚨",
+            enEcho:
+              "Wanted to glow once / then took it back /\nlike a sentence / waiting in the throat",
+          },
+          {
+            n: "06",
+            start: 925,
+            en: "Chair of Waiting",
+            zh: "等待的椅",
+            lines: "空不是空\n是一種溫度\n\n退潮之後\n房間還在聽",
+            enEcho:
+              "Empty is not empty / it is a kind of warmth /\nafter low tide / the room keeps listening",
+          },
+          {
+            n: "07",
+            start: 1110,
+            en: "Low Tide Hour",
+            zh: "退潮的時辰",
+            lines: "水把秘密\n暫時交出\n\n泥面上的光\n比燈更輕",
+            enEcho:
+              "Water lends its secrets / for a little while /\nlight on the mud / lighter than the lamp",
+          },
+          {
+            n: "08",
+            start: 1295,
+            en: "Unsent Signal",
+            zh: "未送出的信號",
+            lines: "代碼寫好了\n手卻停住\n\n有些消息\n只適合留給自己",
+            enEcho:
+              "The code is ready / the hand still stops /\nsome messages / are only for oneself",
+          },
+          {
+            n: "09",
+            start: 1480,
+            en: "Salt on Glass",
+            zh: "玻璃上的鹽",
+            lines: "風留下的字\n讀不清楚\n\n咸一點\n就記得海",
+            enEcho:
+              "Words the wind left / hard to read /\na little salt / and the sea returns",
+          },
+          {
+            n: "10",
+            start: 1665,
+            en: "Night Ledger",
+            zh: "夜帳",
+            lines: "一行空白\n也可以是完整\n\n我把今天\n記得很淡",
+            enEcho:
+              "One blank line / can still be whole /\nI enter today / in a pale ink",
+          },
+          {
+            n: "11",
+            start: 1850,
+            en: "Return Path",
+            zh: "回來的路",
+            lines: "不是回家\n是回到這張桌\n\n燈還認得\n我的安靜",
+            enEcho:
+              "Not going home / returning to this desk /\nthe lamp still knows / my quiet",
+          },
+          {
+            n: "12",
+            start: 2035,
+            en: "Room Still Listening",
+            zh: "房間仍在聽",
+            lines: "曲停了\n潮還在遠處\n\n這間信號室\n替我守著夜",
+            enEcho:
+              "The tune stops / tide stays far away /\nthis signal room / keeps the night for me",
+          },
+        ],
+      };
+    </script>
+    <script src="../js/episode-player.js"></script>
+  </body>
+</html>

@@ -1,0 +1,235 @@
+{
+  "episode": 9,
+  "slug": "night-express",
+  "title": {
+    "en": "Night Express",
+    "zh": "夜行列車"
+  },
+  "logline": "One overnight sleeper-train love story in twenty quiet fragments.",
+  "videoId": "MNxqw7RdlR0",
+  "youtubeTitle": "[playlist] QuietLY · 夜行列車 — Slow Mandarin Jazz Love Story",
+  "comics": [
+    {
+      "en": "Platform mist holds the departure.",
+      "zh": "月台霧氣握住離站。"
+    },
+    {
+      "en": "Window glass doubles every light.",
+      "zh": "車窗把燈影疊成兩層。"
+    },
+    {
+      "en": "The corridor keeps careful footsteps.",
+      "zh": "走道記得小心的腳步。"
+    },
+    {
+      "en": "Morning arrives as a softer station.",
+      "zh": "早晨像一座更軟的站。"
+    }
+  ],
+  "hero": "",
+  "comicImages": [],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "0:00",
+      "en": "Platform Mist",
+      "zh": "月台薄霧",
+      "voice": "女聲",
+      "lyrics": "[Intro — long piano and distant rail hum]\n月台薄霧還沒散\n車門開了一半\n\n[Verse 1]\n你的箱子很輕\n像還沒決定要走多遠\n我站得稍遠一點\n讓過道留給別人\n\n[Instrumental]\n\n[Refrain]\n今晚同車\n先不要命名\n今晚同車\n讓霧再留一會兒\n\n[Bridge — soft]\n站名被霧擦淡\n心跳卻被鐵軌數著\n\n[Poetry]\n相見時難別亦難\n東風無力百花殘\n春蠶到死絲方盡\n蠟炬成灰淚始乾",
+      "source": "songs/prompts/episode-09/01-platform-mist.md"
+    },
+    {
+      "n": "02",
+      "start": 128,
+      "time": "2:08",
+      "en": "Seat Number Soft",
+      "zh": "對號輕聲",
+      "voice": "男聲",
+      "lyrics": "[Intro — bass and soft brushes]\n對號很輕\n像怕吵醒整節車廂\n\n[Verse 1]\n我念你的號碼\n你點一點頭\n距離剛好\n夠說話 也夠沉默\n\n[Instrumental]\n\n[Refrain]\n坐下來\n夜會自己對齊\n坐下來\n窗會慢慢變黑\n\n[Final]\n對號輕聲\n我們就這樣開始\n\n[Poetry]\n相見時難別亦難",
+      "source": "songs/prompts/episode-09/02-seat-number-soft.md"
+    },
+    {
+      "n": "03",
+      "start": 207,
+      "time": "3:27",
+      "en": "Corridor Brush",
+      "zh": "走廊擦肩",
+      "voice": "女聲",
+      "lyrics": "[Intro — clarinet far]\n走廊很窄\n我們擦肩\n\n[Verse 1]\n袖口碰到袖口\n像一句還沒出口的話\n車身輕輕搖\n把抱歉搖成微笑\n\n[Instrumental]\n\n[Refrain]\n擦肩就好\n不必回頭太快\n擦肩就好\n讓夜記住這一點熱\n\n[Final]\n走廊還亮著\n我們各自回鋪\n\n[Poetry]\n東風無力百花殘\n月上柳梢頭\n人約黃昏後",
+      "source": "songs/prompts/episode-09/03-corridor-brush.md"
+    },
+    {
+      "n": "04",
+      "start": 319,
+      "time": "5:19",
+      "en": "Window Breath",
+      "zh": "窗上呵氣",
+      "voice": "男女混唱",
+      "lyrics": "[Intro — long piano]\n窗上呵氣\n字還來不及寫完\n\n[Verse — alternating]\n[Female] 我畫一條短線\n[Male] 你補一個圓\n[Female] 像臨時的地圖\n[Male] 只夠今晚使用\n\n[Instrumental]\n\n[Refrain]\n呵氣\n等它慢慢淡\n呵氣\n把心事留在玻璃上\n\n[Poetry]\n春蠶到死絲方盡\n\n\n[English — short passage]\nFog the glass with me.\nWe don't need a finished map—\nonly a mark that says we were here.",
+      "source": "songs/prompts/episode-09/04-window-breath.md"
+    },
+    {
+      "n": "05",
+      "start": 401,
+      "time": "6:41",
+      "en": "Shared Thermos",
+      "zh": "共用熱水壺",
+      "voice": "男聲",
+      "lyrics": "[Intro — warm piano]\n熱水壺很燙\n蓋子輕輕響\n\n[Verse 1]\n你先喝一口\n把溫度讓給我\n金屬壁還留著\n你掌心的形狀\n\n[Instrumental]\n\n[Refrain]\n共用就好\n不必分得太清\n共用就好\n夜會被捂熱\n\n[Final]\n壺蓋蓋上\n像一句小声的答應\n\n[Poetry]\n蠟炬成灰淚始乾",
+      "source": "songs/prompts/episode-09/05-shared-thermos.md"
+    },
+    {
+      "n": "06",
+      "start": 502,
+      "time": "8:22",
+      "en": "Midnight Tea",
+      "zh": "半夜茶",
+      "voice": "女聲",
+      "lyrics": "[Intro — room tone and piano]\n半夜泡茶\n水聲比說話大聲\n\n[Verse 1]\n兩隻杯子\n在小桌上靠著\n茶煙很淡\n像還沒決定甜或苦\n\n[Instrumental]\n\n[Refrain]\n喝慢一點\n讓站與站之間變長\n喝慢一點\n讓我們有理由醒著\n\n[Final]\n茶涼了也不要緊\n手還暖\n\n[Poetry]\n相見時難別亦難",
+      "source": "songs/prompts/episode-09/06-midnight-tea.md"
+    },
+    {
+      "n": "07",
+      "start": 588,
+      "time": "9:48",
+      "en": "Upper Berth Quiet",
+      "zh": "上鋪很靜",
+      "voice": "男聲",
+      "lyrics": "[Intro — soft bass]\n上鋪很靜\n簾子垂下一半\n\n[Verse 1]\n我聽你翻身\n像聽夜翻一頁\n鐵軌一下一下\n替我數你的呼吸\n\n[Instrumental]\n\n[Refrain]\n很靜\n也可以很近\n很靜\n我就在下鋪醒著\n\n[Final]\n簾鉤輕輕晃\n像還在猶豫\n\n[Poetry]\n東風無力百花殘",
+      "source": "songs/prompts/episode-09/07-upper-berth-quiet.md"
+    },
+    {
+      "n": "08",
+      "start": 685,
+      "time": "11:25",
+      "en": "Tunnel Dark",
+      "zh": "過隧道",
+      "voice": "男女混唱",
+      "lyrics": "[Intro — almost silence then piano]\n過隧道\n燈全滅了\n\n[Verse 1]\n黑暗很短\n卻夠我們同時屏息\n你的手在旁邊\n我沒有握住\n也沒有移開\n\n[Instrumental]\n\n[Refrain]\n暗一下\n心就靠得更近\n暗一下\n出來還是同一節車\n\n[Final]\n燈光回來\n我們假裝只是眨眼\n\n[Poetry]\n春蠶到死絲方盡\n願得一心人\n白頭不相離",
+      "source": "songs/prompts/episode-09/08-tunnel-dark.md"
+    },
+    {
+      "n": "09",
+      "start": 782,
+      "time": "13:02",
+      "en": "Sleeping Outline",
+      "zh": "你睡時輪廓",
+      "voice": "女聲",
+      "lyrics": "[Intro — clarinet soft]\n你睡時輪廓\n被窗影切得很輕\n\n[Verse 1]\n我不敢看太久\n又怕錯過這一刻\n肩膀的弧度\n像一句不想醒來的話\n\n[Instrumental]\n\n[Refrain]\n睡吧\n我替你看夜\n睡吧\n站名會自己來\n\n[Final]\n我把聲音放得很低\n連心跳都小聲\n\n[Poetry]\n蠟炬成灰淚始乾",
+      "source": "songs/prompts/episode-09/09-sleeping-outline.md"
+    },
+    {
+      "n": "10",
+      "start": 885,
+      "time": "14:45",
+      "en": "Half-Written Note",
+      "zh": "半截字條",
+      "voice": "男聲",
+      "lyrics": "[Intro — long piano]\n半截字條\n摺在票夾裡\n\n[Verse 1]\n我想寫：留下\n筆停在第二筆\n車過一座橋\n字就不敢完整\n\n[Instrumental]\n\n[Refrain]\n半截也好\n比沉默多一點\n半截也好\n黎明再決定要不要寄\n\n[Poetry]\n相見時難別亦難\n東風無力百花殘\n春蠶到死絲方盡\n蠟炬成灰淚始乾\n\n\n[English — short passage]\nI folded the unfinished line.\nIf dawn is kind,\nmaybe you'll read the blank as love.",
+      "source": "songs/prompts/episode-09/10-half-written-note.md"
+    },
+    {
+      "n": "11",
+      "start": 985,
+      "time": "16:25",
+      "en": "Dim Coach Light",
+      "zh": "車廂燈暗",
+      "voice": "女聲",
+      "lyrics": "[Intro — muted trumpet far]\n車廂燈暗下來\n像夜正式簽名\n\n[Verse 1]\n過道只剩小夜燈\n我們說話更慢\n每個字\n都帶一點鐵軌的回音\n\n[Instrumental]\n\n[Refrain]\n燈暗\n心卻更清楚\n燈暗\n我看得見你\n\n[Final]\n把外套蓋好\n也把未說的話蓋好\n\n[Poetry]\n相見時難別亦難",
+      "source": "songs/prompts/episode-09/11-dim-coach-light.md"
+    },
+    {
+      "n": "12",
+      "start": 1062,
+      "time": "17:42",
+      "en": "Same Field Passing",
+      "zh": "同看一片田",
+      "voice": "男聲",
+      "lyrics": "[Intro — piano sway]\n同看一片田\n黑夜也有輪廓\n\n[Verse 1]\n你說像舊明信片\n我說像還沒寄出的家\n田埂一閃而過\n我們都沒有眨眼\n\n[Instrumental]\n\n[Refrain]\n同看\n就已經很近\n同看\n比牽手更安靜\n\n[Final]\n田遠了\n窗還留著我們的氣息\n\n[Poetry]\n東風無力百花殘",
+      "source": "songs/prompts/episode-09/12-same-field-passing.md"
+    },
+    {
+      "n": "13",
+      "start": 1160,
+      "time": "19:20",
+      "en": "Almost Holding Hands",
+      "zh": "差一點牽手",
+      "voice": "男女混唱",
+      "lyrics": "[Intro — long instrumental]\n差一點牽手\n指尖停在一公分\n\n[Verse — soft duet]\n[Both] 不是不敢\n[Female] 是怕醒來就變遠\n[Male] 不是不夠\n[Both] 是夜還肯給時間\n\n[Instrumental]\n\n[Refrain]\n差一點\n也算一種靠近\n差一點\n讓黎明自己決定\n\n[Final]\n手收回衣袖\n熱還留在空氣裡\n\n[Poetry]\n春蠶到死絲方盡",
+      "source": "songs/prompts/episode-09/13-almost-holding-hands.md"
+    },
+    {
+      "n": "14",
+      "start": 1242,
+      "time": "20:42",
+      "en": "Unsaid Station",
+      "zh": "沒說出口的站",
+      "voice": "女聲",
+      "lyrics": "[Intro — piano and rail]\n有一個站名\n我沒說出口\n\n[Verse 1]\n怕說了\n你就真的要準備下車\n怕不說\n夜會以為我們不怕分別\n\n[Instrumental]\n\n[Refrain]\n沒說出口的站\n停在舌尖發燙\n沒說出口的站\n比廣播更清楚\n\n[Poetry]\n蠟炬成灰淚始乾\n願得一心人\n白頭不相離\n\n\n[English — short passage]\nI kept the station name unspoken.\nSome goodbyes are quieter\nwhen they never become sound.",
+      "source": "songs/prompts/episode-09/14-unsaid-station.md"
+    },
+    {
+      "n": "15",
+      "start": 1340,
+      "time": "22:20",
+      "en": "Train Slows Down",
+      "zh": "車慢下來",
+      "voice": "男聲",
+      "lyrics": "[Intro — slowing pulse piano]\n車慢下來\n鐵軌的句子變長\n\n[Verse 1]\n加速時我們假裝還有很遠\n現在慢了\n每個呼吸都變重要\n箱子的輪子\n開始在心裡響\n\n[Instrumental]\n\n[Refrain]\n慢下來\n像給我們最後的走廊\n慢下來\n讓決定走得輕一點\n\n[Final]\n窗戶外的燈\n一盞一盞靠近\n\n[Poetry]\n相見時難別亦難",
+      "source": "songs/prompts/episode-09/15-train-slows-down.md"
+    },
+    {
+      "n": "16",
+      "start": 1443,
+      "time": "24:03",
+      "en": "Dawn Nameboard",
+      "zh": "黎明站牌",
+      "voice": "女聲",
+      "lyrics": "[Intro — thin light piano]\n黎明站牌\n字還有點模糊\n\n[Verse 1]\n那是你的站\n還是我們的藉口\n晨光很淡\n像一句未完成的問\n\n[Instrumental]\n\n[Refrain]\n站牌亮了\n夜卻不肯散盡\n站牌亮了\n心跳比車門更快\n\n[Final]\n我看你一眼\n你也看我一眼\n\n[Poetry]\n東風無力百花殘\n月上柳梢頭\n人約黃昏後",
+      "source": "songs/prompts/episode-09/16-dawn-nameboard.md"
+    },
+    {
+      "n": "17",
+      "start": 1562,
+      "time": "26:02",
+      "en": "Should I Get Off",
+      "zh": "要不要下車",
+      "voice": "男女混唱",
+      "lyrics": "[Intro — long instrumental]\n要不要下車\n問題停在車門口\n\n[Verse — call and response]\n[Male] 如果你走\n[Female] 我就學會揮手\n[Male] 如果你留\n[Female] 夜就不算結束\n[Both] 如果我們都猶豫\n[Both] 讓門再開一次\n\n[Instrumental]\n\n[Refrain]\n要不要\n比答案更誠實\n要不要\n讓風先回答\n\n[Final]\n車門警報很輕\n像催 又不忍催\n\n[Poetry]\n春蠶到死絲方盡",
+      "source": "songs/prompts/episode-09/17-should-i-get-off.md"
+    },
+    {
+      "n": "18",
+      "start": 1654,
+      "time": "27:34",
+      "en": "One Last Sentence",
+      "zh": "最後一句",
+      "voice": "男聲",
+      "lyrics": "[Intro — piano alone]\n最後一句\n我選得很慢\n\n[Verse 1]\n不是再見\n也不是永遠\n只是：\n還有下一班夜車嗎\n\n[Instrumental]\n\n[Refrain]\n最後一句\n放在你手心就好\n最後一句\n不必寫進時刻表\n\n[Poetry]\n蠟炬成灰淚始乾\n\n\n[English — short passage]\nOne last sentence—\nnot goodbye,\njust: keep a seat for the next night train.",
+      "source": "songs/prompts/episode-09/18-one-last-sentence.md"
+    },
+    {
+      "n": "19",
+      "start": 1743,
+      "time": "29:03",
+      "en": "Empty Seat Warm",
+      "zh": "空位還暖",
+      "voice": "女聲",
+      "lyrics": "[Intro — soft room jazz]\n空位還暖\n像你剛站起來\n\n[Verse 1]\n外套的褶子\n還留著夜的形狀\n我把手放上去\n又慢慢收回\n\n[Instrumental]\n\n[Refrain]\n還暖\n就還不算離開\n還暖\n故事就能再坐一會兒\n\n[Final]\n窗外天亮一點點\n座位仍不肯涼\n\n[Poetry]\n願得一心人\n白頭不相離",
+      "source": "songs/prompts/episode-09/19-empty-seat-warm.md"
+    },
+    {
+      "n": "20",
+      "start": 1885,
+      "time": "31:25",
+      "en": "Still On This Train",
+      "zh": "還在這車上",
+      "voice": "男女混唱",
+      "lyrics": "[Intro — long piano and rail]\n還在這車上\n黎明也拿我們沒辦法\n\n[Verse 1]\n站過了\n門關了\n你的箱子仍在腳邊\n我的茶還沒喝完\n\n[Instrumental]\n\n[Refrain]\n還在\n就繼續慢行\n還在\n讓愛情再坐一站\n\n[Bridge]\n如果分別很難\n我們就先不分別\n如果相見很難\n我們就已經在同一節車廂\n\n[Final — soft]\n還在這車上\n霧在身後散開\n路在前面\n我們不急著命名\n\n[Poetry]\n相見時難別亦難\n東風無力百花殘\n春蠶到死絲方盡\n蠟炬成灰淚始乾",
+      "source": "songs/prompts/episode-09/20-still-on-this-train.md"
+    }
+  ],
+  "warnings": [],
+  "lyricsSource": "songs/prompts/episode-09/*.md"
+}

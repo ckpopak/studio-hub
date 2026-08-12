@@ -1,0 +1,240 @@
+{
+  "episode": 11,
+  "slug": "autumn-river-overlook",
+  "title": {
+    "en": "Autumn River Overlook",
+    "zh": "秋江遠望"
+  },
+  "logline": "傳聞追不到江邊。遠山還在，心卻輕了。",
+  "videoId": "Iq842POdO2c",
+  "youtubeTitle": "[playlist] QuietLY · 秋江遠望 — Slow Mandarin Jazz for Seeing Through the World",
+  "comics": [
+    {
+      "en": "Reed wind softens the city behind you.",
+      "zh": "蘆葦風把城聲擦淡。"
+    },
+    {
+      "en": "A sail too small to carry an argument.",
+      "zh": "遠帆小到裝不下爭吵。"
+    },
+    {
+      "en": "Sit until the sunset lowers itself.",
+      "zh": "坐下，直到夕陽自己變矮。"
+    },
+    {
+      "en": "One lamp is enough to keep the night honest.",
+      "zh": "一點漁火，夜就誠實了。"
+    }
+  ],
+  "hero": "assets/ep11-autumn-river-hero.png",
+  "comicImages": [
+    "assets/ep11-comic-01.png",
+    "assets/ep11-comic-02.png",
+    "assets/ep11-comic-03.png",
+    "assets/ep11-comic-04.png"
+  ],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "0:00",
+      "en": "Old Rumour Wind",
+      "zh": "舊傳聞",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, soft river air]\n\n[Verse 1]\n城裡的舊傳聞\n像風穿過巷口\n誰贏過誰\n誰又被說成笑話\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Chorus]\n看透一點\n就輕一點\n江風替我\n把舊話吹遠\n\n[Verse 2]\n我把那些名字放下\n走到江邊更高的地方\n傳聞追不到這裡\n只有蘆葦輕輕點頭\n\n[Chorus]\n看透一點\n就輕一點\n江風替我\n把舊話吹遠\n\n[Poetry]\n滾滾長江東逝水\n浪花淘盡英雄\n是非成敗轉頭空\n青山依舊在\n幾度夕陽紅\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果世情是一場說書\n我就把最後一頁翻慢\n\n[Final chorus]\n看透一點\n就輕一點\n江風替我\n把舊話吹遠\n\n[Instrumental outro — 35 seconds, gradual fade-out, no vocal]",
+      "source": "songs/prompts/episode-11/01-old-rumour-wind.md"
+    },
+    {
+      "n": "02",
+      "start": 181,
+      "time": "3:01",
+      "en": "Praise and Blame",
+      "zh": "褒與貶",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, soft river air]\n\n[Verse 1]\n有人誇你一句\n有人貶你一句\n兩種聲音\n都想把你留在原地\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Chorus]\n看透一點\n就輕一點\n褒與貶\n都交給遠山\n\n[Verse 2]\n我聽過太多次\n終於聽成江水\n誇也不熱\n貶也不冷\n\n[Chorus]\n看透一點\n就輕一點\n褒與貶\n都交給遠山\n\n[Poetry]\n是非成敗轉頭空\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n褒貶像潮\n來了又退\n岸上的人\n還在爭論誰先開口\n\n[Final chorus]\n看透一點\n就輕一點\n褒與貶\n都交給遠山\n\n[Instrumental outro — 35 seconds, gradual fade-out, no vocal]",
+      "source": "songs/prompts/episode-11/02-praise-and-blame.md"
+    },
+    {
+      "n": "03",
+      "start": 369,
+      "time": "6:09",
+      "en": "Hurried Footsteps",
+      "zh": "匆忙腳步",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, soft river air]\n\n[Verse 1]\n匆忙的腳步\n趕著下一場證明\n鞋底很響\n心卻越來越薄\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Chorus]\n看透一點\n就輕一點\n腳步慢了\n路反而清楚\n\n[Verse 2]\n我放慢到\n能聽見自己的呼吸\n夕陽一寸寸矮\n並不催促誰\n\n[Chorus]\n看透一點\n就輕一點\n腳步慢了\n路反而清楚\n\n[Poetry]\n幾度夕陽紅\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n趕得再快\n也趕不過江水流走\n慢下來\n才看見自己還在\n\n[Final chorus]\n看透一點\n就輕一點\n腳步慢了\n路反而清楚\n\n[Instrumental outro — 35 seconds, gradual fade-out, no vocal]",
+      "source": "songs/prompts/episode-11/03-hurried-footsteps.md"
+    },
+    {
+      "n": "04",
+      "start": 583,
+      "time": "9:43",
+      "en": "Empty Banquet",
+      "zh": "空宴席",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, soft river air]\n\n[Verse 1]\n宴席散得很乾淨\n杯盞還記得溫度\n祝詞還在空氣裡\n人卻一個個離開\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Chorus]\n看透一點\n就輕一點\n空宴席\n也是一種提醒\n\n[Verse 2]\n我們對看一眼\n沒有再說客套\n空桌像一面鏡子\n照出熱鬧有多短\n\n[Chorus]\n看透一點\n就輕一點\n空宴席\n也是一種提醒\n\n[Poetry]\n古今多少事\n都付笑談中\n\n\n[English — short restrained passage]\nThe banquet ends.\nWhat remains is quieter than praise.\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n乾杯的聲音\n最後只剩風\n笑談比誓言\n更接近真相\n\n[Final chorus]\n看透一點\n就輕一點\n空宴席\n也是一種提醒\n\n[Instrumental outro — 35 seconds, gradual fade-out, no vocal]",
+      "source": "songs/prompts/episode-11/04-empty-banquet.md"
+    },
+    {
+      "n": "05",
+      "start": 791,
+      "time": "13:11",
+      "en": "Names on Cards",
+      "zh": "名片上的名",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, soft river air]\n\n[Verse 1]\n名片上的名\n印得很清楚\n握過手\n就忘了溫度\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Chorus]\n看透一點\n就輕一點\n名只是字\n人還在風裡\n\n[Verse 2]\n頭銜像一件外套\n天氣一變就不合身\n江邊沒有人查驗\n你是誰的誰\n\n[Chorus]\n看透一點\n就輕一點\n名只是字\n人還在風裡\n\n[Poetry]\n浪花淘盡英雄\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n把名片折小\n放進口袋最深處\n名字還在\n故事可以更輕\n\n[Final chorus]\n看透一點\n就輕一點\n名只是字\n人還在風裡\n\n[Instrumental outro — 35 seconds, gradual fade-out, no vocal]",
+      "source": "songs/prompts/episode-11/05-names-on-cards.md"
+    },
+    {
+      "n": "06",
+      "start": 979,
+      "time": "16:19",
+      "en": "Reed Wind Soft",
+      "zh": "蘆葦風",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, soft river air]\n\n[Verse 1]\n蘆葦風很軟\n像把城聲擦淡\n我站在高岸\n第一次聽清自己\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Chorus]\n看透一點\n就輕一點\n蘆葦搖著\n替我點頭\n\n[Verse 2]\n車馬遠了\n心也遠了\n不是逃離\n是終於肯停下\n\n[Chorus]\n看透一點\n就輕一點\n蘆葦搖著\n替我點頭\n\n[Poetry]\n結廬在人境\n而無車馬喧\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n風從葦尖過來\n不帶任何評價\n只問\n你還要緊握什麼\n\n[Final chorus]\n看透一點\n就輕一點\n蘆葦搖著\n替我點頭\n\n[Instrumental outro — 35 seconds, gradual fade-out, no vocal]",
+      "source": "songs/prompts/episode-11/06-reed-wind-soft.md"
+    },
+    {
+      "n": "07",
+      "start": 1185,
+      "time": "19:45",
+      "en": "Distant Sail",
+      "zh": "遠帆",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, soft river air]\n\n[Verse 1]\n遠帆很小\n小到裝不下爭吵\n江面很寬\n寬到容得下沉默\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Chorus]\n看透一點\n就輕一點\n遠帆教我\n不必每場都到\n\n[Verse 2]\n我問自己怎麼做到\n答案很簡單\n心遠了\n地就偏成安靜\n\n[Chorus]\n看透一點\n就輕一點\n遠帆教我\n不必每場都到\n\n[Poetry]\n問君何能爾\n心遠地自偏\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n帆影一閃\n像一句不必追的話\n看遠一點\n近處的刀就變鈍\n\n[Final chorus]\n看透一點\n就輕一點\n遠帆教我\n不必每場都到\n\n[Instrumental outro — 35 seconds, gradual fade-out, no vocal]",
+      "source": "songs/prompts/episode-11/07-distant-sail.md"
+    },
+    {
+      "n": "08",
+      "start": 1393,
+      "time": "23:13",
+      "en": "Stone Terrace Sit",
+      "zh": "石坪坐下",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, soft river air]\n\n[Verse 1]\n石坪微涼\n剛好坐下\n遠山不動\n我們也不急著證明\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Chorus]\n看透一點\n就輕一點\n石坪托著\n未完成的一生\n\n[Verse 2]\n不是隱居\n只是暫時把肩膀放下\n南山在那邊\n像從不需要解釋\n\n[Chorus]\n看透一點\n就輕一點\n石坪托著\n未完成的一生\n\n[Poetry]\n採菊東籬下\n悠然見南山\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n坐久一點\n勝負就變淡\n坐夠了\n才懂什麼叫夠\n\n[Final chorus]\n看透一點\n就輕一點\n石坪托著\n未完成的一生\n\n[Instrumental outro — 35 seconds, gradual fade-out, no vocal]",
+      "source": "songs/prompts/episode-11/08-stone-terrace-sit.md"
+    },
+    {
+      "n": "09",
+      "start": 1567,
+      "time": "26:07",
+      "en": "Sunset Lowering",
+      "zh": "夕陽變矮",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, soft river air]\n\n[Verse 1]\n夕陽一寸寸變矮\n顏色卻更溫柔\n誰在趕路\n誰在江邊學會停\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Chorus]\n看透一點\n就輕一點\n夕陽矮了\n心卻寬了\n\n[Verse 2]\n紅得剛好\n不像勝利的旗\n更像提醒\n一天也可以好好結束\n\n[Chorus]\n看透一點\n就輕一點\n夕陽矮了\n心卻寬了\n\n[Poetry]\n幾度夕陽紅\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n看過幾度夕陽\n才明白\n急沒有把誰留下\n慢也沒有輸掉什麼\n\n[Final chorus]\n看透一點\n就輕一點\n夕陽矮了\n心卻寬了\n\n[Instrumental outro — 35 seconds, gradual fade-out, no vocal]",
+      "source": "songs/prompts/episode-11/09-sunset-lowering.md"
+    },
+    {
+      "n": "10",
+      "start": 1751,
+      "time": "29:11",
+      "en": "The Longest Quiet",
+      "zh": "最長的安靜",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, soft river air]\n\n[Verse 1]\n最長的安靜\n發生在沒有掌聲的時候\n江水還在走\n我不需要跟著解釋\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Chorus]\n看透一點\n就輕一點\n最長的安靜\n也是一種答案\n\n[Verse 2]\n英雄都被浪花淘過\n是非轉頭就空\n我把安靜留下\n比留下名聲更穩\n\n[Chorus]\n看透一點\n就輕一點\n最長的安靜\n也是一種答案\n\n[Poetry]\n滾滾長江東逝水\n浪花淘盡英雄\n是非成敗轉頭空\n青山依舊在\n幾度夕陽紅\n白髮漁樵江渚上\n慣看秋月春風\n古今多少事\n都付笑談中\n\n\n[English — short restrained passage]\nThe longest quiet\nis not emptiness—\nit is clarity without applause.\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果一生必須很吵\n那我就選這一段\n把耳朵還給風\n\n[Final chorus]\n看透一點\n就輕一點\n最長的安靜\n也是一種答案\n\n[Instrumental outro — 35 seconds, gradual fade-out, no vocal]",
+      "source": "songs/prompts/episode-11/10-the-longest-quiet.md"
+    },
+    {
+      "n": "11",
+      "start": 1986,
+      "time": "33:06",
+      "en": "Win Lose Empty",
+      "zh": "勝負轉空",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, soft river air]\n\n[Verse 1]\n贏過的人還在比\n輸過的人還在補\n轉過頭\n兩邊都像煙\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Chorus]\n看透一點\n就輕一點\n勝負轉空\n人還能走路\n\n[Verse 2]\n我把勝負放進江裡\n它沉得比預期快\n空不是失敗\n是終於騰出地方\n\n[Chorus]\n看透一點\n就輕一點\n勝負轉空\n人還能走路\n\n[Poetry]\n是非成敗轉頭空\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n比分會褪色\n江聲不會\n誰還記得\n昨天的冠軍姓什麼\n\n[Final chorus]\n看透一點\n就輕一點\n勝負轉空\n人還能走路\n\n[Instrumental outro — 35 seconds, gradual fade-out, no vocal]",
+      "source": "songs/prompts/episode-11/11-win-lose-empty.md"
+    },
+    {
+      "n": "12",
+      "start": 2171,
+      "time": "36:11",
+      "en": "Fame Like Mist",
+      "zh": "名如霧",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, soft river air]\n\n[Verse 1]\n名聲像霧\n近看很白\n一走進去\n什麼都看不清\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Chorus]\n看透一點\n就輕一點\n名如霧\n散了也罷\n\n[Verse 2]\n走出霧區\n衣袖還濕著\n遠山卻忽然清楚\n原來霧只會留在低處\n\n[Chorus]\n看透一點\n就輕一點\n名如霧\n散了也罷\n\n[Poetry]\n浪花淘盡英雄\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n被看見很短暫\n被記住更短暫\n被看透之後\n反而能呼吸\n\n[Final chorus]\n看透一點\n就輕一點\n名如霧\n散了也罷\n\n[Instrumental outro — 35 seconds, gradual fade-out, no vocal]",
+      "source": "songs/prompts/episode-11/12-fame-like-mist.md"
+    },
+    {
+      "n": "13",
+      "start": 2373,
+      "time": "39:33",
+      "en": "Tide of Opinions",
+      "zh": "褒貶如潮",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, soft river air]\n\n[Verse 1]\n褒貶如潮\n今天推你上岸\n明天又把你拽回\n浪從不道歉\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Chorus]\n看透一點\n就輕一點\n潮來潮去\n心可以不跟著濕\n\n[Verse 2]\n漁樵看慣了\n秋月春風輪流來\n意見再大\n也大不過季節\n\n[Chorus]\n看透一點\n就輕一點\n潮來潮去\n心可以不跟著濕\n\n[Poetry]\n慣看秋月春風\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n我不再逐浪\n只把鞋子放乾\n潮退之後\n石頭還在原位\n\n[Final chorus]\n看透一點\n就輕一點\n潮來潮去\n心可以不跟著濕\n\n[Instrumental outro — 35 seconds, gradual fade-out, no vocal]",
+      "source": "songs/prompts/episode-11/13-tide-of-opinions.md"
+    },
+    {
+      "n": "14",
+      "start": 2578,
+      "time": "42:58",
+      "en": "Heroes Washed Away",
+      "zh": "英雄淘盡",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, soft river air]\n\n[Verse 1]\n英雄也被淘盡\n石頭卻還溫熱\n我們站在岸上\n不再渴望被寫進傳說\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Chorus]\n看透一點\n就輕一點\n英雄淘盡\n平凡也能安住\n\n[Verse 2]\n傳奇很響\n生活很輕\n輕不是弱\n是終於不用扛旗\n\n[Chorus]\n看透一點\n就輕一點\n英雄淘盡\n平凡也能安住\n\n[Poetry]\n浪花淘盡英雄\n\n\n[English — short restrained passage]\nEven heroes are washed away.\nThe river keeps its own pace.\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n淘盡之後\n江還是江\n人還是人\n可以喝水 可以沉默\n\n[Final chorus]\n看透一點\n就輕一點\n英雄淘盡\n平凡也能安住\n\n[Instrumental outro — 35 seconds, gradual fade-out, no vocal]",
+      "source": "songs/prompts/episode-11/14-heroes-washed-away.md"
+    },
+    {
+      "n": "15",
+      "start": 2785,
+      "time": "46:25",
+      "en": "River Won’t Answer",
+      "zh": "江水不答",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, soft river air]\n\n[Verse 1]\n我問江水值不值得\n江水不答\n只把夕光折一折\n還給我\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Chorus]\n看透一點\n就輕一點\n江水不答\n我也安靜\n\n[Verse 2]\n不答也是回答\n很多問題\n本來就不需要\n被誰批准\n\n[Chorus]\n看透一點\n就輕一點\n江水不答\n我也安靜\n\n[Poetry]\n青山依舊在\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n青山依舊在\n不問誰勝誰負\n我學會把問題\n放回口袋\n\n[Final chorus]\n看透一點\n就輕一點\n江水不答\n我也安靜\n\n[Instrumental outro — 35 seconds, gradual fade-out, no vocal]",
+      "source": "songs/prompts/episode-11/15-river-wont-answer.md"
+    },
+    {
+      "n": "16",
+      "start": 2968,
+      "time": "49:28",
+      "en": "One Fisherman Lamp",
+      "zh": "一點漁火",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, soft river air]\n\n[Verse 1]\n江渚上一點漁火\n小得剛好\n照亮碗筷\n不必照亮整個世界\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Chorus]\n看透一點\n就輕一點\n一點漁火\n就夠今晚\n\n[Verse 2]\n白髮不是結局\n是時間肯留下的光澤\n漁火晃一下\n像說夠了\n\n[Chorus]\n看透一點\n就輕一點\n一點漁火\n就夠今晚\n\n[Poetry]\n白髮漁樵江渚上\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n大燈會刺眼\n小火能溫手\n看透之後\n只想要這一點\n\n[Final chorus]\n看透一點\n就輕一點\n一點漁火\n就夠今晚\n\n[Instrumental outro — 35 seconds, gradual fade-out, no vocal]",
+      "source": "songs/prompts/episode-11/16-one-fisherman-lamp.md"
+    },
+    {
+      "n": "17",
+      "start": 3143,
+      "time": "52:23",
+      "en": "Half a Cup Enough",
+      "zh": "半杯就夠",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, soft river air]\n\n[Verse 1]\n濁酒不必滿\n半杯就夠\n相逢也不必熱鬧\n坐下來就好\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Chorus]\n看透一點\n就輕一點\n半杯就夠\n多餘的都還給江\n\n[Verse 2]\n喜不是狂歡\n是肩膀終於鬆開\n杯沿的溫熱\n比敬酒詞真實\n\n[Chorus]\n看透一點\n就輕一點\n半杯就夠\n多餘的都還給江\n\n[Poetry]\n一壺濁酒喜相逢\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n喝慢一點\n世情就退後一尺\n半杯裡\n裝得下今晚的誠實\n\n[Final chorus]\n看透一點\n就輕一點\n半杯就夠\n多餘的都還給江\n\n[Instrumental outro — 35 seconds, gradual fade-out, no vocal]",
+      "source": "songs/prompts/episode-11/17-half-a-cup-enough.md"
+    },
+    {
+      "n": "18",
+      "start": 3328,
+      "time": "55:28",
+      "en": "Mountains Still There",
+      "zh": "青山仍在",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, soft river air]\n\n[Verse 1]\n青山仍在\n不因誰離開而矮\n也不因誰歸來而高\n它只是在\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Chorus]\n看透一點\n就輕一點\n青山仍在\n我就還能站穩\n\n[Verse 2]\n人來人往\n像雲擦過山脊\n留下濕氣\n留不下判決\n\n[Chorus]\n看透一點\n就輕一點\n青山仍在\n我就還能站穩\n\n[Poetry]\n青山依舊在\n\n\n[English — short restrained passage]\nThe mountains are still there.\nThey do not keep score.\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n我學青山\n把變動當成天氣\n把安靜\n當成本來面目\n\n[Final chorus]\n看透一點\n就輕一點\n青山仍在\n我就還能站穩\n\n[Instrumental outro — 35 seconds, gradual fade-out, no vocal]",
+      "source": "songs/prompts/episode-11/18-mountains-still-there.md"
+    },
+    {
+      "n": "19",
+      "start": 3545,
+      "time": "59:05",
+      "en": "All Becomes Talk",
+      "zh": "都付笑談",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, soft river air]\n\n[Verse 1]\n古今多少事\n最後都變成笑談\n不是冷漠\n是終於肯鬆手\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Chorus]\n看透一點\n就輕一點\n都付笑談\n夜就溫柔了\n\n[Verse 2]\n笑談裡有痛\n也有寬恕\n我們把重的放進笑話\n才能繼續走路\n\n[Chorus]\n看透一點\n就輕一點\n都付笑談\n夜就溫柔了\n\n[Poetry]\n古今多少事\n都付笑談中\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n不必嘲笑誰\n只是看清\n緊握太久\n手會自己打開\n\n[Final chorus]\n看透一點\n就輕一點\n都付笑談\n夜就溫柔了\n\n[Instrumental outro — 35 seconds, gradual fade-out, no vocal]",
+      "source": "songs/prompts/episode-11/19-all-becomes-talk.md"
+    },
+    {
+      "n": "20",
+      "start": 3749,
+      "time": "1:02:29",
+      "en": "Heart Far Place Near",
+      "zh": "心遠地偏",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, soft river air]\n\n[Verse 1]\n心遠了\n地就偏成安靜\n我還在人境\n只是車馬聽不見我\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Chorus]\n看透一點\n就輕一點\n心遠地偏\n夜色剛剛好\n\n[Verse 2]\n江還在流\n山還在\n我把看透的世情\n折成很輕的一行\n\n[Chorus]\n看透一點\n就輕一點\n心遠地偏\n夜色剛剛好\n\n[Poetry]\n滾滾長江東逝水\n浪花淘盡英雄\n是非成敗轉頭空\n青山依舊在\n幾度夕陽紅\n白髮漁樵江渚上\n慣看秋月春風\n古今多少事\n都付笑談中\n結廬在人境\n而無車馬喧\n問君何能爾\n心遠地自偏\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n不是放棄人間\n是不再被人間追著跑\n心遠地偏\n步履反而踏實\n\n[Final chorus]\n看透一點\n就輕一點\n心遠地偏\n夜色剛剛好\n\n[Instrumental outro — 35 seconds, gradual fade-out, no vocal]",
+      "source": "songs/prompts/episode-11/20-heart-far-place-near.md"
+    }
+  ],
+  "warnings": [],
+  "lyricsSource": "songs/prompts/episode-11/*.md"
+}

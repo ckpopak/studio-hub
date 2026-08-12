@@ -1,0 +1,235 @@
+{
+  "episode": 5,
+  "slug": "desert-observatory",
+  "title": {
+    "en": "Desert Observatory",
+    "zh": "午夜沙漠天文台"
+  },
+  "logline": "A midnight desert observatory: first stars, cold dome, long silence.",
+  "videoId": "HeESg-e4kc4",
+  "youtubeTitle": "QuietLY · 午夜沙漠天文台 — 20 Slow Mandarin Jazz Scenes",
+  "comics": [
+    {
+      "en": "The dome opens like a held breath.",
+      "zh": "圓頂打開，像屏住的呼吸。"
+    },
+    {
+      "en": "Stars arrive without announcement.",
+      "zh": "星辰到來，沒有預告。"
+    },
+    {
+      "en": "Sand keeps the day's heat as rumor.",
+      "zh": "沙把白日熱度當成傳聞。"
+    },
+    {
+      "en": "The sky is the only loud thing.",
+      "zh": "天空成了唯一的大聲。"
+    }
+  ],
+  "hero": "",
+  "comicImages": [],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "00:00",
+      "en": "Desert Observatory",
+      "zh": "沙漠天文台",
+      "voice": "female",
+      "lyrics": "沙漠把夜放得很遠\n天文台站在風裡\n圓頂慢慢轉動\n露出一小片星光\n\n[Verse 1]\n桌上的鉛筆沒有移動\n星圖停在北方\n一條細線穿過黑紙\n像有人留下的路\n卻沒有寫下名字\n遠處的沙丘\n把白天收進地平線\n\n[Refrain — rise gently]\n慢慢看\n不要急著命名星星\n慢慢看\n讓黑暗保留方向\n慢慢看\n讓光在眼睛裡多停一會\n\n[Poetry]\n危樓高百尺\n手可摘星辰\n不敢高聲語\n恐驚天上人\n\n[Bridge — almost spoken]\n如果夜是一張紙\n我願意慢慢摺疊\n把風放在外面\n把最後一盞燈留在裡面\n\n[Final]\n慢慢看\n不要把黎明叫醒\n最後一顆星\n還亮著",
+      "source": "songs/prompts/episode-05/01-desert-observatory.md"
+    },
+    {
+      "n": "02",
+      "start": 157,
+      "time": "02:37",
+      "en": "Star Map",
+      "zh": "星圖",
+      "voice": "male",
+      "lyrics": "星圖攤在木桌上\n藍色墨線交疊\n一條路通向北方\n另一條消失在沙裡\n\n[Verse]\n我用鉛筆描過北斗\n又把線慢慢擦掉\n紙面留下淡淡的灰\n像沒有說完的話\n窗外的風穿過觀測室\n把星名翻到背面\n\n[Refrain]\n一點光\n再一點光\n把遠方寫在紙上\n一點光\n不要熄滅\n讓迷路也有形狀\n\n[Poetry]\n危樓高百尺\n手可摘星辰\n不敢高聲語\n恐驚天上人\n\n[Bridge]\n我找不到自己的名字\n卻找到一顆\n沒有人命名的星\n它不回答\n只在黑裡移動\n\n[Final]\n一點光\n留在掌心裡\n留在紙邊\n留到天亮",
+      "source": "songs/prompts/episode-05/02-star-map.md"
+    },
+    {
+      "n": "03",
+      "start": 329,
+      "time": "05:29",
+      "en": "Wind Tower",
+      "zh": "風塔",
+      "voice": "female",
+      "lyrics": "風塔從沙丘升起\n木片在高處轉動\n風經過空洞\n變成低低的歌\n\n[Verse]\n白天的熱還在石牆裡\n夜色卻已經涼了\n一圈一圈的影子\n繞過塔身\n繞過我的肩\n又回到沒有人的地方\n\n[Refrain — 3/4 sway]\n風來了\n風又走\n留下沙面的細線\n風來了\n不要追\n讓它替你走遠\n\n[Poetry]\n松風吹解帶\n山月照彈琴\n\n[Bridge]\n遠處的帳篷\n亮著一盞小燈\n像有人把夜\n縫回天空\n\n[Final]\n風來了\n我還在這裡\n風又走\n我仍聽見",
+      "source": "songs/prompts/episode-05/03-wind-tower.md"
+    },
+    {
+      "n": "04",
+      "start": 479,
+      "time": "07:59",
+      "en": "Two Constellations",
+      "zh": "兩座星群",
+      "voice": "duet",
+      "lyrics": "[Female]\n我看見北方的星\n在冷藍色的天邊\n\n[Male]\n我看見南方的星\n沉在沙丘後面\n\n[Verse — alternating]\n[Female] 它們隔著多少夜\n[Male] 隔著沒有名字的風\n[Female] 我把手放在玻璃上\n[Male] 我把影子留在門外\n\n[Refrain — both]\n兩座星群\n各自慢慢轉動\n兩座星群\n不必靠近\n也能在同一片黑裡\n留下光\n\n[Poetry]\n海上生明月\n天涯共此時\n\n[Bridge]\n[Female] 你看見了嗎\n[Male] 我看見\n[Female] 那一道白光嗎\n[Male] 我看見\n[Both] 只是沒有說出口\n\n[Final]\n你有你的光\n我有我的夜\n共同經過\n這一個午夜",
+      "source": "songs/prompts/episode-05/04-two-constellations.md"
+    },
+    {
+      "n": "05",
+      "start": 623,
+      "time": "10:23",
+      "en": "Salt Flat",
+      "zh": "鹽原",
+      "voice": "male",
+      "lyrics": "鹽原在月光下發白\n地面像結冰的湖\n每一步都很輕\n怕驚動遠方\n\n[Verse]\n水曾經來過\n在白色地面留下邊界\n我沿著裂紋走\n像沿著時間走\n風把鹽粒吹過腳背\n冷得接近透明\n\n[Refrain — held notes]\n走慢一點\n鹽會記住腳印\n走慢一點\n風會替你保存\n走慢一點\n不要讓遠方醒來\n\n[Poetry]\n海日生殘夜\n江春入舊年\n\n[Bridge]\n沒有水的地方\n仍然保留向前的形狀\n沒有人的地方\n仍然有路\n\n[Final]\n走慢一點\n天還很高\n鹽原還在發光",
+      "source": "songs/prompts/episode-05/05-salt-flat.md"
+    },
+    {
+      "n": "06",
+      "start": 771,
+      "time": "12:51",
+      "en": "Red Dunes",
+      "zh": "紅沙丘",
+      "voice": "female",
+      "lyrics": "紅沙丘一層一層\n把夕光收進身體\n最後一點暖色\n停在我的袖口\n\n[Verse]\n風從高處翻下來\n帶走細小的石\n我站在坡頂\n看影子變長\n看天色從金色\n慢慢退成藍\n\n[Refrain]\n不要吹散\n讓晚霞再留一會\n不要吹散\n讓沙慢慢降落\n不要吹散\n讓心還有一點暖\n\n[Poetry]\n大漠孤煙直\n長河落日圓\n\n[Bridge]\n我從高處看下去\n看見自己的腳印\n像一首\n沒有讀完的詩\n\n[Final]\n不要吹散\n讓紅色退到遠方\n不要吹散\n讓夜慢慢靠近",
+      "source": "songs/prompts/episode-05/06-red-dunes.md"
+    },
+    {
+      "n": "07",
+      "start": 909,
+      "time": "15:09",
+      "en": "Signal House",
+      "zh": "訊號屋",
+      "voice": "male",
+      "lyrics": "訊號屋沒有門牌\n天線伸向黑暗\n每隔一段時間\n發出微弱的藍光\n\n[Verse — half spoken]\n我把機器打開\n聽見一點白噪音\n沙在遠處移動\n像有人敲門\n卻沒有腳步\n沒有回答\n\n[Refrain]\n有人聽見嗎\n有人在遠方嗎\n訊號穿過沙海\n慢慢回來\n有人聽見嗎\n請不要急著回答\n\n[Poetry]\n烽火連三月\n家書抵萬金\n\n[Bridge]\n我把一句話\n放進機器裡\n等它穿過夜\n等它變成回聲\n\n[Final]\n有人聽見嗎\n藍光又亮了一次",
+      "source": "songs/prompts/episode-05/07-signal-house.md"
+    },
+    {
+      "n": "08",
+      "start": 1021,
+      "time": "17:01",
+      "en": "Night Compass",
+      "zh": "夜羅盤",
+      "voice": "duet",
+      "lyrics": "[Female]\n羅盤指向北方\n\n[Male]\n風卻從南方來\n\n[Verse]\n[Female] 我沿著白色石線\n[Male] 我沿著黑色沙脊\n[Female] 指針說不要停\n[Male] 風聲說不要信\n\n[Refrain]\n轉一點\n再轉一點\n讓迷路也有節拍\n轉一點\n不要停\n方向可以慢慢形成\n\n[Poetry]\n行到水窮處\n坐看雲起時\n\n[Bridge]\n[Female] 你向哪裡走\n[Male] 向沒有名字的地方\n[Female] 那裡有光嗎\n[Male] 也許\n[Both] 那裡也許有光\n\n[Final]\n轉一點\n再轉一點\n兩個方向\n共享一個夜晚",
+      "source": "songs/prompts/episode-05/08-night-compass.md"
+    },
+    {
+      "n": "09",
+      "start": 1127,
+      "time": "18:47",
+      "en": "Observatory Lamp",
+      "zh": "觀測燈",
+      "voice": "female",
+      "lyrics": "觀測燈亮在窗內\n照著一支鉛筆\n紙上有未完成的圓\n和一個小小的問號\n\n[Verse]\n玻璃上映著星\n桌面留著藍光\n我把手放在燈旁\n看見指節變暖\n夜很大\n燈很小\n\n[Refrain]\n留一盞燈\n給還沒回來的人\n留一盞燈\n給還在路上的風\n留一盞燈\n讓黑暗知道位置\n\n[Poetry]\n月出驚山鳥\n時鳴春澗中\n\n[Bridge — 20 seconds instrumental, no vocal]\n\n[Final]\n夜很大\n燈很小\n但小小的光\n仍然可以被看見\n留一盞燈\n不要關",
+      "source": "songs/prompts/episode-05/09-observatory-lamp.md"
+    },
+    {
+      "n": "10",
+      "start": 1283,
+      "time": "21:23",
+      "en": "Meteor Dust",
+      "zh": "流星塵",
+      "voice": "male",
+      "lyrics": "流星穿過天頂\n只留下短短的白\n沙面沒有聲音\n卻記住了亮\n\n[Verse — short phrases]\n我抬頭太晚\n只看見尾端\n像一句話\n說到最後\n才被聽見\n\n[Refrain]\n亮一下\n再暗下去\n不要害怕消失\n亮一下\n再暗下去\n已經足夠\n\n[Poetry]\n天階夜色涼如水\n臥看牽牛織女星\n\n[Bridge]\n有些願望\n不是要實現\n只是要在黑裡\n經過一次\n\n[Final]\n亮一下\n讓遠方知道\n這裡有人醒著\n[Instrumental outro — 35 seconds]",
+      "source": "songs/prompts/episode-05/10-meteor-dust.md"
+    },
+    {
+      "n": "11",
+      "start": 1399,
+      "time": "23:19",
+      "en": "Dry River",
+      "zh": "乾河",
+      "voice": "female",
+      "lyrics": "乾河躺在兩座山之間\n河床留下舊水痕\n我沿著裂縫走\n像沿著時間走\n\n[Verse]\n石頭記得水的方向\n沙記得河的重量\n我把耳朵貼近地面\n聽見很久以前\n有一條河\n經過這裡\n\n[Refrain]\n水會回來嗎\n風沒有回答\n水會回來嗎\n石頭保持沉默\n水會回來嗎\n我仍然往前走\n\n[Poetry]\n大漠孤煙直\n長河落日圓\n\n[Bridge]\n曾經流過的地方\n即使沒有水\n也還保留\n向前的形狀\n\n[Final]\n慢慢走\n沿著乾河\n直到星光落下",
+      "source": "songs/prompts/episode-05/11-dry-river.md"
+    },
+    {
+      "n": "12",
+      "start": 1547,
+      "time": "25:47",
+      "en": "Glass Dome",
+      "zh": "玻璃穹頂",
+      "voice": "duet",
+      "lyrics": "[Female] 穹頂上有霜\n[Male] 穹頂外有星\n[Both] 透明的夜\n落在我們之間\n\n[Verse]\n[Female] 我看見一顆藍星\n[Male] 我看見一片白霧\n[Female] 你把手放在玻璃\n[Male] 我把聲音留在門外\n\n[Refrain]\n不要說破\n讓星光停在玻璃上\n不要說破\n讓沉默完成它\n不要說破\n今夜還沒有結束\n\n[Poetry]\n月出驚山鳥\n時鳴春澗中\n\n[Bridge]\n[Female] 我看見你的影\n[Male] 我看見你的光\n[Both] 都不是白天\n都不是告別\n\n[Final]\n穹頂上有霜\n穹頂外有星\n兩種沉默\n在同一片透明裡",
+      "source": "songs/prompts/episode-05/12-glass-dome.md"
+    },
+    {
+      "n": "13",
+      "start": 1677,
+      "time": "27:57",
+      "en": "Black Rock",
+      "zh": "黑岩",
+      "voice": "male",
+      "lyrics": "黑岩站在沙谷盡頭\n沒有樹\n沒有水\n只有風反覆經過\n\n[Verse]\n白天它吸收熱\n夜裡它交出冷\n我把手放在岩面\n像把問題放在桌上\n它不回答\n卻沒有離開\n\n[Refrain]\n站在這裡\n不要急著離開\n站在這裡\n讓黑暗變得熟悉\n站在這裡\n讓心慢慢變重\n\n[Poetry]\n獨坐幽篁裡\n彈琴復長嘯\n\n[Bridge]\n岩石沒有答案\n卻替天空\n承受了很久的重量\n\n[Final]\n站在這裡\n風會替你說完",
+      "source": "songs/prompts/episode-05/13-black-rock.md"
+    },
+    {
+      "n": "14",
+      "start": 1839,
+      "time": "30:39",
+      "en": "Moon Well",
+      "zh": "月井",
+      "voice": "female",
+      "lyrics": "井裡沒有水\n卻映著一輪月\n我低頭看\n看見天空倒過來\n\n[Verse]\n一顆沙落入井底\n月光碎了一下\n很快又恢復\n像什麼都沒有發生\n我問井\n井只把星光還我\n\n[Refrain]\n月在下面\n夜在上面\n哪一邊才是真的\n月在下面\n不要回答\n讓倒影保持完整\n\n[Poetry]\n海上生明月\n天涯共此時\n\n[Bridge]\n如果我伸手\n能不能碰到天\n如果我沉默\n能不能聽見水\n\n[Final]\n月在下面\n夜在上面\n我站在中間",
+      "source": "songs/prompts/episode-05/14-moon-well.md"
+    },
+    {
+      "n": "15",
+      "start": 2002,
+      "time": "33:22",
+      "en": "Far Caravan",
+      "zh": "遠行隊",
+      "voice": "male",
+      "lyrics": "遠方的駝鈴\n一聲一聲靠近\n又一聲一聲離開\n沙丘沒有留下路\n\n[Verse]\n遮燈在黑裡晃動\n布篷收著風\n每一個影子\n都向同一個方向傾斜\n卻沒有誰\n說出終點\n\n[Refrain — 6/8 sway]\n走吧\n走得慢一點\n走吧\n不要驚動夜色\n走吧\n遠方會自己靠近\n\n[Poetry]\n大漠孤煙直\n長河落日圓\n\n[Bridge]\n每一盞遮燈\n都藏著一個方向\n每一個方向\n都還沒有抵達\n\n[Final]\n走吧\n鈴聲還在\n走吧\n天還很遠",
+      "source": "songs/prompts/episode-05/15-far-caravan.md"
+    },
+    {
+      "n": "16",
+      "start": 2125,
+      "time": "35:25",
+      "en": "Blue Horizon",
+      "zh": "藍地平線",
+      "voice": "duet",
+      "lyrics": "[Female] 地平線開始變藍\n[Male] 星光慢慢退後\n[Both] 夜不是消失\n只是換了顏色\n\n[Verse]\n[Female] 沙丘的邊緣變柔\n[Male] 遠塔開始有形\n[Female] 風從冷變薄\n[Male] 天從黑變深\n\n[Refrain]\n再留一會\n讓藍色完成\n再留一會\n讓風安靜\n再留一會\n不要急著迎接白天\n\n[Poetry]\n海日生殘夜\n江春入舊年\n\n[Bridge]\n[Female] 天快亮了\n[Male] 還沒有\n[Both] 那就再聽一段風\n\n[Final]\n地平線變藍\n兩個聲音變近\n黎明還未命名",
+      "source": "songs/prompts/episode-05/16-blue-horizon.md"
+    },
+    {
+      "n": "17",
+      "start": 2264,
+      "time": "37:44",
+      "en": "Paper Telescope",
+      "zh": "紙望遠鏡",
+      "voice": "female",
+      "lyrics": "孩子留下的紙望遠鏡\n放在觀測室角落\n看不見星星\n卻能看見想像\n\n[Verse]\n紙邊有一點摺痕\n像小小的山\n藍色鉛筆畫出的月\n比真的月更近\n我把眼睛靠上去\n世界突然變窄\n\n[Refrain]\n看遠一點\n再遠一點\n讓不能抵達的地方\n靠近一點\n看遠一點\n讓夢保留形狀\n\n[Poetry]\n兒童急走追黃蝶\n飛入菜花無處尋\n\n[Bridge]\n紙會軟\n夜會深\n但眼睛仍然\n願意向上\n\n[Final]\n看遠一點\n第一顆星\n已經在裡面",
+      "source": "songs/prompts/episode-05/17-paper-telescope.md"
+    },
+    {
+      "n": "18",
+      "start": 2412,
+      "time": "40:12",
+      "en": "Cold Fire",
+      "zh": "冷火",
+      "voice": "male",
+      "lyrics": "爐火已經很低\n灰裡還藏著紅\n我用鐵枝撥一下\n夜就亮了一小塊\n\n[Verse]\n柴火的香\n停在厚外套上\n手指靠近時\n冷先退半步\n我沒有說話\n火也沒有\n\n[Refrain]\n別熄滅\n讓最後的熱\n多留一會\n別熄滅\n天還很冷\n別熄滅\n讓黑暗有一個中心\n\n[Poetry]\n野火燒不盡\n春風吹又生\n\n[Bridge — warm harmonic change]\n火不需要回答\n它只需要\n在黑裡保持呼吸\n\n[Final]\n別熄滅\n灰裡還有紅\n紅裡還有天亮",
+      "source": "songs/prompts/episode-05/18-cold-fire.md"
+    },
+    {
+      "n": "19",
+      "start": 2587,
+      "time": "43:07",
+      "en": "Before Sunrise",
+      "zh": "日出前",
+      "voice": "duet",
+      "lyrics": "[Female] 沙丘的邊緣變柔\n[Male] 遠山開始有形\n[Both] 日出之前\n所有東西都還很輕\n\n[Verse]\n[Female] 我收起最後一張星圖\n[Male] 我關掉訊號屋的藍光\n[Female] 風塔慢慢停止\n[Male] 沙面交出昨夜的腳印\n\n[Refrain]\n慢慢亮\n不要一次亮完\n慢慢亮\n讓世界準備好\n慢慢亮\n讓我們看清彼此\n\n[Poetry]\n白日依山盡\n黃河入海流\n\n[Bridge]\n[Female] 你要留下嗎\n[Male] 留到天亮\n[Female] 天亮以後呢\n[Male] 再各自走向白天\n\n[Final — voices finally join]\n慢慢亮\n天空有了方向\n慢慢亮\n我們不急著告別",
+      "source": "songs/prompts/episode-05/19-before-sunrise.md"
+    },
+    {
+      "n": "20",
+      "start": 2741,
+      "time": "45:41",
+      "en": "The Last Star",
+      "zh": "最後一顆星",
+      "voice": "female with faint male harmony at ending",
+      "lyrics": "[Intro — 30 seconds instrumental]\n\n最後一顆星\n還在穹頂邊緣\n風塔停了\n沙也停了\n\n[Verse 1]\n觀測室收起星圖\n鉛筆放回桌上\n訊號屋的藍光\n慢慢變成白\n整片沙漠\n等待第一聲鳥\n\n[Refrain]\n不要急著告別\n讓最後的星\n再亮一會\n不要急著告別\n夜還留著餘溫\n\n[Poetry]\n不知江月待何人\n但見長江送流水\n\n[Bridge — very soft]\n我曾經問過天空\n路在什麼地方\n天空沒有回答\n只把光\n放在我面前\n\n[Final]\n最後一顆星\n慢慢退到天邊\n最後一顆星\n把夜交給清晨\n[Male harmony — last line only]\n交給清晨\n\n[Extended instrumental outro — 35 seconds]",
+      "source": "songs/prompts/episode-05/20-the-last-star.md"
+    }
+  ],
+  "warnings": [],
+  "lyricsSource": "songs/prompts/episode-05/*.md"
+}

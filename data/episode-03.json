@@ -1,0 +1,155 @@
+{
+  "episode": 3,
+  "slug": "mountain-temple-afternoon",
+  "title": {
+    "en": "Mountain Temple Afternoon",
+    "zh": "山寺午後"
+  },
+  "logline": "An afternoon at a mountain temple: incense thin, stone warm, time unhurried.",
+  "videoId": "v-7rfrzQTfo",
+  "youtubeTitle": "QuietLY · 山寺午後 — Slow Mandarin Jazz",
+  "comics": [
+    {
+      "en": "Incense thins into the pine air.",
+      "zh": "香煙淡進松風。"
+    },
+    {
+      "en": "Stone steps remember every pause.",
+      "zh": "石階記得每一次停頓。"
+    },
+    {
+      "en": "A bell waits without insisting.",
+      "zh": "鐘聲等著，卻不催促。"
+    },
+    {
+      "en": "Afternoon light stays on the courtyard.",
+      "zh": "午後光停在庭中。"
+    }
+  ],
+  "hero": "",
+  "comicImages": [],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "00:00",
+      "en": "Mountain Gate",
+      "zh": "山門",
+      "voice": "soft expressive female vocal",
+      "lyrics": "[Intro — instrumental; do not sing for about 15-25 seconds]\n\n山門的石階很長\n風把樹影放在腳邊\n沒有人催促\n一階\n再一階\n\n[Refrain — leave rests between lines]\n慢慢上去\n不要說話\n慢慢上去\n讓午後停一下\n\n[Instrumental interlude — about 25 seconds]\n\n[Verse 2 — public-domain poetry]\n空山不見人\n但聞人語響\n\n[Original connective lines]\n山門還開著\n午後沒有遠去\n\n[Final — sparse]\n慢慢上去",
+      "source": "songs/prompts/episode-03/01-mountain-gate.md"
+    },
+    {
+      "n": "02",
+      "start": 127,
+      "time": "02:07",
+      "en": "Pine Wind",
+      "zh": "松風",
+      "voice": "soft low male vocal",
+      "lyrics": "[Intro — instrumental; do not sing for about 15-25 seconds]\n\n松風從高處下來\n把鐘聲吹得很淡\n針葉在光裡晃動\n像一句沒說完的話\n\n[Refrain]\n風過來\n又過去\n風過來\n留下安靜\n\n[Instrumental interlude — about 30 seconds]\n\n[Verse 2 — public-domain poetry]\n松風吹解帶\n山月照彈琴\n\n[Original connective lines]\n我站在樹影裡\n聽風把時間撥開\n\n[Outro — short instrumental]",
+      "source": "songs/prompts/episode-03/02-pine-wind.md"
+    },
+    {
+      "n": "03",
+      "start": 228,
+      "time": "03:48",
+      "en": "Tea Smoke",
+      "zh": "茶煙",
+      "voice": "soft expressive female vocal",
+      "lyrics": "[Intro — instrumental; do not sing for about 15-25 seconds]\n\n茶煙升得很慢\n午後的光停在杯邊\n一點香\n散在石桌上\n\n[Refrain]\n別吹散\n讓它再停一會\n別吹散\n讓香留下痕跡\n\n[Instrumental interlude — about 25 seconds]\n\n[Verse 2 — public-domain poetry]\n獨坐幽篁裡\n彈琴復長嘯\n\n[Original connective lines]\n山寺沒有催促\n茶煙替人回答\n\n[Final]\n別吹散",
+      "source": "songs/prompts/episode-03/03-tea-smoke.md"
+    },
+    {
+      "n": "04",
+      "start": 336,
+      "time": "05:36",
+      "en": "Distant Bell",
+      "zh": "遠鐘",
+      "voice": "restrained male/female duet",
+      "lyrics": "[Intro — instrumental; do not sing for about 15-25 seconds]\n\n[Female]\n遠鐘從山後過來\n\n[Male — after silence]\n一下\n又一下\n\n[Both — soft, never a pop chorus]\n不用走近\n也能聽見\n\n[Instrumental interlude — about 30 seconds]\n\n[Verse 2 — public-domain poetry, alternating]\n夜靜春山空\n月出驚山鳥\n\n[Original connective lines]\n兩個聲音\n隔著風回答\n\n[Final — one line each]\n遠鐘\n還在",
+      "source": "songs/prompts/episode-03/04-distant-bell.md"
+    },
+    {
+      "n": "05",
+      "start": 402,
+      "time": "06:42",
+      "en": "Stone Bridge",
+      "zh": "石橋",
+      "voice": "soft low male vocal",
+      "lyrics": "[Intro — instrumental; do not sing for about 15-25 seconds]\n\n石橋跨過淺水\n影子停在石頭上\n水聲很輕\n像有人走過又離開\n\n[Refrain]\n站一會兒\n看水過去\n站一會兒\n不必趕路\n\n[Instrumental interlude — about 30 seconds]\n\n[Verse 2 — public-domain poetry]\n清泉石上流\n明月松間照\n\n[Original connective lines]\n橋上沒有人\n只有風和光\n\n[Outro — instrumental]",
+      "source": "songs/prompts/episode-03/05-stone-bridge.md"
+    },
+    {
+      "n": "06",
+      "start": 519,
+      "time": "08:39",
+      "en": "Hall Clouds",
+      "zh": "殿雲",
+      "voice": "soft expressive female vocal",
+      "lyrics": "[Intro — instrumental; do not sing for about 15-25 seconds]\n\n殿頂的雲很薄\n像一層未乾的墨\n午後還亮著\n卻不刺眼\n\n[Refrain]\n雲過來\n又散開\n雲過來\n留下一點灰藍\n\n[Instrumental interlude — about 25 seconds]\n\n[Verse 2 — public-domain poetry]\n行到水窮處\n坐看雲起時\n\n[Original connective lines]\n我抬頭看一眼\n山把天空放低\n\n[Final]\n雲過來",
+      "source": "songs/prompts/episode-03/06-hall-clouds.md"
+    },
+    {
+      "n": "07",
+      "start": 595,
+      "time": "09:55",
+      "en": "Empty Corridor",
+      "zh": "空廊",
+      "voice": "soft low male vocal",
+      "lyrics": "[Intro — instrumental; do not sing for about 15-25 seconds]\n\n空廊把腳步拉長\n一聲\n就變成兩聲\n灰塵停在木柱上\n沒有人開門\n\n[Refrain]\n慢慢走\n讓回聲自己散\n慢慢走\n不要叫醒午後\n\n[Instrumental interlude — about 30 seconds]\n\n[Verse 2 — public-domain poetry]\n返景入深林\n復照青苔上\n\n[Original connective lines]\n廊外有松風\n廊內有安靜\n\n[Outro]",
+      "source": "songs/prompts/episode-03/07-empty-corridor.md"
+    },
+    {
+      "n": "08",
+      "start": 687,
+      "time": "11:27",
+      "en": "Soft Chant",
+      "zh": "低誦",
+      "voice": "restrained male/female duet",
+      "lyrics": "[Intro — instrumental; do not sing for about 15-25 seconds]\n\n[Female — distant]\n誰在遠處低聲\n\n[Male]\n不是對我說的\n\n[Both — whispered overlap]\n聲音穿過木門\n留下很短的光\n\n[Instrumental interlude — about 25 seconds]\n\n[Verse 2 — public-domain poetry]\n深林人不知\n明月來相照\n\n[Original connective lines]\n兩個人各自聽見\n午後沒有解釋\n\n[Final — one shared soft phrase]\n還在遠處",
+      "source": "songs/prompts/episode-03/08-soft-chant.md"
+    },
+    {
+      "n": "09",
+      "start": 760,
+      "time": "12:40",
+      "en": "Lamp Glow",
+      "zh": "燈影",
+      "voice": "soft expressive female vocal",
+      "lyrics": "[Intro — instrumental; do not sing for about 15-25 seconds]\n\n第一盞燈亮起來\n還沒有到夜\n石階上有一點暖\n像有人剛離開\n\n[Refrain]\n燈影很淡\n卻夠走完這一段\n燈影很淡\n不用照亮整座山\n\n[Instrumental interlude — about 25 seconds]\n\n[Verse 2 — public-domain poetry]\n日暮蒼山遠\n天寒白屋貧\n\n[Original connective lines]\n暮色還沒有來\n燈先替它回答\n\n[Outro — short instrumental]",
+      "source": "songs/prompts/episode-03/09-lamp-glow.md"
+    },
+    {
+      "n": "10",
+      "start": 869,
+      "time": "14:29",
+      "en": "Down the Path",
+      "zh": "下山",
+      "voice": "soft low male vocal",
+      "lyrics": "[Intro — instrumental; do not sing for about 15-25 seconds]\n\n下山的路比上去更靜\n草葉擦過鞋邊\n背後的鐘\n漸漸變小\n\n[Refrain]\n慢慢走\n不必回頭\n慢慢走\n把午後留下\n\n[Instrumental interlude — about 30 seconds]\n\n[Verse 2 — public-domain poetry]\n白雲回望合\n青靄入看無\n\n[Original connective lines]\n山還在身後\n路已經向前\n\n[Final]\n慢慢走",
+      "source": "songs/prompts/episode-03/10-down-the-path.md"
+    },
+    {
+      "n": "11",
+      "start": 1016,
+      "time": "16:56",
+      "en": "Separate Paths",
+      "zh": "各路",
+      "voice": "restrained male/female duet",
+      "lyrics": "[Intro — instrumental; do not sing for about 15-25 seconds]\n\n[Female]\n我向有光的石階\n\n[Male]\n我向沒有鐘的小路\n\n[Female]\n風在身後變小\n\n[Male]\n山在前方變遠\n\n[Both — sparse]\n各路而行\n各自保留午後\n\n[Instrumental interlude — about 30 seconds]\n\n[Verse 2 — public-domain poetry, alternating]\n隨意春芳歇\n王孫自可留\n\n[Original connective lines]\n不用回答\n不用回頭\n\n[Outro — voices overlap once only]\n各路",
+      "source": "songs/prompts/episode-03/11-separate-paths.md"
+    },
+    {
+      "n": "12",
+      "start": 1073,
+      "time": "17:53",
+      "en": "Before Dusk",
+      "zh": "暮前",
+      "voice": "soft expressive female vocal with optional very faint male harmony only at the end",
+      "lyrics": "[Intro — instrumental; do not sing for about 15-25 seconds]\n\n暮色還沒有到\n山把聲音收好\n最後一點茶煙\n散在石階上\n\n[Refrain — one line, then silence]\n不要急著命名夜晚\n\n[Instrumental interlude — about 30 seconds]\n\n[Verse 2 — public-domain poetry]\n江畔何人初見月\n江月何年初照人\n\n[Original connective lines]\n今天還沒有結束\n午後也沒有離開\n\n[Final refrain — female once]\n不要急著命名夜晚\n\n[Instrumental outro — about 25 seconds, no vocal]",
+      "source": "songs/prompts/episode-03/12-before-dusk.md"
+    }
+  ],
+  "warnings": [],
+  "lyricsSource": "songs/prompts/episode-03/*.md"
+}

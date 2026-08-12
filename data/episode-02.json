@@ -1,0 +1,147 @@
+{
+  "episode": 2,
+  "slug": "slow-city-walk",
+  "title": {
+    "en": "Slow City Walk",
+    "zh": "深夜城市慢步行"
+  },
+  "logline": "A quiet walk through the late city. Footsteps soft; neon far.",
+  "videoId": "cTLQp13RwBs",
+  "youtubeTitle": "QuietLY · 深夜城市慢步行 — Slow Mandarin Jazz",
+  "comics": [
+    {
+      "en": "The street empties into longer shadows.",
+      "zh": "街把影子拉長。"
+    },
+    {
+      "en": "Shop lights stay on for no one.",
+      "zh": "店燈還亮，卻不為誰。"
+    },
+    {
+      "en": "Your pace becomes the only tempo.",
+      "zh": "腳步成了唯一的拍子。"
+    },
+    {
+      "en": "The city keeps breathing, quieter.",
+      "zh": "城市還在呼吸，只是更輕。"
+    }
+  ],
+  "hero": "",
+  "comicImages": [],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "00:00",
+      "en": "First Crosswalk",
+      "zh": "初過街",
+      "voice": "female",
+      "lyrics": "[Intro — instrumental; do not sing for 20–35 seconds]\n\n交差燈在零時之後\n一盞一盞換色\n空街把腳步放輕\n誰也不必先到\n\n[Refrain — leave silence between each line]\n慢慢走\n不要驚醒街角\n慢慢走\n讓藍光停在鞋尖\n\n[Instrumental interlude — 45 seconds]\n\n[Verse 2 — public-domain poetry]\n月出驚山鳥\n時鳴春澗中\n\n[Original connective lines]\n遠處車聲很薄\n夜把路口留給風\n\n[Final refrain — sparse]\n慢慢走\n天還沒有亮",
+      "source": "songs/prompts/episode-02/01-first-crosswalk.md"
+    },
+    {
+      "n": "02",
+      "start": 133,
+      "time": "02:13",
+      "en": "River Fog",
+      "zh": "河霧",
+      "voice": "male",
+      "lyrics": "[Intro — instrumental; do not sing for 20–35 seconds]\n\n河霧沿著石階上來\n把橋影藏在水裡\n一艘沒有名字的船\n慢慢離開岸邊\n\n[Refrain — low voice, long rests]\n水不說話\n霧也不說話\n只有遠燈\n在河面呼吸\n\n[Instrumental interlude — 50 seconds]\n\n[Verse 2 — public-domain poetry]\n野曠天低樹\n江清月近人\n\n[Original connective lines]\n今夜的城市很遠\n我把聲音留在橋下\n\n[Outro — no vocal for final 35 seconds]",
+      "source": "songs/prompts/episode-02/02-river-fog.md"
+    },
+    {
+      "n": "03",
+      "start": 266,
+      "time": "04:26",
+      "en": "Blue Tram",
+      "zh": "藍電車",
+      "voice": "female",
+      "lyrics": "[Intro — instrumental; do not sing for 20–35 seconds]\n\n藍色電車穿過霧\n窗上的光一格一格\n有人低頭看書\n有人望著空座\n\n[Refrain — airy, not continuous]\n別急著回家\n讓車再走一站\n別急著回家\n讓夜色再深一點\n\n[Instrumental interlude — 40 seconds]\n\n[Verse 2 — public-domain poetry]\n空山新雨後\n天氣晚來秋\n明月松間照\n清泉石上流\n\n[Original connective lines]\n車輪把月光帶遠\n我只聽見玻璃輕響\n\n[Outro]\n藍色的光\n停在遠方",
+      "source": "songs/prompts/episode-02/03-blue-tram.md"
+    },
+    {
+      "n": "04",
+      "start": 423,
+      "time": "07:03",
+      "en": "Two Empty Streets",
+      "zh": "兩條空街",
+      "voice": "restrained male/female duet",
+      "lyrics": "[Intro — instrumental; do not sing for 20–35 seconds]\n\n[Female — separated phrases]\n左邊的街\n還留著燈\n\n[Male — answer after silence]\n右邊的街\n通向河聲\n\n[Both — very soft, never a pop chorus]\n兩條空街\n各自慢慢走\n兩條空街\n不必相遇\n\n[Instrumental interlude — 55 seconds]\n\n[Verse 2 — public-domain poetry, alternating voices]\n海上生明月\n天涯共此時\n\n[Original connective lines]\n一個向北\n一個向南\n夜把腳步分開\n\n[Final — one line each, then silence]\n左邊的街\n右邊的街",
+      "source": "songs/prompts/episode-02/04-two-empty-streets.md"
+    },
+    {
+      "n": "05",
+      "start": 563,
+      "time": "09:23",
+      "en": "Harbour Water",
+      "zh": "港水",
+      "voice": "male",
+      "lyrics": "[Intro — instrumental; do not sing for 20–35 seconds]\n\n港水碰著黑色石岸\n一下一下\n沒有浪花\n只有低聲的光\n\n[Refrain — almost spoken]\n水向外\n夜向內\n水向外\n我停在中間\n\n[Instrumental interlude — 60 seconds]\n\n[Verse 2 — public-domain poetry]\n星垂平野闊\n月湧大江流\n\n[Original connective lines]\n遠船沒有回音\n碼頭把時間放平\n\n[Outro — instrumental, no vocal]",
+      "source": "songs/prompts/episode-02/05-harbour-water.md"
+    },
+    {
+      "n": "06",
+      "start": 697,
+      "time": "11:37",
+      "en": "Underpass Light",
+      "zh": "橋下微光",
+      "voice": "female",
+      "lyrics": "[Intro — instrumental; do not sing for 20–35 seconds]\n\n橋下的燈很低\n照不到整條路\n風從混凝土之間\n帶來一點草木香\n\n[Refrain — pauses are longer than lines]\n還有一點光\n在腳邊\n還有一點光\n不必說明\n\n[Instrumental interlude — 45 seconds]\n\n[Verse 2 — public-domain poetry]\n明月松間照\n清泉石上流\n\n[Original connective lines]\n車聲從上方經過\n像遠海推開夜色\n\n[Final refrain]\n還有一點光\n就夠走完這一段",
+      "source": "songs/prompts/episode-02/06-underpass-light.md"
+    },
+    {
+      "n": "07",
+      "start": 814,
+      "time": "13:34",
+      "en": "Night Bookshop",
+      "zh": "夜書店",
+      "voice": "male",
+      "lyrics": "[Intro — instrumental; do not sing for 20–35 seconds]\n\n書頁在午夜翻動\n灰塵停在燈下\n一本書沒有名字\n卻替誰保留一行\n\n[Refrain — low, with 2-bar rests]\n翻一頁\n再翻一頁\n讓沒有說完的\n留在紙邊\n\n[Instrumental interlude — 50 seconds]\n\n[Verse 2 — public-domain poetry]\n讀書不覺已春深\n一寸光陰一寸金\n\n[Original connective lines]\n門外的城市很慢\n墨色在指尖變淡\n\n[Outro]\n書頁合上\n街還沒有醒",
+      "source": "songs/prompts/episode-02/07-night-bookshop.md"
+    },
+    {
+      "n": "08",
+      "start": 925,
+      "time": "15:25",
+      "en": "Edge of the City",
+      "zh": "城邊",
+      "voice": "female",
+      "lyrics": "[Intro — instrumental; do not sing for 20–35 seconds]\n\n城邊的風沒有名字\n吹過最後一排房子\n天色還是深藍\n卻有一點暖在遠處\n\n[Refrain — warm but restrained]\n再走一小段\n就能看見天色\n再走一小段\n不用把夜帶走\n\n[Instrumental interlude — 45 seconds]\n\n[Verse 2 — public-domain poetry]\n海日生殘夜\n江春入舊年\n\n[Original connective lines]\n第一盞暖燈亮起\n城市沒有宣布清晨\n\n[Outro — 30 seconds instrumental]",
+      "source": "songs/prompts/episode-02/09-edge-of-the-city.md"
+    },
+    {
+      "n": "09",
+      "start": 1062,
+      "time": "17:42",
+      "en": "Empty Platform",
+      "zh": "空站台",
+      "voice": "male",
+      "lyrics": "[Intro — instrumental; do not sing for 20–35 seconds]\n\n空站台沒有鐘\n霧把線路拉長\n一張椅子面向黑暗\n等一個不必抵達的名字\n\n[Refrain — leave 4 bars between lines]\n還沒到\n還不用走\n還沒到\n讓霧多留一會\n\n[Instrumental interlude — 60 seconds]\n\n[Verse 2 — public-domain poetry]\n枯藤老樹昏鴉\n小橋流水人家\n\n[Original connective lines]\n遠處有車燈經過\n站台仍然沒有回答\n\n[Final — almost spoken]\n還沒到",
+      "source": "songs/prompts/episode-02/10-empty-platform.md"
+    },
+    {
+      "n": "10",
+      "start": 1202,
+      "time": "20:02",
+      "en": "Different Directions",
+      "zh": "各向",
+      "voice": "restrained male/female duet",
+      "lyrics": "[Intro — instrumental; do not sing for 20–35 seconds]\n\n[Female]\n我向有光的地方\n\n[Male]\n我向沒有人的地方\n\n[Female]\n街在身後變小\n\n[Male]\n河在前方變遠\n\n[Both — very sparse]\n各向而行\n各自保留夜色\n\n[Instrumental interlude — 50 seconds]\n\n[Verse 2 — public-domain poetry, alternating]\n行到水窮處\n坐看雲起時\n\n[Original connective lines]\n不用回答\n不用回頭\n兩個方向\n都還安靜\n\n[Outro — voices overlap once only]\n各向",
+      "source": "songs/prompts/episode-02/11-different-directions.md"
+    },
+    {
+      "n": "11",
+      "start": 1276,
+      "time": "21:16",
+      "en": "Before Daybreak",
+      "zh": "黎明前",
+      "voice": "female with very faint male harmony only at the end",
+      "lyrics": "[Intro — instrumental; do not sing for 20–35 seconds]\n\n黎明還在很遠\n城市把聲音收好\n最後一班車離開\n留下慢慢亮的路\n\n[Refrain — one line, then silence]\n不要急著命名清晨\n\n[Instrumental interlude — 60 seconds]\n\n[Verse 2 — public-domain poetry]\n江畔何人初見月\n江月何年初照人\n\n[Original connective lines]\n今天還沒有開始\n夜也沒有結束\n\n[Final refrain — female once, faint male harmony on final word]\n不要急著命名清晨\n\n[Extended instrumental outro — 60 seconds, no vocal]",
+      "source": "songs/prompts/episode-02/12-before-daybreak.md"
+    }
+  ],
+  "warnings": [
+    "unpublished:Distant Broadcast"
+  ],
+  "lyricsSource": "songs/prompts/episode-02/*.md"
+}

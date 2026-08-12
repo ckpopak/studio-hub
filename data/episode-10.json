@@ -1,0 +1,235 @@
+{
+  "episode": 10,
+  "slug": "elevator-between-floors",
+  "title": {
+    "en": "Elevator Between Floors",
+    "zh": "停在半層的電梯"
+  },
+  "logline": "An old-building elevator malfunctions overnight between floors.",
+  "videoId": "b18D6t3gobA",
+  "youtubeTitle": "[playlist] QuietLY · 停在半層的電梯 — Slow Mandarin Jazz for Life’s Helplessness",
+  "comics": [
+    {
+      "en": "The door opens halfway, then thinks.",
+      "zh": "門開一半，又開始想。"
+    },
+    {
+      "en": "Floor numbers blink without landing.",
+      "zh": "樓層數字閃，卻不落地。"
+    },
+    {
+      "en": "An unclaimed umbrella waits politely.",
+      "zh": "一把無主的傘客氣地等。"
+    },
+    {
+      "en": "Between floors, time loosens.",
+      "zh": "半層之間，時間鬆了。"
+    }
+  ],
+  "hero": "",
+  "comicImages": [],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "0:00",
+      "en": "Elevator Door Half Open",
+      "zh": "門開一半",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, room hum]\n\n[Verse 1]\n門開一半，沒有人先出去\n樓層的名字一個一個退後\n有人看著手機\n有人看著自己的手\n沒有人知道\n等待是不是另一種生活\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Verse 2]\n門縫裡有冷白的光\n像一個不肯完成的答案\n我們說著「快好了」\n把明天借來\n再把今天留在半層\n\n[Refrain — quiet, repeat twice]\n上不去\n也下不來\n人生有時只剩\n等門再開\n\n[Poetry]\n人生無根蒂\n飄如陌上塵\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果所有按鍵都失效\n至少還能聽見\n旁邊的人\n也在呼吸\n\n[Final refrain]\n上不去\n也下不來\n把沒完成的一生\n先放在這裡\n\n[Instrumental outro — 35 seconds, no vocal]",
+      "source": "songs/prompts/episode-10/01-elevator-door-half-open.md"
+    },
+    {
+      "n": "02",
+      "start": 208,
+      "time": "3:28",
+      "en": "Ground Floor Button",
+      "zh": "一樓按鍵",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, room hum]\n\n[Verse 1]\n按鍵亮了，樓層卻不肯回答\n樓層的名字一個一個退後\n有人看著手機\n有人看著自己的手\n沒有人知道\n等待是不是另一種生活\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Verse 2]\n門縫裡有冷白的光\n像一個不肯完成的答案\n我們說著「快好了」\n把明天借來\n再把今天留在半層\n\n[Refrain — quiet, repeat twice]\n上不去\n也下不來\n人生有時只剩\n等門再開\n\n[Poetry]\n盛年不重來\n一日難再晨\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果所有按鍵都失效\n至少還能聽見\n旁邊的人\n也在呼吸\n\n[Final refrain]\n上不去\n也下不來\n把沒完成的一生\n先放在這裡\n\n[Instrumental outro — 35 seconds, no vocal]",
+      "source": "songs/prompts/episode-10/02-ground-floor-button.md"
+    },
+    {
+      "n": "03",
+      "start": 411,
+      "time": "6:51",
+      "en": "Floor Display Blinking",
+      "zh": "樓層閃爍",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, room hum]\n\n[Verse 1]\n紅色數字閃一下，又退回原處\n樓層的名字一個一個退後\n有人看著手機\n有人看著自己的手\n沒有人知道\n等待是不是另一種生活\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Verse 2]\n門縫裡有冷白的光\n像一個不肯完成的答案\n我們說著「快好了」\n把明天借來\n再把今天留在半層\n\n[Refrain — quiet, repeat twice]\n上不去\n也下不來\n人生有時只剩\n等門再開\n\n[Poetry]\n世事一場大夢\n人生幾度秋涼\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果所有按鍵都失效\n至少還能聽見\n旁邊的人\n也在呼吸\n\n[Final refrain]\n上不去\n也下不來\n把沒完成的一生\n先放在這裡\n\n[Instrumental outro — 35 seconds, no vocal]",
+      "source": "songs/prompts/episode-10/03-floor-display-blinking.md"
+    },
+    {
+      "n": "04",
+      "start": 614,
+      "time": "10:14",
+      "en": "Maintenance Notice",
+      "zh": "維修告示",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, room hum]\n\n[Verse 1]\n告示說明天修好，明天總是很遠\n樓層的名字一個一個退後\n有人看著手機\n有人看著自己的手\n沒有人知道\n等待是不是另一種生活\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Verse 2]\n門縫裡有冷白的光\n像一個不肯完成的答案\n我們說著「快好了」\n把明天借來\n再把今天留在半層\n\n[Refrain — quiet, repeat twice]\n上不去\n也下不來\n人生有時只剩\n等門再開\n\n[Poetry]\n人有悲歡離合\n月有陰晴圓缺\n\n\n[English — short restrained passage]\nThe light is on, but nothing moves.\nWe are still here, between the floors.\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果所有按鍵都失效\n至少還能聽見\n旁邊的人\n也在呼吸\n\n[Final refrain]\n上不去\n也下不來\n把沒完成的一生\n先放在這裡\n\n[Instrumental outro — 35 seconds, no vocal]",
+      "source": "songs/prompts/episode-10/04-maintenance-notice.md"
+    },
+    {
+      "n": "05",
+      "start": 812,
+      "time": "13:32",
+      "en": "Someone Presses Again",
+      "zh": "又有人按",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, room hum]\n\n[Verse 1]\n有人再按一次，像再求一次原諒\n樓層的名字一個一個退後\n有人看著手機\n有人看著自己的手\n沒有人知道\n等待是不是另一種生活\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Verse 2]\n門縫裡有冷白的光\n像一個不肯完成的答案\n我們說著「快好了」\n把明天借來\n再把今天留在半層\n\n[Refrain — quiet, repeat twice]\n上不去\n也下不來\n人生有時只剩\n等門再開\n\n[Poetry]\n及時當勉勵\n歲月不待人\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果所有按鍵都失效\n至少還能聽見\n旁邊的人\n也在呼吸\n\n[Final refrain]\n上不去\n也下不來\n把沒完成的一生\n先放在這裡\n\n[Instrumental outro — 35 seconds, no vocal]",
+      "source": "songs/prompts/episode-10/05-someone-presses-again.md"
+    },
+    {
+      "n": "06",
+      "start": 1019,
+      "time": "16:59",
+      "en": "Emergency Phone",
+      "zh": "緊急電話",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, room hum]\n\n[Verse 1]\n緊急電話只有自己的回聲\n樓層的名字一個一個退後\n有人看著手機\n有人看著自己的手\n沒有人知道\n等待是不是另一種生活\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Verse 2]\n門縫裡有冷白的光\n像一個不肯完成的答案\n我們說著「快好了」\n把明天借來\n再把今天留在半層\n\n[Refrain — quiet, repeat twice]\n上不去\n也下不來\n人生有時只剩\n等門再開\n\n[Poetry]\n人生無根蒂\n飄如陌上塵\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果所有按鍵都失效\n至少還能聽見\n旁邊的人\n也在呼吸\n\n[Final refrain]\n上不去\n也下不來\n把沒完成的一生\n先放在這裡\n\n[Instrumental outro — 35 seconds, no vocal]",
+      "source": "songs/prompts/episode-10/06-emergency-phone.md"
+    },
+    {
+      "n": "07",
+      "start": 1227,
+      "time": "20:27",
+      "en": "Mirror Without Reflection",
+      "zh": "沒有倒影的鏡",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, room hum]\n\n[Verse 1]\n鏡子裡沒有誰真正留下\n樓層的名字一個一個退後\n有人看著手機\n有人看著自己的手\n沒有人知道\n等待是不是另一種生活\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Verse 2]\n門縫裡有冷白的光\n像一個不肯完成的答案\n我們說著「快好了」\n把明天借來\n再把今天留在半層\n\n[Refrain — quiet, repeat twice]\n上不去\n也下不來\n人生有時只剩\n等門再開\n\n[Poetry]\n譬如朝露\n去日苦多\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果所有按鍵都失效\n至少還能聽見\n旁邊的人\n也在呼吸\n\n[Final refrain]\n上不去\n也下不來\n把沒完成的一生\n先放在這裡\n\n[Instrumental outro — 35 seconds, no vocal]",
+      "source": "songs/prompts/episode-10/07-mirror-without-reflection.md"
+    },
+    {
+      "n": "08",
+      "start": 1435,
+      "time": "23:55",
+      "en": "Between Floors",
+      "zh": "停在半層",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, room hum]\n\n[Verse 1]\n半層的位置，剛好不上不下\n樓層的名字一個一個退後\n有人看著手機\n有人看著自己的手\n沒有人知道\n等待是不是另一種生活\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Verse 2]\n門縫裡有冷白的光\n像一個不肯完成的答案\n我們說著「快好了」\n把明天借來\n再把今天留在半層\n\n[Refrain — quiet, repeat twice]\n上不去\n也下不來\n人生有時只剩\n等門再開\n\n[Poetry]\n此事古難全\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果所有按鍵都失效\n至少還能聽見\n旁邊的人\n也在呼吸\n\n[Final refrain]\n上不去\n也下不來\n把沒完成的一生\n先放在這裡\n\n[Instrumental outro — 35 seconds, no vocal]",
+      "source": "songs/prompts/episode-10/08-between-floors.md"
+    },
+    {
+      "n": "09",
+      "start": 1619,
+      "time": "26:59",
+      "en": "Grocery Bag Handles",
+      "zh": "菜袋提手",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, room hum]\n\n[Verse 1]\n菜袋勒住手指，生活仍然很重\n樓層的名字一個一個退後\n有人看著手機\n有人看著自己的手\n沒有人知道\n等待是不是另一種生活\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Verse 2]\n門縫裡有冷白的光\n像一個不肯完成的答案\n我們說著「快好了」\n把明天借來\n再把今天留在半層\n\n[Refrain — quiet, repeat twice]\n上不去\n也下不來\n人生有時只剩\n等門再開\n\n[Poetry]\n對酒當歌\n人生幾何\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果所有按鍵都失效\n至少還能聽見\n旁邊的人\n也在呼吸\n\n[Final refrain]\n上不去\n也下不來\n把沒完成的一生\n先放在這裡\n\n[Instrumental outro — 35 seconds, no vocal]",
+      "source": "songs/prompts/episode-10/09-grocery-bag-handles.md"
+    },
+    {
+      "n": "10",
+      "start": 1801,
+      "time": "30:01",
+      "en": "The Longest Minute",
+      "zh": "最長的一分鐘",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, room hum]\n\n[Verse 1]\n一分鐘長得足夠想完一生\n樓層的名字一個一個退後\n有人看著手機\n有人看著自己的手\n沒有人知道\n等待是不是另一種生活\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Verse 2]\n門縫裡有冷白的光\n像一個不肯完成的答案\n我們說著「快好了」\n把明天借來\n再把今天留在半層\n\n[Refrain — quiet, repeat twice]\n上不去\n也下不來\n人生有時只剩\n等門再開\n\n[Poetry]\n人生無根蒂\n飄如陌上塵\n盛年不重來\n一日難再晨\n世事一場大夢\n人生幾度秋涼\n人有悲歡離合\n月有陰晴圓缺\n\n\n[English — short restrained passage]\nThe light is on, but nothing moves.\nWe are still here, between the floors.\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果所有按鍵都失效\n至少還能聽見\n旁邊的人\n也在呼吸\n\n[Final refrain]\n上不去\n也下不來\n把沒完成的一生\n先放在這裡\n\n[Instrumental outro — 35 seconds, no vocal]",
+      "source": "songs/prompts/episode-10/10-the-longest-minute.md"
+    },
+    {
+      "n": "11",
+      "start": 2034,
+      "time": "33:54",
+      "en": "Stairwell Light",
+      "zh": "樓梯間燈",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, room hum]\n\n[Verse 1]\n樓梯燈亮著，出口不等於自由\n樓層的名字一個一個退後\n有人看著手機\n有人看著自己的手\n沒有人知道\n等待是不是另一種生活\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Verse 2]\n門縫裡有冷白的光\n像一個不肯完成的答案\n我們說著「快好了」\n把明天借來\n再把今天留在半層\n\n[Refrain — quiet, repeat twice]\n上不去\n也下不來\n人生有時只剩\n等門再開\n\n[Poetry]\n此事古難全\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果所有按鍵都失效\n至少還能聽見\n旁邊的人\n也在呼吸\n\n[Final refrain]\n上不去\n也下不來\n把沒完成的一生\n先放在這裡\n\n[Instrumental outro — 35 seconds, no vocal]",
+      "source": "songs/prompts/episode-10/11-stairwell-light.md"
+    },
+    {
+      "n": "12",
+      "start": 2237,
+      "time": "37:17",
+      "en": "A Door That Won’t Open",
+      "zh": "打不開的門",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, room hum]\n\n[Verse 1]\n門縫外有聲音，卻沒有門把\n樓層的名字一個一個退後\n有人看著手機\n有人看著自己的手\n沒有人知道\n等待是不是另一種生活\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Verse 2]\n門縫裡有冷白的光\n像一個不肯完成的答案\n我們說著「快好了」\n把明天借來\n再把今天留在半層\n\n[Refrain — quiet, repeat twice]\n上不去\n也下不來\n人生有時只剩\n等門再開\n\n[Poetry]\n及時當勉勵\n歲月不待人\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果所有按鍵都失效\n至少還能聽見\n旁邊的人\n也在呼吸\n\n[Final refrain]\n上不去\n也下不來\n把沒完成的一生\n先放在這裡\n\n[Instrumental outro — 35 seconds, no vocal]",
+      "source": "songs/prompts/episode-10/12-door-wont-open.md"
+    },
+    {
+      "n": "13",
+      "start": 2441,
+      "time": "40:41",
+      "en": "The Unclaimed Umbrella",
+      "zh": "無人認領的傘",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, room hum]\n\n[Verse 1]\n傘被遺下，雨已經不再重要\n樓層的名字一個一個退後\n有人看著手機\n有人看著自己的手\n沒有人知道\n等待是不是另一種生活\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Verse 2]\n門縫裡有冷白的光\n像一個不肯完成的答案\n我們說著「快好了」\n把明天借來\n再把今天留在半層\n\n[Refrain — quiet, repeat twice]\n上不去\n也下不來\n人生有時只剩\n等門再開\n\n[Poetry]\n譬如朝露\n去日苦多\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果所有按鍵都失效\n至少還能聽見\n旁邊的人\n也在呼吸\n\n[Final refrain]\n上不去\n也下不來\n把沒完成的一生\n先放在這裡\n\n[Instrumental outro — 35 seconds, no vocal]",
+      "source": "songs/prompts/episode-10/13-unclaimed-umbrella.md"
+    },
+    {
+      "n": "14",
+      "start": 2641,
+      "time": "44:01",
+      "en": "Voices Through Concrete",
+      "zh": "牆裡的人聲",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, room hum]\n\n[Verse 1]\n牆那邊有人說話，牆這邊沒人回答\n樓層的名字一個一個退後\n有人看著手機\n有人看著自己的手\n沒有人知道\n等待是不是另一種生活\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Verse 2]\n門縫裡有冷白的光\n像一個不肯完成的答案\n我們說著「快好了」\n把明天借來\n再把今天留在半層\n\n[Refrain — quiet, repeat twice]\n上不去\n也下不來\n人生有時只剩\n等門再開\n\n[Poetry]\n人有悲歡離合\n月有陰晴圓缺\n\n\n[English — short restrained passage]\nThe light is on, but nothing moves.\nWe are still here, between the floors.\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果所有按鍵都失效\n至少還能聽見\n旁邊的人\n也在呼吸\n\n[Final refrain]\n上不去\n也下不來\n把沒完成的一生\n先放在這裡\n\n[Instrumental outro — 35 seconds, no vocal]",
+      "source": "songs/prompts/episode-10/14-voices-through-concrete.md"
+    },
+    {
+      "n": "15",
+      "start": 2855,
+      "time": "47:35",
+      "en": "Going Down Slowly",
+      "zh": "慢慢下降",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, room hum]\n\n[Verse 1]\n下降很慢，像放下也需要時間\n樓層的名字一個一個退後\n有人看著手機\n有人看著自己的手\n沒有人知道\n等待是不是另一種生活\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Verse 2]\n門縫裡有冷白的光\n像一個不肯完成的答案\n我們說著「快好了」\n把明天借來\n再把今天留在半層\n\n[Refrain — quiet, repeat twice]\n上不去\n也下不來\n人生有時只剩\n等門再開\n\n[Poetry]\n對酒當歌\n人生幾何\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果所有按鍵都失效\n至少還能聽見\n旁邊的人\n也在呼吸\n\n[Final refrain]\n上不去\n也下不來\n把沒完成的一生\n先放在這裡\n\n[Instrumental outro — 35 seconds, no vocal]",
+      "source": "songs/prompts/episode-10/15-going-down-slowly.md"
+    },
+    {
+      "n": "16",
+      "start": 3047,
+      "time": "50:47",
+      "en": "The Wrong Floor",
+      "zh": "錯的樓層",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, room hum]\n\n[Verse 1]\n走錯樓層，仍要重新按門鈴\n樓層的名字一個一個退後\n有人看著手機\n有人看著自己的手\n沒有人知道\n等待是不是另一種生活\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Verse 2]\n門縫裡有冷白的光\n像一個不肯完成的答案\n我們說著「快好了」\n把明天借來\n再把今天留在半層\n\n[Refrain — quiet, repeat twice]\n上不去\n也下不來\n人生有時只剩\n等門再開\n\n[Poetry]\n盛年不重來\n一日難再晨\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果所有按鍵都失效\n至少還能聽見\n旁邊的人\n也在呼吸\n\n[Final refrain]\n上不去\n也下不來\n把沒完成的一生\n先放在這裡\n\n[Instrumental outro — 35 seconds, no vocal]",
+      "source": "songs/prompts/episode-10/16-wrong-floor.md"
+    },
+    {
+      "n": "17",
+      "start": 3266,
+      "time": "54:26",
+      "en": "Morning Repair Crew",
+      "zh": "清晨維修工",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, room hum]\n\n[Verse 1]\n清晨有人來修機器，沒有人修昨天\n樓層的名字一個一個退後\n有人看著手機\n有人看著自己的手\n沒有人知道\n等待是不是另一種生活\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Verse 2]\n門縫裡有冷白的光\n像一個不肯完成的答案\n我們說著「快好了」\n把明天借來\n再把今天留在半層\n\n[Refrain — quiet, repeat twice]\n上不去\n也下不來\n人生有時只剩\n等門再開\n\n[Poetry]\n世事一場大夢\n人生幾度秋涼\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果所有按鍵都失效\n至少還能聽見\n旁邊的人\n也在呼吸\n\n[Final refrain]\n上不去\n也下不來\n把沒完成的一生\n先放在這裡\n\n[Instrumental outro — 35 seconds, no vocal]",
+      "source": "songs/prompts/episode-10/17-morning-repair-crew.md"
+    },
+    {
+      "n": "18",
+      "start": 3463,
+      "time": "57:43",
+      "en": "Nothing to Report",
+      "zh": "無事可報",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, room hum]\n\n[Verse 1]\n報表寫著無事，心裡卻堆滿故障\n樓層的名字一個一個退後\n有人看著手機\n有人看著自己的手\n沒有人知道\n等待是不是另一種生活\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Verse 2]\n門縫裡有冷白的光\n像一個不肯完成的答案\n我們說著「快好了」\n把明天借來\n再把今天留在半層\n\n[Refrain — quiet, repeat twice]\n上不去\n也下不來\n人生有時只剩\n等門再開\n\n[Poetry]\n人生無根蒂\n飄如陌上塵\n\n\n[English — short restrained passage]\nThe light is on, but nothing moves.\nWe are still here, between the floors.\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果所有按鍵都失效\n至少還能聽見\n旁邊的人\n也在呼吸\n\n[Final refrain]\n上不去\n也下不來\n把沒完成的一生\n先放在這裡\n\n[Instrumental outro — 35 seconds, no vocal]",
+      "source": "songs/prompts/episode-10/18-nothing-to-report.md"
+    },
+    {
+      "n": "19",
+      "start": 3678,
+      "time": "1:01:18",
+      "en": "Doors Open at Last",
+      "zh": "終於開門",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, room hum]\n\n[Verse 1]\n門終於開了，外面不是答案\n樓層的名字一個一個退後\n有人看著手機\n有人看著自己的手\n沒有人知道\n等待是不是另一種生活\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Verse 2]\n門縫裡有冷白的光\n像一個不肯完成的答案\n我們說著「快好了」\n把明天借來\n再把今天留在半層\n\n[Refrain — quiet, repeat twice]\n上不去\n也下不來\n人生有時只剩\n等門再開\n\n[Poetry]\n此事古難全\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果所有按鍵都失效\n至少還能聽見\n旁邊的人\n也在呼吸\n\n[Final refrain]\n上不去\n也下不來\n把沒完成的一生\n先放在這裡\n\n[Instrumental outro — 35 seconds, no vocal]",
+      "source": "songs/prompts/episode-10/19-doors-open-at-last.md"
+    },
+    {
+      "n": "20",
+      "start": 3861,
+      "time": "1:04:21",
+      "en": "Still Between Floors",
+      "zh": "仍停在半層",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 30 seconds, piano, upright bass, room hum]\n\n[Verse 1]\n電梯還停著，人生也沒有真正抵達\n樓層的名字一個一個退後\n有人看著手機\n有人看著自己的手\n沒有人知道\n等待是不是另一種生活\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Verse 2]\n門縫裡有冷白的光\n像一個不肯完成的答案\n我們說著「快好了」\n把明天借來\n再把今天留在半層\n\n[Refrain — quiet, repeat twice]\n上不去\n也下不來\n人生有時只剩\n等門再開\n\n[Poetry]\n人生無根蒂\n飄如陌上塵\n盛年不重來\n一日難再晨\n世事一場大夢\n人生幾度秋涼\n人有悲歡離合\n月有陰晴圓缺\n\n\n[English — short restrained passage]\nThe light is on, but nothing moves.\nWe are still here, between the floors.\n\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果所有按鍵都失效\n至少還能聽見\n旁邊的人\n也在呼吸\n\n[Final refrain]\n上不去\n也下不來\n把沒完成的一生\n先放在這裡\n\n[Instrumental outro — 35 seconds, no vocal]",
+      "source": "songs/prompts/episode-10/20-still-between-floors.md"
+    }
+  ],
+  "warnings": [],
+  "lyricsSource": "songs/prompts/episode-10/*.md"
+}

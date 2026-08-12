@@ -1,0 +1,235 @@
+{
+  "episode": 7,
+  "slug": "fog-hot-spring-inn",
+  "title": {
+    "en": "Fog Hot-Spring Inn",
+    "zh": "霧中溫泉旅舍"
+  },
+  "logline": "A fog hot-spring inn: stone lanterns, steam, evening softened.",
+  "videoId": "NStii_nHSiw",
+  "youtubeTitle": "[playlist] QuietLY · 霧中溫泉旅舍 — Slow Mandarin Jazz for Quiet Evenings",
+  "comics": [
+    {
+      "en": "Stone lanterns invent a path.",
+      "zh": "石燈籠發明小路。"
+    },
+    {
+      "en": "Steam edits the edges of the world.",
+      "zh": "蒸汽改寫世界的邊緣。"
+    },
+    {
+      "en": "Wooden corridors remember wet feet.",
+      "zh": "木廊記得濕腳步。"
+    },
+    {
+      "en": "Fog keeps every goodbye unfinished.",
+      "zh": "霧讓每句再見都不完整。"
+    }
+  ],
+  "hero": "",
+  "comicImages": [],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "00:00",
+      "en": "Stone Lantern Path",
+      "zh": "石燈小徑",
+      "voice": "female",
+      "lyrics": "石燈一盞一盞\n把霧路照得很短\n木屐聲很輕\n像怕吵醒泉水\n\n[Verse 1]\n我沿著石徑走\n燈火停在腰際\n霧從山腰下來\n把遠處的名字收掉\n只留下眼前三步\n\n[Refrain — rise gently]\n慢慢走\n不要急著找門\n慢慢走\n讓蒸汽先認你\n慢慢走\n夜還溫著\n\n[Poetry]\n山氣日夕佳\n飛鳥相與還\n\n[Bridge — almost spoken]\n如果霧是一扇門\n我就不必推開\n只把呼吸放慢\n讓熱氣自己領路\n\n[Final]\n慢慢走\n石燈還亮著\n旅舍不遠",
+      "source": "songs/prompts/episode-07/01-stone-lantern-path.md"
+    },
+    {
+      "n": "02",
+      "start": 153,
+      "time": "02:33",
+      "en": "Steam Curtain",
+      "zh": "蒸汽簾",
+      "voice": "male",
+      "lyrics": "蒸汽像一層簾\n把浴室和夜隔開\n我站在簾外\n熱氣先碰到臉\n\n[Verse]\n簾後面有水聲\n很輕\n像有人剛離開\n又像從來沒有人\n只有溫度在說話\n\n[Refrain]\n掀開一點\n不必全開\n掀開一點\n讓夜進來一半\n掀開一點\n蒸汽會自己合上\n\n[Poetry]\n綠蟻新醅酒\n紅泥小火爐\n\n[Bridge]\n我把手伸進簾裡\n指尖先暖起來\n再把整個人\n慢慢交給霧\n\n[Final]\n掀開一點\n蒸汽簾還在\n夜不會急",
+      "source": "songs/prompts/episode-07/02-steam-curtain.md"
+    },
+    {
+      "n": "03",
+      "start": 302,
+      "time": "05:02",
+      "en": "Wooden Bath",
+      "zh": "木浴槽",
+      "voice": "female",
+      "lyrics": "木浴槽盛滿熱泉\n木紋被水擦亮\n我坐進去\n像坐進一個慢下來的句子\n\n[Verse]\n水面輕輕晃\n蒸汽貼著臉頰\n肩膀沉下去\n白天的路\n被熱水一一解開\n\n[Refrain — sway]\n沉一下\n讓木頭抱住你\n沉一下\n讓礦泉說話\n沉一下\n時間會變軟\n\n[Poetry]\n獨坐幽篁裡\n彈琴復長嘯\n\n[Bridge]\n如果疲倦有形狀\n此刻它正化開\n從指尖\n到更深的地方\n\n[Final]\n沉一下\n木浴槽還熱\n霧還低",
+      "source": "songs/prompts/episode-07/03-wooden-bath.md"
+    },
+    {
+      "n": "04",
+      "start": 448,
+      "time": "07:28",
+      "en": "Two Soft Towels",
+      "zh": "兩條軟巾",
+      "voice": "restrained male/female duet",
+      "lyrics": "木架上兩條軟巾\n並排掛著\n像兩個還沒決定\n要不要靠近的夜晚\n\n[Verse — alternating]\n[Female] 我的巾還有熱氣\n[Male] 我的巾已經半乾\n[Female] 我們沒有交談\n[Male] 只是同時休息\n\n[Refrain]\n兩條巾\n不必交換\n兩條巾\n各自暖著就夠\n兩條巾\n把安靜分給彼此\n\n[Poetry]\n海上生明月\n天涯共此時\n\n[Bridge — soft]\n[Both] 不用疊在一起\n[Both] 不用證明誰先到\n只要木架還在\n霧就還溫柔\n\n[Final]\n兩條軟巾\n輕輕晃一下\n又靜下去",
+      "source": "songs/prompts/episode-07/04-two-soft-towels.md"
+    },
+    {
+      "n": "05",
+      "start": 552,
+      "time": "09:12",
+      "en": "Mineral Scent",
+      "zh": "礦泉香",
+      "voice": "male",
+      "lyrics": "空氣裡有礦泉的氣味\n像石頭被熱水喚醒\n不甜\n卻讓人安心\n\n[Verse]\n我吸一口氣\n味道停在舌尖後面\n像遠路留下的證明\n又像身體\n終於肯鬆開\n\n[Refrain]\n聞一下\n不必命名\n聞一下\n讓氣味帶路\n聞一下\n夜會變得誠實\n\n[Poetry]\n空山不見人\n但聞人語響\n\n[Bridge — half spoken]\n這不是香水\n是地底慢慢送來的問候\n我收下\n不再趕路\n\n[Final]\n聞一下\n礦泉香還在\n霧還沒散",
+      "source": "songs/prompts/episode-07/05-mineral-scent.md"
+    },
+    {
+      "n": "06",
+      "start": 706,
+      "time": "11:46",
+      "en": "Fogged Mirror",
+      "zh": "霧鏡",
+      "voice": "female",
+      "lyrics": "鏡子被蒸汽蒙住\n只剩一個模糊的輪廓\n我看不清楚自己\n反而鬆了一口氣\n\n[Verse]\n指尖在鏡上畫過\n留下一行短暫的字\n很快又被霧蓋住\n像不想被記住的心事\n\n[Refrain]\n擦一下\n不必擦乾淨\n擦一下\n留下一點模糊\n擦一下\n讓臉慢慢回來\n\n[Poetry]\n行到水窮處\n坐看雲起時\n\n[Bridge]\n如果真相需要清楚\n此刻我寧可慢一點\n先讓熱氣\n替我遮住疲倦\n\n[Final]\n擦一下\n霧鏡還暖\n字會自己淡去",
+      "source": "songs/prompts/episode-07/06-fogged-mirror.md"
+    },
+    {
+      "n": "07",
+      "start": 865,
+      "time": "14:25",
+      "en": "Inn Corridor",
+      "zh": "旅舍長廊",
+      "voice": "male",
+      "lyrics": "長廊鋪著舊榻榻米\n燈很低\n我赤腳走過\n木地板回了一聲輕響\n\n[Verse — half spoken]\n房門一扇一扇關著\n走廊卻醒著\n遠處有水聲\n像整座旅舍\n還在慢慢呼吸\n\n[Refrain]\n走一下\n不必敲門\n走一下\n讓長廊記住腳溫\n走一下\n夜還夠長\n\n[Poetry]\n月出驚山鳥\n時鳴春澗中\n\n[Bridge]\n如果回家需要手續\n那就把鞋放整齊\n把聲音放輕\n把白天留在門外\n\n[Final]\n走一下\n長廊還暖\n門還沒鎖",
+      "source": "songs/prompts/episode-07/07-inn-corridor.md"
+    },
+    {
+      "n": "08",
+      "start": 1007,
+      "time": "16:47",
+      "en": "Night Attendant",
+      "zh": "夜侍者",
+      "voice": "restrained male/female duet",
+      "lyrics": "夜侍者端來溫水\n脚步比蒸汽還輕\n沒有多餘的話\n只把杯子放穩\n\n[Verse — parallel]\n[Female] 她調整紙燈亮度\n[Male] 他把木門輕輕合上\n[Female] 沒有人催促入睡\n[Male] 也沒有人催促天亮\n\n[Refrain]\n輕輕做\n不要吵醒泉水\n輕輕做\n讓旅客自己慢\n輕輕做\n夜也要被照顧\n\n[Poetry]\n深林人不知\n明月來相照\n\n[Bridge — both]\n我們不是主人\n只是路過的投宿者\n卻學會了\n把毛巾折回原位\n\n[Final]\n輕輕做\n溫水還冒著氣\n又靜下去",
+      "source": "songs/prompts/episode-07/08-night-attendant.md"
+    },
+    {
+      "n": "09",
+      "start": 1133,
+      "time": "18:53",
+      "en": "Warm Clay Cup",
+      "zh": "溫陶杯",
+      "voice": "female",
+      "lyrics": "陶杯捧在掌心\n熱慢慢傳過來\n沒有酒名\n只有溫度\n\n[Verse]\n我喝一小口\n霧在窗外移動\n杯沿留下指紋\n像給夜晚\n一個很小的簽名\n\n[Refrain]\n捧一下\n不要喝太快\n捧一下\n讓熱留在手裡\n捧一下\n再把夜還給山\n\n[Poetry]\n春眠不覺曉\n處處聞啼鳥\n\n[Bridge — silence between lines]\n我停住呼吸\n聽杯裡極細的聲音\n那一點溫\n比話更清楚\n\n[Final]\n捧一下\n陶杯還熱\n霧還沒醒",
+      "source": "songs/prompts/episode-07/09-warm-clay-cup.md"
+    },
+    {
+      "n": "10",
+      "start": 1266,
+      "time": "21:06",
+      "en": "Snowmelt Drip",
+      "zh": "融雪滴",
+      "voice": "male",
+      "lyrics": "屋簷融雪一滴一滴\n落進石槽\n不是雨\n是山慢慢鬆開的手\n\n[Verse — short phrases]\n滴一下\n停一下\n再滴\n熱泉在裡面\n雪在外面\n\n[Refrain]\n聽一下\n不必趕路\n聽一下\n讓水自己對答\n聽一下\n夜還夠慢\n\n[Poetry]\n床前明月光\n疑是地上霜\n\n[Bridge]\n如果季節有縫隙\n我就住在滴與滴之間\n不被融化趕上\n也不被寒冷推走\n\n[Final — soft, then long instrumental]\n聽一下\n融雪還在滴",
+      "source": "songs/prompts/episode-07/10-snowmelt-drip.md"
+    },
+    {
+      "n": "11",
+      "start": 1344,
+      "time": "22:24",
+      "en": "Empty Yukata Hook",
+      "zh": "空浴衣鉤",
+      "voice": "female",
+      "lyrics": "牆上的鉤是空的\n浴衣剛被拿走\n木香還在\n像人剛轉過走廊\n\n[Verse]\n鉤上留著一點溫\n也許是錯覺\n也許是布料\n把體溫交給了夜\n我沒有追問\n\n[Refrain]\n空一下\n不必掛滿\n空一下\n讓位子留給回來的人\n空一下\n旅舍會記住\n\n[Poetry]\n白日依山盡\n黃河入海流\n\n[Bridge — almost spoken]\n這裡曾經掛滿足音\n此刻只剩鉤\n和還沒冷卻的木牆\n\n[Final]\n空一下\n鉤還在等\n不必著急",
+      "source": "songs/prompts/episode-07/11-empty-yukata-hook.md"
+    },
+    {
+      "n": "12",
+      "start": 1458,
+      "time": "24:18",
+      "en": "Paper Screen Glow",
+      "zh": "紙障微光",
+      "voice": "restrained male/female duet",
+      "lyrics": "紙障透出極淡的光\n影子隔著一層溫柔\n看不清面孔\n卻知道有人醒著\n\n[Verse]\n[Male] 我看見燈光移動\n[Female] 我聽見水聲很近\n[Male] 紙門沒有推開\n[Female] 夜已經夠近了\n\n[Refrain]\n亮一點\n只要一點\n亮一點\n讓紙張呼吸\n亮一點\n再把說話放下\n\n[Poetry]\n野火燒不盡\n春風吹又生\n\n[Bridge — both]\n我們不是在窺探\n只是在借光\n確認\n這座旅舍還醒著\n\n[Final]\n紙障微光\n停在某一格\n還沒暗下去",
+      "source": "songs/prompts/episode-07/12-paper-screen-glow.md"
+    },
+    {
+      "n": "13",
+      "start": 1559,
+      "time": "25:59",
+      "en": "Mountain Fog Soft",
+      "zh": "山霧輕",
+      "voice": "male",
+      "lyrics": "山霧輕輕壓下來\n不是威脅\n只是把遠景收進袖口\n溫泉腳下的石\n仍舊溫熱\n\n[Verse]\n我數到第二層霧\n就不再數\n讓山自己靠近\n我繼續停在熱氣裡\n\n[Refrain]\n看一下\n不必望遠\n看一下\n讓霧自己走\n看一下\n水比山更近\n\n[Poetry]\n更深月色半人家\n北斗闌干南斗斜\n\n[Bridge]\n這不是寺廟的山\n只是投宿的夜\n隔著蒸汽\n變得很軟\n\n[Final]\n看一下\n山霧遠了\n熱還近",
+      "source": "songs/prompts/episode-07/13-mountain-fog-soft.md"
+    },
+    {
+      "n": "14",
+      "start": 1714,
+      "time": "28:34",
+      "en": "Lost Slippers",
+      "zh": "失落拖鞋",
+      "voice": "female",
+      "lyrics": "一隻拖鞋停在廊角\n另一隻不在\n像一個未完成的腳步\n被霧接住了\n\n[Verse]\n我把它擺正\n看見鞋底還濕\n寫著剛從浴室回來\n卻忘了\n另一半去哪\n\n[Refrain]\n放回去\n放回成雙的位置\n放回去\n讓約定繼續有效\n放回去\n不必找到主人\n\n[Poetry]\n曾經滄海難為水\n除卻巫山不是雲\n\n[Bridge]\n如果遺忘也有形狀\n大概就是這隻拖鞋\n輕\n卻指著重要的方向\n\n[Final]\n放回去\n夜還等得起\n霧也是",
+      "source": "songs/prompts/episode-07/14-lost-slippers.md"
+    },
+    {
+      "n": "15",
+      "start": 1841,
+      "time": "30:41",
+      "en": "Far Hot Spring",
+      "zh": "遠湯",
+      "voice": "male",
+      "lyrics": "更遠還有一處湯\n隔著竹籬與霧\n蒸汽比這邊更淡\n像專門留給慢的人\n\n[Verse]\n我沒有立刻走過去\n先聽水聲\n再看石燈\n遠湯不會消失\n只是把路拉長\n\n[Refrain]\n過去吧\n不必急著浸泡\n過去吧\n讓霧先帶路\n過去吧\n熱會自己靠近\n\n[Poetry]\n欲窮千里目\n更上一層樓\n\n[Bridge]\n我扶著竹籬\n聽見自己的呼吸\n近處的湯\n像很多小小的港口\n只是沒有海\n\n[Final]\n過去吧\n遠湯還空著\n正好留給現在",
+      "source": "songs/prompts/episode-07/15-far-hot-spring.md"
+    },
+    {
+      "n": "16",
+      "start": 1985,
+      "time": "33:05",
+      "en": "Cedar Ceiling",
+      "zh": "杉木天花",
+      "voice": "restrained male/female duet",
+      "lyrics": "抬頭是杉木天花\n香氣很淡\n蒸汽向上走\n把木紋慢慢潤濕\n\n[Verse]\n[Female] 我躺進水裡\n[Male] 我看著天花板\n[Both] 木的溫度\n比燈更老實\n\n[Refrain]\n望一下\n不要算時間\n望一下\n讓香氣留下來\n望一下\n冬天就在屋外\n\n[Poetry]\n暖暖遠人村\n依依墟里煙\n\n[Bridge]\n我們說得更少一點\n不是為了沉默\n是為了\n讓熱氣替我們說完\n\n[Final]\n杉木天花\n還在輕香\n水還沒冷",
+      "source": "songs/prompts/episode-07/16-cedar-ceiling.md"
+    },
+    {
+      "n": "17",
+      "start": 2103,
+      "time": "35:03",
+      "en": "Last Reservation",
+      "zh": "最後預約",
+      "voice": "female",
+      "lyrics": "櫃檯燈還亮著\n最後一個名字被寫下\n筆尖很輕\n像道別也很克制\n\n[Verse]\n名簿有舊指紋\n日期有別人的字跡\n我把自己的名字\n輕輕放進去\n像借走一小段夜\n\n[Refrain]\n訂一下\n也記得來\n訂一下\n讓位子留著溫\n訂一下\n山還在原位\n\n[Poetry]\n洛陽親友如相問\n一片冰心在玉壺\n\n[Bridge]\n如果停留需要手續\n那就蓋一個輕章\n說：會準時到\n不必寫保證\n\n[Final]\n最後預約\n門還沒關死\n燈還給我留路",
+      "source": "songs/prompts/episode-07/17-last-reservation.md"
+    },
+    {
+      "n": "18",
+      "start": 2230,
+      "time": "37:10",
+      "en": "Unsent Postcard",
+      "zh": "未寄明信片",
+      "voice": "male",
+      "lyrics": "桌角一張明信片\n風景是蒸汽與石燈\n收件人空白\n像還沒決定要告訴誰\n\n[Verse]\n我沒有寫字\n怕驚動裡面的句子\n也怕它其實\n只是尋常的問候\n被熱氣弄得很重\n\n[Refrain]\n先放下\n不必寄\n先放下\n讓紙自己休息\n先放下\n夜已經夠滿\n\n[Poetry]\n此情可待成追憶\n只是當時已惘然\n\n[Bridge — warmer]\n也許明天\n會有人來填地址\n也許永遠空白\n那也沒關係\n片還在桌上\n湯還在外面\n\n[Final]\n未寄明信片\n繼續溫著\n字不會抱怨",
+      "source": "songs/prompts/episode-07/18-unsent-postcard.md"
+    },
+    {
+      "n": "19",
+      "start": 2388,
+      "time": "39:48",
+      "en": "Before Dawn Bath",
+      "zh": "黎明前浴",
+      "voice": "restrained male/female duet",
+      "lyrics": "天色還沒有亮透\n湯池還冒著氣\n裡面的燈\n像提前醒來的人\n\n[Verse — separated]\n[Female] 我撥開水面\n[Male] 我聽融雪輕滴\n[Female] 還沒有旅客\n[Male] 已經有溫度\n\n[Refrain]\n再泡一會\n再等一等\n再泡一會\n讓夜先把霧放好\n再泡一會\n白天會自己來\n\n[Poetry]\n雞聲茅店月\n人跡板橋霜\n\n[Bridge — closer]\n我們把最後一條巾\n掛回正確的鉤\n像把黎明\n輕輕放回原處\n\n[Final — harmony]\n黎明前浴\n一切都準備好了\n只差第一聲鳥",
+      "source": "songs/prompts/episode-07/19-before-dawn-bath.md"
+    },
+    {
+      "n": "20",
+      "start": 2503,
+      "time": "41:43",
+      "en": "The Last Steam",
+      "zh": "最後一縷蒸汽",
+      "voice": "female with soft optional duet shade",
+      "lyrics": "[Instrumental — long opening]\n\n最後一縷蒸汽\n停在木浴槽上方\n其他都已淡去\n只有這一圈白\n還肯陪著未散的夜\n\n[Verse 1]\n我坐回原位\n把肩膀沉低一點\n水還熱著\n像時間願意慢一次\n卻不必重說\n\n[Refrain]\n留著吧\n不要散\n留著吧\n讓最後的熱看清\n留著吧\n開山路以前都算夜\n\n[Poetry]\n不知江月待何人\n但見長江送流水\n\n[Bridge — almost spoken]\n如果整座旅舍\n只剩這一縷蒸汽\n那就夠了\n夠我把呼吸放慢\n夠我把告別延後\n\n[Final]\n最後一縷蒸汽\n還在\n不必醒來\n也不必睡去\n\n[Instrumental — long outro]",
+      "source": "songs/prompts/episode-07/20-the-last-steam.md"
+    }
+  ],
+  "warnings": [],
+  "lyricsSource": "songs/prompts/episode-07/*.md"
+}

@@ -1,0 +1,235 @@
+{
+  "episode": 4,
+  "slug": "winter-harbor",
+  "title": {
+    "en": "Winter Harbor",
+    "zh": "海邊冬港"
+  },
+  "logline": "A winter harbour at low tide: ropes, cold air, water leaving quietly.",
+  "videoId": "RXZLvRJ5adY",
+  "youtubeTitle": "QuietLY · 海邊冬港 — 20 Slow Mandarin Jazz Scenes",
+  "comics": [
+    {
+      "en": "The tide table no longer argues.",
+      "zh": "潮汐表不再爭辯。"
+    },
+    {
+      "en": "Ropes hold what the water released.",
+      "zh": "繩子握著水留下的。"
+    },
+    {
+      "en": "Cold light on empty boats.",
+      "zh": "冷光落在空船上。"
+    },
+    {
+      "en": "Harbor wind edits every sentence.",
+      "zh": "港風改寫每一句話。"
+    }
+  ],
+  "hero": "",
+  "comicImages": [],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "00:00",
+      "en": "Low Tide",
+      "zh": "退潮",
+      "voice": "soft expressive female vocal",
+      "lyrics": "[Intro — piano, soft bass]\n退潮\n泥灘露出細線\n風把鹽味\n放在袖口\n遠處一盞燈\n慢慢亮\n\n[Verse 1]\n潮退得很慢\n像有人把海收回去\n腳印很淺\n很快被風抹平\n岸邊沒有船\n只有冷\n\n[Refrain — develop gently]\n慢慢走\n不要踩碎那些光\n慢慢走\n讓冬港停一下\n慢慢走\n潮會自己回來\n\n[Instrumental — about 20 seconds]\n\n[Verse 2 — poetry + connective]\n潮平兩岸闊\n風正一帆懸\n海日生殘夜\n江春入舊年\n泥灘上的光\n像未寫完的字\n\n[Bridge — almost spoken]\n我站在水線上\n聽風經過木樁\n沒有人催促\n沒有人遠去\n只有潮\n在遠處翻身\n\n[Final refrain — softer, longer]\n慢慢走\n讓鹽霧停在肩上\n慢慢走\n讓夜先不要來\n退潮\n還留著一點暖",
+      "source": "songs/prompts/episode-04/01-low-tide.md"
+    },
+    {
+      "n": "02",
+      "start": 169,
+      "time": "02:49",
+      "en": "Empty Piers",
+      "zh": "空碼頭",
+      "voice": "soft low male vocal",
+      "lyrics": "[Intro — low bass, felt piano]\n空碼頭\n木樁站在水裡\n鐵環輕輕響\n像一句沒說完的話\n\n[Verse 1]\n繩還繞著樁\n卻沒有船要解\n水痕一層一層\n停在木頭上\n風從空隙穿過\n把冷送進袖管\n\n[Refrain]\n風過來\n又過去\n風過來\n留下安靜\n風過來\n碼頭不回答\n\n[Instrumental — about 25 seconds]\n\n[Verse 2 — poetry]\n野曠天低樹\n江清月近人\n孤舟蓑笠翁\n獨釣寒江雪\n今夜沒有釣者\n只有空位\n\n[Bridge]\n我數著木樁\n一、二、三\n數到後來\n只剩下風聲\n鐵錨靠牆\n還在等\n\n[Final]\n風過來\n把名字吹淡\n風過來\n把時間放慢\n空碼頭\n仍站在水裡",
+      "source": "songs/prompts/episode-04/02-empty-piers.md"
+    },
+    {
+      "n": "03",
+      "start": 358,
+      "time": "05:58",
+      "en": "Salt Mist",
+      "zh": "鹽霧",
+      "voice": "soft expressive female vocal",
+      "lyrics": "[Intro]\n鹽霧\n把遠燈擦成淡墨\n街角變軟\n呼吸也帶海\n\n[Verse 1]\n霧從水面爬上來\n繞過破網與竹筐\n我伸出手\n指尖亮了一下\n又暗下去\n像一句沒出口的話\n\n[Refrain]\n別吹散\n讓它再停一會\n別吹散\n讓光留下痕跡\n別吹散\n冬港需要這一層紗\n\n[Instrumental — about 20 seconds]\n\n[Verse 2 — poetry]\n海日生殘夜\n江春入舊年\n江流宛轉繞芳甸\n月照花林皆似霰\n霧裡沒有花林\n只有鹽\n\n[English — once only, optional]\nKeep the quiet near\n\n[Bridge]\n霧前進一步\n燈就退一步\n我站在中間\n什麼也不追\n只聽見\n潮在很遠的地方\n\n[Final]\n別吹散\n讓霧再低一點\n別吹散\n讓夜再慢一點\n鹽霧\n還停在睫毛上",
+      "source": "songs/prompts/episode-04/03-salt-mist.md"
+    },
+    {
+      "n": "04",
+      "start": 535,
+      "time": "08:55",
+      "en": "Two Far Lamps",
+      "zh": "兩盞遠燈",
+      "voice": "restrained male/female duet",
+      "lyrics": "[Intro]\n[Female] 左邊一盞燈\n[pause]\n[Male] 右邊一盞燈\n\n[Verse — alternating]\n[Female]\n左邊的光很暖\n卻照不到我這邊\n[Male]\n右邊的光很遠\n卻一直轉回來\n[Female]\n海風從中間穿過\n[Male]\n把兩個名字吹開\n\n[Refrain — both, never a pop chorus]\n兩盞遠燈\n各自慢慢亮\n兩盞遠燈\n不必相遇\n兩盞遠燈\n把夜分成兩邊\n\n[Instrumental — about 25 seconds]\n\n[Verse 2 — poetry, alternating]\n[Female] 海上生明月\n[Male] 天涯共此時\n[Female] 情人怨遙夜\n[Male] 竟夕起相思\n[Both — soft]\n我們不是情人\n只是兩個方向\n\n[Bridge — call and answer]\n[Female] 你還在嗎\n[Male] 還在\n[Female] 要靠近嗎\n[Male] 不必\n[Both] 燈還亮著就夠了\n\n[Final]\n兩盞遠燈\n亮一下，暗一下\n兩盞遠燈\n像兩次呼吸\n左邊\n右邊",
+      "source": "songs/prompts/episode-04/04-two-far-lamps.md"
+    },
+    {
+      "n": "05",
+      "start": 699,
+      "time": "11:39",
+      "en": "Fish Market",
+      "zh": "空魚市",
+      "voice": "soft low male vocal",
+      "lyrics": "[Intro — dry piano, no drums]\n空魚市\n木板沒有鱗光\n秤還掛著\n風穿攤而過\n\n[Verse 1]\n冰屑早就化了\n只剩白痕\n竹筐疊在角落\n像一疊沒拆的信\n有人寫過價錢\n字跡被潮氣吃掉\n\n[Refrain]\n站一會兒\n看光過去\n站一會兒\n不必趕路\n站一會兒\n冷也會習慣\n\n[Instrumental — about 25 seconds]\n\n[Verse 2 — poetry]\n千山鳥飛絕\n萬徑人蹤滅\n孤舟蓑笠翁\n獨釣寒江雪\n這裡沒有江雪\n只有空位與鹽\n\n[Bridge — lower]\n我走過第一排\n第二排\n第三排\n每一步都像\n踏在昨天的水上\n沒有人叫賣\n世界很小聲\n\n[Final]\n站一會兒\n讓風把氣味帶走\n站一會兒\n讓夜先不要來\n空魚市\n還記得海",
+      "source": "songs/prompts/episode-04/05-fish-market.md"
+    },
+    {
+      "n": "06",
+      "start": 856,
+      "time": "14:16",
+      "en": "Distant Tide",
+      "zh": "遠潮",
+      "voice": "soft expressive female vocal",
+      "lyrics": "[Intro]\n遠潮\n像一句聽不清的話\n沙把聲音吞掉\n又吐出一點白\n\n[Verse 1]\n我把耳朵靠近風\n風說：還早\n潮在地圖之外\n翻一個身\n岸線就抖一下\n然後又靜\n\n[Refrain]\n慢一點\n再慢一點\n讓潮聲\n留在遠處\n慢一點\n讓心跟著退\n\n[Instrumental — about 25 seconds]\n\n[Verse 2 — poetry]\n潮打空城寂寞回\n淮水東邊舊時月\n夜深還過女牆來\n我站的不是空城\n卻一樣寂寞\n\n[Bridge]\n潮來時\n我還能假裝忙碌\n潮遠時\n只剩自己的呼吸\n呼吸一下\n海就回答一下\n很輕\n\n[Final]\n慢一點\n讓遠潮再遠一點\n慢一點\n讓夜晚再慢一點\n遠潮\n仍在說話",
+      "source": "songs/prompts/episode-04/06-distant-tide.md"
+    },
+    {
+      "n": "07",
+      "start": 1030,
+      "time": "17:10",
+      "en": "Anchor Rope",
+      "zh": "錨與繩",
+      "voice": "soft low male vocal",
+      "lyrics": "[Intro — bass ostinato, sparse]\n鐵錨\n靠著牆\n舊繩\n繞成圈\n\n[Verse 1]\n沒有船要解纜\n繩卻記得手溫\n結扣一道一道\n像年份疊起來\n我碰一下\n灰塵就亮了\n\n[Refrain]\n慢慢繞\n再慢慢放\n慢慢繞\n不要急著出發\n慢慢繞\n港還不需要我\n\n[Instrumental — about 25 seconds]\n\n[Verse 2 — poetry]\n移舟泊煙渚\n日暮客愁新\n野曠天低樹\n江清月近人\n今夜無客愁\n只有舊繩\n\n[Bridge]\n若解開\n船會去哪裡\n若不解\n心會停在哪一結\n我選第三種：\n站著\n聽鐵環輕響\n\n[Final]\n慢慢繞\n把時間繞進繩裡\n慢慢放\n把夜晚放回海上\n錨還在\n繩還在",
+      "source": "songs/prompts/episode-04/07-anchor-rope.md"
+    },
+    {
+      "n": "08",
+      "start": 1171,
+      "time": "19:31",
+      "en": "Quiet Harbour",
+      "zh": "低聲港",
+      "voice": "restrained male/female duet",
+      "lyrics": "[Intro]\n[Female — distant] 誰在遠處低聲\n[Instrumental answer]\n[Male] 不是對我說的\n\n[Verse]\n[Female]\n聲音經過水面\n變成更小的光\n[Male]\n光落到木樁上\n又滑進潮溝\n[Both — whispered]\n港在呼吸\n我們只聽\n\n[Refrain]\n低聲一點\n再低聲一點\n讓夜\n聽得見自己\n低聲一點\n不要驚動潮\n\n[Instrumental — about 25 seconds]\n\n[Verse 2 — poetry]\n江流宛轉繞芳甸\n月照花林皆似霰\n空裡流霜不覺飛\n汀上白沙看不見\n冬港沒有芳甸\n只有白沙與霜意\n\n[Bridge — overlap once]\n[Female] 還在遠處\n[Male] 還在近處\n[Both] 其實都在同一層霧裡\n\n[Final]\n低聲一點\n讓燈自己亮\n低聲一點\n讓船自己搖\n低聲港\n把我們接住",
+      "source": "songs/prompts/episode-04/08-quiet-harbour.md"
+    },
+    {
+      "n": "09",
+      "start": 1339,
+      "time": "22:19",
+      "en": "Hand Warmer",
+      "zh": "暖手爐",
+      "voice": "soft expressive female vocal",
+      "lyrics": "[Intro — warmer piano voicing]\n暖手爐\n熱氣停在指尖\n冬港的冷\n退開一寸\n\n[Verse 1]\n銅蓋輕輕響\n像很小的鐘\n我呵一口氣\n霧就升起來\n暖不是火\n是一種記得\n\n[Refrain]\n別熄掉\n讓它再亮一會\n別熄掉\n讓暖留下痕跡\n別熄掉\n夜還長\n\n[Instrumental — about 20 seconds]\n\n[Verse 2 — poetry]\n日暮蒼山遠\n天寒白屋貧\n柴門聞犬吠\n風雪夜歸人\n這裡沒有柴門\n只有手心的一點熱\n\n[English — once only, optional]\nStay warm a little longer\n\n[Bridge]\n暖會散\n我知道\n所以握緊\n不是因為怕冷\n是因為\n想留住這片刻的岸\n\n[Final]\n別熄掉\n讓指尖再亮一點\n別熄掉\n讓潮聲遠一點\n暖手爐\n還在小小地響",
+      "source": "songs/prompts/episode-04/09-hand-warmer.md"
+    },
+    {
+      "n": "10",
+      "start": 1528,
+      "time": "25:28",
+      "en": "Tide Marks",
+      "zh": "退潮痕",
+      "voice": "soft low male vocal",
+      "lyrics": "[Intro]\n退潮痕\n像一封沒寫完的信\n沙上的字\n被風讀走\n\n[Verse 1]\n第一道線是早晨\n第二道線是中午\n第三道線\n已經看不清\n我蹲下去\n只摸到冷\n\n[Refrain]\n看一眼\n再看一眼\n看一眼\n不必讀懂\n看一眼\n潮會再來改寫\n\n[Instrumental — about 25 seconds]\n\n[Verse 2 — poetry]\n枯藤老樹昏鴉\n小橋流水人家\n古道西風瘦馬\n夕陽西下\n斷腸人在天涯\n我不是斷腸人\n只是岸邊的過客\n\n[Bridge]\n痕跡會消失\n這很好\n消失之前\n它證明過：\n海來過\n又離開\n\n[Final]\n看一眼\n把線記在心裡\n看一眼\n把冷記在手上\n退潮痕\n還亮著一點鹽",
+      "source": "songs/prompts/episode-04/10-tide-marks.md"
+    },
+    {
+      "n": "11",
+      "start": 1685,
+      "time": "28:05",
+      "en": "Broken Warehouse",
+      "zh": "破窗倉",
+      "voice": "soft expressive female vocal",
+      "lyrics": "[Intro — hollow room piano]\n破窗\n倉庫很空\n風從縫進來\n把灰塵立成光柱\n\n[Verse 1]\n牆皮剝落\n露出舊藍\n地上有鹽晶\n像細小的星\n我走過去\n回聲比腳步更長\n\n[Refrain]\n慢慢走\n讓回聲自己散\n慢慢走\n不要叫醒午後\n慢慢走\n冷倉庫也有呼吸\n\n[Instrumental — about 25 seconds]\n\n[Verse 2 — poetry]\n空山不見人\n但聞人語響\n返景入深林\n復照青苔上\n這裡不是空山\n卻一樣有回聲\n\n[Bridge — freer]\n窗框缺了一角\n海從缺角看我\n我從缺角看海\n誰先眨眼\n誰就先退\n\n[Final]\n慢慢走\n讓光柱再站一會\n慢慢走\n讓鹽味再留一會\n破窗倉\n仍替誰守著空",
+      "source": "songs/prompts/episode-04/11-broken-warehouse.md"
+    },
+    {
+      "n": "12",
+      "start": 1868,
+      "time": "31:08",
+      "en": "Shore Paths",
+      "zh": "岸邊各路",
+      "voice": "restrained male/female duet",
+      "lyrics": "[Intro]\n[Female] 我向有光的堤\n[Male] 我向沒有船的灣\n\n[Verse]\n[Female]\n堤上的風帶暖燈\n[Male]\n灣裡的風帶濕繩\n[Female]\n我的影子變長\n[Male]\n我的影子入水\n[Both]\n冬港把我們分開\n又不真正切斷\n\n[Refrain]\n各路而行\n各自保留冬港\n各路而行\n各自聽見潮聲\n各路而行\n不必同步\n\n[Instrumental — about 25 seconds]\n\n[Verse 2 — poetry]\n行到水窮處\n坐看雲起時\n隨意春芳歇\n王孫自可留\n我們不是王孫\n只是兩個方向\n\n[Bridge]\n[Female] 若回頭\n[Male] 若回頭\n[Both — soft] 也只是為了確認燈還在\n\n[Final]\n各路\n風在中間握手\n各路\n潮在遠處點頭\n各路而行\n夜仍共用",
+      "source": "songs/prompts/episode-04/12-shore-paths.md"
+    },
+    {
+      "n": "13",
+      "start": 2030,
+      "time": "33:50",
+      "en": "Lighthouse Arc",
+      "zh": "燈塔光",
+      "voice": "soft low male vocal",
+      "lyrics": "[Intro — slow circling piano figure]\n燈塔\n轉過一圈\n光掃過水面\n像在找誰\n\n[Verse 1]\n亮的時候\n整個灣都被點名\n暗的時候\n只剩自己的心跳\n我數圈數\n數到後來變成呼吸\n\n[Refrain]\n亮一下\n再暗一下\n亮一下\n不必靠近\n亮一下\n夜就有了節拍\n\n[Instrumental — about 25 seconds]\n\n[Verse 2 — poetry]\n江畔何人初見月\n江月何年初照人\n人生代代無窮已\n江月年年望相似\n燈塔不是月\n卻一樣輪迴\n\n[Bridge]\n光過來時\n我假裝被選中\n光離開時\n我把影子還給岸\n如此反覆\n竟也安心\n\n[Final]\n亮一下\n把遠船叫醒\n暗一下\n把心事藏好\n燈塔光\n還在轉",
+      "source": "songs/prompts/episode-04/13-lighthouse-arc.md"
+    },
+    {
+      "n": "14",
+      "start": 2248,
+      "time": "37:28",
+      "en": "Thin Ice",
+      "zh": "薄冰",
+      "voice": "soft expressive female vocal",
+      "lyrics": "[Intro]\n薄冰\n水窪上的一層玻璃\n一踩就碎\n碎聲像抱歉\n\n[Verse 1]\n冰面映著遠燈\n又把光還給天\n我彎腰看\n看見自己的臉\n很淡\n像快要化掉\n\n[Refrain]\n別踩破\n讓它再亮一會\n別踩破\n讓冷也溫柔\n別踩破\n這是冬港的瓷器\n\n[Instrumental — about 20 seconds]\n\n[Verse 2 — poetry]\n月出驚山鳥\n時鳴春澗中\n空山不見人\n但聞人語響\n這裡沒有山鳥\n只有碎冰的輕響\n\n[Bridge]\n若碎了\n就變成水\n水記得冰\n冰記得光\n我記得\n那一聲很小的裂\n\n[Final]\n別踩破\n讓薄冰再撐一夜\n別踩破\n讓腳步繞過去\n薄冰\n還在發抖地亮",
+      "source": "songs/prompts/episode-04/14-thin-ice.md"
+    },
+    {
+      "n": "15",
+      "start": 2395,
+      "time": "39:55",
+      "en": "Empty Boat",
+      "zh": "無人小船",
+      "voice": "soft low male vocal",
+      "lyrics": "[Intro — rocking bass]\n無人小船\n靠岸\n繩還繫著\n船身輕輕晃\n\n[Verse 1]\n船上沒有槳\n只有一窪雨水\n我伸手觸舷\n冰涼傳上手腕\n它像在做夢\n夢裡仍有出海\n\n[Refrain]\n停一會兒\n不必解繩\n停一會兒\n讓船自己搖\n停一會兒\n港還留得住它\n\n[Instrumental — about 25 seconds]\n\n[Verse 2 — poetry]\n移舟泊煙渚\n日暮客愁新\n野曠天低樹\n江清月近人\n今夜無客\n船卻仍像在等\n\n[Bridge]\n若解開\n它會漂去哪一層霧\n若不解\n它會不會恨這條繩\n我選擇坐下\n陪它搖兩下\n\n[Final]\n停一會兒\n把出海的夢放低\n停一會兒\n把夜晚的潮聽清\n無人小船\n還在輕輕點頭",
+      "source": "songs/prompts/episode-04/15-empty-boat.md"
+    },
+    {
+      "n": "16",
+      "start": 2581,
+      "time": "43:01",
+      "en": "Two Winds",
+      "zh": "兩種風",
+      "voice": "restrained male/female duet",
+      "lyrics": "[Intro]\n[Female] 海上的風帶鹽\n[Male] 岸上的風帶塵\n\n[Verse]\n[Female]\n鹽風擦過嘴唇\n像淡淡的吻\n[Male]\n塵風擦過衣角\n像未完的句\n[Both]\n它們在碼頭相遇\n又客氣地分開\n\n[Refrain]\n兩種風\n在胸口穿過\n兩種風\n把溫度換掉\n兩種風\n教我如何停留\n\n[Instrumental — about 25 seconds]\n\n[Verse 2 — poetry]\n野火燒不盡\n春風吹又生\n遠芳侵古道\n晴翠接荒城\n冬港沒有荒城\n卻有反覆的風\n\n[Bridge — trade lines]\n[Female] 你從海來\n[Male] 你從街來\n[Female] 要留下嗎\n[Male] 留下一會兒\n[Both] 一會兒也很長\n\n[Final]\n兩種風\n把我們吹成同一個冷\n兩種風\n又許我們各自暖和\n海上\n岸上",
+      "source": "songs/prompts/episode-04/16-two-winds.md"
+    },
+    {
+      "n": "17",
+      "start": 2746,
+      "time": "45:46",
+      "en": "Harbour Bench",
+      "zh": "港邊長椅",
+      "voice": "soft expressive female vocal",
+      "lyrics": "[Intro — intimate close mic vocal space]\n港邊長椅\n鐵扶手很涼\n坐下\n冬就靠近一寸\n\n[Verse 1]\n椅面有舊刮痕\n像別人的故事\n我把掌心放上去\n冷先來\n暖後到\n海在遠處說話\n\n[Refrain]\n坐一會兒\n不要站起來\n坐一會兒\n讓時間慢下來\n坐一會兒\n讓潮聲當伴奏\n\n[Instrumental — about 25 seconds]\n\n[Verse 2 — poetry]\n獨坐幽篁裡\n彈琴復長嘯\n深林人不知\n明月來相照\n這裡沒有幽篁\n卻有同樣的獨坐\n\n[Bridge]\n有人走過\n沒有坐下\n有燈亮過\n沒有停下\n只剩我\n與一張不肯走的椅\n\n[Final]\n坐一會兒\n把寒冷握成習慣\n坐一會兒\n把夜晚聽到盡頭\n港邊長椅\n還留著我的體溫",
+      "source": "songs/prompts/episode-04/17-harbour-bench.md"
+    },
+    {
+      "n": "18",
+      "start": 2924,
+      "time": "48:44",
+      "en": "Incoming Tide",
+      "zh": "晚潮將至",
+      "voice": "soft low male vocal",
+      "lyrics": "[Intro — slightly forward bass]\n晚潮將至\n泥灘一點點變窄\n遠船的燈\n開始靠近\n\n[Verse 1]\n水先舔過最低的痕\n再蓋住第二道\n我往後站半步\n靴底仍乾\n風卻先濕了\n\n[Refrain]\n慢慢來\n不必催\n慢慢來\n水會自己回來\n慢慢來\n夜會跟上來\n\n[Instrumental — about 25 seconds]\n\n[Verse 2 — poetry]\n潮平兩岸闊\n風正一帆懸\n海日生殘夜\n江春入舊年\n此刻不是春\n卻有生之將至\n\n[Bridge]\n潮不是敵人\n也不是信使\n它只是時間\n換了一副面孔\n我退\n它進\n如此公平\n\n[Final]\n慢慢來\n讓岸線重新畫過\n慢慢來\n讓舊痕沉進水底\n晚潮將至\n而我還在",
+      "source": "songs/prompts/episode-04/18-incoming-tide.md"
+    },
+    {
+      "n": "19",
+      "start": 3082,
+      "time": "51:22",
+      "en": "Near and Far Steps",
+      "zh": "遠近腳步",
+      "voice": "restrained male/female duet",
+      "lyrics": "[Intro]\n[Female] 我的腳步靠近水\n[Male] 我的腳步靠近燈\n\n[Verse]\n[Female]\n水邊的沙會陷\n每一步都更深\n[Male]\n燈下的石更硬\n每一步都更清\n[Both]\n靠近\n又分開\n像潮的兩次呼吸\n\n[Refrain]\n靠近一點\n再遠一點\n靠近一點\n留下距離\n靠近一點\n不要變成追逐\n\n[Instrumental — about 25 seconds]\n\n[Verse 2 — poetry]\n勸君更盡一杯酒\n西出陽關無故人\n渭城朝雨浥輕塵\n客舍青青柳色新\n我們不必陽關\n卻同樣懂得離\n\n[Bridge]\n[Female] 若追上\n[Male] 若停下\n[Both] 都不如並肩一段，然後各自走\n\n[Final]\n靠近\n分開\n靠近\n分開\n遠近腳步\n把冬港走成一首慢歌",
+      "source": "songs/prompts/episode-04/19-near-and-far-steps.md"
+    },
+    {
+      "n": "20",
+      "start": 3229,
+      "time": "53:49",
+      "en": "Before Night Sea",
+      "zh": "夜海前",
+      "voice": "soft expressive female vocal with optional very faint male harmony only at the end",
+      "lyrics": "[Intro — longest instrumental cue, about 25 seconds before singing]\n\n夜色還沒有到\n海把聲音收好\n最後一點鹽霧\n停在燈下\n\n[Verse 1]\n白天的腳印\n已被潮改寫\n碼頭的鐵環\n仍輕輕響\n我把一天摺好\n放進口袋\n\n[Refrain]\n不要急著命名夜晚\n不要急著點亮所有燈\n不要急著\n把靜說成結束\n\n[Instrumental — about 30 seconds]\n\n[Verse 2 — poetry]\n江畔何人初見月\n江月何年初照人\n人生代代無窮已\n江月年年望相似\n不知江月待何人\n但見長江送流水\n\n[Bridge — very soft]\n今天還沒有結束\n潮也沒有離開\n若夜要來\n就讓它走得慢一點\n像船\n靠岸那樣慢\n\n[Final refrain]\n不要急著命名夜晚\n讓海再留一句未說完的話\n不要急著命名夜晚\n一盞遠燈\n還亮著\n\n[Male harmony — faint, last line only]\n還亮著\n\n[Extended instrumental outro — about 30 seconds, no vocal]",
+      "source": "songs/prompts/episode-04/20-before-night-sea.md"
+    }
+  ],
+  "warnings": [],
+  "lyricsSource": "songs/prompts/episode-04/*.md"
+}
