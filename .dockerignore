@@ -1,0 +1,12 @@
+.git
+.secrets
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+.env
+.env.*
+*.pem
+client_secret*.json
+**/client_secret*.json
+infra/cloudrun/cloudbuild.yaml

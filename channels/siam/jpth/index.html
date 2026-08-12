@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Cafe' Siam · JP × TH — Soft Music Listening</title>
+    <title>Atmosphere · Cafe' Siam JP × TH</title>
     <meta
       name="description"
-      content="Café Siam Japanese–Thai soft music: bilingual titles and lyrics for listening practice."
+      content="Café Siam Atmosphere: soft music plays itself while Japanese × Thai lyrics stay open for listening and learning."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,68 +14,78 @@
       href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Noto+Sans+Thai:wght@300;400;500&family=Noto+Serif+JP:wght@400;500;600&family=Outfit:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/jpth.css" />
+    <link rel="stylesheet" href="css/atmosphere.css" />
   </head>
-  <body>
-    <header class="site-nav">
+  <body class="atm-body">
+    <div class="stage" id="stage" aria-hidden="true">
+      <div class="stage__visuals" id="visuals"></div>
+      <div class="stage__veil"></div>
+      <div class="stage__grain"></div>
+    </div>
+
+    <header class="atm-chrome">
       <a class="site-nav__brand" href="index.html">Cafe' Siam</a>
-      <nav class="site-nav__links" aria-label="Primary">
-        <a class="is-active" href="index.html">Songs</a>
+      <div class="atm-chrome__center">
+        <span class="serif" id="world-title">JP × TH</span>
+        <span id="world-sub">Atmosphere</span>
+      </div>
+      <div class="atm-chrome__right">
+        <label class="atm-select-wrap">
+          <span class="sr-only">Song</span>
+          <select id="song-select" aria-label="Choose song"></select>
+        </label>
+        <a href="songs.html">Atlas</a>
         <a href="../../../index.html">Studio</a>
-      </nav>
+      </div>
     </header>
 
-    <section class="hero" aria-label="Café Siam JP×TH">
-      <div class="hero__veil" aria-hidden="true"></div>
-      <div class="hero__content">
-        <p class="eyebrow">Channel · JP × TH</p>
-        <h1 class="brand">
-          Cafe' Siam
-          <span>Soft Music &amp; Thai–Japanese Listening</span>
-        </h1>
-        <p class="lede">
-          Bilingual café listening: Japanese × Thai titles, full lyric sheets
-          from the catalog, music made for soft practice.
+    <main class="atm-copy">
+      <div class="atm-copy__head">
+        <p class="atm-kicker" id="track-kicker">Song —</p>
+        <h1 class="atm-track serif" id="track-jp">—</h1>
+        <p class="atm-track-th" id="track-th">—</p>
+        <p class="atm-hint" id="learn-hint">
+          Japanese — Thai (romanized). Sit with the line while the café plays.
         </p>
-        <a class="hero__cta" href="#songs">Browse <span id="song-count">—</span> songs</a>
       </div>
-    </section>
-
-    <main class="wrap" id="songs">
-      <p class="section-kicker">Song atlas</p>
-      <h2 class="section-title">Japanese × Thai</h2>
-      <p class="section-note">
-        Lyrics come from Café Siam video descriptions after the Lyrics marker.
-        Open a row to read the sheet; watch on YouTube when you want the room
-        to play.
-      </p>
-
-      <div class="search">
-        <label class="visually-hidden" for="song-search" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">
-          Search songs
-        </label>
-        <input
-          id="song-search"
-          type="search"
-          placeholder="Search Japanese, Thai, or lyric lines…"
-          autocomplete="off"
-        />
+      <div class="atm-sheet" id="lyrics-sheet" aria-label="Full lyrics">
+        <p class="atm-sheet__label">Listening sheet</p>
+        <div class="atm-sheet__body" id="lyrics-body"></div>
       </div>
-
-      <ul class="song-list" id="song-list"></ul>
-      <p class="empty" id="song-empty" hidden>No songs match.</p>
     </main>
 
-    <footer class="wrap site-footer">
-      <a
-        href="https://www.youtube.com/@cafesiamsoftmusicthaijapanese"
-        target="_blank"
-        rel="noopener noreferrer"
-        >YouTube</a
-      >
-      <span>n20dle delicetta · lyrics from catalog, not invented.</span>
+    <div class="atm-player" id="player-shell" aria-hidden="true">
+      <div id="yt-player"></div>
+    </div>
+
+    <footer class="atm-footer">
+      <div class="atm-progress" aria-hidden="true">
+        <div class="atm-progress__bar" id="progress-bar"></div>
+      </div>
+      <div class="atm-footer__row">
+        <button type="button" class="atm-btn" id="btn-prev">Prev</button>
+        <button type="button" class="atm-btn" id="btn-toggle">Pause</button>
+        <button type="button" class="atm-btn" id="btn-next">Next</button>
+        <button type="button" class="atm-btn" id="btn-shuffle" aria-pressed="true">
+          Shuffle on
+        </button>
+        <span class="atm-time" id="time-label">0:00</span>
+      </div>
     </footer>
 
-    <script src="js/atlas.js"></script>
+    <div class="atm-gate" id="gate">
+      <div class="atm-gate__card">
+        <span class="atm-gate__mark" aria-hidden="true">シ</span>
+        <h2 class="serif">Let the café teach itself</h2>
+        <p>
+          Soft music autoplays. Japanese × Thai lyric sheets stay open—no
+          karaoke chase, just listening practice with a little fun between
+          songs.
+        </p>
+        <button type="button" class="atm-gate__btn" id="btn-begin">Begin</button>
+      </div>
+    </div>
+
+    <script src="js/atmosphere.js"></script>
   </body>
 </html>

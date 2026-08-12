@@ -5,7 +5,7 @@
   "channel_url": "https://www.youtube.com/@cafesiamsoftmusicthaijapanese",
   "slug": "siam/jpth",
   "product": "jpth",
-  "source_catalog": "D:\\_home\\private\\idea2025\\data\\songs_catalog.json",
+  "source": "cafesiam data/songs_catalog.json",
   "count": 146,
   "songs": [
     {

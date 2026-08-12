@@ -3,22 +3,29 @@ steps:
     args:
       - build
       - -t
-      - asia-east1-docker.pkg.dev/$PROJECT_ID/finsheet/finsheet:$SHORT_SHA
+      - asia-east1-docker.pkg.dev/$PROJECT_ID/ricenation/ricenation:$SHORT_SHA
+      - -t
+      - asia-east1-docker.pkg.dev/$PROJECT_ID/ricenation/ricenation:latest
       - .
   - name: gcr.io/cloud-builders/docker
     args:
       - push
-      - asia-east1-docker.pkg.dev/$PROJECT_ID/finsheet/finsheet:$SHORT_SHA
+      - asia-east1-docker.pkg.dev/$PROJECT_ID/ricenation/ricenation:$SHORT_SHA
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - push
+      - asia-east1-docker.pkg.dev/$PROJECT_ID/ricenation/ricenation:latest
   - name: gcr.io/google.com/cloudsdktool/cloud-sdk
     entrypoint: gcloud
     args:
       - run
       - deploy
-      - finsheet
-      - --image=asia-east1-docker.pkg.dev/$PROJECT_ID/finsheet/finsheet:$SHORT_SHA
+      - ricenation
+      - --image=asia-east1-docker.pkg.dev/$PROJECT_ID/ricenation/ricenation:$SHORT_SHA
       - --region=asia-east1
       - --platform=managed
       - --allow-unauthenticated
       - --port=8080
 images:
-  - asia-east1-docker.pkg.dev/$PROJECT_ID/finsheet/finsheet:$SHORT_SHA
+  - asia-east1-docker.pkg.dev/$PROJECT_ID/ricenation/ricenation:$SHORT_SHA
+  - asia-east1-docker.pkg.dev/$PROJECT_ID/ricenation/ricenation:latest

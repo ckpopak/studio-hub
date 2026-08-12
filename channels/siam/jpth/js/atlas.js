@@ -84,6 +84,9 @@
         "</button>" +
         '<div class="song-panel" hidden>' +
         '<div class="song-panel__actions">' +
+        '<a href="index.html?id=' +
+        encodeURIComponent(song.id) +
+        '">Play in Atmosphere</a>' +
         '<a href="' +
         escapeHtml(song.url) +
         '" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>' +
