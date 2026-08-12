@@ -1,0 +1,52 @@
+# Build and deploy FinSheet to Cloud Run (asia-east1).
+# Substitutions:
+#   _REGION (default asia-east1)
+#   _SERVICE (default finsheet)
+#   _REPO (default finsheet)
+
+substitutions:
+  _REGION: asia-east1
+  _SERVICE: finsheet
+  _REPO: finsheet
+
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - -t
+      - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_SERVICE}:$SHORT_SHA
+      - -t
+      - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_SERVICE}:latest
+      - .
+
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - push
+      - --all-tags
+      - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_SERVICE}
+
+  - name: gcr.io/google.com/cloudsdktool/cloud-sdk
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - ${_SERVICE}
+      - --image=${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_SERVICE}:$SHORT_SHA
+      - --region=${_REGION}
+      - --platform=managed
+      - --allow-unauthenticated
+      - --service-account=finsheet-reader@$PROJECT_ID.iam.gserviceaccount.com
+      - --port=8080
+      - --memory=512Mi
+      - --cpu=1
+      - --min-instances=0
+      - --max-instances=3
+      - --set-env-vars=^|^NODE_ENV=production|ALLOWED_EMAILS=ken.kp.chan@gmail.com,ckpopak@gmail.com|YEARLY_SPREADSHEET_ID=1dLumPx3m2dEZjmkG0GA2IUc9vcpnoN5-Rx82abHyemc|CASHFLOW_SPREADSHEET_ID=1Ub9LDhs1rcm-NTdeIYyCCRgK8oEQ5bSTKGW5Mrs5_vA|YEARLY_TAB=OY(hkd)|CASHFLOW_TAB=_cflow
+      - --update-secrets=^|^AUTH_SECRET=finsheet-auth-secret:latest|NEXTAUTH_SECRET=finsheet-auth-secret:latest|GOOGLE_CLIENT_ID=finsheet-google-client-id:latest|GOOGLE_CLIENT_SECRET=finsheet-google-client-secret:latest|NEXTAUTH_URL=finsheet-nextauth-url:latest
+
+images:
+  - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_SERVICE}:$SHORT_SHA
+  - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_SERVICE}:latest
+
+options:
+  logging: CLOUD_LOGGING_ONLY
