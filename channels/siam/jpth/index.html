@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cafe' Siam · JP × TH — Soft Music Listening</title>
+    <meta
+      name="description"
+      content="Café Siam Japanese–Thai soft music: bilingual titles and lyrics for listening practice."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Noto+Sans+Thai:wght@300;400;500&family=Noto+Serif+JP:wght@400;500;600&family=Outfit:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/jpth.css" />
+  </head>
+  <body>
+    <header class="site-nav">
+      <a class="site-nav__brand" href="index.html">Cafe' Siam</a>
+      <nav class="site-nav__links" aria-label="Primary">
+        <a class="is-active" href="index.html">Songs</a>
+        <a href="../../../index.html">Studio</a>
+      </nav>
+    </header>
+
+    <section class="hero" aria-label="Café Siam JP×TH">
+      <div class="hero__veil" aria-hidden="true"></div>
+      <div class="hero__content">
+        <p class="eyebrow">Channel · JP × TH</p>
+        <h1 class="brand">
+          Cafe' Siam
+          <span>Soft Music &amp; Thai–Japanese Listening</span>
+        </h1>
+        <p class="lede">
+          Bilingual café listening: Japanese × Thai titles, full lyric sheets
+          from the catalog, music made for soft practice.
+        </p>
+        <a class="hero__cta" href="#songs">Browse <span id="song-count">—</span> songs</a>
+      </div>
+    </section>
+
+    <main class="wrap" id="songs">
+      <p class="section-kicker">Song atlas</p>
+      <h2 class="section-title">Japanese × Thai</h2>
+      <p class="section-note">
+        Lyrics come from Café Siam video descriptions after the Lyrics marker.
+        Open a row to read the sheet; watch on YouTube when you want the room
+        to play.
+      </p>
+
+      <div class="search">
+        <label class="visually-hidden" for="song-search" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">
+          Search songs
+        </label>
+        <input
+          id="song-search"
+          type="search"
+          placeholder="Search Japanese, Thai, or lyric lines…"
+          autocomplete="off"
+        />
+      </div>
+
+      <ul class="song-list" id="song-list"></ul>
+      <p class="empty" id="song-empty" hidden>No songs match.</p>
+    </main>
+
+    <footer class="wrap site-footer">
+      <a
+        href="https://www.youtube.com/@cafesiamsoftmusicthaijapanese"
+        target="_blank"
+        rel="noopener noreferrer"
+        >YouTube</a
+      >
+      <span>n20dle delicetta · lyrics from catalog, not invented.</span>
+    </footer>
+
+    <script src="js/atlas.js"></script>
+  </body>
+</html>
