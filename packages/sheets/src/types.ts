@@ -14,7 +14,7 @@ export type YearlyMatrix = {
 };
 
 export type CashflowRow = {
-  /** Day/month marker such as 28_M, 7Mar, Mar ??may be empty. */
+  /** Day/month marker such as 28_M, 7Mar, Mar — may be empty. */
   marker: string;
   bal: number | null;
   in: number | null;
@@ -26,6 +26,16 @@ export type CashflowLedger = {
   spreadsheetId: string;
   tab: string;
   rows: CashflowRow[];
+};
+
+/** Input for appending a B(M) cash movement (BAL computed server-side). */
+export type CashflowAppendInput = {
+  marker?: string;
+  in?: number | null;
+  out?: number | null;
+  note?: string;
+  /** If set, overrides computed BAL = previous + in - out. */
+  bal?: number | null;
 };
 
 export type MonthSummary = {

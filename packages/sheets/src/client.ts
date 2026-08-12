@@ -7,11 +7,20 @@ import {
   YEARLY_SPREADSHEET_ID,
   YEARLY_TAB,
 } from "./config";
-import { parseCashflowLedger } from "./cashflow";
+import {
+  buildCashflowAppendRow,
+  latestBalance,
+  parseCashflowLedger,
+} from "./cashflow";
 import { parseYearlyMatrix } from "./yearly";
-import type { CashflowLedger, YearlyMatrix } from "./types";
+import type {
+  CashflowAppendInput,
+  CashflowLedger,
+  CashflowRow,
+  YearlyMatrix,
+} from "./types";
 
-const SHEETS_SCOPE = "https://www.googleapis.com/auth/spreadsheets.readonly";
+const SHEETS_SCOPE = "https://www.googleapis.com/auth/spreadsheets";
 
 type ServiceAccountJson = {
   client_email: string;
@@ -103,5 +112,30 @@ export class SheetsClient {
   ): Promise<CashflowLedger> {
     const values = await this.getValues(spreadsheetId, tab);
     return parseCashflowLedger(values, spreadsheetId, tab);
+  }
+
+  /**
+   * Append one B(M) cash movement to `_cflow`.
+   * Computes BAL from the latest balance unless `input.bal` is provided.
+   */
+  async appendCashflow(
+    input: CashflowAppendInput,
+    spreadsheetId = CASHFLOW_SPREADSHEET_ID,
+    tab = CASHFLOW_TAB,
+  ): Promise<CashflowRow> {
+    const ledger = await this.fetchCashflow(spreadsheetId, tab);
+    const previousBal = latestBalance(ledger);
+    const { row, values } = buildCashflowAppendRow(input, previousBal);
+
+    const sheets = await this.getSheets();
+    await sheets.spreadsheets.values.append({
+      spreadsheetId,
+      range: `'${tab}'!A:E`,
+      valueInputOption: "USER_ENTERED",
+      insertDataOption: "INSERT_ROWS",
+      requestBody: { values: [values] },
+    });
+
+    return row;
   }
 }

@@ -9,6 +9,8 @@ Hosted on **Google Cloud Run** (`silentricenation`, region `asia-east1`).
 
 **Production URL:** https://finsheet-887652679963.asia-east1.run.app
 
+**Write-back:** dashboard can append B(M) `_cflow` rows (`POST /api/sheets/cashflow`). Runtime SA needs **Editor** on the B(M) workbook.
+
 ## Architecture
 
 | Piece | Detail |

@@ -12,6 +12,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import { AddCashflowForm } from "@/components/add-cashflow-form";
 import { formatHkd } from "@/lib/format";
 
 function StatCard({
@@ -180,6 +181,11 @@ export function Dashboard() {
               </ResponsiveContainer>
             </div>
           </section>
+
+          <AddCashflowForm
+            latestBal={summary.month.latestBal}
+            onCreated={() => void load(month)}
+          />
 
           <section className="grid gap-8 lg:grid-cols-2">
             <div>

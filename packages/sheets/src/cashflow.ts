@@ -1,5 +1,9 @@
 import { parseAmount } from "./parse";
-import type { CashflowLedger, CashflowRow } from "./types";
+import type {
+  CashflowAppendInput,
+  CashflowLedger,
+  CashflowRow,
+} from "./types";
 
 function hasAmount(row: CashflowRow): boolean {
   return row.bal !== null || row.in !== null || row.out !== null;
@@ -54,4 +58,53 @@ export function recentCashflow(
 ): CashflowRow[] {
   if (limit <= 0) return [];
   return ledger.rows.slice(-limit).reverse();
+}
+
+export function computeNextBalance(
+  previousBal: number | null,
+  inn: number | null,
+  out: number | null,
+): number {
+  const base = previousBal ?? 0;
+  return base + (inn ?? 0) - (out ?? 0);
+}
+
+/** Build a sheet row for the left BAL/IN/OUT/note block. */
+export function buildCashflowAppendRow(
+  input: CashflowAppendInput,
+  previousBal: number | null,
+): { row: CashflowRow; values: string[] } {
+  const inn =
+    input.in === undefined || input.in === null ? null : Number(input.in);
+  const out =
+    input.out === undefined || input.out === null ? null : Number(input.out);
+  if (inn !== null && !Number.isFinite(inn)) {
+    throw new Error("Invalid IN amount");
+  }
+  if (out !== null && !Number.isFinite(out)) {
+    throw new Error("Invalid OUT amount");
+  }
+  if ((inn === null || inn === 0) && (out === null || out === 0)) {
+    throw new Error("Provide a non-zero IN and/or OUT amount");
+  }
+
+  const bal =
+    input.bal !== undefined && input.bal !== null
+      ? Number(input.bal)
+      : computeNextBalance(previousBal, inn, out);
+  if (!Number.isFinite(bal)) {
+    throw new Error("Invalid BAL amount");
+  }
+
+  const marker = (input.marker ?? "").trim();
+  const note = (input.note ?? "").trim();
+  const row: CashflowRow = { marker, bal, in: inn, out, note };
+  const values = [
+    marker,
+    String(bal),
+    inn === null ? "" : String(inn),
+    out === null ? "" : String(out),
+    note,
+  ];
+  return { row, values };
 }

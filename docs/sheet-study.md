@@ -76,6 +76,13 @@ Examples that fit this reading: `mum` Dec26 −8400, `住: 水電煤` Dec26 −1
 - Design-spec features (dashboard, projections, scenarios) should be framed as **views/engines on top of these two layouts**.
 - Import/migration of a new normalized schema is **out of scope** unless you later change §6.
 
+## Write-back (B(M))
+
+- App can **append** rows to `_cflow` via `POST /api/sheets/cashflow`.
+- Runtime SA needs **Editor** (not only Viewer) on workbook B:
+  `finsheet-reader@silentricenation.iam.gserviceaccount.com`
+- BAL is computed as `previous BAL + IN - OUT` unless overridden.
+
 ## Quick IDs
 
 ```
