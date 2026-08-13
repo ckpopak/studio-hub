@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Café Siam — bilingual listening cafés · n20dle</title>
+    <meta
+      name="description"
+      content="Café Siam is a family of soft-music listening cafés from n20dle: Thai paired with English, Japanese, or Chinese, one clear line at a time."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Noto+Sans+Thai:wght@300;400;500&family=Noto+Serif+JP:wght@400;500;600&family=Noto+Serif+TC:wght@400;500&family=Outfit:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --ink: #14201c;
+        --deep: #0e1714;
+        --leaf: #2f5d4a;
+        --leaf-soft: #6f9a82;
+        --paper: #f3efe6;
+        --paper-dim: #c9c2b4;
+        --teak: #b8895a;
+        --teak-soft: #d0a877;
+        --line: rgba(243, 239, 230, 0.14);
+        --ease: cubic-bezier(0.22, 1, 0.36, 1);
+        --nav-h: 3.5rem;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100svh;
+        color: var(--paper);
+        background:
+          radial-gradient(
+            ellipse 80% 50% at 12% -10%,
+            rgba(111, 154, 130, 0.22),
+            transparent 55%
+          ),
+          radial-gradient(
+            ellipse 55% 40% at 90% 20%,
+            rgba(184, 137, 90, 0.12),
+            transparent 50%
+          ),
+          linear-gradient(180deg, #1a2a24 0%, var(--deep) 48%, var(--ink) 100%);
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        letter-spacing: 0.02em;
+        line-height: 1.65;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      a {
+        color: var(--teak);
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+        transition:
+          color 0.3s var(--ease),
+          border-color 0.3s var(--ease);
+      }
+
+      a:hover {
+        color: var(--paper);
+        border-bottom-color: var(--teak);
+      }
+
+      /* ---------- nav ---------- */
+      .site-nav {
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 0.95rem clamp(1rem, 3vw, 1.75rem);
+        background: rgba(14, 23, 20, 0.72);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border-bottom: 1px solid var(--line);
+      }
+
+      .site-nav__brand {
+        font-family: "Instrument Serif", "Noto Serif JP", serif;
+        font-size: 1.35rem;
+        color: var(--paper);
+        border: 0;
+        letter-spacing: 0.04em;
+      }
+
+      .site-nav__links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.85rem 1.2rem;
+        font-size: 0.72rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+
+      .site-nav__links a {
+        color: var(--paper-dim);
+        border: 0;
+      }
+
+      .site-nav__links a:hover {
+        color: var(--paper);
+      }
+
+      /* ---------- hero ---------- */
+      .hero {
+        position: relative;
+        min-height: 92svh;
+        display: grid;
+        align-items: end;
+        overflow: hidden;
+      }
+
+      .hero__veil {
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(
+            180deg,
+            rgba(14, 23, 20, 0.3) 0%,
+            rgba(14, 23, 20, 0.12) 38%,
+            rgba(14, 23, 20, 0.8) 72%,
+            rgba(14, 23, 20, 0.98) 100%
+          ),
+          radial-gradient(
+            ellipse 50% 35% at 70% 40%,
+            rgba(47, 93, 74, 0.35),
+            transparent 70%
+          );
+        pointer-events: none;
+        animation: breath 14s ease-in-out infinite alternate;
+      }
+
+      .hero__content {
+        position: relative;
+        z-index: 1;
+        width: min(920px, calc(100% - 2.5rem));
+        margin: 0 auto;
+        padding: 0 0 4rem;
+        animation: rise 1.2s var(--ease) both;
+      }
+
+      .eyebrow {
+        margin: 0 0 0.7rem;
+        font-size: 0.72rem;
+        letter-spacing: 0.24em;
+        text-transform: uppercase;
+        color: var(--leaf-soft);
+      }
+
+      .brand {
+        margin: 0 0 0.9rem;
+        font-family: "Instrument Serif", "Noto Serif JP", serif;
+        font-size: clamp(2.6rem, 7.5vw, 4.4rem);
+        font-weight: 400;
+        line-height: 1.04;
+      }
+
+      .brand .th {
+        font-family: "Noto Sans Thai", sans-serif;
+        color: var(--teak-soft);
+      }
+
+      .brand span.sub {
+        display: block;
+        margin-top: 0.4rem;
+        font-size: 0.4em;
+        letter-spacing: 0.1em;
+        color: var(--paper-dim);
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+      }
+
+      .lede {
+        margin: 0 0 1.8rem;
+        max-width: 34rem;
+        color: var(--paper-dim);
+        font-size: 1.06rem;
+      }
+
+      .hero__hint {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.7rem;
+        font-size: 0.74rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--paper-dim);
+      }
+
+      .hero__hint::after {
+        content: "";
+        width: 2.5rem;
+        height: 1px;
+        background: var(--teak);
+      }
+
+      /* ---------- channels ---------- */
+      .wrap {
+        width: min(920px, calc(100% - 2.5rem));
+        margin: 0 auto;
+        padding: 4.5rem 0 4rem;
+      }
+
+      .section-kicker {
+        margin: 0 0 0.35rem;
+        font-size: 0.72rem;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: var(--leaf-soft);
+      }
+
+      .section-title {
+        margin: 0 0 0.6rem;
+        font-family: "Instrument Serif", "Noto Serif JP", serif;
+        font-size: clamp(1.7rem, 3.5vw, 2.2rem);
+        font-weight: 400;
+      }
+
+      .section-note {
+        margin: 0 0 2.25rem;
+        color: var(--paper-dim);
+        max-width: 36rem;
+      }
+
+      .channel-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .channel {
+        border-bottom: 1px solid var(--line);
+      }
+
+      .channel a {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 0.5rem 1.5rem;
+        align-items: center;
+        padding: 1.5rem 0.15rem;
+        border: 0;
+        color: inherit;
+      }
+
+      .channel__pair {
+        display: flex;
+        align-items: baseline;
+        gap: 0.7rem;
+        flex-wrap: wrap;
+      }
+
+      .channel__name {
+        margin: 0;
+        font-family: "Instrument Serif", "Noto Serif JP", "Noto Serif TC",
+          serif;
+        font-size: clamp(1.3rem, 2.6vw, 1.6rem);
+        font-weight: 400;
+        color: var(--paper);
+        transition: color 0.3s var(--ease);
+      }
+
+      .channel a:hover .channel__name {
+        color: var(--teak-soft);
+      }
+
+      .channel__tag {
+        font-size: 0.68rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--leaf-soft);
+      }
+
+      .channel__blurb {
+        margin: 0.35rem 0 0;
+        color: var(--paper-dim);
+        font-size: 0.94rem;
+        max-width: 30rem;
+      }
+
+      .channel__go {
+        font-size: 0.72rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--teak);
+        white-space: nowrap;
+      }
+
+      .channel__go::after {
+        content: " →";
+      }
+
+      .channel.is-live .channel__tag {
+        color: var(--teak-soft);
+      }
+
+      /* ---------- about the family ---------- */
+      .about {
+        margin-top: 4rem;
+        padding-top: 2.5rem;
+        border-top: 1px solid var(--line);
+      }
+
+      .about p {
+        margin: 0 0 1.15rem;
+        max-width: 36rem;
+        color: var(--paper-dim);
+        font-size: 1rem;
+      }
+
+      .about strong {
+        color: var(--paper);
+        font-weight: 400;
+      }
+
+      .disclosure {
+        margin-top: 2.5rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--line);
+      }
+
+      .disclosure h2 {
+        margin: 0 0 0.6rem;
+        font-size: 0.7rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--paper-dim);
+        font-weight: 400;
+        font-family: "Outfit", sans-serif;
+      }
+
+      .disclosure p {
+        margin: 0;
+        font-size: 0.88rem;
+        color: var(--paper-dim);
+        max-width: 34rem;
+      }
+
+      .site-footer {
+        border-top: 1px solid var(--line);
+        padding: 2rem 0 3rem;
+        color: var(--paper-dim);
+        font-size: 0.82rem;
+      }
+
+      .site-footer a {
+        margin-right: 1rem;
+      }
+
+      @keyframes rise {
+        from {
+          opacity: 0;
+          transform: translateY(14px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes breath {
+        from {
+          opacity: 0.88;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .channel a {
+          grid-template-columns: 1fr;
+        }
+        .channel__go {
+          justify-self: start;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+        .hero__veil,
+        .hero__content {
+          animation: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-nav">
+      <a class="site-nav__brand" href="./">Cafe' Siam</a>
+      <nav class="site-nav__links" aria-label="Primary">
+        <a href="jpth/">JP × TH room</a>
+        <a href="../../index.html">Studio</a>
+      </nav>
+    </header>
+
+    <section class="hero" aria-label="Café Siam">
+      <div class="hero__veil" aria-hidden="true"></div>
+      <div class="hero__content">
+        <p class="eyebrow">A Café Siam family · n20dle</p>
+        <h1 class="brand">
+          Cafe' Siam <span class="th">ไทย</span>
+          <span class="sub">Soft music &amp; bilingual listening</span>
+        </h1>
+        <p class="lede">
+          One café, five language tables. Soft songs pair Thai with English,
+          Japanese, or Chinese — diction-first, one clear line at a time, with
+          the romanized line always within reach.
+        </p>
+        <span class="hero__hint">Choose a table</span>
+      </div>
+    </section>
+
+    <main class="wrap">
+      <p class="section-kicker">Five tables</p>
+      <h2 class="section-title">Listening cafés</h2>
+      <p class="section-note">
+        The JP × TH room is open on this site. The other tables stream on
+        YouTube — same kitchen, same promise:
+        <em>relax, relax · memory through songs · no pressure · free.</em>
+      </p>
+
+      <ul class="channel-list">
+        <li class="channel is-live">
+          <a href="jpth/">
+            <div>
+              <div class="channel__pair">
+                <h3 class="channel__name">Japanese × Thai</h3>
+                <span class="channel__tag">On this site · n20dle delicetta</span>
+              </div>
+              <p class="channel__blurb">
+                The open room: 146 songs with lyric sheets, Atmosphere autoplay,
+                and romanized Thai after every line.
+              </p>
+            </div>
+            <span class="channel__go">Enter</span>
+          </a>
+        </li>
+
+        <li class="channel">
+          <a
+            href="https://www.youtube.com/@cafesiamsoftmusic"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div>
+              <div class="channel__pair">
+                <h3 class="channel__name">English × Thai</h3>
+                <span class="channel__tag">YouTube</span>
+              </div>
+              <p class="channel__blurb">
+                Soft Music &amp; English–Thai listening — everyday scenes in
+                clear English and Thai.
+              </p>
+            </div>
+            <span class="channel__go">Watch</span>
+          </a>
+        </li>
+
+        <li class="channel">
+          <a
+            href="https://www.youtube.com/@cafesiamsoftmusicthai"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div>
+              <div class="channel__pair">
+                <h3 class="channel__name">Thai × English</h3>
+                <span class="channel__tag">YouTube</span>
+              </div>
+              <p class="channel__blurb">
+                Soft Music &amp; Thai–English listening — the same songs turned
+                around for Thai speakers learning English.
+              </p>
+            </div>
+            <span class="channel__go">Watch</span>
+          </a>
+        </li>
+
+        <li class="channel">
+          <a
+            href="https://www.youtube.com/@cafesiamsoftmusicjap"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div>
+              <div class="channel__pair">
+                <h3 class="channel__name">English × Japanese</h3>
+                <span class="channel__tag">YouTube</span>
+              </div>
+              <p class="channel__blurb">
+                Soft Music &amp; Eng–Japanese listening — gentle bilingual songs
+                for English and Japanese.
+              </p>
+            </div>
+            <span class="channel__go">Watch</span>
+          </a>
+        </li>
+
+        <li class="channel">
+          <a
+            href="https://www.youtube.com/@cafesiamsoftmusicchi"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div>
+              <div class="channel__pair">
+                <h3 class="channel__name">中文 × Thai</h3>
+                <span class="channel__tag">YouTube</span>
+              </div>
+              <p class="channel__blurb">
+                Soft Music &amp; 中文–Thai listening — Chinese and Thai, line by
+                line.
+              </p>
+            </div>
+            <span class="channel__go">Watch</span>
+          </a>
+        </li>
+      </ul>
+
+      <section class="about" aria-label="About Café Siam">
+        <p class="section-kicker">The kitchen</p>
+        <h2 class="section-title">How the songs are made</h2>
+        <p>
+          Café Siam is the bilingual-learning side of <strong>n20dle</strong>.
+          Every song is diction-first: a male–female duet trades the same line
+          in two languages, so you learn by listening, not by study.
+        </p>
+        <p>
+          Styles stay soft — café folk, café jazz, neo-soul, acoustic — and
+          never club pulse, so the words stay clear. Songs run about three to
+          four minutes and climb a gentle ladder from beginner to intermediate
+          scenes.
+        </p>
+      </section>
+
+      <aside class="disclosure" aria-label="Production disclosure">
+        <h2>Production note</h2>
+        <p>
+          Music is made with Suno and may involve AI-assisted production.
+          Listener-facing copy comes first; this disclosure stays below it.
+        </p>
+      </aside>
+    </main>
+
+    <footer class="wrap site-footer">
+      <a href="jpth/">JP × TH room</a>
+      <a href="../../index.html">Studio</a>
+      <span>n20dle · Café Siam family</span>
+    </footer>
+  </body>
+</html>
