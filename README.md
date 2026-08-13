@@ -79,11 +79,12 @@ Project: `silentricenation` · region: `asia-east1` · service: `studio-hub`
 Push to `master` runs `.github/workflows/deploy-pages.yml`, which validates the
 static layout and publishes the site.
 
-1. In GitHub → **Settings → Pages**, set **Source** to **GitHub Actions**.
+1. In GitHub → **Settings → Pages**, set **Source** to **GitHub Actions** (one-time).
 2. After the first successful run, the site is at  
    `https://<owner>.github.io/studio-hub/` (project site URL).
 
-This is the recommended path when `GCP_SA_KEY` is not configured.
+This is the recommended path when `GCP_SA_KEY` is not configured. The workflow
+cannot enable Pages automatically — that single settings click is required.
 
 ### Cloud Run (production URL)
 
