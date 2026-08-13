@@ -10,6 +10,7 @@ permissions:
 
 jobs:
   deploy:
+    if: ${{ secrets.GCP_SA_KEY != '' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -30,3 +31,12 @@ jobs:
             --port=8080 \
             --project=silentricenation \
             --quiet
+
+  skip:
+    if: ${{ secrets.GCP_SA_KEY == '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cloud Run deploy skipped
+        run: |
+          echo "GCP_SA_KEY is not configured — skipping Cloud Run deploy."
+          echo "Enable GitHub Pages (.github/workflows/deploy-pages.yml) or add GCP_SA_KEY to deploy."

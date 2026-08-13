@@ -70,13 +70,29 @@ Regenerate static room pages from the jpth template:
 python channels/siam/scripts/generate-rooms.py
 ```
 
-## Deploy (Cloud Run)
+## Deploy
 
 Project: `silentricenation` · region: `asia-east1` · service: `studio-hub`
 
+### GitHub Pages (no GCP credentials)
+
+Push to `master` runs `.github/workflows/deploy-pages.yml`, which validates the
+static layout and publishes the site.
+
+1. In GitHub → **Settings → Pages**, set **Source** to **GitHub Actions**.
+2. After the first successful run, the site is at  
+   `https://<owner>.github.io/studio-hub/` (project site URL).
+
+This is the recommended path when `GCP_SA_KEY` is not configured.
+
+### Cloud Run (production URL)
+
+Live URL today: https://studio-hub-z4227lzhdq-de.a.run.app/
+
 **CI:** push to `master` runs `.github/workflows/deploy-cloudrun.yml` when the
 `GCP_SA_KEY` repository secret is configured (JSON service account with Cloud
-Run Admin + Cloud Build permissions).
+Run Admin + Cloud Build permissions). If the secret is missing, that workflow
+skips deploy instead of failing.
 
 **Manual deploy** (after rebuilding song data locally):
 
