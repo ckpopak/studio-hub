@@ -70,44 +70,17 @@ Regenerate static room pages from the jpth template:
 python channels/siam/scripts/generate-rooms.py
 ```
 
-## Deploy
+## Deploy (Cloud Run)
 
 Project: `silentricenation` · region: `asia-east1` · service: `studio-hub`
 
-### GitHub Pages (no GCP credentials)
+Live URL: https://studio-hub-z4227lzhdq-de.a.run.app/
 
-Push to `master` runs `.github/workflows/deploy-pages.yml`, which validates the
-static layout and publishes the site.
-
-1. In GitHub → **Settings → Pages**, set **Source** to **GitHub Actions** (one-time).
-2. After the first successful run, the site is at  
-   `https://<owner>.github.io/studio-hub/` (project site URL).
-
-This is the recommended path when `GCP_SA_KEY` is not configured. The workflow
-cannot enable Pages automatically — that single settings click is required.
-
-### Cloud Run (production URL)
-
-Live URL today: https://studio-hub-z4227lzhdq-de.a.run.app/
-
-**CI:** `.github/workflows/deploy-cloudrun.yml` runs on manual dispatch, or on
-push to `master` when the repository variable `ENABLE_CLOUDRUN_DEPLOY` is set
-to `true` (Settings → Secrets and variables → Actions → Variables). Requires
-the `GCP_SA_KEY` secret (JSON service account with Cloud Run Admin + Cloud Build
-permissions). If the variable is unset, push deploys skip Cloud Run and only
-GitHub Pages runs.
-
-**Manual deploy** (after rebuilding song data locally):
+From this directory (same as yesterday — no GitHub Actions or Pages setup):
 
 ```bash
 gcloud auth login
 gcloud config set project silentricenation
-
-export CAFESIAM_CATALOG=/path/to/cafesiam/data/songs_catalog.json
-export N20DLE_CATALOG=/path/to/lang-song-p25-production/catalog
-pip install pythainlp
-python channels/siam/scripts/build-songs-data.py
-python channels/siam/scripts/enrich-songs-lyrics.py
 
 gcloud run deploy studio-hub \
   --source . \
@@ -116,6 +89,22 @@ gcloud run deploy studio-hub \
   --allow-unauthenticated \
   --port=8080 \
   --project=silentricenation
+```
+
+Or build via Cloud Build:
+
+```bash
+gcloud builds submit --config=infra/cloudrun/cloudbuild.yaml --project=silentricenation
+```
+
+Optional — rebuild song data before deploy:
+
+```bash
+export CAFESIAM_CATALOG=/path/to/cafesiam/data/songs_catalog.json
+export N20DLE_CATALOG=/path/to/lang-song-p25-production/catalog
+pip install pythainlp
+python channels/siam/scripts/build-songs-data.py
+python channels/siam/scripts/enrich-songs-lyrics.py
 ```
 
 Production cross-check manifest: `channels/siam/_shared/production-crosscheck.json`
