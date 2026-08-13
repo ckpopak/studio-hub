@@ -89,10 +89,12 @@ This is the recommended path when `GCP_SA_KEY` is not configured.
 
 Live URL today: https://studio-hub-z4227lzhdq-de.a.run.app/
 
-**CI:** push to `master` runs `.github/workflows/deploy-cloudrun.yml` when the
-`GCP_SA_KEY` repository secret is configured (JSON service account with Cloud
-Run Admin + Cloud Build permissions). If the secret is missing, that workflow
-skips deploy instead of failing.
+**CI:** `.github/workflows/deploy-cloudrun.yml` runs on manual dispatch, or on
+push to `master` when the repository variable `ENABLE_CLOUDRUN_DEPLOY` is set
+to `true` (Settings → Secrets and variables → Actions → Variables). Requires
+the `GCP_SA_KEY` secret (JSON service account with Cloud Run Admin + Cloud Build
+permissions). If the variable is unset, push deploys skip Cloud Run and only
+GitHub Pages runs.
 
 **Manual deploy** (after rebuilding song data locally):
 
