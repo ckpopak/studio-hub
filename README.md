@@ -11,30 +11,63 @@ python -m http.server 8765 --bind 127.0.0.1 --directory .
 - Studio hub: http://127.0.0.1:8765/
 - QuietLY atlas: http://127.0.0.1:8765/channels/quietly/
 - QuietLY Atmosphere: http://127.0.0.1:8765/channels/quietly/atmosphere.html
+- Café Siam family: http://127.0.0.1:8765/channels/siam/
 - Café Siam JP×TH Atmosphere: http://127.0.0.1:8765/channels/siam/jpth/
-- Café Siam JP×TH atlas: http://127.0.0.1:8765/channels/siam/jpth/songs.html
+- Café Siam EN×TH Atmosphere: http://127.0.0.1:8765/channels/siam/enthp/
+- Café Siam TH×EN Atmosphere: http://127.0.0.1:8765/channels/siam/thenth/
+- Café Siam EN×JP Atmosphere: http://127.0.0.1:8765/channels/siam/enjp/
+- Café Siam 中文×TH Atmosphere: http://127.0.0.1:8765/channels/siam/thchi/
 
 ## Layout
 
 ```text
 /                              studio hub (QuietLY listed; other slots reserved/empty)
 /channels/quietly/             QuietLY field notes + Atmosphere
-/channels/siam/jpth/           Café Siam Japanese × Thai listening atlas
-/channels/{other}/             future channel side products
+/channels/siam/                Café Siam family landing (five on-site rooms)
+/channels/siam/jpth/           Japanese × Thai (@cafesiamsoftmusicthaijapanese)
+/channels/siam/enthp/          English × Thai (@cafesiamsoftmusic)
+/channels/siam/thenth/         Thai × English (@cafesiamsoftmusicthai)
+/channels/siam/enjp/           English × Japanese (@cafesiamsoftmusicjap)
+/channels/siam/thchi/          中文 × Thai (@cafesiamsoftmusicchi)
 /atmosphere.html               redirect → /channels/quietly/atmosphere.html
 /about.html                    redirect → /channels/quietly/about.html
 ```
 
-Café Siam song data is derived from the cafesiam repo catalog (`data/songs_catalog.json`). Rebuild with:
+## Café Siam data pipeline
+
+Room definitions and n20dle series suffixes live in `channels/siam/_shared/rooms.py`, cross-checked with **lang-song-p25-production** (same suffix layout as legacy `daily20_*` catalogs).
+
+Rebuild song catalogs from the cafesiam repo (`data/songs_catalog.json`) when available:
 
 ```bash
-python channels/siam/jpth/scripts/build-songs-data.py
+export CAFESIAM_CATALOG=/path/to/cafesiam/data/songs_catalog.json
+python channels/siam/scripts/build-songs-data.py
+python channels/siam/scripts/enrich-songs-lyrics.py
 ```
 
-Then fill missing sheets + Thai romanization from the local n20dle thjp catalog:
+Or build a single room:
 
 ```bash
-/path/to/n20dle/.venv/bin/python channels/siam/jpth/scripts/enrich-songs-lyrics.py
+python channels/siam/scripts/build-songs-data.py enthp
+python channels/siam/scripts/enrich-songs-lyrics.py enthp
+```
+
+YouTube flat-playlist fallback (metadata only, no lyric sheets):
+
+```bash
+python channels/siam/scripts/build-songs-data.py enthp --youtube
+```
+
+Enrichment reads local n20dle / lang-song-p25-production catalogs (`N20DLE_CATALOG`) using series globs:
+
+- `lang-song-p25-production_*_<suffix>`
+- `lang-song-p25_*_<suffix>`
+- `daily20_*_<suffix>`
+
+Regenerate static room pages from the jpth template:
+
+```bash
+python channels/siam/scripts/generate-rooms.py
 ```
 
 ## Deploy (Cloud Run)
