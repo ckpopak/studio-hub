@@ -1,0 +1,132 @@
+{
+  "pipeline": "lang-song-p25-production",
+  "description": "Café Siam room definitions cross-checked with lang-song-p25-production catalog series naming (mirrors legacy daily20_* suffix layout).",
+  "series_prefixes": [
+    "lang-song-p25-production_*",
+    "lang-song-p25_*",
+    "daily20_*"
+  ],
+  "rooms": [
+    {
+      "product": "jpth",
+      "slug": "siam/jpth",
+      "pair_label": "Japanese × Thai",
+      "pair_short": "JP × TH",
+      "handle": "@cafesiamsoftmusicthaijapanese",
+      "channel_id": "UClxFByUkmmVK-7endWpTmPA",
+      "channel_url": "https://www.youtube.com/@cafesiamsoftmusicthaijapanese",
+      "brand": "delicetta",
+      "n20dle_suffix": "thjp",
+      "has_thai_roman": true,
+      "catalog_globs": [
+        "lang-song-p25-production_*_thjp/*",
+        "lang-song-p25_*_thjp/*",
+        "daily20_*_thjp/*"
+      ],
+      "stats": {
+        "count": 146,
+        "with_lyrics": 130,
+        "with_romanization": 130,
+        "source": "cafesiam data/songs_catalog.json"
+      }
+    },
+    {
+      "product": "enthp",
+      "slug": "siam/enthp",
+      "pair_label": "English × Thai",
+      "pair_short": "EN × TH",
+      "handle": "@cafesiamsoftmusic",
+      "channel_id": "UCvwBBIq_rVNg1QiJR63b18g",
+      "channel_url": "https://www.youtube.com/@cafesiamsoftmusic",
+      "brand": "calbenetic",
+      "n20dle_suffix": "enth",
+      "has_thai_roman": true,
+      "catalog_globs": [
+        "lang-song-p25-production_*_enth/*",
+        "lang-song-p25_*_enth/*",
+        "daily20_*_enth/*"
+      ],
+      "stats": {
+        "count": 188,
+        "with_lyrics": 0,
+        "with_romanization": 0,
+        "source": "YouTube @cafesiamsoftmusic/videos"
+      }
+    },
+    {
+      "product": "thenth",
+      "slug": "siam/thenth",
+      "pair_label": "Thai × English",
+      "pair_short": "TH × EN",
+      "handle": "@cafesiamsoftmusicthai",
+      "channel_id": "UCJdG-tCXK2sY31JhFxf_vog",
+      "channel_url": "https://www.youtube.com/@cafesiamsoftmusicthai",
+      "brand": "jagabenatic",
+      "n20dle_suffix": "then",
+      "has_thai_roman": false,
+      "catalog_globs": [
+        "lang-song-p25-production_*_then/*",
+        "lang-song-p25_*_then/*",
+        "daily20_*_then/*"
+      ],
+      "stats": {
+        "count": 109,
+        "with_lyrics": 0,
+        "with_romanization": 0,
+        "source": "YouTube @cafesiamsoftmusicthai/videos"
+      }
+    },
+    {
+      "product": "enjp",
+      "slug": "siam/enjp",
+      "pair_label": "English × Japanese",
+      "pair_short": "EN × JP",
+      "handle": "@cafesiamsoftmusicjap",
+      "channel_id": "UCdgklDVDF-adNCt4-f12wjQ",
+      "channel_url": "https://www.youtube.com/@cafesiamsoftmusicjap",
+      "brand": "latticia",
+      "n20dle_suffix": "enjp",
+      "has_thai_roman": false,
+      "catalog_globs": [
+        "lang-song-p25-production_*_enjp/*",
+        "lang-song-p25_*_enjp/*",
+        "daily20_*_enjp/*"
+      ],
+      "stats": {
+        "count": 150,
+        "with_lyrics": 0,
+        "with_romanization": 0,
+        "source": "YouTube @cafesiamsoftmusicjap/videos"
+      }
+    },
+    {
+      "product": "thchi",
+      "slug": "siam/thchi",
+      "pair_label": "中文 × Thai",
+      "pair_short": "中文 × TH",
+      "handle": "@cafesiamsoftmusicchi",
+      "channel_id": "UCOlwyMIpoUBsDdscHX9yEbA",
+      "channel_url": "https://www.youtube.com/@cafesiamsoftmusicchi",
+      "brand": "ricenation",
+      "n20dle_suffix": "thchi",
+      "has_thai_roman": true,
+      "catalog_globs": [
+        "lang-song-p25-production_*_thchi/*",
+        "lang-song-p25_*_thchi/*",
+        "daily20_*_thchi/*"
+      ],
+      "stats": {
+        "count": 98,
+        "with_lyrics": 0,
+        "with_romanization": 0,
+        "source": "YouTube @cafesiamsoftmusicchi/videos"
+      }
+    }
+  ],
+  "rebuild": {
+    "cafesiam_catalog_env": "CAFESIAM_CATALOG",
+    "n20dle_catalog_env": "N20DLE_CATALOG",
+    "build": "python channels/siam/scripts/build-songs-data.py",
+    "enrich": "python channels/siam/scripts/enrich-songs-lyrics.py"
+  }
+}

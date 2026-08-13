@@ -1,0 +1,8 @@
+{
+  "install": "pip install --user pythainlp yt-dlp && python channels/siam/scripts/export-production-manifest.py",
+  "repositoryDependencies": [
+    "github.com/ckpopak/lang-song-p25-production",
+    "github.com/ckpopak/cafesiam",
+    "github.com/ckpopak/n20dle"
+  ]
+}
