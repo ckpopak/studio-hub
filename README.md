@@ -74,19 +74,29 @@ python channels/siam/scripts/generate-rooms.py
 
 Project: `silentricenation` · region: `asia-east1` · service: `studio-hub`
 
+**CI:** push to `master` runs `.github/workflows/deploy-cloudrun.yml` when the
+`GCP_SA_KEY` repository secret is configured (JSON service account with Cloud
+Run Admin + Cloud Build permissions).
+
+**Manual deploy** (after rebuilding song data locally):
+
 ```bash
-# one-time: create Artifact Registry repo
-gcloud artifacts repositories create ricenation \
-  --repository-format=docker \
-  --location=asia-east1 \
+gcloud auth login
+gcloud config set project silentricenation
+
+export CAFESIAM_CATALOG=/path/to/cafesiam/data/songs_catalog.json
+export N20DLE_CATALOG=/path/to/lang-song-p25-production/catalog
+pip install pythainlp
+python channels/siam/scripts/build-songs-data.py
+python channels/siam/scripts/enrich-songs-lyrics.py
+
+gcloud run deploy studio-hub \
+  --source . \
+  --region=asia-east1 \
+  --platform=managed \
+  --allow-unauthenticated \
+  --port=8080 \
   --project=silentricenation
-
-# build + deploy from this directory
-gcloud builds submit --config=infra/cloudrun/cloudbuild.yaml --project=silentricenation
 ```
 
-Or:
-
-```bash
-gcloud run deploy studio-hub --source . --region=asia-east1 --allow-unauthenticated --project=silentricenation
-```
+Production cross-check manifest: `channels/siam/_shared/production-crosscheck.json`
