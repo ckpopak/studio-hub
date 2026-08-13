@@ -1,0 +1,233 @@
+{
+  "episode": 13,
+  "slug": "flower-slope-joy",
+  "title": {
+    "en": "Flower Slope Joy",
+    "zh": "花坡晚樂"
+  },
+  "logline": "花坡有聲音，樂也有聲音。",
+  "videoId": "rFl-DLezwow",
+  "youtubeTitle": "[playlist] QuietLY · 花坡晚樂 — Slow Mandarin Jazz",
+  "comics": [
+    {
+      "en": "The slope keeps its own kind of gold.",
+      "zh": "山坡留著自己的金。"
+    },
+    {
+      "en": "Petals fall without asking permission.",
+      "zh": "花瓣落下，不必請示。"
+    },
+    {
+      "en": "A bench for two, or for one long afternoon.",
+      "zh": "一張椅，夠兩人，或一個長午。"
+    },
+    {
+      "en": "Stay until the river holds the red light.",
+      "zh": "留到江面接住紅光。"
+    }
+  ],
+  "hero": "assets/ep13-hero.png",
+  "comicImages": [],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "0:00",
+      "en": "First Petal Joy",
+      "zh": "第一瓣的樂",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-13/"
+    },
+    {
+      "n": "02",
+      "start": 0,
+      "time": "0:00",
+      "en": "Bee Path Gold",
+      "zh": "蜂路金光",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-13/"
+    },
+    {
+      "n": "03",
+      "start": 0,
+      "time": "0:00",
+      "en": "Apricot Over Wall",
+      "zh": "紅杏出牆",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-13/"
+    },
+    {
+      "n": "04",
+      "start": 0,
+      "time": "0:00",
+      "en": "Soft Joy",
+      "zh": "輕聲的樂",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-13/"
+    },
+    {
+      "n": "05",
+      "start": 0,
+      "time": "0:00",
+      "en": "Two Kites Meet",
+      "zh": "兩紙鳶相遇",
+      "voice": "男女混唱",
+      "lyrics": "",
+      "source": "songs/prompts/episode-13/"
+    },
+    {
+      "n": "06",
+      "start": 0,
+      "time": "0:00",
+      "en": "Wooden Bench No Hurry",
+      "zh": "木椅不急",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-13/"
+    },
+    {
+      "n": "07",
+      "start": 0,
+      "time": "0:00",
+      "en": "Smoke Flowers March",
+      "zh": "煙花三月",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-13/"
+    },
+    {
+      "n": "08",
+      "start": 0,
+      "time": "0:00",
+      "en": "One More Cup",
+      "zh": "再盡一杯",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-13/"
+    },
+    {
+      "n": "09",
+      "start": 0,
+      "time": "0:00",
+      "en": "Peach Deep Song",
+      "zh": "桃潭歌聲",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-13/"
+    },
+    {
+      "n": "10",
+      "start": 0,
+      "time": "0:00",
+      "en": "The Longest Joy",
+      "zh": "最長的樂",
+      "voice": "男女混唱",
+      "lyrics": "",
+      "source": "songs/prompts/episode-13/"
+    },
+    {
+      "n": "11",
+      "start": 0,
+      "time": "0:00",
+      "en": "Half River Red",
+      "zh": "半江紅",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-13/"
+    },
+    {
+      "n": "12",
+      "start": 0,
+      "time": "0:00",
+      "en": "Silver Disk",
+      "zh": "白銀盤",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-13/"
+    },
+    {
+      "n": "13",
+      "start": 0,
+      "time": "0:00",
+      "en": "Many Sides One Joy",
+      "zh": "橫看側看",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-13/"
+    },
+    {
+      "n": "14",
+      "start": 0,
+      "time": "0:00",
+      "en": "Orange Green Season",
+      "zh": "橙黃橘綠",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-13/"
+    },
+    {
+      "n": "15",
+      "start": 0,
+      "time": "0:00",
+      "en": "Fallen Red Feeds",
+      "zh": "落紅護花",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-13/"
+    },
+    {
+      "n": "16",
+      "start": 0,
+      "time": "0:00",
+      "en": "No Lonely Road",
+      "zh": "莫愁前路",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-13/"
+    },
+    {
+      "n": "17",
+      "start": 0,
+      "time": "0:00",
+      "en": "Sunny Rainy Song",
+      "zh": "無晴卻有晴",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-13/"
+    },
+    {
+      "n": "18",
+      "start": 0,
+      "time": "0:00",
+      "en": "River Flowers Fire",
+      "zh": "江花紅勝火",
+      "voice": "男女混唱",
+      "lyrics": "",
+      "source": "songs/prompts/episode-13/"
+    },
+    {
+      "n": "19",
+      "start": 0,
+      "time": "0:00",
+      "en": "Peach Outside Bamboo",
+      "zh": "竹外桃花",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-13/"
+    },
+    {
+      "n": "20",
+      "start": 0,
+      "time": "0:00",
+      "en": "Still Listening for 樂",
+      "zh": "仍在聽樂",
+      "voice": "男女混唱",
+      "lyrics": "",
+      "source": "songs/prompts/episode-13/"
+    }
+  ]
+}

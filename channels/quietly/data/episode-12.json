@@ -1,0 +1,233 @@
+{
+  "episode": 12,
+  "slug": "bamboo-brook-harmony",
+  "title": {
+    "en": "Bamboo Brook Harmony",
+    "zh": "竹澗聽和"
+  },
+  "logline": "竹澗有聲音，和也有聲音。",
+  "videoId": "Q2zHwUCGs5Y",
+  "youtubeTitle": "[playlist] QuietLY · 竹澗聽和 — Slow Mandarin Jazz",
+  "comics": [
+    {
+      "en": "A brook does not hurry around the stone.",
+      "zh": "溪不催石頭。"
+    },
+    {
+      "en": "Shared shade is already an answer.",
+      "zh": "同一片蔭，已是回答。"
+    },
+    {
+      "en": "Two winds meet and neither wins.",
+      "zh": "兩陣風相遇，不分勝負。"
+    },
+    {
+      "en": "Sit until the birds answer each other.",
+      "zh": "坐到鳥兒互相應聲。"
+    }
+  ],
+  "hero": "assets/ep12-hero.png",
+  "comicImages": [],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "0:00",
+      "en": "First Leaf Answer",
+      "zh": "第一片葉的答",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-12/"
+    },
+    {
+      "n": "02",
+      "start": 0,
+      "time": "0:00",
+      "en": "Shared Cup Steam",
+      "zh": "共杯熱氣",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-12/"
+    },
+    {
+      "n": "03",
+      "start": 0,
+      "time": "0:00",
+      "en": "Moss Fills the Crack",
+      "zh": "苔補裂縫",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-12/"
+    },
+    {
+      "n": "04",
+      "start": 0,
+      "time": "0:00",
+      "en": "Soft Agreement",
+      "zh": "輕聲同意",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-12/"
+    },
+    {
+      "n": "05",
+      "start": 0,
+      "time": "0:00",
+      "en": "Two Winds Meet",
+      "zh": "兩陣風相遇",
+      "voice": "男女混唱",
+      "lyrics": "",
+      "source": "songs/prompts/episode-12/"
+    },
+    {
+      "n": "06",
+      "start": 0,
+      "time": "0:00",
+      "en": "Wooden Bridge No Hurry",
+      "zh": "木橋不急",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-12/"
+    },
+    {
+      "n": "07",
+      "start": 0,
+      "time": "0:00",
+      "en": "Stone Tea Table",
+      "zh": "石茶台",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-12/"
+    },
+    {
+      "n": "08",
+      "start": 0,
+      "time": "0:00",
+      "en": "Reed and Root",
+      "zh": "蘆與根",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-12/"
+    },
+    {
+      "n": "09",
+      "start": 0,
+      "time": "0:00",
+      "en": "Birds Answer Birds",
+      "zh": "鳥答鳥",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-12/"
+    },
+    {
+      "n": "10",
+      "start": 0,
+      "time": "0:00",
+      "en": "The Longest Harmony",
+      "zh": "最長的和",
+      "voice": "男女混唱",
+      "lyrics": "",
+      "source": "songs/prompts/episode-12/"
+    },
+    {
+      "n": "11",
+      "start": 0,
+      "time": "0:00",
+      "en": "Shade Enough for Two",
+      "zh": "夠兩人的蔭",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-12/"
+    },
+    {
+      "n": "12",
+      "start": 0,
+      "time": "0:00",
+      "en": "No Winner Needed",
+      "zh": "不必分勝負",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-12/"
+    },
+    {
+      "n": "13",
+      "start": 0,
+      "time": "0:00",
+      "en": "Reed Mist Handshake",
+      "zh": "蘆霧握手",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-12/"
+    },
+    {
+      "n": "14",
+      "start": 0,
+      "time": "0:00",
+      "en": "Hoe Under Moon",
+      "zh": "月下荷鋤",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-12/"
+    },
+    {
+      "n": "15",
+      "start": 0,
+      "time": "0:00",
+      "en": "Ferry Without Crowd",
+      "zh": "無人野渡",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-12/"
+    },
+    {
+      "n": "16",
+      "start": 0,
+      "time": "0:00",
+      "en": "Green Again",
+      "zh": "又綠",
+      "voice": "男女混唱",
+      "lyrics": "",
+      "source": "songs/prompts/episode-12/"
+    },
+    {
+      "n": "17",
+      "start": 0,
+      "time": "0:00",
+      "en": "Plum in Cold",
+      "zh": "寒中梅",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-12/"
+    },
+    {
+      "n": "18",
+      "start": 0,
+      "time": "0:00",
+      "en": "Willow Scissors",
+      "zh": "柳剪春風",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-12/"
+    },
+    {
+      "n": "19",
+      "start": 0,
+      "time": "0:00",
+      "en": "Peach Still Here",
+      "zh": "桃花還在",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-12/"
+    },
+    {
+      "n": "20",
+      "start": 0,
+      "time": "0:00",
+      "en": "Still Listening for 和",
+      "zh": "仍在聽和",
+      "voice": "男女混唱",
+      "lyrics": "",
+      "source": "songs/prompts/episode-12/"
+    }
+  ]
+}

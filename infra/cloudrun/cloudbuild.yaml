@@ -20,7 +20,7 @@ steps:
     args:
       - run
       - deploy
-      - ricenation
+      - studio-hub
       - --image=asia-east1-docker.pkg.dev/$PROJECT_ID/ricenation/ricenation:$SHORT_SHA
       - --region=asia-east1
       - --platform=managed

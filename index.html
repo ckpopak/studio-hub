@@ -3,220 +3,506 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ricenation — studio</title>
+    <title>n20dle — studio</title>
     <meta
       name="description"
-      content="ricenation studio hub. Channel side products live under /channels/{name}/."
+      content="n20dle studio. Slow listening rooms and language cafés. Enter Café QuietLY, Café Siam, or read About."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Noto+Serif+TC:wght@400;500;600&family=Outfit:wght@300;400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Noto+Serif+TC:wght@400;500;600&family=Noto+Serif+JP:wght@400;500&family=Noto+Sans+Thai:wght@300;400&family=Outfit:wght@200;300;400;500&display=swap"
       rel="stylesheet"
     />
     <style>
       :root {
         --ink: #0b1018;
         --navy: #121a28;
-        --mist: #8b97ab;
-        --paper: #e8e2d6;
+        --mist: #9aa6b8;
+        --paper: #ece6da;
         --amber: #c8924a;
         --amber-soft: #d4a574;
-        --line: rgba(232, 226, 214, 0.12);
         --ease: cubic-bezier(0.22, 1, 0.36, 1);
+        --nav-h: 3.25rem;
       }
 
       * {
         box-sizing: border-box;
       }
 
+      html {
+        scroll-behavior: smooth;
+      }
+
       body {
         margin: 0;
-        min-height: 100svh;
-        background:
-          radial-gradient(
-            ellipse 70% 45% at 78% 0%,
-            rgba(200, 146, 74, 0.16),
-            transparent 55%
-          ),
-          linear-gradient(180deg, var(--navy), var(--ink) 58%);
+        background: var(--ink);
         color: var(--paper);
         font-family: "Outfit", sans-serif;
         font-weight: 300;
         letter-spacing: 0.02em;
-        line-height: 1.65;
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
       }
 
       a {
-        color: var(--amber-soft);
+        color: inherit;
         text-decoration: none;
-        border-bottom: 1px solid transparent;
-        transition:
-          color 0.3s var(--ease),
-          border-color 0.3s var(--ease);
       }
 
-      a:hover {
-        color: var(--amber);
-        border-bottom-color: var(--amber);
+      /* ---------- top bar ---------- */
+      .topbar {
+        position: fixed;
+        inset: 0 0 auto;
+        z-index: 50;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: var(--nav-h);
+        padding: 0 clamp(1.25rem, 4vw, 2.5rem);
+        font-size: 0.78rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: rgba(236, 230, 218, 0.82);
+        background: linear-gradient(
+          180deg,
+          rgba(11, 16, 24, 0.55),
+          transparent
+        );
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
       }
 
-      .wrap {
-        width: min(920px, calc(100% - 2.5rem));
-        margin: 0 auto;
-        padding: 4.5rem 0 4rem;
+      .topbar__brand {
+        font-family: "Instrument Serif", serif;
+        font-size: 1.05rem;
+        letter-spacing: 0.06em;
+        text-transform: none;
+        color: var(--paper);
       }
 
-      .mark {
-        font-family: "Noto Serif TC", serif;
-        font-size: clamp(2.4rem, 6vw, 3.4rem);
-        line-height: 1;
-        margin: 0 0 0.85rem;
+      .topbar nav {
+        display: flex;
+        gap: clamp(1rem, 3vw, 2rem);
+      }
+
+      .topbar nav a {
+        opacity: 0.75;
+        transition: opacity 0.3s var(--ease);
+      }
+
+      .topbar nav a:hover {
+        opacity: 1;
+      }
+
+      @media (max-width: 560px) {
+        .topbar nav {
+          display: none;
+        }
+      }
+
+      /* ---------- panels ---------- */
+      .panel {
+        position: sticky;
+        top: 0;
+        height: 100svh;
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+        isolation: isolate;
+      }
+
+      .panel__bg {
+        position: absolute;
+        inset: 0;
+        z-index: -2;
+      }
+
+      .panel__bg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: scale(1.08);
+        will-change: transform;
+      }
+
+      .panel__tint {
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+      }
+
+      .panel__inner {
+        position: relative;
+        text-align: center;
+        padding: 0 1.5rem;
+        max-width: 46rem;
+        will-change: transform, opacity;
       }
 
       .eyebrow {
-        margin: 0 0 0.7rem;
+        margin: 0 0 1rem;
         font-size: 0.72rem;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: var(--amber-soft);
+      }
+
+      .title {
+        margin: 0;
+        font-family: "Instrument Serif", "Noto Serif TC", "Noto Serif JP",
+          serif;
+        font-weight: 400;
+        line-height: 1.02;
+        letter-spacing: -0.01em;
+      }
+
+      .sub {
+        margin: 1.1rem auto 0;
+        max-width: 32rem;
+        color: var(--mist);
+        font-size: clamp(0.98rem, 1.6vw, 1.12rem);
+      }
+
+      .cta {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.6rem;
+        margin-top: 2.2rem;
+        padding: 0.85rem 1.9rem;
+        border: 1px solid rgba(236, 230, 218, 0.35);
+        border-radius: 999px;
+        font-size: 0.78rem;
         letter-spacing: 0.22em;
         text-transform: uppercase;
-        color: var(--amber);
+        color: var(--paper);
+        background: rgba(11, 16, 24, 0.25);
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+        transition:
+          background 0.35s var(--ease),
+          border-color 0.35s var(--ease),
+          transform 0.35s var(--ease);
       }
 
-      h1 {
-        margin: 0 0 0.85rem;
-        font-family: "Instrument Serif", "Noto Serif TC", serif;
-        font-size: clamp(2.1rem, 5vw, 3rem);
-        font-weight: 400;
-        line-height: 1.15;
+      .cta:hover {
+        background: rgba(236, 230, 218, 0.92);
+        border-color: transparent;
+        color: var(--ink);
+        transform: translateY(-2px);
       }
 
-      .lede {
-        margin: 0 0 3rem;
-        max-width: 34rem;
-        color: var(--mist);
-        font-size: 1.05rem;
+      .cta::after {
+        content: "→";
+        font-family: none;
+        transition: transform 0.35s var(--ease);
       }
 
-      .section-title {
-        margin: 0 0 0.35rem;
-        font-family: "Instrument Serif", serif;
-        font-size: 1.45rem;
-        font-weight: 400;
+      .cta:hover::after {
+        transform: translateX(4px);
       }
 
-      .section-note {
-        margin: 0 0 1.5rem;
-        color: var(--mist);
-        font-size: 0.95rem;
+      /* ---------- hero ---------- */
+      .hero {
+        z-index: 1;
+        background:
+          radial-gradient(
+            ellipse 90% 60% at 50% 110%,
+            rgba(200, 146, 74, 0.14),
+            transparent 60%
+          ),
+          radial-gradient(
+            ellipse 70% 45% at 80% -10%,
+            rgba(120, 144, 180, 0.12),
+            transparent 55%
+          ),
+          linear-gradient(180deg, var(--navy), var(--ink) 70%);
       }
 
-      .channel {
-        border-top: 1px solid var(--line);
-        padding: 1.5rem 0 1.75rem;
+      .hero .title {
+        font-size: clamp(4rem, 14vw, 9.5rem);
       }
 
-      .channel:last-of-type {
-        border-bottom: 1px solid var(--line);
+      .hero .title em {
+        font-style: italic;
+        color: var(--amber-soft);
       }
 
-      .channel__name {
-        margin: 0 0 0.35rem;
-        font-family: "Instrument Serif", "Noto Serif TC", serif;
-        font-size: 1.55rem;
-        font-weight: 400;
-      }
-
-      .channel__name .zh {
-        font-family: "Noto Serif TC", serif;
-        color: var(--mist);
-        font-size: 0.88em;
-        margin-left: 0.35rem;
-      }
-
-      .channel__blurb {
-        margin: 0 0 1rem;
-        max-width: 36rem;
-        color: var(--mist);
-      }
-
-      .channel__links {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.85rem 1.35rem;
-        font-size: 0.78rem;
-        letter-spacing: 0.14em;
+      .hero__scrollcue {
+        position: absolute;
+        left: 50%;
+        bottom: 2.2rem;
+        transform: translateX(-50%);
+        display: grid;
+        justify-items: center;
+        gap: 0.6rem;
+        font-size: 0.68rem;
+        letter-spacing: 0.3em;
         text-transform: uppercase;
+        color: rgba(236, 230, 218, 0.55);
       }
 
-      .channel.is-reserved {
-        opacity: 0.72;
+      .hero__scrollcue::after {
+        content: "";
+        width: 1px;
+        height: 3.2rem;
+        background: linear-gradient(
+          180deg,
+          rgba(236, 230, 218, 0.6),
+          transparent
+        );
+        animation: cue 2.4s var(--ease) infinite;
+        transform-origin: top;
       }
 
-      .channel.is-reserved .channel__name {
-        color: rgba(232, 226, 214, 0.7);
+      @keyframes cue {
+        0% {
+          transform: scaleY(0);
+          opacity: 0;
+        }
+        35% {
+          transform: scaleY(1);
+          opacity: 1;
+        }
+        100% {
+          transform: scaleY(1) translateY(12px);
+          opacity: 0;
+        }
       }
 
-      .path {
-        margin-top: 2.5rem;
-        color: var(--mist);
-        font-size: 0.8rem;
-        font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+      /* ---------- Café QuietLY ---------- */
+      .quietly {
+        z-index: 2;
+        box-shadow: 0 -30px 80px rgba(0, 0, 0, 0.55);
       }
 
+      .quietly .panel__tint {
+        background: linear-gradient(
+          180deg,
+          rgba(11, 16, 24, 0.62),
+          rgba(11, 16, 24, 0.34) 45%,
+          rgba(11, 16, 24, 0.82)
+        );
+      }
+
+      .quietly .title {
+        font-size: clamp(2.9rem, 8vw, 5.6rem);
+      }
+
+      .quietly .title .zh {
+        font-family: "Noto Serif TC", serif;
+        color: var(--amber-soft);
+      }
+
+      /* ---------- Café Siam ---------- */
+      .siam {
+        z-index: 3;
+        box-shadow: 0 -30px 80px rgba(0, 0, 0, 0.55);
+        background:
+          radial-gradient(
+            ellipse 80% 55% at 20% 100%,
+            rgba(184, 137, 90, 0.22),
+            transparent 60%
+          ),
+          radial-gradient(
+            ellipse 60% 40% at 85% 0%,
+            rgba(94, 138, 122, 0.18),
+            transparent 55%
+          ),
+          linear-gradient(180deg, #101a16, #0a120f 70%);
+      }
+
+      .siam .title {
+        font-size: clamp(2.9rem, 8vw, 5.6rem);
+      }
+
+      .siam .title .jp {
+        font-family: "Noto Serif JP", serif;
+        color: var(--amber-soft);
+      }
+
+      .siam .title .th {
+        font-family: "Noto Sans Thai", sans-serif;
+        font-weight: 300;
+        color: var(--amber-soft);
+      }
+
+      /* ---------- About ---------- */
+      .about {
+        z-index: 4;
+        box-shadow: 0 -30px 80px rgba(0, 0, 0, 0.55);
+        background:
+          radial-gradient(
+            ellipse 70% 45% at 80% 0%,
+            rgba(200, 146, 74, 0.12),
+            transparent 55%
+          ),
+          linear-gradient(180deg, var(--navy), var(--ink) 65%);
+      }
+
+      .about .title {
+        font-size: clamp(2.4rem, 6.5vw, 4.2rem);
+      }
+
+      /* ---------- footer ---------- */
       footer {
-        margin-top: 3rem;
-        color: var(--mist);
-        font-size: 0.78rem;
+        position: relative;
+        z-index: 5;
+        padding: 2.4rem 1.5rem 3rem;
+        text-align: center;
+        font-size: 0.74rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: rgba(236, 230, 218, 0.4);
+        background: var(--ink);
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+        .hero__scrollcue::after {
+          animation: none;
+        }
       }
     </style>
   </head>
   <body>
-    <main class="wrap">
-      <p class="eyebrow">Studio</p>
-      <p class="mark" aria-hidden="true">靜</p>
-      <h1>ricenation</h1>
-      <p class="lede">
-        A quiet studio hub for channel side products. Each channel keeps its own
-        rooms under <code>/channels/{name}/</code>.
-      </p>
+    <header class="topbar">
+      <a class="topbar__brand" href="#top">n20dle</a>
+      <nav aria-label="Rooms">
+        <a href="#quietly">Café QuietLY</a>
+        <a href="#siam">Café Siam</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
 
-      <p class="section-title">Channels</p>
-      <p class="section-note">
-        QuietLY is live. More channel spaces can open beside it without sharing
-        one homepage.
-      </p>
-
-      <article class="channel">
-        <h2 class="channel__name">
-          Cafe QuietLY
-          <span class="zh">靜</span>
-        </h2>
-        <p class="channel__blurb">
-          Slow Mandarin jazz worlds: field notes to read, Atmosphere to let the
-          room play itself.
-        </p>
-        <div class="channel__links">
-          <a href="channels/quietly/">Field notes atlas</a>
-          <a href="channels/quietly/atmosphere.html">Atmosphere</a>
-          <a href="channels/quietly/about.html">About</a>
+    <main id="top">
+      <!-- Hero: the brand -->
+      <section class="panel hero" aria-label="n20dle">
+        <div class="panel__inner" data-parallax>
+          <p class="eyebrow">A studio for slow listening</p>
+          <h1 class="title">n<em>20</em>dle</h1>
+          <p class="sub">
+            Small rooms of sound and language. Music that plays itself, words
+            you can sit with.
+          </p>
         </div>
-      </article>
+        <p class="hero__scrollcue">Scroll</p>
+      </section>
 
-      <article class="channel is-reserved" aria-label="Reserved channel space">
-        <h2 class="channel__name">Next channel</h2>
-        <p class="channel__blurb">
-          Reserved for another channel’s side product pages at
-          <code>/channels/{slug}/</code>.
-        </p>
-      </article>
+      <!-- Café QuietLY -->
+      <section class="panel quietly" id="quietly" aria-label="Café QuietLY">
+        <div class="panel__bg" aria-hidden="true">
+          <img
+            src="channels/quietly/assets/ep11-autumn-river-hero.png"
+            alt=""
+            loading="lazy"
+          />
+        </div>
+        <div class="panel__tint" aria-hidden="true"></div>
+        <div class="panel__inner" data-parallax>
+          <p class="eyebrow">Slow Mandarin jazz</p>
+          <h2 class="title">
+            Café QuietLY <span class="zh">靜</span>
+          </h2>
+          <p class="sub">
+            Imaginary worlds to read — scene first, sparse lyrics, music at the
+            edge. Field notes and an Atmosphere that lets the room play itself.
+          </p>
+          <a class="cta" href="channels/quietly/">Enter QuietLY</a>
+        </div>
+      </section>
 
-      <p class="path">
-        QuietLY Atmosphere → /channels/quietly/atmosphere.html
-      </p>
+      <!-- Café Siam -->
+      <section class="panel siam" id="siam" aria-label="Café Siam">
+        <div class="panel__inner" data-parallax>
+          <p class="eyebrow">Japanese × Thai listening</p>
+          <h2 class="title">
+            Café Siam <span class="jp">タイ</span><span class="th">ไทย</span>
+          </h2>
+          <p class="sub">
+            A JP × TH café where soft songs stay open for listening and
+            learning — romanized Thai after every line.
+          </p>
+          <a class="cta" href="channels/siam/jpth/">Enter Siam</a>
+        </div>
+      </section>
 
-      <footer>
-        Channel products stay namespaced. The hub only points the way.
-      </footer>
+      <!-- About -->
+      <section class="panel about" id="about" aria-label="About n20dle">
+        <div class="panel__inner" data-parallax>
+          <p class="eyebrow">The studio</p>
+          <h2 class="title">About n20dle</h2>
+          <p class="sub">
+            n20dle is one small studio keeping a few quiet rooms. Each channel
+            lives under <code>/channels/{name}/</code> — the hub only points
+            the way.
+          </p>
+          <a class="cta" href="about.html">Read About</a>
+        </div>
+      </section>
     </main>
+
+    <footer>n20dle — quiet rooms, open doors</footer>
+
+    <script>
+      const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+      if (!reduce) {
+        const panels = [...document.querySelectorAll(".panel")];
+        const clamp01 = (v) => Math.min(1, Math.max(0, v));
+
+        const update = () => {
+          const vh = innerHeight;
+          for (const panel of panels) {
+            const rect = panel.getBoundingClientRect();
+            const inner = panel.querySelector("[data-parallax]");
+            const bg = panel.querySelector(".panel__bg img");
+
+            // progress of this panel leaving the viewport (0 = settled, 1 = fully covered)
+            const leaving = clamp01(-rect.top / vh);
+            // progress of this panel entering (0 = offscreen below, 1 = settled)
+            const entering = clamp01(1 - rect.top / vh);
+
+            if (inner) {
+              // content drifts up and fades as the next panel covers it
+              inner.style.transform = `translateY(${leaving * -12}vh) scale(${
+                1 - leaving * 0.06
+              })`;
+              inner.style.opacity = String(1 - leaving * 0.9);
+              // gentle rise while entering
+              if (rect.top > 0) {
+                const rise = (1 - entering) * 8;
+                inner.style.transform = `translateY(${rise}vh)`;
+                inner.style.opacity = String(0.25 + entering * 0.75);
+              }
+            }
+
+            if (bg) {
+              // slow zoom settle as the panel arrives
+              const scale = 1.08 - entering * 0.05 + leaving * 0.04;
+              bg.style.transform = `scale(${scale})`;
+            }
+          }
+        };
+
+        let ticking = false;
+        addEventListener(
+          "scroll",
+          () => {
+            if (!ticking) {
+              requestAnimationFrame(() => {
+                update();
+                ticking = false;
+              });
+              ticking = true;
+            }
+          },
+          { passive: true }
+        );
+        addEventListener("resize", update);
+        update();
+      }
+    </script>
   </body>
 </html>

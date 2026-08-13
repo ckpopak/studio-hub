@@ -1,0 +1,233 @@
+{
+  "episode": 15,
+  "slug": "creek-bank-current",
+  "title": {
+    "en": "Creek Bank Current",
+    "zh": "溪岸聽順"
+  },
+  "logline": "溪岸不催你對抗。它只讓水流過來。",
+  "videoId": "RiKHSiwefVI",
+  "youtubeTitle": "[playlist] QuietLY · 溪岸聽順 — Slow Mandarin Jazz",
+  "comics": [
+    {
+      "en": "The bank does not ask you to fight.",
+      "zh": "溪岸不催你對抗。"
+    },
+    {
+      "en": "It only lets the water come.",
+      "zh": "它只讓水流過來。"
+    },
+    {
+      "en": "Bend a little, wait a little, keep up.",
+      "zh": "彎一點、等一點、跟得上。"
+    },
+    {
+      "en": "The current already knows the way.",
+      "zh": "水流早已知道路。"
+    }
+  ],
+  "hero": "assets/ep15-hero.png",
+  "comicImages": [],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "0:00",
+      "en": "Current Takes the Leaf",
+      "zh": "水帶走葉",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-15/"
+    },
+    {
+      "n": "02",
+      "start": 0,
+      "time": "0:00",
+      "en": "Willow Doesn't Argue",
+      "zh": "柳不爭辯",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-15/"
+    },
+    {
+      "n": "03",
+      "start": 0,
+      "time": "0:00",
+      "en": "Pebble Turns Once",
+      "zh": "石子翻一次",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-15/"
+    },
+    {
+      "n": "04",
+      "start": 0,
+      "time": "0:00",
+      "en": "Soft Yes",
+      "zh": "輕聲的順",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-15/"
+    },
+    {
+      "n": "05",
+      "start": 0,
+      "time": "0:00",
+      "en": "Two Banks Same Water",
+      "zh": "兩岸同水",
+      "voice": "男女混唱",
+      "lyrics": "",
+      "source": "songs/prompts/episode-15/"
+    },
+    {
+      "n": "06",
+      "start": 0,
+      "time": "0:00",
+      "en": "Driftwood Rests",
+      "zh": "浮木靠岸",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-15/"
+    },
+    {
+      "n": "07",
+      "start": 0,
+      "time": "0:00",
+      "en": "Ford Without Force",
+      "zh": "淺灘不硬過",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-15/"
+    },
+    {
+      "n": "08",
+      "start": 0,
+      "time": "0:00",
+      "en": "Follow the Bend",
+      "zh": "跟著彎走",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-15/"
+    },
+    {
+      "n": "09",
+      "start": 0,
+      "time": "0:00",
+      "en": "Minnows Know",
+      "zh": "小魚知道",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-15/"
+    },
+    {
+      "n": "10",
+      "start": 0,
+      "time": "0:00",
+      "en": "The Longest Yes",
+      "zh": "最長的順",
+      "voice": "男女混唱",
+      "lyrics": "",
+      "source": "songs/prompts/episode-15/"
+    },
+    {
+      "n": "11",
+      "start": 0,
+      "time": "0:00",
+      "en": "Reed Leans With",
+      "zh": "蘆葦同傾",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-15/"
+    },
+    {
+      "n": "12",
+      "start": 0,
+      "time": "0:00",
+      "en": "No Need to Push",
+      "zh": "不必硬推",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-15/"
+    },
+    {
+      "n": "13",
+      "start": 0,
+      "time": "0:00",
+      "en": "Ferry Waits",
+      "zh": "渡船等一等",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-15/"
+    },
+    {
+      "n": "14",
+      "start": 0,
+      "time": "0:00",
+      "en": "Sandbar Middle",
+      "zh": "沙洲中間",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-15/"
+    },
+    {
+      "n": "15",
+      "start": 0,
+      "time": "0:00",
+      "en": "Echo After Step",
+      "zh": "腳步有回聲",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-15/"
+    },
+    {
+      "n": "16",
+      "start": 0,
+      "time": "0:00",
+      "en": "Go Where Water Goes",
+      "zh": "水往哪走",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-15/"
+    },
+    {
+      "n": "17",
+      "start": 0,
+      "time": "0:00",
+      "en": "Evening Same Direction",
+      "zh": "晚風同向",
+      "voice": "男女混唱",
+      "lyrics": "",
+      "source": "songs/prompts/episode-15/"
+    },
+    {
+      "n": "18",
+      "start": 0,
+      "time": "0:00",
+      "en": "Shoes by the Water",
+      "zh": "鞋放水邊",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-15/"
+    },
+    {
+      "n": "19",
+      "start": 0,
+      "time": "0:00",
+      "en": "After the Rush",
+      "zh": "急過之後",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-15/"
+    },
+    {
+      "n": "20",
+      "start": 0,
+      "time": "0:00",
+      "en": "Still Listening for 順",
+      "zh": "仍在聽順",
+      "voice": "男女混唱",
+      "lyrics": "",
+      "source": "songs/prompts/episode-15/"
+    }
+  ]
+}

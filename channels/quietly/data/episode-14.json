@@ -1,0 +1,233 @@
+{
+  "episode": 14,
+  "slug": "mist-plain-release",
+  "title": {
+    "en": "Mist Plain Release",
+    "zh": "霧原放下"
+  },
+  "logline": "霧原不催你放下。它只是留出一點空。",
+  "videoId": "OHTBGai3pFI",
+  "youtubeTitle": "[playlist] QuietLY · 霧原放下 — Slow Mandarin Jazz",
+  "comics": [
+    {
+      "en": "The plain does not hurry you to let go.",
+      "zh": "霧原不催你放下。"
+    },
+    {
+      "en": "It only leaves a little room.",
+      "zh": "它只是留出一點空。"
+    },
+    {
+      "en": "Hands, breath, and steps grow lighter.",
+      "zh": "手、呼吸和腳步慢慢變輕。"
+    },
+    {
+      "en": "What you set down becomes the path.",
+      "zh": "放下的，成了路。"
+    }
+  ],
+  "hero": "assets/ep14-hero.png",
+  "comicImages": [],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "0:00",
+      "en": "Hand Opens",
+      "zh": "手鬆開",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-14/"
+    },
+    {
+      "n": "02",
+      "start": 0,
+      "time": "0:00",
+      "en": "Unmarked Grass Path",
+      "zh": "無名草徑",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-14/"
+    },
+    {
+      "n": "03",
+      "start": 0,
+      "time": "0:00",
+      "en": "Stone After Rain",
+      "zh": "雨後石",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-14/"
+    },
+    {
+      "n": "04",
+      "start": 0,
+      "time": "0:00",
+      "en": "Low Voice Release",
+      "zh": "低聲放下",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-14/"
+    },
+    {
+      "n": "05",
+      "start": 0,
+      "time": "0:00",
+      "en": "Two Clouds Pass",
+      "zh": "兩朵雲過",
+      "voice": "男女混唱",
+      "lyrics": "",
+      "source": "songs/prompts/episode-14/"
+    },
+    {
+      "n": "06",
+      "start": 0,
+      "time": "0:00",
+      "en": "Empty Pocket Warmth",
+      "zh": "空口袋暖",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-14/"
+    },
+    {
+      "n": "07",
+      "start": 0,
+      "time": "0:00",
+      "en": "Distant Ridge Doesn't Ask",
+      "zh": "遠嶺不問",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-14/"
+    },
+    {
+      "n": "08",
+      "start": 0,
+      "time": "0:00",
+      "en": "Cup on the Ground",
+      "zh": "杯放在地",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-14/"
+    },
+    {
+      "n": "09",
+      "start": 0,
+      "time": "0:00",
+      "en": "Rope Loosens",
+      "zh": "繩結鬆",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-14/"
+    },
+    {
+      "n": "10",
+      "start": 0,
+      "time": "0:00",
+      "en": "The Longest Exhale",
+      "zh": "最長呼氣",
+      "voice": "男女混唱",
+      "lyrics": "",
+      "source": "songs/prompts/episode-14/"
+    },
+    {
+      "n": "11",
+      "start": 0,
+      "time": "0:00",
+      "en": "Seed Head Nods",
+      "zh": "草穗點頭",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-14/"
+    },
+    {
+      "n": "12",
+      "start": 0,
+      "time": "0:00",
+      "en": "Mist Without Owner",
+      "zh": "無主的霧",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-14/"
+    },
+    {
+      "n": "13",
+      "start": 0,
+      "time": "0:00",
+      "en": "One Stone Less",
+      "zh": "少一顆石",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-14/"
+    },
+    {
+      "n": "14",
+      "start": 0,
+      "time": "0:00",
+      "en": "Frost Line Fades",
+      "zh": "霜線淡",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-14/"
+    },
+    {
+      "n": "15",
+      "start": 0,
+      "time": "0:00",
+      "en": "Old Letter Into Water",
+      "zh": "舊信入水",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-14/"
+    },
+    {
+      "n": "16",
+      "start": 0,
+      "time": "0:00",
+      "en": "No Debt to Wind",
+      "zh": "不欠風",
+      "voice": "男聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-14/"
+    },
+    {
+      "n": "17",
+      "start": 0,
+      "time": "0:00",
+      "en": "Night Doesn't Keep",
+      "zh": "夜不挽留",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-14/"
+    },
+    {
+      "n": "18",
+      "start": 0,
+      "time": "0:00",
+      "en": "Open Field",
+      "zh": "空闊地",
+      "voice": "男女混唱",
+      "lyrics": "",
+      "source": "songs/prompts/episode-14/"
+    },
+    {
+      "n": "19",
+      "start": 0,
+      "time": "0:00",
+      "en": "Water Mark Gone",
+      "zh": "水痕已淡",
+      "voice": "女聲",
+      "lyrics": "",
+      "source": "songs/prompts/episode-14/"
+    },
+    {
+      "n": "20",
+      "start": 0,
+      "time": "0:00",
+      "en": "Still Leaving Room",
+      "zh": "仍留空位",
+      "voice": "男女混唱",
+      "lyrics": "",
+      "source": "songs/prompts/episode-14/"
+    }
+  ]
+}

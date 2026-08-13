@@ -2,18 +2,374 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="0; url=channels/quietly/about.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Redirecting to QuietLY About</title>
-    <link rel="canonical" href="channels/quietly/about.html" />
-    <script>
-      location.replace("channels/quietly/about.html" + location.search + location.hash);
-    </script>
+    <title>About — n20dle</title>
+    <meta
+      name="description"
+      content="About n20dle: one small studio keeping a few quiet listening rooms — Café QuietLY and Café Siam."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Noto+Serif+TC:wght@400;500;600&family=Noto+Serif+JP:wght@400;500&family=Noto+Sans+Thai:wght@300;400&family=Outfit:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --ink: #0b1018;
+        --navy: #121a28;
+        --mist: #9aa6b8;
+        --paper: #ece6da;
+        --amber: #c8924a;
+        --amber-soft: #d4a574;
+        --line: rgba(236, 230, 218, 0.12);
+        --ease: cubic-bezier(0.22, 1, 0.36, 1);
+        --nav-h: 3.25rem;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100svh;
+        background:
+          radial-gradient(
+            ellipse 70% 45% at 80% 0%,
+            rgba(200, 146, 74, 0.12),
+            transparent 55%
+          ),
+          linear-gradient(180deg, var(--navy), var(--ink) 65%);
+        color: var(--paper);
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        letter-spacing: 0.02em;
+        line-height: 1.65;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      a {
+        color: var(--amber-soft);
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+        transition:
+          color 0.3s var(--ease),
+          border-color 0.3s var(--ease);
+      }
+
+      a:hover {
+        color: var(--amber);
+        border-bottom-color: var(--amber);
+      }
+
+      /* ---------- top bar ---------- */
+      .topbar {
+        position: fixed;
+        inset: 0 0 auto;
+        z-index: 50;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: var(--nav-h);
+        padding: 0 clamp(1.25rem, 4vw, 2.5rem);
+        font-size: 0.78rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: rgba(236, 230, 218, 0.82);
+        background: linear-gradient(
+          180deg,
+          rgba(11, 16, 24, 0.55),
+          transparent
+        );
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+      }
+
+      .topbar__brand {
+        font-family: "Instrument Serif", serif;
+        font-size: 1.05rem;
+        letter-spacing: 0.06em;
+        text-transform: none;
+        color: var(--paper);
+        border: 0;
+      }
+
+      .topbar nav {
+        display: flex;
+        gap: clamp(1rem, 3vw, 2rem);
+      }
+
+      .topbar nav a {
+        opacity: 0.75;
+        border: 0;
+        transition: opacity 0.3s var(--ease);
+      }
+
+      .topbar nav a:hover {
+        opacity: 1;
+      }
+
+      /* ---------- page ---------- */
+      .page {
+        width: min(700px, calc(100% - 2.5rem));
+        margin: 0 auto;
+        padding: calc(var(--nav-h) + 4rem) 0 5rem;
+        animation: rise 1s var(--ease) both;
+      }
+
+      @keyframes rise {
+        from {
+          opacity: 0;
+          transform: translateY(24px);
+        }
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+
+      .eyebrow {
+        margin: 0 0 1rem;
+        font-size: 0.72rem;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: var(--amber-soft);
+      }
+
+      h1 {
+        margin: 0 0 1.5rem;
+        font-family: "Instrument Serif", "Noto Serif TC", serif;
+        font-size: clamp(2.6rem, 6vw, 4rem);
+        font-weight: 400;
+        line-height: 1.05;
+        letter-spacing: -0.01em;
+      }
+
+      h1 em {
+        font-style: italic;
+        color: var(--amber-soft);
+      }
+
+      .lede {
+        margin: 0 0 2.5rem;
+        font-size: clamp(1.05rem, 1.8vw, 1.2rem);
+        color: var(--paper);
+        max-width: 34rem;
+      }
+
+      .body p {
+        margin: 0 0 1.2rem;
+        max-width: 36rem;
+        color: var(--mist);
+        font-size: 1.02rem;
+      }
+
+      .body strong {
+        color: var(--paper);
+        font-weight: 400;
+      }
+
+      /* ---------- rooms ---------- */
+      .rooms {
+        margin: 3rem 0 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .rooms h2 {
+        margin: 1.75rem 0 0.5rem;
+        font-size: 0.72rem;
+        letter-spacing: 0.24em;
+        text-transform: uppercase;
+        color: var(--mist);
+        font-weight: 400;
+        font-family: "Outfit", sans-serif;
+      }
+
+      .room {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 1.5rem;
+        padding: 1.4rem 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .room__name {
+        margin: 0;
+        font-family: "Instrument Serif", "Noto Serif TC", "Noto Serif JP",
+          serif;
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: var(--paper);
+      }
+
+      .room__name .zh {
+        font-family: "Noto Serif TC", serif;
+        color: var(--amber-soft);
+        font-size: 0.85em;
+        margin-left: 0.3rem;
+      }
+
+      .room__name .jp {
+        font-family: "Noto Serif JP", serif;
+        color: var(--amber-soft);
+        font-size: 0.8em;
+        margin-left: 0.3rem;
+      }
+
+      .room__name .th {
+        font-family: "Noto Sans Thai", sans-serif;
+        color: var(--amber-soft);
+        font-size: 0.8em;
+      }
+
+      .room__blurb {
+        margin: 0.3rem 0 0;
+        color: var(--mist);
+        font-size: 0.92rem;
+        max-width: 24rem;
+      }
+
+      .room__go {
+        flex-shrink: 0;
+        font-size: 0.74rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        border: 0;
+      }
+
+      .room__go::after {
+        content: " →";
+      }
+
+      /* ---------- disclosure ---------- */
+      .disclosure {
+        margin-top: 3rem;
+        padding-top: 1.75rem;
+        border-top: 1px solid var(--line);
+      }
+
+      .disclosure h2 {
+        margin: 0 0 0.75rem;
+        font-size: 0.72rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--mist);
+        font-weight: 400;
+        font-family: "Outfit", sans-serif;
+      }
+
+      .disclosure p {
+        margin: 0;
+        font-size: 0.9rem;
+        color: var(--mist);
+        max-width: 34rem;
+      }
+
+      footer {
+        margin-top: 4rem;
+        font-size: 0.74rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: rgba(236, 230, 218, 0.4);
+      }
+
+      @media (max-width: 560px) {
+        .topbar nav {
+          display: none;
+        }
+        .room {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 0.75rem;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+        .page {
+          animation: none;
+        }
+      }
+    </style>
   </head>
   <body>
-    <p>
-      Moved to
-      <a href="channels/quietly/about.html">/channels/quietly/about.html</a>.
-    </p>
+    <header class="topbar">
+      <a class="topbar__brand" href="index.html">n20dle</a>
+      <nav aria-label="Rooms">
+        <a href="index.html#quietly">Café QuietLY</a>
+        <a href="index.html#siam">Café Siam</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main class="page">
+      <p class="eyebrow">The studio</p>
+      <h1>About n<em>20</em>dle</h1>
+      <p class="lede">
+        n20dle is one small studio keeping a few quiet rooms of sound and
+        language.
+      </p>
+
+      <div class="body">
+        <p>
+          Each room is a <strong>channel side product</strong> — a place to slow
+          down with music and words. The lyric and the scene come first; the
+          technology stays out of the way.
+        </p>
+        <p>
+          The hub only points the way. Every channel keeps its own rooms under
+          <code>/channels/{name}/</code>, so each can grow without sharing one
+          homepage.
+        </p>
+      </div>
+
+      <section class="rooms" aria-label="Rooms">
+        <h2>Rooms</h2>
+
+        <div class="room">
+          <div>
+            <p class="room__name">
+              Café QuietLY <span class="zh">靜</span>
+            </p>
+            <p class="room__blurb">
+              Slow Mandarin jazz. Imaginary worlds to read, and an Atmosphere
+              that lets the room play itself.
+            </p>
+          </div>
+          <a class="room__go" href="channels/quietly/">Enter</a>
+        </div>
+
+        <div class="room">
+          <div>
+            <p class="room__name">
+              Café Siam <span class="jp">タイ</span><span class="th">ไทย</span>
+            </p>
+            <p class="room__blurb">
+              A JP × TH listening café — soft songs with romanized Thai after
+              every line.
+            </p>
+          </div>
+          <a class="room__go" href="channels/siam/jpth/">Enter</a>
+        </div>
+      </section>
+
+      <aside class="disclosure" aria-label="Production disclosure">
+        <h2>Production note</h2>
+        <p>
+          Music and some imagery may involve AI-assisted production.
+          Listener-facing copy comes first; this disclosure stays below it.
+        </p>
+      </aside>
+
+      <footer>n20dle — quiet rooms, open doors</footer>
+    </main>
   </body>
 </html>

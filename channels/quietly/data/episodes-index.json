@@ -154,5 +154,61 @@
     "href": "worlds/autumn-river-overlook.html",
     "hasHero": true,
     "warnings": []
+  },
+  {
+    "episode": 12,
+    "slug": "bamboo-brook-harmony",
+    "title": {
+      "en": "Bamboo Brook Harmony",
+      "zh": "竹澗聽和"
+    },
+    "logline": "竹澗有聲音，和也有聲音。",
+    "trackCount": 20,
+    "videoId": "Q2zHwUCGs5Y",
+    "href": "worlds/bamboo-brook-harmony.html",
+    "hasHero": true,
+    "warnings": []
+  },
+  {
+    "episode": 13,
+    "slug": "flower-slope-joy",
+    "title": {
+      "en": "Flower Slope Joy",
+      "zh": "花坡晚樂"
+    },
+    "logline": "花坡有聲音，樂也有聲音。",
+    "trackCount": 20,
+    "videoId": "rFl-DLezwow",
+    "href": "worlds/flower-slope-joy.html",
+    "hasHero": true,
+    "warnings": []
+  },
+  {
+    "episode": 14,
+    "slug": "mist-plain-release",
+    "title": {
+      "en": "Mist Plain Release",
+      "zh": "霧原放下"
+    },
+    "logline": "霧原不催你放下。它只是留出一點空。",
+    "trackCount": 20,
+    "videoId": "OHTBGai3pFI",
+    "href": "worlds/mist-plain-release.html",
+    "hasHero": true,
+    "warnings": []
+  },
+  {
+    "episode": 15,
+    "slug": "creek-bank-current",
+    "title": {
+      "en": "Creek Bank Current",
+      "zh": "溪岸聽順"
+    },
+    "logline": "溪岸不催你對抗。它只讓水流過來。",
+    "trackCount": 20,
+    "videoId": "RiKHSiwefVI",
+    "href": "worlds/creek-bank-current.html",
+    "hasHero": true,
+    "warnings": []
   }
 ]

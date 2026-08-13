@@ -39,7 +39,7 @@ Then fill missing sheets + Thai romanization from the local n20dle thjp catalog:
 
 ## Deploy (Cloud Run)
 
-Project: `silentricenation` · region: `asia-east1` · service: `ricenation`
+Project: `silentricenation` · region: `asia-east1` · service: `studio-hub`
 
 ```bash
 # one-time: create Artifact Registry repo
@@ -55,5 +55,5 @@ gcloud builds submit --config=infra/cloudrun/cloudbuild.yaml --project=silentric
 Or:
 
 ```bash
-gcloud run deploy ricenation --source . --region=asia-east1 --allow-unauthenticated --project=silentricenation
+gcloud run deploy studio-hub --source . --region=asia-east1 --allow-unauthenticated --project=silentricenation
 ```
