@@ -10,6 +10,11 @@ permissions:
 
 jobs:
   deploy:
+    # Secrets cannot be used in job if: conditions. Opt in with a repo variable
+    # (Settings → Secrets and variables → Actions → Variables):
+    #   ENABLE_CLOUDRUN_DEPLOY = true
+    # Also requires GCP_SA_KEY secret (service account JSON).
+    if: github.event_name == 'workflow_dispatch' || vars.ENABLE_CLOUDRUN_DEPLOY == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

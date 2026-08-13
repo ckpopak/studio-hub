@@ -49,7 +49,7 @@
       "stats": {
         "count": 188,
         "with_lyrics": 54,
-        "with_romanization": 0,
+        "with_romanization": 54,
         "source": "YouTube @cafesiamsoftmusic/videos"
       }
     },
@@ -72,7 +72,7 @@
       "stats": {
         "count": 109,
         "with_lyrics": 53,
-        "with_romanization": 0,
+        "with_romanization": 20,
         "source": "YouTube @cafesiamsoftmusicthai/videos"
       }
     },
@@ -118,7 +118,7 @@
       "stats": {
         "count": 98,
         "with_lyrics": 39,
-        "with_romanization": 0,
+        "with_romanization": 39,
         "source": "YouTube @cafesiamsoftmusicchi/videos"
       }
     }
