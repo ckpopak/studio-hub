@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Atmosphere · Cafe' Siam TH × EN</title>
+    <meta
+      name="description"
+      content="Café Siam Atmosphere: soft music plays itself while Thai × English lyrics stay open for listening and learning."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Noto+Sans+Thai:wght@300;400;500&family=Noto+Serif+JP:wght@400;500;600&family=Outfit:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/atmosphere.css" />
+  </head>
+  <body class="atm-body">
+    <div class="stage" id="stage" aria-hidden="true">
+      <div class="stage__visuals" id="visuals"></div>
+      <div class="stage__veil"></div>
+      <div class="stage__grain"></div>
+    </div>
+
+    <header class="atm-chrome">
+      <a class="site-nav__brand" href="index.html">Cafe' Siam</a>
+      <div class="atm-chrome__center">
+        <span class="serif" id="world-title">TH × EN</span>
+        <span id="world-sub">Atmosphere</span>
+      </div>
+      <div class="atm-chrome__right">
+        <label class="atm-select-wrap">
+          <span class="sr-only">Song</span>
+          <select id="song-select" aria-label="Choose song"></select>
+        </label>
+        <a href="songs.html">Atlas</a>
+        <a href="about.html">About</a>
+        <a href="../">All cafés</a>
+        <a href="../../../index.html">Studio</a>
+      </div>
+    </header>
+
+    <main class="atm-copy">
+      <div class="atm-copy__head">
+        <p class="atm-kicker" id="track-kicker">Song —</p>
+        <h1 class="atm-track serif" id="track-jp">—</h1>
+        <p class="atm-track-th" id="track-th">—</p>
+        <p class="atm-hint" id="learn-hint">
+          Thai — English. Sit with the line while the café plays.
+        </p>
+      </div>
+      <div class="atm-sheet" id="lyrics-sheet" aria-label="Full lyrics">
+        <p class="atm-sheet__label">Listening sheet</p>
+        <div class="atm-sheet__body" id="lyrics-body"></div>
+      </div>
+    </main>
+
+    <div class="atm-player" id="player-shell" aria-hidden="true">
+      <div id="yt-player"></div>
+    </div>
+
+    <footer class="atm-footer">
+      <div class="atm-progress" aria-hidden="true">
+        <div class="atm-progress__bar" id="progress-bar"></div>
+      </div>
+      <div class="atm-footer__row">
+        <button type="button" class="atm-btn" id="btn-prev">Prev</button>
+        <button type="button" class="atm-btn" id="btn-toggle">Pause</button>
+        <button type="button" class="atm-btn" id="btn-next">Next</button>
+        <button type="button" class="atm-btn" id="btn-shuffle" aria-pressed="true">
+          Shuffle on
+        </button>
+        <span class="atm-time" id="time-label">0:00</span>
+      </div>
+    </footer>
+
+    <div class="atm-gate" id="gate">
+      <div class="atm-gate__card">
+        <span class="atm-gate__mark" aria-hidden="true">TH</span>
+        <h2 class="serif">Let the café teach itself</h2>
+        <p>
+          Soft music autoplays. Thai × English lyric sheets stay open—no karaoke chase, just listening practice with a little fun between songs.
+        </p>
+        <button type="button" class="atm-gate__btn" id="btn-begin">Begin</button>
+      </div>
+    </div>
+
+    <script src="js/atmosphere.js"></script>
+  </body>
+</html>

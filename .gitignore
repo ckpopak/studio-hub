@@ -8,3 +8,5 @@ client_secret*.json
 Thumbs.db
 .idea/
 .vscode/
+__pycache__/
+*.pyc
