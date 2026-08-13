@@ -74,21 +74,22 @@ python channels/siam/scripts/generate-rooms.py
 
 Project: `silentricenation` · region: `asia-east1` · service: `studio-hub`
 
-Live URL: https://studio-hub-z4227lzhdq-de.a.run.app/
+Live URL: https://studio-hub-887652679963.asia-east1.run.app/
 
-From this directory (same as yesterday — no GitHub Actions or Pages setup):
+Pull latest, then deploy from the repo root (not your home directory):
 
 ```bash
-gcloud auth login
+git pull origin master
 gcloud config set project silentricenation
+gcloud run deploy studio-hub --source . --region=asia-east1 --platform=managed --allow-unauthenticated --port=8080 --project=silentricenation
+```
 
-gcloud run deploy studio-hub \
-  --source . \
-  --region=asia-east1 \
-  --platform=managed \
-  --allow-unauthenticated \
-  --port=8080 \
-  --project=silentricenation
+**PowerShell** (single line — do not use `\` for line breaks):
+
+```powershell
+git pull origin master
+gcloud config set project silentricenation
+gcloud run deploy studio-hub --source . --region=asia-east1 --platform=managed --allow-unauthenticated --port=8080 --project=silentricenation
 ```
 
 Or build via Cloud Build:
