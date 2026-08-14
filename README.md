@@ -2,13 +2,33 @@
 
 Static studio hub for channel side products.
 
-## Local
+## Local (on your computer)
+
+Clone the repo, then from the repo root:
+
+**Quick static server** (Python 3):
 
 ```bash
-python -m http.server 8765 --bind 127.0.0.1 --directory .
+./scripts/serve-local.sh
 ```
 
-- Studio hub: http://127.0.0.1:8765/
+Or manually:
+
+```bash
+python3 -m http.server 8765 --bind 127.0.0.1 --directory .
+```
+
+**Production-like local server** (nginx in Docker, same as Cloud Run):
+
+```bash
+docker compose up --build
+```
+
+Then open http://127.0.0.1:8080/
+
+> **Cloud Agent note:** If an agent runs `http.server` in a remote VM, `127.0.0.1` in your browser points at your machine, not that VM. Run one of the commands above on your own computer to view the site locally.
+
+- Studio hub: http://127.0.0.1:8765/ (Python) or http://127.0.0.1:8080/ (Docker)
 - QuietLY atlas: http://127.0.0.1:8765/channels/quietly/
 - QuietLY Atmosphere: http://127.0.0.1:8765/channels/quietly/atmosphere.html
 - Café Siam family: http://127.0.0.1:8765/channels/siam/
