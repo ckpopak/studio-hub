@@ -6,17 +6,31 @@ Static studio hub for channel side products.
 
 Clone the repo, then from the repo root:
 
-**Quick static server** (Python 3):
+**macOS / Linux**
 
 ```bash
+git clone https://github.com/ckpopak/studio-hub.git
+cd studio-hub
 ./scripts/serve-local.sh
 ```
 
-Or manually:
+**Windows (PowerShell)**
 
-```bash
-python3 -m http.server 8765 --bind 127.0.0.1 --directory .
+```powershell
+git clone https://github.com/ckpopak/studio-hub.git
+cd studio-hub
+.\scripts\serve-local.ps1
 ```
+
+**Windows (Command Prompt)**
+
+```bat
+git clone https://github.com/ckpopak/studio-hub.git
+cd studio-hub
+scripts\serve-local.bat
+```
+
+Requires **Python 3** installed (`python3` on macOS/Linux, `python` on Windows). Then open http://127.0.0.1:8765/
 
 **Production-like local server** (nginx in Docker, same as Cloud Run):
 
