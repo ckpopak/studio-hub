@@ -2,6 +2,12 @@
 
 Static studio hub for channel side products.
 
+## Resonance — listening RPG
+
+`resonance/` is a contemplative RPG layered on the studio: choose a Listener (Mò, Lin, or Sai), enter atmospheric rooms, collect Resonances in `localStorage`, and keep a personal Listening Ledger. No combat — only attention.
+
+Play at `/resonance/` when running locally: http://127.0.0.1:8765/resonance/
+
 ## Local (on your computer)
 
 Clone the repo, then from the repo root:

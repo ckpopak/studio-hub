@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Listening Ledger — Resonance · n20dle</title>
+    <meta
+      name="description"
+      content="Your personal listening ledger — phrases kept from the Resonance RPG."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Noto+Serif+TC:wght@400;500&family=Outfit:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/resonance.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="topbar__brand" href="index.html">Resonance</a>
+      <nav aria-label="Listening">
+        <a href="index.html">Hub</a>
+        <a href="ledger.html">Ledger</a>
+        <a href="../index.html">Studio</a>
+      </nav>
+    </header>
+
+    <main class="page">
+      <p class="eyebrow">Listening Ledger</p>
+      <h1 class="title">Words you kept</h1>
+      <p class="lead">
+        No stats. No levels. Only phrases chosen by attention.
+      </p>
+
+      <div class="resonance-glyphs" id="glyphs" aria-label="Collected resonances"></div>
+
+      <div id="ledger"></div>
+
+      <button type="button" class="choice-btn" id="export-btn" style="max-width: 14rem">
+        Copy ledger
+      </button>
+      <button
+        type="button"
+        class="choice-btn"
+        id="reset-btn"
+        style="max-width: 14rem; margin-top: 0.5rem"
+      >
+        Begin again
+      </button>
+    </main>
+
+    <script src="js/resonance.js"></script>
+    <script src="js/rooms.js"></script>
+    <script src="js/ledger.js"></script>
+  </body>
+</html>
