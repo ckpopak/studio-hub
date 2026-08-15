@@ -354,6 +354,12 @@
   color: var(--amber-soft);
 }
 
+.atm-btn.is-on {
+  border-color: var(--amber);
+  color: var(--amber-soft);
+  background: rgba(200, 146, 74, 0.12);
+}
+
 .atm-time {
   margin-left: auto;
   color: var(--mist);

@@ -3,7 +3,7 @@ FROM nginx:1.27-alpine
 COPY infra/cloudrun/nginx.conf /etc/nginx/conf.d/default.conf
 
 COPY index.html about.html atmosphere.html README.md /usr/share/nginx/html/
-COPY channels /usr/share/nginx/html/channels
+COPY channels/quietly /usr/share/nginx/html/channels/quietly
 
 EXPOSE 8080
 
