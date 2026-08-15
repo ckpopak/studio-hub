@@ -6,7 +6,7 @@
     <title>n20dle — studio</title>
     <meta
       name="description"
-      content="n20dle studio. Slow listening rooms and language cafés. Enter Café QuietLY, Café Siam, or read About."
+      content="n20dle studio. QuietLY vinyl sleeves for slow Mandarin jazz listening."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -294,42 +294,9 @@
         color: var(--amber-soft);
       }
 
-      /* ---------- Café Siam ---------- */
-      .siam {
-        z-index: 3;
-        box-shadow: 0 -30px 80px rgba(0, 0, 0, 0.55);
-        background:
-          radial-gradient(
-            ellipse 80% 55% at 20% 100%,
-            rgba(184, 137, 90, 0.22),
-            transparent 60%
-          ),
-          radial-gradient(
-            ellipse 60% 40% at 85% 0%,
-            rgba(94, 138, 122, 0.18),
-            transparent 55%
-          ),
-          linear-gradient(180deg, #101a16, #0a120f 70%);
-      }
-
-      .siam .title {
-        font-size: clamp(2.9rem, 8vw, 5.6rem);
-      }
-
-      .siam .title .jp {
-        font-family: "Noto Serif JP", serif;
-        color: var(--amber-soft);
-      }
-
-      .siam .title .th {
-        font-family: "Noto Sans Thai", sans-serif;
-        font-weight: 300;
-        color: var(--amber-soft);
-      }
-
       /* ---------- About ---------- */
       .about {
-        z-index: 4;
+        z-index: 3;
         box-shadow: 0 -30px 80px rgba(0, 0, 0, 0.55);
         background:
           radial-gradient(
@@ -347,7 +314,7 @@
       /* ---------- footer ---------- */
       footer {
         position: relative;
-        z-index: 5;
+        z-index: 4;
         padding: 2.4rem 1.5rem 3rem;
         text-align: center;
         font-size: 0.74rem;
@@ -372,9 +339,7 @@
       <a class="topbar__brand" href="#top">n20dle</a>
       <nav aria-label="Rooms">
         <a href="#quietly">Café QuietLY</a>
-        <a href="#siam">Café Siam</a>
-        <a href="resonance/">Resonance</a>
-        <a href="about.html">About</a>
+        <a href="channels/quietly/about.html">About</a>
       </nav>
     </header>
 
@@ -382,11 +347,11 @@
       <!-- Hero: the brand -->
       <section class="panel hero" aria-label="n20dle">
         <div class="panel__inner" data-parallax>
-          <p class="eyebrow">A studio for slow listening</p>
+          <p class="eyebrow">QuietLY vinyl shelf</p>
           <h1 class="title">n<em>20</em>dle</h1>
           <p class="sub">
-            Small rooms of sound and language. Music that plays itself, words
-            you can sit with.
+            Café QuietLY — sleeves you can open. Cover, gatefold, and full
+            lyrics for slow Mandarin jazz.
           </p>
         </div>
         <p class="hero__scrollcue">Scroll</p>
@@ -408,49 +373,28 @@
             Café QuietLY <span class="zh">靜</span>
           </h2>
           <p class="sub">
-            Imaginary worlds to read — scene first, sparse lyrics, music at the
-            edge. Field notes and an Atmosphere that lets the room play itself.
+            Eighteen vinyl sleeves — scene first, liner notes, and an Atmosphere
+            that lets the room play itself.
           </p>
           <a class="cta" href="channels/quietly/">Enter QuietLY</a>
-          <a
-            class="cta"
-            href="resonance/"
-            style="margin-left: 0.75rem; border-color: rgba(200, 146, 74, 0.35)"
-            >Listen deeper</a
-          >
-        </div>
-      </section>
-
-      <!-- Café Siam -->
-      <section class="panel siam" id="siam" aria-label="Café Siam">
-        <div class="panel__inner" data-parallax>
-          <p class="eyebrow">Bilingual listening cafés</p>
-          <h2 class="title">
-            Café Siam <span class="jp">タイ</span><span class="th">ไทย</span>
-          </h2>
-          <p class="sub">
-            A family of soft-music cafés pairing Thai with English, Japanese,
-            or Chinese — one clear line at a time.
-          </p>
-          <a class="cta" href="channels/siam/">Enter Siam</a>
         </div>
       </section>
 
       <!-- About -->
-      <section class="panel about" id="about" aria-label="About n20dle">
+      <section class="panel about" id="about" aria-label="About QuietLY">
         <div class="panel__inner" data-parallax>
           <p class="eyebrow">The studio</p>
-          <h2 class="title">About n20dle</h2>
+          <h2 class="title">About QuietLY</h2>
           <p class="sub">
-            n20dle is one small studio keeping a few quiet rooms. Each channel
-            has its own corner here — the hub only points the way.
+            n20dle keeps Café QuietLY as its own quiet room — field notes, not a
+            café mall.
           </p>
-          <a class="cta" href="about.html">Read About</a>
+          <a class="cta" href="channels/quietly/about.html">Read About</a>
         </div>
       </section>
     </main>
 
-    <footer>n20dle — quiet rooms, open doors</footer>
+    <footer>n20dle — Café QuietLY</footer>
 
     <script>
       const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
