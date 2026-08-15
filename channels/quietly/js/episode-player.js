@@ -374,7 +374,8 @@
   }
   var src = document.body.getAttribute("data-episode");
   if (!src) return;
-  fetch(src)
+  var bust = src.indexOf("?") >= 0 ? "&" : "?";
+  fetch(src + bust + "v=20260815c")
     .then(function (r) {
       return r.json();
     })

@@ -1,4 +1,6 @@
 (function () {
+  var DATA_VER = "20260815c";
+
   function escapeHtml(s) {
     return String(s)
       .replace(/&/g, "&amp;")
@@ -10,7 +12,7 @@
   var root = document.getElementById("world-list");
   if (!root) return;
 
-  fetch("data/episodes-index.json")
+  fetch("data/episodes-index.json?v=" + DATA_VER)
     .then(function (r) {
       return r.json();
     })
@@ -38,14 +40,6 @@
             "</a></li>"
           );
         });
-
-      rows.push(
-        '<li class="reveal"><a href="worlds/low-tide-signal-room.html">' +
-          '<span class="world-ep">Sandbox</span>' +
-          '<h3 class="world-name serif">Low Tide Signal Room <span class="zh">退潮信號室</span></h3>' +
-          '<span class="world-state">Layout only</span>' +
-          "</a></li>"
-      );
 
       root.innerHTML = rows.join("");
       if (window.refreshQuietlyReveal) window.refreshQuietlyReveal();

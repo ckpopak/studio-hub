@@ -213,7 +213,11 @@
   }
 
   function loadEpisode(meta, autoplay) {
-    return fetch("data/episode-" + String(meta.episode).padStart(2, "0") + ".json")
+    return fetch(
+      "data/episode-" +
+        String(meta.episode).padStart(2, "0") +
+        ".json?v=20260815c"
+    )
       .then(function (r) {
         return r.json();
       })
@@ -371,7 +375,7 @@
     document.head.appendChild(tag);
   }
 
-  fetch("data/episodes-index.json")
+  fetch("data/episodes-index.json?v=20260815c")
     .then(function (r) {
       return r.json();
     })
