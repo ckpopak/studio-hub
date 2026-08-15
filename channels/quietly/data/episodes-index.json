@@ -210,5 +210,49 @@
     "href": "worlds/creek-bank-current.html",
     "hasHero": true,
     "warnings": []
+  },
+  {
+    "episode": 16,
+    "slug": "autumn-cool-forgetting",
+    "title": {
+      "en": "Autumn Cool Forgetting",
+      "zh": "秋意聽忘"
+    },
+    "logline": "秋天不要求你記得每一件熱。它只把空氣變薄，讓多餘的名字自己淡一點。",
+    "trackCount": 20,
+    "videoId": "siNrbY8Op-Y",
+    "href": "worlds/autumn-cool-forgetting.html",
+    "hasHero": true,
+    "warnings": []
+  },
+  {
+    "episode": 17,
+    "slug": "winter-night-melancholy",
+    "title": {
+      "en": "Winter Night Melancholy",
+      "zh": "冬夜聽愁"
+    },
+    "logline": "冬天把想念放進骨頭裡。它不問你為什麼難過，只在夜裡把聲音收得更薄。",
+    "trackCount": 19,
+    "videoId": "IOQYuGxei0s",
+    "href": "worlds/winter-night-melancholy.html",
+    "hasHero": true,
+    "warnings": [
+      "unpublished:Frost Window"
+    ]
+  },
+  {
+    "episode": 18,
+    "slug": "mirage-dream-haze",
+    "title": {
+      "en": "Mirage Dream Haze",
+      "zh": "醉夢聽迷"
+    },
+    "logline": "醉生夢死不必說破。它像海市蜃樓：遠看有岸、有樓，走近只剩熱氣與空。",
+    "trackCount": 20,
+    "videoId": "CUxYhwK86RU",
+    "href": "worlds/mirage-dream-haze.html",
+    "hasHero": true,
+    "warnings": []
   }
 ]

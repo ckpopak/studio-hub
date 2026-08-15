@@ -1,0 +1,235 @@
+{
+  "episode": 16,
+  "slug": "autumn-cool-forgetting",
+  "title": {
+    "en": "Autumn Cool Forgetting",
+    "zh": "秋意聽忘"
+  },
+  "logline": "秋天不要求你記得每一件熱。它只把空氣變薄，讓多餘的名字自己淡一點。",
+  "videoId": "siNrbY8Op-Y",
+  "youtubeTitle": "[playlist] QuietLY · 忘 — Autumn Cool / Slow Mandarin Jazz",
+  "comics": [
+    {
+      "en": "Autumn does not ask you to keep every heat.",
+      "zh": "秋天不要求你記得每一件熱。"
+    },
+    {
+      "en": "It only thins the air.",
+      "zh": "它只把空氣變薄。"
+    },
+    {
+      "en": "Extra names cool until they stop asking.",
+      "zh": "多餘的名字自己淡一點。"
+    },
+    {
+      "en": "Forget a little heat — not the person.",
+      "zh": "忘一點熱，不是把人抹掉。"
+    }
+  ],
+  "hero": "assets/ep16-hero.png",
+  "comicImages": [],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "0:00",
+      "en": "First Light Coat",
+      "zh": "第一件薄外套",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n衣櫃最上層\n那件薄外套\n整個夏天都沒被想起\n袖口還有一點樟腦\n我把熱\n留在門外\n\n[Refrain]\n忘一點熱\n不是把人抹掉\n外套已經知道\n秋天到了\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n有人把秋寫成悲\n我只扣上\n第二顆扣\n留一顆給風\n\n[Refrain]\n忘一點熱\n不是把人抹掉\n外套已經知道\n秋天到了\n\n[Poetry]\n自古逢秋悲寂寥\n我言秋日勝春朝\n\n[English — after poetry]\nSome write autumn as a grief\nI only fasten the second button\nLeave one for the wind\nA light coat is enough\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n忘不是冷淡\n是肩上不再\n扛著整個夏天\n\n[Final refrain]\n薄外套就夠了\n熱會自己\n走出去\n我還在這裏\n只輕一點\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-16/01-first-light-coat.md"
+    },
+    {
+      "n": "02",
+      "start": 172,
+      "time": "2:52",
+      "en": "Leaf on the Mat",
+      "zh": "門墊一片葉",
+      "voice": "男聲",
+      "lyrics": "[English — opening]\nI see it first at the door\nNot a notice, a calling card left very low\nOne leaf is enough\nTo say the air has cooled\n\n[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n門墊上有一片葉\n不是通知\n是秋天把名片\n放得很低\n\n[Refrain]\n忘一點趕路\n葉已經到了\n我只要把鞋\n擺整齊\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n楓紅在別處更盛\n這張墊上\n一片就夠\n說明天氣涼了\n\n[Refrain]\n忘一點趕路\n葉已經到了\n我只要把鞋\n擺整齊\n\n[Poetry]\n遠上寒山石徑斜\n白雲生處有人家\n停車坐愛楓林晚\n霜葉紅於二月花\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n掃走，或留著\n今晚我只看一次\n門還在\n步子交給秋\n\n[Final refrain]\n一片葉\n門還在\n我把這一步\n交給秋天\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-16/02-leaf-on-the-mat.md"
+    },
+    {
+      "n": "03",
+      "start": 340,
+      "time": "5:40",
+      "en": "Window One Finger",
+      "zh": "窗開一指",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n窗只開一指寬\n涼氣側身進來\n不必把整夜\n請上桌\n\n[Refrain]\n忘一點密閉\n讓空氣換班\n秋不敲門\n它側著身進來\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n遠山會自己暗下去\n我只留這\n一指的縫\n已經夠用\n\n[Refrain]\n忘一點密閉\n讓空氣換班\n秋不敲門\n它側著身進來\n\n[English — before poetry]\nThe gap is only a finger wide\nCool air turns sideways and enters\nAutumn does not knock\nI can keep less heat in mind\n\n[Poetry]\n東皋薄暮望\n徙倚欲何依\n樹樹皆秋色\n山山唯落暉\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n縫很小\n已經夠了\n風記得進來\n我記得少記一點熱\n\n[Final refrain]\n一指寬\n風還在\n屋裏的熱\n自己薄了\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-16/03-window-one-finger.md"
+    },
+    {
+      "n": "04",
+      "start": 473,
+      "time": "7:53",
+      "en": "Cup Without Sweat",
+      "zh": "杯沿不出汗",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n夏天杯沿總出汗\n今晚是乾的\n我摸一次\n才肯相信秋\n\n[Refrain]\n忘那一層水膜\n不是刪掉口渴\n是溫度\n退了一步\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n露從今夜開始白\n我的杯子\n不再要求\n被擦乾淨\n\n[Refrain]\n忘那一層水膜\n不是刪掉口渴\n是溫度\n退了一步\n\n[Poetry]\n戍鼓斷人行\n秋邊一雁聲\n露從今夜白\n月是故鄉明\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nThe rim is dry tonight\nNo small weather on the glass\nI forget the summer wipe\nAnd take a cooler mouthful\nMoonlight does not need a caption\n\n[Final refrain]\n杯沿是乾的\n秋天坐下了\n我少做\n一件小事\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-16/04-cup-without-sweat.md"
+    },
+    {
+      "n": "05",
+      "start": 616,
+      "time": "10:16",
+      "en": "Summer Ticket Stub",
+      "zh": "夏天的票根",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 抽屜裏一張票根\n[Male] 日期已經把熱用完\n[Both] 風扇收回紙箱\n螢火那晚不必重講\n\n[Refrain]\n忘那張票根\n不是沒去過\n是不必每次打開\n都再演一遍\n\n[Instrumental break — 20 seconds, no vocal]\n\n[English — between refrains]\nFold the silk fan away\nFold summer into a paper we need not read\nThe stub remains\nThe heat does not\n\n[Poetry]\n銀燭秋光冷畫屏\n輕羅小扇撲流螢\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Verse 2]\n絹扇也收起來了\n我們把夏天\n摺成一張紙\n不必再讀\n\n[Refrain]\n忘那張票根\n不是沒去過\n是不必每次打開\n都再演一遍\n\n[Bridge — almost spoken]\n[Female] 你留扇\n[Male] 我留票根\n[Both] 都算忘了一點熱\n\n[Final refrain]\n票根還在\n熱不在了\n這樣就夠\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-16/05-summer-ticket-stub.md"
+    },
+    {
+      "n": "06",
+      "start": 775,
+      "time": "12:55",
+      "en": "Drawer of Old Words",
+      "zh": "抽屜裏的舊字",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n有些紙寫得太滿\n今晚只剩\n紙的顏色\n我把抽屜\n再關進一寸\n\n[Refrain]\n忘不是撕掉\n是不拿舊句子\n當今天的天氣\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n從前愛上層樓\n現在愛把燈\n再調低一點\n字在暗處\n休息得很好\n\n[Refrain]\n忘不是撕掉\n是不拿舊句子\n當今天的天氣\n\n[Poetry]\n少年不識愁滋味\n愛上層樓\n愛上層樓\n為賦新詞強說愁\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n抽屜響一聲\n然後答應\n今晚不讀\n\n[Final refrain]\n舊字留著\n我下樓\n走進秋天\n\n[English — closing]\nForgetting is not tearing the page\nIt is not using old sentences\nAs the weather of today\nThe drawer clicks once and agrees\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-16/06-drawer-of-old-words.md"
+    },
+    {
+      "n": "07",
+      "start": 925,
+      "time": "15:25",
+      "en": "Screen Goes Dark",
+      "zh": "螢幕自己暗",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n沒回的那行字\n還亮著\n我沒按\n它先暗了\n\n[English — after verse 1]\nThe unanswered line went dark first\nI did not press it away\nAutumn moved before I did\nForgetting a reply is not a breaking-off\n\n[Refrain]\n忘一點回覆\n不是絕交\n是秋天比我\n先動一步\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Poetry]\n枯藤老樹昏鴉\n小橋流水人家\n古道西風瘦馬\n夕陽西下\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Verse 2]\n西風走古道\n我坐沙發上\n誰都不必\n把每句話說完\n\n[Refrain]\n忘一點回覆\n不是絕交\n是秋天比我\n先動一步\n\n[Bridge — almost spoken]\n暗是被允許的\n明天若還想\n燈可以再回來\n\n[Final refrain]\n螢幕是黑的\n秋天還在\n我把電話\n翻過去\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-16/07-screen-goes-dark.md"
+    },
+    {
+      "n": "08",
+      "start": 1088,
+      "time": "18:08",
+      "en": "Name in the Wind",
+      "zh": "風裏的稱呼",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n有個稱呼曾停在嘴邊\n今晚風把它吹薄\n像葉離枝\n不必宣布\n\n[Refrain]\n忘一點呼喚\n不是不曾有過\n是不必反覆\n再叫一遍\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n尋找太費燈\n安靜\n只是房間\n多出一個角落\n\n[Refrain]\n忘一點呼喚\n不是不曾有過\n是不必反覆\n再叫一遍\n\n[Poetry]\n尋尋覓覓\n冷冷清清\n乍暖還寒時候\n最難將息\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nA name thins out in the wind\nI hold no ceremony\nAutumn prefers fewer syllables\nThe room gains a corner\nWhere nothing needs calling\n\n[Final refrain]\n風過去了\n嘴邊輕了\n我還在\n只少叫一次\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-16/08-name-in-the-wind.md"
+    },
+    {
+      "n": "09",
+      "start": 1210,
+      "time": "20:10",
+      "en": "Persimmon on the Sill",
+      "zh": "窗台一個柿",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n窗台一個柿\n顏色比話清楚\n我不必把秋天\n做成風景清單\n\n[Refrain]\n看著就夠\n忘那份遠方的盤點\n果會熟\n葉會落\n不必列表\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n落木可以很遠\n我的秋\n是這一個\n圓而安靜的甜\n\n[Refrain]\n看著就夠\n忘那份遠方的盤點\n果會熟\n葉會落\n不必列表\n\n[Poetry]\n無邊落木蕭蕭下\n不盡長江滾滾來\n\n[English — after poetry]\nOne persimmon on the sill\nSpeaks more clearly than talk\nFalling woods can stay distant\nMy autumn is this round quiet sweetness\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n甜會自己來\n不必看守\n每一片葉\n\n[Final refrain]\n柿還在\n清單薄了\n我把窗台\n留給秋天\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-16/09-persimmon-on-the-sill.md"
+    },
+    {
+      "n": "10",
+      "start": 1378,
+      "time": "22:58",
+      "en": "The Longest Forgetting",
+      "zh": "最長的忘",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 最長的忘\n[Male] 不是空白\n[Both] 是讓一件事\n升到我們不必追的高度\n\n[Refrain]\n再忘長一點\n像鶴穿過晴空\n留下一條線\n不留下命令\n\n[Instrumental break — 20 seconds, no vocal]\n\n[English — between refrains]\nForget a little longer\nLike a crane crossing clear air\nA line remains\nNo order stays\n\n[Poetry]\n晴空一鶴排雲上\n便引詩情到碧霄\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Verse 2]\n詩可以去碧霄\n我們只到\n這院裏的石頭\n還涼著\n\n[Refrain]\n再忘長一點\n像鶴穿過晴空\n留下一條線\n不留下命令\n\n[Bridge — almost spoken]\n[Female] 你看天\n[Male] 我看石\n[Both] 都算忘得夠長\n\n[Final refrain]\n鶴走了\n石還涼\n我們還坐著\n在最長的忘裏\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-16/10-the-longest-forgetting.md"
+    },
+    {
+      "n": "11",
+      "start": 1495,
+      "time": "24:55",
+      "en": "Camphor in the Sweater",
+      "zh": "毛衣有樟腦",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n毛衣從箱子上來\n先是樟腦\n再是袖管\n去年的熱\n摺在紋路裏\n\n[Refrain]\n忘箱子裏的暗\n把袖子抖開\n秋天只問\n你涼得夠不夠\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n別人也許知道故鄉的事\n我只知道\n這件灰毛衣\n還記得我的肩\n\n[Refrain]\n忘箱子裏的暗\n把袖子抖開\n秋天只問\n你涼得夠不夠\n\n[English — before poetry]\nSomeone else may know the hometown news\nI only know this grey sweater\nStill remembers my shoulder\nThe scent will fade, the season joins\n\n[Poetry]\n君自故鄉來\n應知故鄉事\n來日綺窗前\n寒梅著花未\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n氣味會淡\n肩膀會暖\n季節就是\n這樣接上來的\n\n[Final refrain]\n樟腦還在\n熱不在了\n我穿著毛衣\n走進秋天\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-16/11-camphor-in-the-sweater.md"
+    },
+    {
+      "n": "12",
+      "start": 1667,
+      "time": "27:47",
+      "en": "Lamp Earlier",
+      "zh": "燈提早亮",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n天還沒全黑\n燈已經亮了\n不是害怕\n是秋天把黃昏\n剪短了一點\n\n[Refrain]\n忘漫長的夏暮\n讓燈早一點來\n把桌面\n說清楚\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n有人問師去哪裏\n我問燈\n該什麼時候開\n答案是現在\n\n[Refrain]\n忘漫長的夏暮\n讓燈早一點來\n把桌面\n說清楚\n\n[Poetry]\n松下問童子\n言師採藥去\n只在此山中\n雲深不知處\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nThe lamp comes on earlier\nEvening has been cut shorter\nI forget the long summer dusk\nAnd let a small light\nFinish the table\n\n[Final refrain]\n燈亮了\n天還淡\n我把白天\n交給秋天的鐘\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-16/12-lamp-earlier.md"
+    },
+    {
+      "n": "13",
+      "start": 1819,
+      "time": "30:19",
+      "en": "Small Leaf Pile",
+      "zh": "掃成一小堆",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n院子不大\n葉子不多\n掃成一小堆\n像把一年收好\n卻不收完\n\n[English — after verse 1]\nForget a perfect sweep\nLeave this pile\nSo the wind can turn it once more\nThe pile is small and already a full stop\n\n[Refrain]\n忘一次完美的掃\n留下這一堆\n讓風再翻\n一次\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Poetry]\n少小離家老大回\n鄉音無改鬢毛衰\n兒童相見不相識\n笑問客從何處來\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Verse 2]\n口音也許還在\n葉色不會\n我把掃帚\n靠在門邊\n\n[Refrain]\n忘一次完美的掃\n留下這一堆\n讓風再翻\n一次\n\n[Bridge — almost spoken]\n這一堆很小\n已經是句號\n還能被風改寫\n\n[Final refrain]\n一小堆\n門還開著\n我忘了\n完美的院子\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-16/13-small-leaf-pile.md"
+    },
+    {
+      "n": "14",
+      "start": 1982,
+      "time": "33:02",
+      "en": "Letter Unsent",
+      "zh": "信不寄了",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n信寫到第三行\n秋從紙邊進來\n我把筆放下\n不是生氣\n句子已經夠了\n\n[Refrain]\n忘那一次寄出\n讓紙留著\n清秋會保管\n沒寫完的\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n有人無言上西樓\n我無言\n在平房裏\n院中梧桐還響\n\n[Refrain]\n忘那一次寄出\n讓紙留著\n清秋會保管\n沒寫完的\n\n[Poetry]\n無言獨上西樓\n月如鉤\n寂寞梧桐深院鎖清秋\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n不寄也還是信\n收件人\n只是這個季節\n\n[Final refrain]\n紙留著\n筆帽蓋上\n想說的\n涼進空氣裏\n\n[English — closing]\nUnsent is still a letter\nThe addressee is only the season\nThe paper stays, the cap goes on\nWhat I meant to say cools into air\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-16/14-letter-unsent.md"
+    },
+    {
+      "n": "15",
+      "start": 2162,
+      "time": "36:02",
+      "en": "Cool on the Stairs",
+      "zh": "樓梯口的涼",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n往下那幾級\n比屋裏涼\n我停住\n讓肩膀\n先換季\n\n[Refrain]\n忘一次跨兩級\n涼氣教身體\n把速度\n要回來\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n燭影在別的屏風上\n我的樓梯\n只有聲音\n和這一點秋\n\n[Refrain]\n忘一次跨兩級\n涼氣教身體\n把速度\n要回來\n\n[Poetry]\n雲母屏風燭影深\n長河漸落曉星沉\n嫦娥應悔偷靈藥\n碧海青天夜夜心\n\n[English — after poetry]\nThose few steps down are cooler than the room\nI pause and let the shoulders change season first\nStopping on a half-step is allowed\nCool is not a hurry\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n停在半級\n是被允許的\n涼不是催促\n\n[Final refrain]\n樓梯口\n秋天到了\n我忘了\n趕路\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-16/15-cool-on-the-stairs.md"
+    },
+    {
+      "n": "16",
+      "start": 2325,
+      "time": "38:45",
+      "en": "First Long Sleeves",
+      "zh": "長袖第一天",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n袖口碰到手腕\n像舊朋友\n不是驚喜\n是季節\n準時上班\n\n[Refrain]\n忘短袖的習慣\n布記得手臂\n輕輕的\n就夠了\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n花落不必開會\n燕回不必致詞\n我穿長袖\n當普通的一天\n\n[Refrain]\n忘短袖的習慣\n布記得手臂\n輕輕的\n就夠了\n\n[Poetry]\n去年天氣舊亭台\n無可奈何花落去\n似曾相識燕歸來\n小園香徑獨徘徊\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nFirst long sleeves of the year\nNo speech about time passing\nI forget the short-sleeve reflex\nCloth remembers the wrist\nAnd autumn clocks in\n\n[Final refrain]\n長袖第一天\n沒有儀式\n只有涼\n靠近一點\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-16/16-first-long-sleeves.md"
+    },
+    {
+      "n": "17",
+      "start": 2425,
+      "time": "40:25",
+      "en": "Wind Takes the Heat",
+      "zh": "風把熱帶走",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 風從巷口進來\n[Male] 熱從領口離開\n[Both] 誰也不攔誰\n像斜陽自己低頭\n\n[Refrain]\n讓風把多餘的熱\n帶走\n忘不是偷竊\n是讓出一條路\n\n[Instrumental break — 20 seconds, no vocal]\n\n[English — between refrains]\nLet the wind take the extra heat\nForgetting is not theft\nIt is opening a way\nThe people remain\n\n[Poetry]\n碧雲天\n黃葉地\n山映斜陽天接水\n芳草無情更在斜陽外\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Verse 2]\n草也許等在斜陽外\n我們的熱\n只走到巷口\n就被領走\n\n[Refrain]\n讓風把多餘的熱\n帶走\n忘不是偷竊\n是讓出一條路\n\n[Bridge — almost spoken]\n[Female] 你開門\n[Male] 我鬆領口\n[Both] 風會做事\n\n[Final refrain]\n熱走了\n人還在\n秋天把路\n留得很寬\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-16/17-wind-takes-the-heat.md"
+    },
+    {
+      "n": "18",
+      "start": 2589,
+      "time": "43:09",
+      "en": "Dark Comes Early",
+      "zh": "天黑得早",
+      "voice": "女聲",
+      "lyrics": "[English — opening]\nThe thought is not finished\nAnd the sky is already dark\nForget that day should be long\nDraw the chair nearer the lamp\n\n[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n話還沒說完\n天已經黑了\n我把剩下的\n留給明天的涼\n\n[Refrain]\n忘白天該很長\n讓夜早點來\n把椅子\n拉近燈\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n長久是另一個願望\n今晚只要\n這一盞燈\n和提早的黑\n\n[Refrain]\n忘白天該很長\n讓夜早點來\n把椅子\n拉近燈\n\n[Poetry]\n明月幾時有\n把酒問青天\n但願人長久\n千里共嬋娟\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n天黑得早\n也可以是團聚\n團聚在\n一小圈光裏\n\n[Final refrain]\n天黑了\n燈近了\n我忘了\n漫長的黃昏\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-16/18-dark-comes-early.md"
+    },
+    {
+      "n": "19",
+      "start": 2766,
+      "time": "46:06",
+      "en": "Pocket Emptied",
+      "zh": "口袋空了",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n夏天的紙巾\n一顆薄荷糖\n一張摺過的收據\n我把它們\n倒在桌上\n\n[Refrain]\n口袋空了\n不是夏天沒發生\n是換季要一步\n輕一點\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n路也許還長\n袖口也許舊了\n我只把口袋\n還給秋天的手\n\n[Refrain]\n口袋空了\n不是夏天沒發生\n是換季要一步\n輕一點\n\n[English — before poetry]\nSummer tissue, a mint, a folded receipt\nI empty them onto the table\nWhat I poured out still knows me\nI do not put it back\n\n[Poetry]\n故園東望路漫漫\n雙袖龍鐘淚不乾\n馬上相逢無紙筆\n憑君傳語報平安\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n倒出來的\n還認得我\n我不放回去\n讓桌子涼一夜\n\n[Final refrain]\n口袋空了\n步子輕了\n秋天手裏\n沒有雜物\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-16/19-pocket-emptied.md"
+    },
+    {
+      "n": "20",
+      "start": 2919,
+      "time": "48:39",
+      "en": "Still Listening for 忘",
+      "zh": "仍在聽忘",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 一句話到了嘴邊\n[Male] 又退回去\n[Both] 不是秘密\n是天氣涼了\n這句不必說\n\n[Refrain]\n仍在聽忘\n像聽秋天\n一個好秋天\n就夠了\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n幾乎要說\n不是輸掉\n是把熱\n從舌尖還給風\n\n[Refrain]\n仍在聽忘\n像聽秋天\n一個好秋天\n就夠了\n\n[Poetry]\n而今識盡愁滋味\n欲說還休\n欲說還休\n卻道天涼好個秋\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你聽葉子\n[Male] 我聽涼\n[Both] 都算忘\n\n[Final refrain]\n天氣涼了\n話少了\n我們仍在聽忘\n\n[English — closing]\nA sentence comes to the mouth and goes back in\nNot as a secret\nThe air is cool, this line need not be said\nWe are still listening for 忘\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-16/20-still-listening-for-wang.md"
+    }
+  ],
+  "warnings": [],
+  "lyricsSource": "songs/prompts/episode-16/*.md"
+}

@@ -1,0 +1,235 @@
+{
+  "episode": 18,
+  "slug": "mirage-dream-haze",
+  "title": {
+    "en": "Mirage Dream Haze",
+    "zh": "醉夢聽迷"
+  },
+  "logline": "醉生夢死不必說破。它像海市蜃樓：遠看有岸、有樓，走近只剩熱氣與空。",
+  "videoId": "CUxYhwK86RU",
+  "youtubeTitle": "[playlist] QuietLY · 迷 — Mirage / Slow Mandarin Jazz",
+  "comics": [
+    {
+      "en": "You need not explain the haze.",
+      "zh": "醉生夢死不必說破。"
+    },
+    {
+      "en": "From far away there is a shore, a tower.",
+      "zh": "遠看有岸、有樓。"
+    },
+    {
+      "en": "Closer — only heat and emptiness.",
+      "zh": "走近只剩熱氣與空。"
+    },
+    {
+      "en": "Listen for 迷 between wake and dream.",
+      "zh": "在醒與夢之間聽迷。"
+    }
+  ],
+  "hero": "assets/ep18-hero.png",
+  "comicImages": [],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "0:00",
+      "en": "Spilled Cup",
+      "zh": "翻倒的杯",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n桌上那隻杯\n已翻倒\n酒痕像一條\n還沒醒的河\n\n[Refrain]\n聽一點迷\n不用說破\n杯空了\n夜還在\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n夜光杯在遠方\n這裏只有\n一灘涼了的\n舊歡\n\n[Refrain]\n聽一點迷\n不用說破\n杯空了\n夜還在\n\n[Poetry]\n葡萄美酒夜光杯\n欲飲琵琶馬上催\n\n[English — after poetry]\nThe spilled cup keeps the night unfinished\nWine darkens the lacquer without apology\nNo one returns to set it upright\nAnd I listen while the room forgets\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n迷不是醉\n是醒了一半\n還想回去\n\n[Final refrain]\n杯還倒\n痕還在\n我聽了一點\n迷\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-18/01-spilled-cup.md"
+    },
+    {
+      "n": "02",
+      "start": 132,
+      "time": "2:12",
+      "en": "Half-Open Screen",
+      "zh": "半開的屏",
+      "voice": "男聲",
+      "lyrics": "[English — opening]\nThe screen stands half open like a dream\nNeither invitation nor farewell\nI do not push it wider tonight\nOnly let the soft gap keep me\n\n[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n屏風半開\n像夢沒關好\n後面是空\n前面也空\n\n[Refrain]\n半開就夠\n迷也淺\n不必全看\n先停一會\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n獨酌無相親\n我卻聽見\n屏縫裏\n還有呼吸似的靜\n\n[Refrain]\n半開就夠\n迷也淺\n不必全看\n先停一會\n\n[Poetry]\n花間一壺酒\n獨酌無相親\n舉杯邀明月\n對影成三人\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n三人成影\n是遠事\n這裏只有\n一扇屏\n\n[Final refrain]\n屏還半開\n夜還薄\n我先聽\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-18/02-half-open-screen.md"
+    },
+    {
+      "n": "03",
+      "start": 300,
+      "time": "5:00",
+      "en": "Incense Ash",
+      "zh": "香灰未冷",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n香灰還未冷\n像有人剛離開\n煙在樑上\n繞了一圈就不肯散\n\n[Refrain]\n香灰未冷\n迷未散\n煙自己繞\n人不必回\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n金樽空對月\n是豪語\n這裏只剩\n一寸灰的溫\n\n[Refrain]\n香灰未冷\n迷未散\n煙自己繞\n人不必回\n\n[English — before poetry]\nBefore the poem, stay here:\nthe incense ash is still faintly warm\nthe loft keeps the last curl of smoke\nwithout asking who celebrated\n\n[Poetry]\n人生得意須盡歡\n莫使金樽空對月\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n盡歡是遠方\n這裏只有\n灰\n和未說完的夜\n\n[Final refrain]\n灰還溫\n煙還繞\n我往裏\n慢一點\n\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-18/03-incense-ash.md"
+    },
+    {
+      "n": "04",
+      "start": 455,
+      "time": "7:35",
+      "en": "Wine Stain",
+      "zh": "桌上酒痕",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n朱漆桌上\n酒痕像地圖\n通往一個\n叫不出名的地方\n\n[Refrain]\n酒痕還在\n人散了\n迷也\n不必擦乾\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n舊醅是遠事\n這裏只有\n一道深色\n慢慢乾\n\n[Refrain]\n酒痕還在\n人散了\n迷也\n不必擦乾\n\n[Poetry]\n花徑不曾緣客掃\n蓬門今始為君開\n盤飧市遠無兼味\n樽酒家貧只舊醅\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nA wine stain maps the leftover night\nNo guest returns to read it twice\nThe table keeps what laughter left\nAnd lets the quiet turn it soft\n\n[Final refrain]\n不擦了\n痕還在\n夜還迷\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-18/04-wine-stain.md"
+    },
+    {
+      "n": "05",
+      "start": 652,
+      "time": "10:52",
+      "en": "Candle Almost Out",
+      "zh": "燭將盡",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 燭火矮了一截\n[Male] 像夜也累了\n[Both] 影子在牆上\n搖得像未醒的人\n\n[Refrain]\n燭將盡\n迷還在\n光一跳\n就夠了\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n揚州夢在遠方\n這裏只有\n一寸蠟\n和半間樓\n\n[Refrain]\n燭將盡\n迷還在\n光一跳\n就夠了\n\n[English — between refrains]\nThe candle almost out still holds the room\nA decade of dream softens into wax\nWe do not need the whole night bright\nJust this last trembling fact\n\n[Poetry]\n落魄江南載酒行\n十年一覺揚州夢\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 夢很長\n[Male] 燭很短\n[Both] 迷在中間\n\n[Final refrain]\n燭\n將盡\n我們還在聽\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-18/05-candle-almost-out.md"
+    },
+    {
+      "n": "06",
+      "start": 861,
+      "time": "14:21",
+      "en": "Empty Flask",
+      "zh": "空酒壺",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n空酒壺靠著牆\n嘴還張著\n像還想說\n一句沒出口的醉\n\n[Refrain]\n壺空了\n迷不空\n雨眠是遠事\n這裏很乾\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n畫船聽雨眠\n是別人的江南\n這裏只有\n空與回聲\n\n[Refrain]\n壺空了\n迷不空\n雨眠是遠事\n這裏很乾\n\n[Poetry]\n人人盡說江南好\n遊人只合江南老\n春水碧於天\n畫船聽雨眠\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n江南好\n是遠方\n這裏只有\n空壺\n\n[Final refrain]\n壺還空\n夜還在\n我先看\n\n[English — closing]\nEmpty flask leaning on the wall\nStill open as if mid-sentence\nThe banquet left its softest thirst\nAnd I keep company with silence\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-18/06-empty-flask.md"
+    },
+    {
+      "n": "07",
+      "start": 1060,
+      "time": "17:40",
+      "en": "Lattice Night",
+      "zh": "花窗夜色",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n花窗把夜切成格\n每一格都像\n還沒醒透的\n一小塊夢\n\n[Refrain]\n花窗夜色\n迷也細\n一格一格\n慢慢數\n\n[English — after verse 1]\nLattice cuts the night into soft squares\nEach one a dream not fully woken\nI count them without needing names\nAnd let the loft stay half spoken\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n醒復醉\n是東坡的路\n我在窗邊\n只醒一半\n\n[Refrain]\n花窗夜色\n迷也細\n一格一格\n慢慢數\n\n[Poetry]\n夜飲東坡醒復醉\n歸來彷彿三更\n家童鼻息已雷鳴\n敲門都不應\n倚杖聽江聲\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n江聲在遠方\n這裏只有\n窗格子\n和呼吸\n\n[Final refrain]\n窗還亮\n夜還格\n我繼續\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-18/07-lattice-night.md"
+    },
+    {
+      "n": "08",
+      "start": 1258,
+      "time": "20:58",
+      "en": "Soft Footsteps Echo",
+      "zh": "足音還在",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n樓板上還有足音\n像有人剛走下\n又像從來\n沒有人來過\n\n[Refrain]\n足音還在\n人也迷\n不必追到\n樓梯口\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n歡笑在醉裏\n是舊事\n這裏只剩\n一步的餘響\n\n[Refrain]\n足音還在\n人也迷\n不必追到\n樓梯口\n\n[Poetry]\n醉裏且貪歡笑\n要愁那得工夫\n近來始覺古人書\n信著全無是處\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nSoft footsteps still echo in the loft\nAs if joy left a thin trail behind\nI do not chase them down the stair\nI only listen while they unwind\n\n[Final refrain]\n足音淡\n夜還深\n我不追\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-18/08-footsteps-echo.md"
+    },
+    {
+      "n": "09",
+      "start": 1438,
+      "time": "23:58",
+      "en": "Red Lacquer Table",
+      "zh": "朱漆桌",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n朱漆桌還亮\n像記得所有\n碰杯的聲音\n卻一個也不還\n\n[Refrain]\n桌還在\n迷坐下\n雨在小樓\n是明天的事\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n賣杏花在明朝\n今夜只有\n漆面\n與空杯影子\n\n[Refrain]\n桌還在\n迷坐下\n雨在小樓\n是明天的事\n\n[Poetry]\n小樓一夜聽春雨\n深巷明朝賣杏花\n\n[English — after poetry]\nThe red lacquer table keeps its shine\nAs if applause still sleeps inside the wood\nSpring rain can wait until tomorrow\nTonight the loft stays understood\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n春雨遠\n桌近\n迷在\n桌邊\n\n[Final refrain]\n桌還亮\n杯還空\n我聽了一點\n迷\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-18/09-lacquer-table.md"
+    },
+    {
+      "n": "10",
+      "start": 1632,
+      "time": "27:12",
+      "en": "Forgotten Fan",
+      "zh": "遺下的扇",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 扇子忘在椅上\n[Male] 摺痕還熱\n[Both] 像一句話\n停在半開之間\n\n[Refrain]\n扇還在\n人走了\n迷也\n不必追回\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n屠蘇是歲首\n這裏只有\n一柄扇\n和未散的熱\n\n[Refrain]\n扇還在\n人走了\n迷也\n不必追回\n\n[English — between refrains]\nA forgotten fan on the empty chair\nHalf open like a sentence paused\nNew year wine is someone else's dawn\nWe keep the soft heat it caused\n\n[Poetry]\n爆竹聲中一歲除\n春風送暖入屠蘇\n千門萬戶曈曈日\n總把新桃換舊符\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你看扇\n[Male] 我看熱\n[Both] 都算迷\n\n[Final refrain]\n扇還半開\n椅還空\n我們還在聽\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-18/10-forgotten-fan.md"
+    },
+    {
+      "n": "11",
+      "start": 1786,
+      "time": "29:46",
+      "en": "Warm Seat Left",
+      "zh": "還有餘溫",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n椅子還有餘溫\n像有人剛起身\n夢還沒來得及\n把位置交還\n\n[Refrain]\n餘溫在\n迷也在\n不必坐滿\n才算留下\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n吹笛到天明\n是豪情\n這裏只有\n一寸溫\n\n[Refrain]\n餘溫在\n迷也在\n不必坐滿\n才算留下\n\n[English — before poetry]\nBefore the poem, stay here:\nthe seat is still faintly warm\nsomeone rose and left the dream behind\nand the loft holds that soft imprint\n\n[Poetry]\n憶昔午橋橋上飲\n坐中多是豪英\n長溝流月去無聲\n杏花疏影裏\n吹笛到天明\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n豪英在午橋\n這裏只有\n空椅\n與溫\n\n[Final refrain]\n溫還在\n椅還空\n我先坐\n慢一點\n\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-18/11-seat-still-warm.md"
+    },
+    {
+      "n": "12",
+      "start": 1941,
+      "time": "32:21",
+      "en": "Between Sips",
+      "zh": "杯與杯之間",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n杯與杯之間\n有一段空白\n剛好夠放\n一點迷\n\n[Refrain]\n空白也是\n一種醉\n不必斟滿\n才算活著\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n帳飲無緒\n是遠別\n這裏只有\n兩杯的距離\n\n[Refrain]\n空白也是\n一種醉\n不必斟滿\n才算活著\n\n[Poetry]\n寒蟬淒切\n對長亭晚\n驟雨初歇\n都門帳飲無緒\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nBetween one sip and the next\nA blank soft enough for 迷\nNo farewell needs the whole flask\nOnly this quiet interval\n\n[Final refrain]\n杯與杯\n之間\n我停住\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-18/12-between-sips.md"
+    },
+    {
+      "n": "13",
+      "start": 2074,
+      "time": "34:34",
+      "en": "Door Left Ajar",
+      "zh": "門未關嚴",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n門未關嚴\n縫裏進一點\n樓下的風\n像把夢吹薄\n\n[Refrain]\n門半掩\n迷半醒\n風進來\n也不催\n\n[English — after verse 1]\nThe door left ajar lets the night thin in\nCourtyards can stay deep somewhere else\nHere a soft draft keeps the dream light\nAnd I do not seal it tight\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n庭院深深\n是別處\n這裏只有\n一扇未關好的門\n\n[Refrain]\n門半掩\n迷半醒\n風進來\n也不催\n\n[Poetry]\n庭院深深深幾許\n楊柳堆煙\n簾幕無重數\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n簾幕重\n是遠事\n門縫是\n近事\n\n[Final refrain]\n門還掩\n風還進\n我繼續\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-18/13-door-ajar.md"
+    },
+    {
+      "n": "14",
+      "start": 2253,
+      "time": "37:33",
+      "en": "Smoke in the Beam",
+      "zh": "樑上煙",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n樑上還掛著煙\n像往事不肯落地\n小樓的東風\n還沒把夜吹乾\n\n[Refrain]\n煙在樑\n迷在胸\n往事多少\n不必數清\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n故國月明\n是別人心事\n這裏只有\n一縷未散\n\n[Refrain]\n煙在樑\n迷在胸\n往事多少\n不必數清\n\n[Poetry]\n春花秋月何時了\n往事知多少\n小樓昨夜又東風\n故國不堪回首月明中\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n往事遠\n煙近\n迷在\n樑下\n\n[Final refrain]\n煙還掛\n夜還在\n我先看\n\n[English — closing]\nSmoke still hangs along the beam\nAs if the past refuses to settle\nEast wind can wait outside the loft\nI keep tonight half metal, half dream\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-18/14-smoke-in-beam.md"
+    },
+    {
+      "n": "15",
+      "start": 2456,
+      "time": "40:56",
+      "en": "One Shoe Askew",
+      "zh": "歪了一隻鞋",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n門口歪了一隻鞋\n像人走得太急\n又像還沒決定\n要不要離開\n\n[Refrain]\n鞋歪了\n心也迷\n一晌貪歡\n夠不夠\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n夢裏不知身是客\n這裏醒了\n卻仍像\n客人\n\n[Refrain]\n鞋歪了\n心也迷\n一晌貪歡\n夠不夠\n\n[Poetry]\n簾外雨潺潺\n春意闌珊\n羅衾不耐五更寒\n夢裏不知身是客\n一晌貪歡\n\n[English — after poetry]\nOne shoe askew by the loft door\nAs if leaving and staying both stalled\nA short joy still warms the threshold\nAnd 迷 keeps the choice uncalled\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n五更寒\n是遠事\n鞋是\n近事\n\n[Final refrain]\n鞋還歪\n門還開\n我聽了一點\n迷\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-18/15-shoe-askew.md"
+    },
+    {
+      "n": "16",
+      "start": 2669,
+      "time": "44:29",
+      "en": "Name on the Cup",
+      "zh": "杯底寫名",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n杯底像寫過名字\n被酒洗淡了\n只剩一筆\n認不出的彎\n\n[Refrain]\n名淡了\n迷還清\n不必認回\n才算記得\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n新詞酒一杯\n是舊歡\n這裏只有\n淡痕\n\n[Refrain]\n名淡了\n迷還清\n不必認回\n才算記得\n\n[Poetry]\n一曲新詞酒一杯\n夕陽西下幾時回\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nA name washed faint on the cup floor\nSunset can ask when it returns\nI do not need the letters sharp\nOnly the soft curve that burns\n\n[Final refrain]\n名還淡\n酒還乾\n我不認\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-18/16-name-on-cup.md"
+    },
+    {
+      "n": "17",
+      "start": 2796,
+      "time": "46:36",
+      "en": "Dawn Not Yet",
+      "zh": "天未亮",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 天還沒亮\n[Male] 樓還很暗\n[Both] 酒醒在何處\n先不用回答\n\n[Refrain]\n天未亮\n迷未散\n曉風殘月\n可以晚一點\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n良辰虛設\n是遠別的話\n這裏只有\n未亮的窗\n\n[Refrain]\n天未亮\n迷未散\n曉風殘月\n可以晚一點\n\n[English — between refrains]\nDawn is not yet and the loft stays dim\nWhere sobriety waits can go unnamed\nWillow wind and thin moon can wait\nWe keep 迷 until morning is claimed\n\n[Poetry]\n今宵酒醒何處\n楊柳岸曉風殘月\n此去經年\n應是良辰好景虛設\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你聽暗\n[Male] 我聽靜\n[Both] 都算迷\n\n[Final refrain]\n天未亮\n樓還在\n我們仍在聽\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-18/17-dawn-not-yet.md"
+    },
+    {
+      "n": "18",
+      "start": 2964,
+      "time": "49:24",
+      "en": "Clouded Mirror",
+      "zh": "鏡也迷",
+      "voice": "女聲",
+      "lyrics": "[English — opening]\nThe mirror clouds before the face arrives\nAs if the loft prefers soft outlines\nPour full without needing clear eyes\nAnd let farewell stay outside\n\n[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n鏡子也起了霧\n像把臉\n先藏進\n一場未散的醉\n\n[Refrain]\n鏡也迷\n人更迷\n滿酌\n不必看清\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n人生足別離\n是勸酒的狠\n這裏只勸\n慢一點\n\n[Refrain]\n鏡也迷\n人更迷\n滿酌\n不必看清\n\n[Poetry]\n勸君金屈卮\n滿酌不須辭\n花發多風雨\n人生足別離\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n風雨多\n是花的事\n霧是\n今夜的事\n\n[Final refrain]\n鏡還霧\n夜還在\n我先聽\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-18/18-clouded-mirror.md"
+    },
+    {
+      "n": "19",
+      "start": 3133,
+      "time": "52:13",
+      "en": "Street Far Below",
+      "zh": "樓下很遠",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n樓下的街很遠\n像另一個世界\n樓上的空杯\n還以為夜很近\n\n[Refrain]\n樓下遠\n迷更近\n他鄉\n就在這層樓\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n主人能醉客\n是豪情\n這裏客已走\n迷還留\n\n[Refrain]\n樓下遠\n迷更近\n他鄉\n就在這層樓\n\n[English — before poetry]\nBefore the poem, stay here:\nthe street below feels oddly far\nthe empty cups still think night is near\nand 迷 keeps the height soft\n\n[Poetry]\n蘭陵美酒鬱金香\n玉碗盛來琥珀光\n但使主人能醉客\n不知何處是他鄉\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n琥珀光\n是遠酒\n這裏只有\n暗與高\n\n[Final refrain]\n街還遠\n樓還高\n我往下\n慢一點\n\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-18/19-street-far-below.md"
+    },
+    {
+      "n": "20",
+      "start": 3366,
+      "time": "56:06",
+      "en": "Still Listening for 迷",
+      "zh": "仍在聽迷",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 夜還沒散\n[Male] 壺還空著\n[Both] 殘席還在\n聽一點迷\n\n[Refrain]\n仍在聽迷\n不用說破\n像聽夢\n一層一層\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n酒困欲睡\n是路上的事\n這裏醒來\n仍願迷一下\n\n[Refrain]\n仍在聽迷\n不用說破\n像聽夢\n一層一層\n\n[Poetry]\n酒困路長惟欲睡\n日高人渴漫思茶\n敲門試問野人家\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你聽煙\n[Male] 我聽杯\n[Both] 都算迷\n\n[Final refrain]\n席還在\n夢還在\n我們仍在聽迷\n\n[English — closing]\nStill listening for 迷 in the leftover loft\nNot drama, just the soft unfinished night\nEmpty flask and half-open screen remain\nAnd we keep the listening light\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-18/20-still-listening-for-mi.md"
+    }
+  ],
+  "warnings": [],
+  "lyricsSource": "songs/prompts/episode-18/*.md"
+}
