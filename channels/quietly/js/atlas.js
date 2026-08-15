@@ -1,5 +1,5 @@
 (function () {
-  var DATA_VER = "20260815d";
+  var DATA_VER = "20260815f";
 
   function escapeHtml(s) {
     return String(s)

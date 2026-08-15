@@ -272,7 +272,7 @@
     return fetch(
       "data/episode-" +
         String(meta.episode).padStart(2, "0") +
-        ".json?v=20260815d"
+        ".json?v=20260815f"
     )
       .then(function (r) {
         return r.json();
@@ -448,7 +448,7 @@
     document.head.appendChild(tag);
   }
 
-  fetch("data/episodes-index.json?v=20260815d")
+  fetch("data/episodes-index.json?v=20260815f")
     .then(function (r) {
       return r.json();
     })
