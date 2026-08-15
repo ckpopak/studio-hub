@@ -17,7 +17,7 @@ TEMPLATE = """<!DOCTYPE html>
     <title>{title_en} · {title_zh} — Cafe QuietLY 靜</title>
     <meta
       name=\"description\"
-      content=\"QuietLY Episode {ep} field notes: quiet comic, full lyrics from n20dle prompts, and embedded long listening for {title_zh}.\"
+      content=\"QuietLY Episode {ep} vinyl sleeve: album cover, gatefold liner notes, and full lyrics for {title_zh}.\"
     />
     <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />
     <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />
@@ -33,7 +33,7 @@ TEMPLATE = """<!DOCTYPE html>
       <a class=\"site-nav__brand\" href=\"../index.html\">靜</a>
       <div class=\"site-nav__links\">
         <a href=\"../atmosphere.html?ep={ep}\">Atmosphere</a>
-        <a href=\"../index.html\">Worlds</a>
+        <a href=\"../index.html\">Shelf</a>
         <a href=\"../../../index.html\">Studio</a>
       </div>
     </nav>
@@ -44,12 +44,25 @@ TEMPLATE = """<!DOCTYPE html>
         <div class=\"hero__veil\"></div>
         <div class=\"hero__atmosphere\" id=\"hero-atmosphere\" aria-hidden=\"true\"></div>
       </div>
+
+      <div class=\"sleeve\" aria-hidden=\"true\">
+        <div class=\"vinyl\">
+          <div class=\"vinyl__disc\">
+            <div class=\"vinyl__grooves\"></div>
+            <div class=\"vinyl__label\">
+              <span class=\"vinyl__mark\">靜</span>
+              <span class=\"vinyl__ep\">EP {ep:02d}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class=\"hero__content\">
         <div class=\"brand\">
           <span class=\"brand__mark\" aria-hidden=\"true\">靜</span>
           <div>
-            <div class=\"brand__name serif\">Cafe QuietLY</div>
-            <span class=\"brand__sub\">Field notes · Episode {ep}</span>
+            <div class=\"brand__name serif\">QuietLY</div>
+            <span class=\"brand__sub\">Vinyl sleeve · Episode {ep}</span>
           </div>
         </div>
         <h1 class=\"hero__title serif\" id=\"hero-title\">
@@ -57,28 +70,28 @@ TEMPLATE = """<!DOCTYPE html>
           <span class=\"zh\">{title_zh}</span>
         </h1>
         <p class=\"hero__lede\" id=\"hero-lede\">{logline}</p>
-        <a class=\"hero__cta\" href=\"#comics\">
-          Enter the scene
+        <a class=\"hero__cta\" href=\"#liner\">
+          Open the sleeve
           <i aria-hidden=\"true\"></i>
         </a>
       </div>
     </header>
 
-    <main>
-      <section class=\"section\" id=\"comics\" aria-labelledby=\"comics-title\">
-        <p class=\"section__eyebrow reveal\">Quiet comic</p>
-        <h2 class=\"section__title serif reveal\" id=\"comics-title\">
-          Four frames before the words
+    <main class=\"gatefold\">
+      <section class=\"section liner-intro\" id=\"liner\" aria-labelledby=\"liner-title\">
+        <p class=\"section__eyebrow reveal\">Inner gatefold</p>
+        <h2 class=\"section__title serif reveal\" id=\"liner-title\">
+          Quiet comic · before the needle
         </h2>
         <p class=\"section__note reveal\">
-          A short vignette for this world only. Images appear when ready; captions always hold the room.
+          Four frames printed on the inner sleeve. Captions hold the room; images appear when ready.
         </p>
         <div class=\"comics\" id=\"comics-root\"></div>
       </section>
 
       <section class=\"session reveal\" id=\"session\" aria-labelledby=\"session-title\">
-        <p class=\"section__eyebrow\">Long listening</p>
-        <h2 class=\"section__title serif\" id=\"session-title\">Embedded session</h2>
+        <p class=\"section__eyebrow\">Turntable</p>
+        <h2 class=\"section__title serif\" id=\"session-title\">Long listening</h2>
         <p class=\"section__note\">
           Official Episode {ep} upload. Track cues follow the published YouTube chapter times.
           Lyric text is taken from <code>songs/prompts/episode-{ep:02d}/*.md</code>.
@@ -91,7 +104,7 @@ TEMPLATE = """<!DOCTYPE html>
             <span class=\"player-shell__now\"
               >Now · <strong id=\"now-track\">—</strong></span
             >
-            <span>Cafe QuietLY · Ep {ep}</span>
+            <span>QuietLY · Ep {ep}</span>
           </div>
         </div>
         <p class=\"proto-note\" id=\"video-missing\" hidden>
@@ -99,17 +112,28 @@ TEMPLATE = """<!DOCTYPE html>
         </p>
       </section>
 
-      <section class=\"section\" id=\"lyrics\" aria-labelledby=\"lyrics-title\">
-        <p class=\"section__eyebrow reveal\">Full lyrics</p>
-        <h2 class=\"section__title serif reveal\" id=\"lyrics-title\">
-          Songs from this world
-        </h2>
-        <p class=\"section__note reveal\">
-          Complete Suno lyric blocks from n20dle — including section tags and poetry.
-          Press a row to seek the session.
-        </p>
-        <ol class=\"tracklist reveal\" id=\"tracklist\"></ol>
-        <div id=\"songs\"></div>
+      <section class=\"section liner\" id=\"lyrics\" aria-labelledby=\"lyrics-title\">
+        <div class=\"liner__head reveal\">
+          <p class=\"section__eyebrow\">Liner notes</p>
+          <h2 class=\"section__title serif\" id=\"lyrics-title\">
+            Full lyrics · printed insert
+          </h2>
+          <p class=\"section__note\">
+            Complete lyric blocks from n20dle — section tags, poetry, and English lines.
+            Press a row to drop the needle.
+          </p>
+        </div>
+        <div class=\"back-cover reveal\" id=\"back-cover\">
+          <div class=\"back-cover__side\">
+            <span class=\"back-cover__label\">Side A</span>
+            <ol class=\"tracklist\" id=\"tracklist-a\"></ol>
+          </div>
+          <div class=\"back-cover__side\">
+            <span class=\"back-cover__label\">Side B</span>
+            <ol class=\"tracklist\" id=\"tracklist-b\"></ol>
+          </div>
+        </div>
+        <div class=\"booklet\" id=\"songs\"></div>
       </section>
     </main>
 
@@ -120,7 +144,7 @@ TEMPLATE = """<!DOCTYPE html>
         <code>n20dle/songs/prompts/episode-{ep:02d}/*.md</code> · Lyrics fenced blocks.
       </p>
       <div class=\"site-footer__links\">
-        <a href=\"../index.html\">All worlds</a>
+        <a href=\"../index.html\">All sleeves</a>
         <a href=\"../atmosphere.html?ep={ep}\">Play atmosphere</a>
         <a href=\"../about.html\">About</a>
         <a id=\"yt-link\" href=\"https://www.youtube.com/@cafequietlysoftmusic\" target=\"_blank\" rel=\"noopener noreferrer\">Watch on YouTube</a>
@@ -130,10 +154,10 @@ TEMPLATE = """<!DOCTYPE html>
     <div class=\"dock\" id=\"dock\" aria-hidden=\"true\">
       <div class=\"dock__inner\">
         <div class=\"dock__label\">
-          <span class=\"dock__kicker\">Listening</span>
+          <span class=\"dock__kicker\">On the platter</span>
           <p class=\"dock__track serif\" id=\"dock-track\">—</p>
         </div>
-        <button class=\"dock__btn\" type=\"button\" id=\"dock-jump\">Show player</button>
+        <button class=\"dock__btn\" type=\"button\" id=\"dock-jump\">Show turntable</button>
       </div>
     </div>
 

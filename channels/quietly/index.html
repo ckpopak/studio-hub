@@ -6,7 +6,7 @@
     <title>Cafe QuietLY 靜 — Field Notes</title>
     <meta
       name="description"
-      content="Official QuietLY field notes: imaginary worlds to read—scene first, sparse lyrics, music at the edge."
+      content="QuietLY vinyl shelf: open each episode sleeve for cover art, gatefold comics, turntable listening, and full lyrics."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -171,6 +171,72 @@
         width: 2.25rem;
       }
 
+      .sleeve {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        pointer-events: none;
+        display: grid;
+        align-items: center;
+        justify-items: end;
+        padding: 8vh clamp(0.5rem, 4vw, 3rem) 18vh;
+      }
+
+      .vinyl {
+        width: min(48vmin, 380px);
+        aspect-ratio: 1;
+        animation: vinyl-slide 1.6s var(--ease) both;
+      }
+
+      .vinyl__disc {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background:
+          radial-gradient(circle at 50% 50%, #1a1a1a 0 14%, transparent 14.5%),
+          repeating-radial-gradient(
+            circle at 50% 50%,
+            #0e0e10 0 1px,
+            #16161a 1px 3px,
+            #0a0a0c 3px 5px
+          );
+        box-shadow:
+          0 0 0 1px rgba(232, 226, 214, 0.08),
+          0 24px 60px rgba(0, 0, 0, 0.55);
+        animation: vinyl-spin 28s linear infinite;
+        position: relative;
+      }
+
+      .vinyl__label {
+        position: absolute;
+        inset: 32%;
+        border-radius: 50%;
+        display: grid;
+        place-content: center;
+        background: linear-gradient(145deg, #2a3344 0%, #121820 100%);
+        border: 1px solid rgba(200, 146, 74, 0.35);
+        font-family: "Noto Serif TC", serif;
+        font-size: clamp(1.4rem, 4vmin, 2rem);
+        color: var(--paper);
+      }
+
+      @keyframes vinyl-spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      @keyframes vinyl-slide {
+        from {
+          opacity: 0;
+          transform: translateX(12%) scale(0.94);
+        }
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+
       .atlas {
         width: min(920px, calc(100% - 2.5rem));
         margin: 0 auto;
@@ -302,6 +368,16 @@
       }
 
       @media (max-width: 700px) {
+        .sleeve {
+          justify-items: center;
+          opacity: 0.45;
+          padding-bottom: 24vh;
+        }
+
+        .vinyl {
+          width: min(52vmin, 240px);
+        }
+
         .world-list a,
         .world-list .world-row {
           grid-template-columns: 3.2rem 1fr;
@@ -320,7 +396,9 @@
 
       @media (prefers-reduced-motion: reduce) {
         .hero__media img,
-        .hero__content {
+        .hero__content,
+        .vinyl,
+        .vinyl__disc {
           animation: none !important;
         }
       }
@@ -346,19 +424,25 @@
         />
         <div class="hero__veil"></div>
       </div>
+      <div class="sleeve" aria-hidden="true">
+        <div class="vinyl">
+          <div class="vinyl__disc">
+            <div class="vinyl__label">靜</div>
+          </div>
+        </div>
+      </div>
       <div class="hero__content">
         <div class="brand">
           <span class="brand__mark" aria-hidden="true">靜</span>
           <div>
-            <div class="brand__name serif">Cafe QuietLY</div>
-            <span class="brand__sub">Field notes</span>
+            <div class="brand__name serif">QuietLY</div>
+            <span class="brand__sub">Vinyl shelf</span>
           </div>
         </div>
-        <h1 class="hero__title serif">Rooms you can read</h1>
+        <h1 class="hero__title serif">Sleeves you can open</h1>
         <p class="hero__lede">
-          Very slow Mandarin jazz, one imaginary world per episode. Sparse
-          lyrics, public-domain poetry, and quiet scenes that let imagery and
-          song carry the room.
+          Each QuietLY world is a vinyl sleeve — cover art, spinning disc, and a
+          gatefold of comics, turntable, and full printed lyrics.
         </p>
         <div class="hero__actions">
           <a class="hero__cta" href="atmosphere.html">
@@ -366,7 +450,7 @@
             <span aria-hidden="true"></span>
           </a>
           <a class="hero__cta hero__cta--ghost" href="#atlas">
-            Browse worlds
+            Browse the shelf
             <span aria-hidden="true"></span>
           </a>
         </div>
@@ -375,14 +459,13 @@
 
     <main>
       <section class="atlas" id="atlas" aria-labelledby="atlas-title">
-        <p class="atlas__eyebrow reveal">World index</p>
+        <p class="atlas__eyebrow reveal">Record shelf</p>
         <h2 class="atlas__title serif reveal" id="atlas-title">
-          Places in the QuietLY atlas
+          QuietLY vinyl sleeves
         </h2>
         <p class="atlas__note reveal">
-          Fifteen worlds so far — each a single theme with its own poetry
-          passage, quiet frames, and an embedded long-listening session with
-          chapter seek. Newest first.
+          Fifteen sleeves so far — pull one open for the gatefold comic, the
+          turntable session, and the full lyric insert. Newest first.
         </p>
 
         <ol class="world-list" id="world-list">
@@ -416,8 +499,7 @@
     <footer class="site-footer">
       <p>
         <span class="mark">靜</span>
-        Cafe QuietLY — official field notes. Prototype structure for scene and
-        lyric reading.
+        Cafe QuietLY — vinyl sleeves and liner notes for each listening world.
       </p>
       <div class="site-footer__links">
         <a href="about.html">About</a>

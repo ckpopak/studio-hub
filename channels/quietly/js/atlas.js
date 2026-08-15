@@ -34,7 +34,7 @@
             ' <span class="zh">' +
             escapeHtml(item.title.zh) +
             "</span></h3>" +
-            '<span class="world-state">Comic · Lyrics · Play</span>' +
+            '<span class="world-state">Sleeve · Lyrics · Play</span>' +
             "</a></li>"
           );
         });
