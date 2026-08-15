@@ -5,6 +5,7 @@
   var btnToggle = document.getElementById("btn-toggle");
   var btnNext = document.getElementById("btn-next");
   var btnPrev = document.getElementById("btn-prev");
+  var btnShuffle = document.getElementById("btn-shuffle");
   var episodeSelect = document.getElementById("episode-select");
   var worldTitle = document.getElementById("world-title");
   var worldSub = document.getElementById("world-sub");
@@ -28,6 +29,61 @@
   var tickTimer = null;
   var visualTimer = null;
   var fitTimer = null;
+  var shuffleOn = false;
+  var playHistory = [];
+  var SHUFFLE_KEY = "quietly-atmosphere-shuffle";
+
+  try {
+    shuffleOn = window.localStorage.getItem(SHUFFLE_KEY) === "1";
+  } catch (e) {}
+
+  function setShuffleUi() {
+    if (!btnShuffle) return;
+    btnShuffle.classList.toggle("is-on", shuffleOn);
+    btnShuffle.setAttribute("aria-pressed", shuffleOn ? "true" : "false");
+    btnShuffle.textContent = shuffleOn ? "Shuffle on" : "Shuffle";
+  }
+
+  function persistShuffle() {
+    try {
+      window.localStorage.setItem(SHUFFLE_KEY, shuffleOn ? "1" : "0");
+    } catch (e) {}
+  }
+
+  function rememberWorld(meta) {
+    if (!meta) return;
+    var last = playHistory[playHistory.length - 1];
+    if (last && last.episode === meta.episode) return;
+    playHistory.push(meta);
+    if (playHistory.length > 40) playHistory.shift();
+  }
+
+  function pickRandomWorld(excludeEp) {
+    var pool = index.filter(function (x) {
+      return x.episode !== excludeEp && x.videoId;
+    });
+    if (!pool.length) {
+      pool = index.filter(function (x) {
+        return x.episode !== excludeEp;
+      });
+    }
+    if (!pool.length) return index[0];
+    return pool[Math.floor(Math.random() * pool.length)];
+  }
+
+  function pickNextWorld() {
+    if (shuffleOn) return pickRandomWorld(episode && episode.episode);
+    return index[(currentIndex() + 1) % index.length];
+  }
+
+  function pickPrevWorld() {
+    if (playHistory.length > 1) {
+      playHistory.pop();
+      return playHistory[playHistory.length - 1];
+    }
+    if (shuffleOn) return pickRandomWorld(episode && episode.episode);
+    return index[(currentIndex() - 1 + index.length) % index.length];
+  }
 
   function qsEp() {
     var m = /[?&]ep=(\d+)/.exec(window.location.search);
@@ -227,6 +283,15 @@
         worldTitle.textContent = data.title.en;
         worldSub.textContent = data.title.zh;
         document.title = data.title.en + " · Atmosphere — Cafe QuietLY 靜";
+        rememberWorld(
+          index.find(function (x) {
+            return x.episode === data.episode;
+          }) || {
+            episode: data.episode,
+            title: data.title,
+            videoId: data.videoId,
+          }
+        );
         buildVisuals();
         showTrack(0, true);
         updateAtmosphere(0, data.tracks[data.tracks.length - 1].start + 180);
@@ -279,11 +344,11 @@
   }
 
   function maybeAdvanceWorld() {
-    var i = currentIndex();
-    if (i + 1 >= index.length) return;
+    if (!index.length) return;
     window.setTimeout(function () {
-      episodeSelect.value = String(index[i + 1].episode);
-      loadEpisode(index[i + 1], true);
+      var next = pickNextWorld();
+      episodeSelect.value = String(next.episode);
+      loadEpisode(next, true);
     }, 2400);
   }
 
@@ -329,15 +394,23 @@
     else player.playVideo();
   });
   btnNext.addEventListener("click", function () {
-    var next = index[(currentIndex() + 1) % index.length];
+    var next = pickNextWorld();
     episodeSelect.value = String(next.episode);
     loadEpisode(next, started);
   });
   btnPrev.addEventListener("click", function () {
-    var prev = index[(currentIndex() - 1 + index.length) % index.length];
+    var prev = pickPrevWorld();
     episodeSelect.value = String(prev.episode);
     loadEpisode(prev, started);
   });
+  if (btnShuffle) {
+    setShuffleUi();
+    btnShuffle.addEventListener("click", function () {
+      shuffleOn = !shuffleOn;
+      setShuffleUi();
+      persistShuffle();
+    });
+  }
   episodeSelect.addEventListener("change", function () {
     var ep = Number(episodeSelect.value);
     var meta = index.find(function (x) {
@@ -387,6 +460,7 @@
         index.find(function (x) {
           return x.episode === want;
         }) ||
+        (shuffleOn && !want ? pickRandomWorld(null) : null) ||
         index.find(function (x) {
           return x.episode === 11;
         }) ||
