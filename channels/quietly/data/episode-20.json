@@ -1,0 +1,235 @@
+{
+  "episode": 20,
+  "slug": "orion-edge-delusion",
+  "title": {
+    "en": "Orion Edge Delusion",
+    "zh": "獵戶星聽惑"
+  },
+  "logline": "獵戶星在召喚。惑不是警報——是一段早已住在記憶裡的旋律。",
+  "videoId": "gb56Wr6TZPk",
+  "youtubeTitle": "[playlist] QuietLY · 惑 — Orion Edge / Slow Mandarin Jazz",
+  "comics": [
+    {
+      "en": "Orion is calling.",
+      "zh": "獵戶星在召喚。"
+    },
+    {
+      "en": "惑 is not an alarm.",
+      "zh": "惑不是警報。"
+    },
+    {
+      "en": "It is a melody that already lives in memory.",
+      "zh": "是一段早已住在記憶裡的旋律。"
+    },
+    {
+      "en": "Choose before the star-gate closes.",
+      "zh": "在星門關上以前做選擇。"
+    }
+  ],
+  "hero": "assets/ep20-hero.png",
+  "comicImages": [],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "0:00",
+      "en": "Lost Fix",
+      "zh": "失位",
+      "voice": "女聲",
+      "lyrics": "[English — opening]\nCoordinates fail at the nebula edge\nThe cabin keeps a quieter dark\nI am not falling yet\nOnly listening for the soft wrong place\n\n[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n座標斷了\n像有人\n把夜空\n輕輕摺起\n\n[Refrain]\n聽一點惑\n不用說破\n星還在\n我先停\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n三顆黯星\n還掛著\n像不肯\n給路的門\n\n[Refrain]\n聽一點惑\n不用說破\n星還在\n我先停\n\n[Poetry]\n星垂平野闊\n月湧大江流\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n失位不是錯\n是夜\n先開口\n\n[Final refrain]\n位還失\n光還遠\n我聽了一點\n惑\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-20/01-lost-fix.md"
+    },
+    {
+      "n": "02",
+      "start": 119,
+      "time": "1:59",
+      "en": "Same Signal",
+      "zh": "同一段訊號",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n每一艘船\n都聽見\n同一段\n不成語言的旋律\n\n[Refrain]\n同一段訊號\n不是警報\n像記憶\n先到了\n\n[English — after verse 1]\nEvery approaching ship hears the same soft tone\nNot alarm, not language\nA melody that already lives in memory\nAnd I keep still while it returns\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n星河欲轉\n是遠方的詩\n這裏只有\n一段重複的柔\n\n[Refrain]\n同一段訊號\n不是警報\n像記憶\n先到了\n\n[Poetry]\n天接雲濤連曉霧\n星河欲轉千帆舞\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n帆在詩裏\n訊號在艙\n惑在中間\n\n[Final refrain]\n訊號還在\n船還漂\n我繼續聽\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-20/02-same-signal.md"
+    },
+    {
+      "n": "03",
+      "start": 290,
+      "time": "4:50",
+      "en": "Three Belt Stars",
+      "zh": "腰帶三星",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n腰帶三星\n像一道\n解不開的\n座標\n\n[Refrain]\n三星不動\n惑卻動\n我追縫隙\n不追路\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n河漢迢迢\n是古事\n這裏只有\n三點冷光\n\n[Refrain]\n三星不動\n惑卻動\n我追縫隙\n不追路\n\n[English — before poetry]\nBefore the poem, stay here:\nthree belt stars lock the dark\nlike a coordinate that will not open\nand I follow the seam between them\n\n[Poetry]\n迢迢牽牛星\n皎皎河漢女\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n牽牛遠\n三星近\n縫隙\n更近\n\n[Final refrain]\n星還三\n縫還窄\n我往裏\n\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-20/03-three-belt-stars.md"
+    },
+    {
+      "n": "04",
+      "start": 435,
+      "time": "7:15",
+      "en": "Violet Drift",
+      "zh": "淡紫光",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n淡紫光過來\n不推門\n只讓艙壁\n變溫柔一點\n\n[Refrain]\n淡紫光\n不攻擊\n只讓人\n想留下\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n飛星傳恨\n是人間的橋\n這裏只有\n一段無聲的光\n\n[Refrain]\n淡紫光\n不攻擊\n只讓人\n想留下\n\n[Poetry]\n纖雲弄巧\n飛星傳恨\n銀漢迢迢暗度\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nViolet light drifts without threat\nNo siren, only a softer edge of dark\nI do not raise a shield\nI only notice I want to stay\n\n[Final refrain]\n光還淡\n夜還深\n我不擋\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-20/04-violet-drift.md"
+    },
+    {
+      "n": "05",
+      "start": 557,
+      "time": "9:17",
+      "en": "Unrecorded Lullaby",
+      "zh": "未錄的搖籃曲",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 船艙裏响起\n[Male] 一段沒有錄音的\n[Both] 母親哼過的\n搖籃曲\n\n[Refrain]\n未錄的曲\n卻更真\n惑借記憶\n輕輕唱\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n古時月\n照過別人\n今夜曲\n只照我\n\n[Refrain]\n未錄的曲\n卻更真\n惑借記憶\n輕輕唱\n\n[English — between refrains]\nThe lullaby has no recording\nYet it arrives complete in the cabin\nImpossible, therefore 惑\nAnd we listen without proving it\n\n[Poetry]\n今人不見古時月\n今月曾經照古人\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你聽曲\n[Male] 我聽母\n[Both] 都算惑\n\n[Final refrain]\n曲還在\n錄沒有\n我們仍聽\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-20/05-unrecorded-lullaby.md"
+    },
+    {
+      "n": "06",
+      "start": 705,
+      "time": "11:45",
+      "en": "惑 Is Listening",
+      "zh": "惑在聽",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n傳說惑不是星\n是意識\n用塵埃與殘骸\n和迷航者的記憶作身體\n\n[Refrain]\n惑在聽\n不開口\n只讓你\n看見想留下的\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n攬明月\n是豪語\n這裏只想\n被輕輕聽一次\n\n[Refrain]\n惑在聽\n不開口\n只讓你\n看見想留下的\n\n[Poetry]\n俱懷逸興壯思飛\n欲上青天攬明月\n\n[English — after poetry]\n惑 listens without attack\nNebula dust and ruined satellites for a body\nIt only shows what you cannot put down\nAnd I feel seen in the quiet\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n青天遠\n惑近\n我被聽\n\n[Final refrain]\n惑還聽\n我還停\n先不返航\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-20/06-huo-is-listening.md"
+    },
+    {
+      "n": "07",
+      "start": 867,
+      "time": "14:27",
+      "en": "Rain Night Mirage",
+      "zh": "雨夜幻影",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n忽然看見\n故鄉雨夜\n窗玻璃上\n水慢慢走\n\n[Refrain]\n雨夜是幻\n艙仍乾\n惑只借\n一場舊濕\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n歸何處\n天在問\n我答不出\n只看雨\n\n[Refrain]\n雨夜是幻\n艙仍乾\n惑只借\n一場舊濕\n\n[Poetry]\n彷彿夢魂歸帝所\n聞天語\n殷勤問我歸何處\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n帝所遠\n雨夜近\n都是幻\n\n[Final refrain]\n幻還亮\n艙還乾\n我先看\n\n[English — closing]\nA rain-night home appears inside the cabin\nWet glass that is not here\n惑 borrows the memory without wetting the floor\nAnd I almost believe the window\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-20/07-rain-night-mirage.md"
+    },
+    {
+      "n": "08",
+      "start": 1060,
+      "time": "17:40",
+      "en": "Faces You Keep",
+      "zh": "放不下的臉",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n有人的臉\n被光輕輕放回\n像從未離開\n又像從未抵達\n\n[Refrain]\n放不下的臉\n不必追\n惑已替你\n停在眼前\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n一水間\n是古詩\n這裏只有\n一寸視線\n\n[Refrain]\n放不下的臉\n不必追\n惑已替你\n停在眼前\n\n[Poetry]\n盈盈一水間\n脈脈不得語\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nFaces you keep return without knocking\nSoft as a gaze across a river\nI do not call their names aloud\nI only let the quiet hold them\n\n[Final refrain]\n臉還近\n手不伸\n我只看\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-20/08-faces-you-keep.md"
+    },
+    {
+      "n": "09",
+      "start": 1174,
+      "time": "19:34",
+      "en": "Reunion Not Yet",
+      "zh": "尚未重逢",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n有人看見\n尚未發生的\n重逢\n笑得像真的\n\n[Refrain]\n尚未重逢\n也算重逢\n在惑裏\n時間會彎\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n一相逢\n勝無數\n是橋上的事\n這裏更輕\n\n[Refrain]\n尚未重逢\n也算重逢\n在惑裏\n時間會彎\n\n[Poetry]\n金風玉露一相逢\n便勝卻人間無數\n\n[English — after poetry]\nA reunion that has not happened yet\narrives soft as if already kept\nTime bends inside 惑\nAnd I almost step toward the smile\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n橋在遠方\n笑在近處\n我停半步\n\n[Final refrain]\n笑還在\n路未開\n我仍聽\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-20/09-reunion-not-yet.md"
+    },
+    {
+      "n": "10",
+      "start": 1338,
+      "time": "22:18",
+      "en": "Forget Return",
+      "zh": "忘記返航",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 返航鍵還亮\n[Male] 手指卻停住\n[Both] 像甘願\n跟著淡紫光走\n\n[Refrain]\n忘記返航\n不是死\n是願意\n再漂一會\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n路長日暮\n是遠報\n這裏只報\n一句留下\n\n[Refrain]\n忘記返航\n不是死\n是願意\n再漂一會\n\n[English — between refrains]\nThey forget return and follow violet light\nNot defeat, a softer willingness\nThe cabin key still glows unused\nAnd we drift a little farther in\n\n[Poetry]\n我報路長嗟日暮\n學詩謾有驚人句\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你忘鍵\n[Male] 我忘地球\n[Both] 都算惑\n\n[Final refrain]\n鍵還亮\n人不按\n我們繼續漂\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-20/10-forget-return.md"
+    },
+    {
+      "n": "11",
+      "start": 1485,
+      "time": "24:45",
+      "en": "Soft Eyes of Light",
+      "zh": "光的眼睛",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n星的光\n像一雙\n溫柔的眼睛\n看著我\n\n[Refrain]\n光的眼睛\n不審判\n只說\n你到了\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n月色好誰看\n是人間的夜\n這裏只有\n一雙眼似的光\n\n[Refrain]\n光的眼睛\n不審判\n只說\n你到了\n\n[English — before poetry]\nBefore the poem, stay here:\nstarlight looks back like soft eyes\nno judgment, only arrival\nand I feel the cabin grow quieter\n\n[Poetry]\n永夜角聲悲自語\n中天月色好誰看\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n角聲遠\n目光近\n我被看\n\n[Final refrain]\n眼還柔\n夜還深\n我點頭\n\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-20/11-soft-eyes-of-light.md"
+    },
+    {
+      "n": "12",
+      "start": 1688,
+      "time": "28:08",
+      "en": "Not Lost",
+      "zh": "不是迷路",
+      "voice": "女聲",
+      "lyrics": "[English — opening]\nYou are not lost\nYou have only arrived\nat the place you most wanted to keep\nAnd the violet quiet agrees\n\n[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n它說——\n你不是迷路了\n你只是終於來到\n最想留下的地方\n\n[Refrain]\n不是迷路\n是抵達\n惑把句子\n放得很輕\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n萬戶動\n九霄多\n是城上的星\n這裏更空\n\n[Refrain]\n不是迷路\n是抵達\n惑把句子\n放得很輕\n\n[Poetry]\n星臨萬戶動\n月傍九霄多\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n迷路是舊詞\n抵達是新詞\n我重複聽\n\n[Final refrain]\n話還輕\n心還震\n我先信一半\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-20/12-not-lost.md"
+    },
+    {
+      "n": "13",
+      "start": 1812,
+      "time": "30:12",
+      "en": "Empty Earth Wait",
+      "zh": "無人等候",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n地球還在\n卻已\n無人等候\n窗口是空的\n\n[Refrain]\n無人等候\n返航也空\n惑更像\n一個家\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n故人心\n在二千里外\n這裏連\n二千里都沒有\n\n[Refrain]\n無人等候\n返航也空\n惑更像\n一個家\n\n[Poetry]\n三五夜中新月色\n二千里外故人心\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nEarth waits for no one now\nThe return window is empty light\n惑 feels more like a home\nAnd I weigh the silence carefully\n\n[Final refrain]\n窗還空\n心還熱\n我不急\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-20/13-empty-earth-wait.md"
+    },
+    {
+      "n": "14",
+      "start": 1924,
+      "time": "32:04",
+      "en": "Gate Narrows",
+      "zh": "星門將閉",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n星門慢慢收窄\n沒有警報\n只有時間\n變薄\n\n[Refrain]\n星門將閉\n選擇還開\n惑不催\n只等\n\n[English — after verse 1]\nThe star-gate narrows without sirens\nTime thins like a closing seam\n惑 does not push\nIt only waits while I decide\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n鵬正舉\n是遠志\n這裏只有\n一道將合的縫\n\n[Refrain]\n星門將閉\n選擇還開\n惑不催\n只等\n\n[Poetry]\n九萬里風鵬正舉\n風休住\n蓬舟吹取三山去\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n三山遠\n門近\n縫更窄\n\n[Final refrain]\n門還開\n一點點\n我還站著\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-20/14-gate-narrows.md"
+    },
+    {
+      "n": "15",
+      "start": 2134,
+      "time": "35:34",
+      "en": "Deeper Than Home",
+      "zh": "比故鄉更深",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 妳是幻覺\n[Male] 卻比故鄉\n[Both] 更真實\n也更安靜\n\n[Refrain]\n比故鄉更深\n不是背叛\n是惑\n把真放輕\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n朝朝暮暮\n是橋上的誓\n這裏只有\n一句更深\n\n[Refrain]\n比故鄉更深\n不是背叛\n是惑\n把真放輕\n\n[Poetry]\n兩情若是久長時\n又豈在朝朝暮暮\n\n[English — after poetry]\nYou are illusion\nyet more real than home\nDeeper, quieter, harder to refuse\nAnd we hold the sentence together\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 故鄉遠\n[Male] 幻近\n[Both] 真在中間\n\n[Final refrain]\n真還在\n家還遠\n我們更深一點\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-20/15-deeper-than-home.md"
+    },
+    {
+      "n": "16",
+      "start": 2288,
+      "time": "38:08",
+      "en": "Through the Seam",
+      "zh": "縫隙墜落",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n我追著\n三顆星的縫隙\n墜入\n沒有終點的光\n\n[Refrain]\n縫隙墜落\n不是死\n是光\n把人接住\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n飛度鏡湖\n是夢路\n這裏只有\n一道縫\n\n[Refrain]\n縫隙墜落\n不是死\n是光\n把人接住\n\n[Poetry]\n我欲因之夢吳越\n一夜飛度鏡湖月\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n吳越遠\n縫近\n我墜\n\n[Final refrain]\n光還接\n我不掙\n先墜一會\n\n[English — closing]\nI fall through the seam of three stars\ninto light that has no ending\nNot death — a softer catching\nAnd the dark keeps listening\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-20/16-through-the-seam.md"
+    },
+    {
+      "n": "17",
+      "start": 2443,
+      "time": "40:43",
+      "en": "Name in the Call",
+      "zh": "聽見自己的名字",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n獵戶星在召喚\n而我聽見了\n自己的名字\n像被輕輕叫回\n\n[Refrain]\n聽見名字\n比聽見星\n更危險\n也更溫柔\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n金銀臺\n是仙府\n這裏只有\n一聲低叫\n\n[Refrain]\n聽見名字\n比聽見星\n更危險\n也更溫柔\n\n[Poetry]\n青冥浩蕩不見底\n日月照耀金銀臺\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nOrion is calling\nand I hear my own name inside it\nTender danger, soft recognition\nI answer without raising my voice\n\n[Final refrain]\n名還響\n星還叫\n我不退\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-20/17-name-in-the-call.md"
+    },
+    {
+      "n": "18",
+      "start": 2569,
+      "time": "42:49",
+      "en": "Stay or Leave",
+      "zh": "留下或離去",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n一邊是\n無人等候的地球\n一邊是\n惑編織的幻夢\n\n[Refrain]\n留下或離去\n門還開\n我把兩種\n都放在掌心\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n驚起長嗟\n是夢醒\n這裏尚未\n決定醒\n\n[Refrain]\n留下或離去\n門還開\n我把兩種\n都放在掌心\n\n[English — before poetry]\nBefore the poem, hold both doors:\nempty Earth, and 惑’s woven dream\nThe gate is still a little open\nI weigh stay and leave without shouting\n\n[Poetry]\n忽魂悸以魄動\n恍驚起而長嗟\n惟覺時之枕席\n失向來之煙霞\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n枕席是醒\n煙霞是夢\n我在中間\n\n[Final refrain]\n門還縫\n心還秤\n先不說破\n\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-20/18-stay-or-leave.md"
+    },
+    {
+      "n": "19",
+      "start": 2792,
+      "time": "46:32",
+      "en": "Become the Melody",
+      "zh": "成為旋律",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n若留下\n便成為\n下一段\n召喚迷航者的旋律\n\n[Refrain]\n成為旋律\n不是消失\n是讓後來的人\n也聽見\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n雲之君來下\n是盛況\n這裏只願\n變成一段柔\n\n[Refrain]\n成為旋律\n不是消失\n是讓後來的人\n也聽見\n\n[Poetry]\n霓為衣兮風為馬\n雲之君兮紛紛而來下\n\n[English — after poetry]\nTo stay is to become the next melody\nthat summons another lost traveler\nNot vanishing — continuing soft\nAnd I almost accept the song\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n衣與馬\n是仙事\n旋律是\n近事\n\n[Final refrain]\n歌還未成\n我已哼\n一半\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-20/19-become-the-melody.md"
+    },
+    {
+      "n": "20",
+      "start": 2966,
+      "time": "49:26",
+      "en": "Still Listening for 惑",
+      "zh": "仍在聽惑",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 星門將合\n[Male] 光還未斷\n[Both] 獵戶星邊\n仍在聽惑\n\n[Refrain]\n仍在聽惑\n不用說破\n像聽自己的\n名字回聲\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n流水明月\n是古今同看\n這裏只看\n一段淡紫\n\n[Refrain]\n仍在聽惑\n不用說破\n像聽自己的\n名字回聲\n\n[Poetry]\n古人今人若流水\n共看明月皆如此\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你聽星\n[Male] 我聽名\n[Both] 都算惑\n\n[Final refrain]\n門將合\n光還在\n我們仍在聽惑\n\n[English — closing]\nStill listening for 惑 at Orion’s edge\nNot a verdict, only unfinished light\nGate almost closed, melody almost kept\nAnd we stay inside the quiet call\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-20/20-still-listening-for-huo.md"
+    }
+  ],
+  "warnings": [],
+  "lyricsSource": "songs/prompts/episode-20/*.md"
+}

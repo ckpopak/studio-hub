@@ -256,5 +256,47 @@
     "href": "worlds/mirage-dream-haze.html",
     "hasHero": true,
     "warnings": []
+  },
+  {
+    "episode": 19,
+    "slug": "before-mountain-rain",
+    "title": {
+      "en": "Before the Mountain Rain",
+      "zh": "山雨欲來聽風"
+    },
+    "logline": "山雨欲來，風先滿樓。雨整集不落地——只聽風把天壓低。",
+    "trackCount": 20,
+    "videoId": "_ZynZ-N2-DY",
+    "href": "worlds/before-mountain-rain.html",
+    "hasHero": true,
+    "warnings": []
+  },
+  {
+    "episode": 20,
+    "slug": "orion-edge-delusion",
+    "title": {
+      "en": "Orion Edge Delusion",
+      "zh": "獵戶星聽惑"
+    },
+    "logline": "獵戶星在召喚。惑不是警報——是一段早已住在記憶裡的旋律。",
+    "trackCount": 20,
+    "videoId": "gb56Wr6TZPk",
+    "href": "worlds/orion-edge-delusion.html",
+    "hasHero": true,
+    "warnings": []
+  },
+  {
+    "episode": 21,
+    "slug": "empty-room-linger",
+    "title": {
+      "en": "Empty Room Linger",
+      "zh": "空房聽留"
+    },
+    "logline": "空房還在。留不是重播——是把雨後那一間房，再聽深一層。",
+    "trackCount": 20,
+    "videoId": "e-SNL8sZMUM",
+    "href": "worlds/empty-room-linger.html",
+    "hasHero": true,
+    "warnings": []
   }
 ]

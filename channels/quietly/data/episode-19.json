@@ -1,0 +1,235 @@
+{
+  "episode": 19,
+  "slug": "before-mountain-rain",
+  "title": {
+    "en": "Before the Mountain Rain",
+    "zh": "山雨欲來聽風"
+  },
+  "logline": "山雨欲來，風先滿樓。雨整集不落地——只聽風把天壓低。",
+  "videoId": "_ZynZ-N2-DY",
+  "youtubeTitle": "[playlist] QuietLY · 風 — Before the Mountain Rain / Slow Mandarin Jazz",
+  "comics": [
+    {
+      "en": "Mountain rain is coming; wind fills the tower first.",
+      "zh": "山雨欲來，風先滿樓。"
+    },
+    {
+      "en": "The ground stays dry.",
+      "zh": "雨整集不落地。"
+    },
+    {
+      "en": "Listen only to the wind pressing the sky down.",
+      "zh": "只聽風把天壓低。"
+    },
+    {
+      "en": "Grass bends; the storm has not yet arrived.",
+      "zh": "草先彎，雨還沒到。"
+    }
+  ],
+  "hero": "assets/ep19-hero.png",
+  "comicImages": [],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "0:00",
+      "en": "First Gust",
+      "zh": "初風",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n欄杆上\n第一陣\n像有人\n輕輕推門\n\n[Refrain]\n聽一點風\n雨還沒來\n草動一下\n就夠了\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n天還乾\n石還乾\n只有風\n先到樓裡\n\n[Refrain]\n聽一點風\n雨還沒來\n草動一下\n就夠了\n\n[Poetry]\n解落三秋葉\n能開二月花\n過江千尺浪\n入竹萬竿斜\n\n[English — after poetry]\nThe first gust does not bring water\nIt only turns the grass one way\nThe tower learns the pressure early\nAnd I listen while the sky stays dry\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n風不是雨\n是雨的前面\n那一層空\n\n[Final refrain]\n初風過\n樓還空\n我聽了一點\n風\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-19/01-first-gust.md"
+    },
+    {
+      "n": "02",
+      "start": 148,
+      "time": "2:28",
+      "en": "Clouds Lower",
+      "zh": "雲壓低",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[English — opening]\nClouds lower without a single drop\nThe ridge grows shorter under them\nWind writes the warning first\nAnd the roof listens before the rain\n\n[Verse 1]\n雲線往下\n像一條\n還沒寫完的\n眉\n\n[Refrain]\n雲壓低\n風先說\n雨還\n在遠處\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n風把天\n壓近屋頂\n樓裡的空氣\n變重\n\n[Refrain]\n雲壓低\n風先說\n雨還\n在遠處\n\n[Poetry]\n大風起兮雲飛揚\n威加海內兮歸故鄉\n安得猛士兮守四方\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge]\n不是歸鄉\n是風把雲\n推到眼前\n\n[Final refrain]\n雲還低\n風還在\n雨不落地\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-19/02-clouds-lower.md"
+    },
+    {
+      "n": "03",
+      "start": 331,
+      "time": "5:31",
+      "en": "Grass Bends First",
+      "zh": "草先彎",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n草比人\n先知道\n風從坡上\n來\n\n[Refrain]\n草先彎\n我不急\n雨還遠\n風已近\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n一排草\n同一方向\n像在練習\n低頭\n\n[Refrain]\n草先彎\n我不急\n雨還遠\n風已近\n\n[English — before poetry]\nGrass bends before anyone speaks\nThe slope keeps its dry color\nWind rehearses the coming change\nWithout wetting a single blade\n\n[Poetry]\n北風卷地白草折\n胡天八月即飛雪\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n折不是斷\n是先讓一步\n給風\n\n[Final refrain]\n草還彎\n地還乾\n風走在\n雨前面\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-19/03-grass-bends-first.md"
+    },
+    {
+      "n": "04",
+      "start": 468,
+      "time": "7:48",
+      "en": "Rope on the Flagpole",
+      "zh": "旗繩輕響",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n繩子輕輕\n敲旗杆\n像倒數\n卻不急\n\n[Refrain]\n旗繩響\n風在數\n雨還\n不上場\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n旗還沒揚\n風已經\n把消息\n傳到樓\n\n[Refrain]\n旗繩響\n風在數\n雨還\n不上場\n\n[Poetry]\n八月秋高風怒號\n卷我屋上三重茅\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nThe rope taps like a quiet clock\nNo storm on the dry stone yet\nWind keeps score against the pole\nAnd leaves the rain for later\n\n[Final refrain]\n繩還響\n旗未揚\n我聽風\n不聽雨\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-19/04-flag-rope.md"
+    },
+    {
+      "n": "05",
+      "start": 583,
+      "time": "9:43",
+      "en": "Half-Shut Lattice",
+      "zh": "半掩的窗",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 窗半掩\n[Male] 縫還在\n[Both] 風進來\n樓也醒\n\n[Refrain]\n半掩就好\n風要窄門\n雨還\n在雲裡\n\n[Instrumental break — 20 seconds, no vocal]\n\n[English — between refrains]\nLeave the lattice half shut\nLet wind enter without water\nThe room learns pressure slowly\nAnd keeps the floor dry\n\n[Verse 2]\n[Female] 花格把風\n切成線\n[Male] 一條一條\n涼過來\n\n[Refrain]\n半掩就好\n風要窄門\n雨還\n在雲裡\n\n[Poetry]\n風急天高猿嘯哀\n渚清沙白鳥飛回\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge]\n[Both] 急的是風\n不是雨\n沙還白\n地還乾\n\n[Final refrain]\n窗還掩\n風還進\n雨不落地\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-19/05-half-shut-lattice.md"
+    },
+    {
+      "n": "06",
+      "start": 725,
+      "time": "12:05",
+      "en": "Wind Fills the Tower",
+      "zh": "風滿樓",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n樓被風\n佔滿了\n像有人\n先搬進來\n\n[English — after v1]\nWind fills the tower before rain\nThe boards hum with dry pressure\nNo drop has signed the stone\nAnd still the air feels claimed\n\n[Refrain]\n風滿樓\n雨未至\n空被佔\n心也讓\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n溪雲在遠方\n初起的時候\n日已沉\n風已近\n\n[Refrain]\n風滿樓\n雨未至\n空被佔\n心也讓\n\n[Poetry]\n溪雲初起日沉閣\n山雨欲來風滿樓\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n欲來不是已來\n滿樓不是濕樓\n風先住下\n\n[Final refrain]\n風滿了\n雨沒下\n樓還聽\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-19/06-wind-fills-tower.md"
+    },
+    {
+      "n": "07",
+      "start": 911,
+      "time": "15:11",
+      "en": "Stone Steps Empty",
+      "zh": "空石階",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n石階空\n風走過\n沒留\n腳印\n\n[Refrain]\n空石階\n等人\n也等雨\n雨不來\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n千山遠\n鳥不飛\n階上只有\n風的冷\n\n[Refrain]\n空石階\n等人\n也等雨\n雨不來\n\n[Poetry]\n千山鳥飛絕\n萬徑人蹤滅\n孤舟蓑笠翁\n獨釣寒江雪\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge]\n絕不是死\n是先靜下來\n給風讓路\n\n[Final refrain]\n階還空\n風還過\n\n[English — closing]\nEmpty steps keep the mountain honest\nNo footprint, no wet shine\nWind climbs alone\nAnd rain stays unchosen\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-19/07-stone-steps-empty.md"
+    },
+    {
+      "n": "08",
+      "start": 1070,
+      "time": "17:50",
+      "en": "Pressure Without Rain",
+      "zh": "有壓無雨",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n壓在肩上\n像一件\n還沒濕的\n外套\n\n[Refrain]\n有壓\n無雨\n風把天\n按住\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n黑雲很近\n甲光是遠事\n這裏只有\n乾的風\n\n[Refrain]\n有壓\n無雨\n風把天\n按住\n\n[Poetry]\n黑雲壓城城欲摧\n甲光向日金鱗開\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nPressure without rain is the whole lesson\nClouds lean hard and keep their water\nWind does the speaking for the storm\nWhile the tower stays completely dry\n\n[Final refrain]\n壓還在\n雨不落\n我聽風\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-19/08-pressure-without-rain.md"
+    },
+    {
+      "n": "09",
+      "start": 1168,
+      "time": "19:28",
+      "en": "Distant Thunder Maybe",
+      "zh": "遠雷未定",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n遠處一下\n像雷又像\n風碰山\n未定\n\n[Refrain]\n遠雷未定\n雨更未定\n風先\n把話說完\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n孤城在詩裡\n這裏只有\n一層低雲\n和乾風\n\n[Refrain]\n遠雷未定\n雨更未定\n風先\n把話說完\n\n[Poetry]\n黃河遠上白雲間\n一片孤城萬仞山\n\n[English — after poetry]\nMaybe thunder, maybe only wind\nAgainst a far ridge wall\nThe yellow river stays a poem\nAnd no rain crosses this stone\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n未定最好\n定了就\n變成雨\n\n[Final refrain]\n雷未定\n雨不來\n風還清楚\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-19/09-distant-thunder-maybe.md"
+    },
+    {
+      "n": "10",
+      "start": 1320,
+      "time": "22:00",
+      "en": "Soft Shutters Knock",
+      "zh": "窗板輕叩",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Male] 窗板叩\n[Female] 一下一下\n[Both] 像催\n卻不急\n\n[Refrain]\n輕叩就好\n風要禮貌\n雨還\n在關外\n\n[Instrumental break — 20 seconds, no vocal]\n\n[English — between refrains]\nShutters knock without demanding entry\nWind practices a softer fist\nBeyond the ridge the cloud holds water\nAnd this room stays dry\n\n[Verse 2]\n[Female] 青海是遠名\n[Male] 雪山是遠影\n[Both] 這裏只有\n窗與風\n\n[Refrain]\n輕叩就好\n風要禮貌\n雨還\n在關外\n\n[Poetry]\n青海長雲暗雪山\n孤城遙望玉門關\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge]\n[Both] 暗的是雲\n不是雨\n窗還乾\n\n[Final refrain]\n板還叩\n風還在\n雨不入室\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-19/10-soft-shutters.md"
+    },
+    {
+      "n": "11",
+      "start": 1462,
+      "time": "24:22",
+      "en": "Ridge Path",
+      "zh": "脊上路",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n走在風口\n路很窄\n一步\n都是風\n\n[Refrain]\n脊上路\n風作伴\n雨還\n在詩外\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n楊柳是遠事\n春風也遠\n這裏只有\n乾的坡\n\n[Refrain]\n脊上路\n風作伴\n雨還\n在詩外\n\n[English — before poetry]\nThe ridge path belongs to wind first\nNo wet shine on the stone\nWillow songs stay at the pass\nAnd rain keeps its distance\n\n[Poetry]\n羌笛何須怨楊柳\n春風不度玉門關\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge]\n不度也好\n讓雨\n再等一等\n\n[Final refrain]\n路還乾\n風還緊\n我還走\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-19/11-ridge-path.md"
+    },
+    {
+      "n": "12",
+      "start": 1665,
+      "time": "27:45",
+      "en": "The Air Turns Metal",
+      "zh": "空氣發冷",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[English — opening]\nThe air turns metal without wetting skin\nCool, dry, and exact\nWind carries the taste of distance\nWhile rain remains a rumor\n\n[Verse 1]\n空氣像金屬\n涼而乾\n碰一下\n就醒\n\n[Refrain]\n發冷\n不是濕\n是風把夜\n削薄\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n長風是遠句\n玉門是遠關\n樓裡只有\n這一層冷\n\n[Refrain]\n發冷\n不是濕\n是風把夜\n削薄\n\n[Poetry]\n長風幾萬里\n吹度玉門關\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n金屬的冷\n比雨更早\n也更乾\n\n[Final refrain]\n氣還冷\n地還乾\n風還清楚\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-19/12-air-turns-metal.md"
+    },
+    {
+      "n": "13",
+      "start": 1782,
+      "time": "29:42",
+      "en": "No One Closes the Door",
+      "zh": "門未關",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n門未關\n不是忘\n是讓給\n風\n\n[Refrain]\n門開一縫\n風就住下\n雨還\n在城外\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n潮打是遠事\n空城是舊名\n這裏只有\n乾門檻\n\n[Refrain]\n門開一縫\n風就住下\n雨還\n在城外\n\n[Poetry]\n山圍故國周遭在\n潮打空城寂寞回\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nNo one closes the door on purpose\nWind needs a narrow welcome\nThe tide stays in another century\nAnd rain does not cross this sill\n\n[Final refrain]\n門還開\n風還進\n雨不來\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-19/13-door-unclosed.md"
+    },
+    {
+      "n": "14",
+      "start": 1901,
+      "time": "31:41",
+      "en": "Birds Gone Quiet",
+      "zh": "鳥先靜",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n鳥先不叫\n像知道\n風要\n佔滿林\n\n[English — after v1]\nBirds go quiet before the weather breaks\nThe grove makes room for wind\nNo leaf is washed yet\nOnly stilled\n\n[Refrain]\n鳥先靜\n風後到\n雨還\n在以後\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n蟬噪是舊句\n山更幽\n今夜幽的是\n乾風\n\n[Refrain]\n鳥先靜\n風後到\n雨還\n在以後\n\n[Poetry]\n蟬噪林逾靜\n鳥鳴山更幽\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge]\n靜給風\n不是給雨\n雨還未請\n\n[Final refrain]\n鳥還靜\n風還走\n地還乾\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-19/14-birds-gone-quiet.md"
+    },
+    {
+      "n": "15",
+      "start": 2045,
+      "time": "34:05",
+      "en": "Dark Line of Hills",
+      "zh": "山成黑線",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 遠山收成\n[Male] 一條線\n[Both] 風把輪廓\n畫硬\n\n[Refrain]\n山成黑線\n雲更低\n雨還\n不簽名\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n[Female] 鄉關是遠問\n[Male] 煙波是遠愁\n[Both] 樓前只有\n乾風\n\n[Refrain]\n山成黑線\n雲更低\n雨還\n不簽名\n\n[Poetry]\n日暮鄉關何處是\n煙波江上使人愁\n\n[English — after poetry]\nHills become one dark line\nUnder wind and unspent cloud\nHomesickness stays a river poem\nWhile this ridge keeps dry light\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge]\n[Both] 愁可以遠\n雨必須遠\n風可以近\n\n[Final refrain]\n線還黑\n風還緊\n雨不落\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-19/15-dark-line-hills.md"
+    },
+    {
+      "n": "16",
+      "start": 2218,
+      "time": "36:58",
+      "en": "Waiting on the Veranda",
+      "zh": "廊上等",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n廊上坐\n風作茶\n熱氣沒有\n水聲也沒有\n\n[Refrain]\n廊上等\n不等雨\n只等風\n把話說完\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n輕舟是遠事\n猿聲是遠峽\n這裏只有\n乾木欄\n\n[Refrain]\n廊上等\n不等雨\n只等風\n把話說完\n\n[Poetry]\n兩岸猿聲啼不住\n輕舟已過萬重山\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge]\n過山的是舟\n過樓的是風\n雨還沒船票\n\n[Final refrain]\n廊還乾\n風還在\n\n[English — closing]\nWaiting on the veranda means listening\nNot for water, only for wind\nThe boat poem stays in another gorge\nAnd this wood stays dry\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-19/16-veranda-wait.md"
+    },
+    {
+      "n": "17",
+      "start": 2413,
+      "time": "40:13",
+      "en": "The Wind Speaks First",
+      "zh": "風先開口",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n風先說話\n雨還在\n咬字\n的後面\n\n[Refrain]\n風先開口\n我聽懂\n雨可以\n晚一點\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n雲帆是遠志\n破浪是遠約\n今夜只有\n風的口型\n\n[Refrain]\n風先開口\n我聽懂\n雨可以\n晚一點\n\n[Poetry]\n長風破浪會有時\n直掛雲帆濟滄海\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nThe wind speaks first and keeps it brief\nNo promise of water on the boards\nLong wind may break waves someday\nTonight it only fills the tower\n\n[Final refrain]\n風還說\n雨不答\n我只聽風\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-19/17-wind-speaks-first.md"
+    },
+    {
+      "n": "18",
+      "start": 2523,
+      "time": "42:03",
+      "en": "Rain Still Elsewhere",
+      "zh": "雨還在別處",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n雨在別的山\n別的屋簷\n這裡只有\n風的乾\n\n[Refrain]\n雨還在別處\n風在這裡\n樓不濕\n心也不催\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n雁群是遠信\n蕭蕭是遠聲\n樓前只有\n這一陣\n\n[Refrain]\n雨還在別處\n風在這裡\n樓不濕\n心也不催\n\n[English — before poetry]\nRain is still elsewhere\nAnother ridge may take it\nThis tower keeps wind only\nAnd the floor stays honest\n\n[Poetry]\n何處秋風至\n蕭蕭送雁群\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n別處可以下\n這裡只聽\n風怎麼來\n\n[Final refrain]\n雨在別處\n風在樓\n我不喚雨\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-19/18-rain-still-elsewhere.md"
+    },
+    {
+      "n": "19",
+      "start": 2711,
+      "time": "45:11",
+      "en": "Before the Break",
+      "zh": "破雨之前",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n壓到最高\n仍克制\n像弓\n不放箭\n\n[Refrain]\n破雨之前\n風最滿\n雨最遠\n樓最乾\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n渭水是遠句\n長安是遠葉\n這裡只有\n風的滿\n\n[Refrain]\n破雨之前\n風最滿\n雨最遠\n樓最乾\n\n[Poetry]\n秋風吹渭水\n落葉滿長安\n\n[English — after poetry]\nBefore the break means staying dry\nThe highest pressure still refuses water\nWind holds the whole unfinished hour\nAnd leaves the rain unopened\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge]\n之前最好\n一破就\n不是風了\n\n[Final refrain]\n仍之前\n仍只風\n雨不破門\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-19/19-before-the-break.md"
+    },
+    {
+      "n": "20",
+      "start": 2896,
+      "time": "48:16",
+      "en": "Still Listening for 風",
+      "zh": "仍在聽風",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 雲還低\n[Male] 樓還乾\n[Both] 草還彎\n聽一點風\n\n[Refrain]\n仍在聽風\n不用說破\n像聽欲來\n一層一層\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n[Female] 萬里愁是遠名\n[Male] 汀洲是遠影\n[Both] 這裡只有\n風滿而未雨\n\n[Refrain]\n仍在聽風\n不用說破\n像聽欲來\n一層一層\n\n[Poetry]\n一上高城萬里愁\n蒹葭楊柳似汀洲\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge]\n[Both] 欲來可以永遠\n欲來\n雨不必落地\n\n[Final refrain]\n仍在聽風\n樓還空\n天還乾\n\n[English — closing]\nStill listening for wind\nNot for the rain that never lands\nThe tower stays full of air\nAnd the mountain keeps its promise unfinished\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-19/20-still-listening-for-feng.md"
+    }
+  ],
+  "warnings": [],
+  "lyricsSource": "songs/prompts/episode-19/*.md"
+}

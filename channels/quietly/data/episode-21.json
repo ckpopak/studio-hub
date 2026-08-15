@@ -1,0 +1,235 @@
+{
+  "episode": 21,
+  "slug": "empty-room-linger",
+  "title": {
+    "en": "Empty Room Linger",
+    "zh": "空房聽留"
+  },
+  "logline": "空房還在。留不是重播——是把雨後那一間房，再聽深一層。",
+  "videoId": "e-SNL8sZMUM",
+  "youtubeTitle": "[playlist] QuietLY · 留 — Empty Room After Rain / Slow Mandarin Jazz (Room Remix)",
+  "comics": [
+    {
+      "en": "The empty room is still here.",
+      "zh": "空房還在。"
+    },
+    {
+      "en": "留 is not a reupload.",
+      "zh": "留不是重播。"
+    },
+    {
+      "en": "It is listening one layer deeper after rain.",
+      "zh": "是把雨後那一間房，再聽深一層。"
+    },
+    {
+      "en": "Ten remixed corners, ten new ones of the same night.",
+      "zh": "十首再聽，十個同一夜的新角落。"
+    }
+  ],
+  "hero": "assets/ep21-hero.png",
+  "comicImages": [],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "0:00",
+      "en": "Quiet Lamp",
+      "zh": "靜・再聽",
+      "voice": "女聲",
+      "lyrics": "[English — opening]\nOne lamp is still lit after the rain\nThe room sets the night down gently\nI am not asked to answer yet\nOnly to stay where the quiet is\n\n[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n一盞燈\n還在原來的高度\n雨後的房間\n把夜輕輕放下\n\n[Refrain]\n聽一點留\n不用說破\n燈還亮\n人先停\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n窗上的水\n慢慢走\n空椅守著\n淡下去的茶香\n\n[Refrain]\n聽一點留\n不用說破\n燈還亮\n人先停\n\n[Poetry]\n戶庭無塵雜\n虛室有餘閑\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n靜不是空\n是留\n還亮著\n\n[Final refrain]\n燈還亮\n夜還軟\n我再聽一點\n靜\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-21/01-quiet-lamp-zai-ting.md"
+    },
+    {
+      "n": "02",
+      "start": 189,
+      "time": "3:09",
+      "en": "Late Rain",
+      "zh": "雨・再聽",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n雨還沒有停透\n街燈在水裡\n一聲\n又一聲\n\n[Refrain]\n慢一點\n再慢一點\n讓夜色\n留在玻璃\n\n[English — after verse 1]\nThe rain has not finished speaking\nStreetlights float in the wet street\nNo one asks for morning yet\nLet the glass keep this slower night\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n桌上的茶已冷\n像一封\n未寄的信\n貼著窗沿\n\n[Refrain]\n慢一點\n再慢一點\n讓夜色\n留在玻璃\n\n[Poetry]\n山路元無雨\n空翠濕人衣\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n衣已濕\n心未急\n雨還近\n\n[Final refrain]\n雨還響\n房不催\n我再聽\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-21/02-late-rain-zai-ting.md"
+    },
+    {
+      "n": "03",
+      "start": 367,
+      "time": "6:07",
+      "en": "Empty Window",
+      "zh": "窗・再聽",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n空窗對夜\n框住一點\n不肯進來的\n月光\n\n[Refrain]\n窗是邊界\n留在這邊\n街在那邊\n都不催\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n一點月光\n落在窗框\n像有人\n把答案放遠\n\n[Refrain]\n窗是邊界\n留在這邊\n街在那邊\n都不催\n\n[English — before poetry]\nBefore the poem, stay at the empty window\nA frame that holds moonlight without claiming it\nThe street has no answer\nAnd I do not need one yet\n\n[Poetry]\n交疏結綺窗\n阿閣三重階\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n窗還空\n光還淡\n我站這邊\n\n[Final refrain]\n框還在\n夜還在\n我再看\n\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-21/03-empty-window-zai-ting.md"
+    },
+    {
+      "n": "04",
+      "start": 550,
+      "time": "9:10",
+      "en": "Cooling Tea",
+      "zh": "茶・再聽",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n茶香在空房\n像月光\n一樣淡\n一樣不急\n\n[Refrain]\n茶在涼\n時間在落\n沒有人\n替它催\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n杯沿還溫\n心已慢\n留就留在\n這一小口\n\n[Refrain]\n茶在涼\n時間在落\n沒有人\n替它催\n\n[Poetry]\n青青園中葵\n朝露待日晞\n\n[English — after poetry]\nThe tea cools like a clock that refuses hurry\nFragrance thins across the empty room\nNo one urges the cup to finish\nAnd I let the quiet drink with me\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n露會晞\n茶會涼\n我先聞\n\n[Final refrain]\n香還淡\n杯還在\n我再留\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-21/04-cooling-tea-zai-ting.md"
+    },
+    {
+      "n": "05",
+      "start": 693,
+      "time": "11:33",
+      "en": "Thin Moon",
+      "zh": "月・再聽",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 今夜的窗\n[Male] 沒有要去的地方\n[Both] 薄月\n只是還在\n\n[Refrain]\n月很薄\n心很輕\n留不必\n很遠\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n浮雲很高\n樓很遠\n這裏只有\n一寸月色\n\n[Refrain]\n月很薄\n心很輕\n留不必\n很遠\n\n[English — between refrains]\nTonight the window has nowhere to go\nA thin moon is enough to keep\nWe do not climb the high tower\nWe only stay under this pale quiet\n\n[Poetry]\n西北有高樓\n上與浮雲齊\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你看月\n[Male] 我看窗\n[Both] 都算留\n\n[Final refrain]\n月還薄\n房還靜\n我們再聽\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-21/05-thin-moon-zai-ting.md"
+    },
+    {
+      "n": "06",
+      "start": 831,
+      "time": "13:51",
+      "en": "Distant Mist",
+      "zh": "霧・再聽",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n霧沒有回答\n只把燈光\n放遠一點\n再遠一點\n\n[Refrain]\n霧在留\n光在遠\n答案\n可以晚到\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n長道在詩裏\n霧在窗玻璃\n我停在\n不遠不近\n\n[Refrain]\n霧在留\n光在遠\n答案\n可以晚到\n\n[Poetry]\n回車駕言邁\n悠悠涉長道\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n道很長\n霧很近\n先不走\n\n[Final refrain]\n霧還薄\n燈還遠\n我先留\n\n[English — closing]\nMist does not answer\nIt only softens the lamp into distance\nThe long road can wait outside\nI stay in the quiet between\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-21/06-distant-mist-zai-ting.md"
+    },
+    {
+      "n": "07",
+      "start": 983,
+      "time": "16:23",
+      "en": "Empty Chair",
+      "zh": "椅・再聽",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n空椅面向夜\n不是證明缺席\n是把位置\n讓給靜\n\n[Refrain]\n椅還空\n夜還坐\n留就坐在\n對面\n\n[English — after verse 1]\nThe empty chair faces the night\nNot as absence, as a seat kept for quiet\nI do not fill it with noise\nI let the room remain whole\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n房間安靜如雪\n不必有人\n才算\n完整\n\n[Refrain]\n椅還空\n夜還坐\n留就坐在\n對面\n\n[Poetry]\n生年不滿百\n常懷千歲憂\n晝短苦夜長\n何不秉燭遊\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n燭可秉\n椅可空\n我先看\n\n[Final refrain]\n椅還對夜\n我還在\n再聽一會\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-21/07-empty-chair-zai-ting.md"
+    },
+    {
+      "n": "08",
+      "start": 1169,
+      "time": "19:29",
+      "en": "Old Radio",
+      "zh": "聲・再聽",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n舊電台輕輕響\n像春天\n還沒有走完\n尾音\n\n[Refrain]\n聲很遠\n心很近\n留在頻率\n之間\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n知音稀\n是古事\n這裏只有\n一段微響\n\n[Refrain]\n聲很遠\n心很近\n留在頻率\n之間\n\n[Poetry]\n上有弦歌聲\n音響一何悲\n不惜歌者苦\n但傷知音稀\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nAn old radio keeps a thin spring inside the night\nNot a crowd, only a soft frequency\nI do not turn it louder\nI let the rare listening stay\n\n[Final refrain]\n聲還輕\n夜還長\n我不關\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-21/08-old-radio-zai-ting.md"
+    },
+    {
+      "n": "09",
+      "start": 1280,
+      "time": "21:20",
+      "en": "Far Lantern",
+      "zh": "燈・再聽",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n遠燈隔著薄霧\n把告別\n說得很輕\n輕到像留下\n\n[Refrain]\n燈與燈\n之間\n也是一種\n留\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n一端綺\n是遠來的溫柔\n這裏只有\n一點遠光\n\n[Refrain]\n燈與燈\n之間\n也是一種\n留\n\n[English — before poetry]\nBefore the poem, watch the far lantern\nFarewell spoken so softly it feels like staying\nDistance becomes a gift of light\nAnd I keep it without chasing\n\n[Poetry]\n客從遠方來\n遺我一端綺\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n遠方來過\n光還停\n我點頭\n\n[Final refrain]\n遠燈還在\n霧還薄\n我再望\n\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-21/09-far-lantern-zai-ting.md"
+    },
+    {
+      "n": "10",
+      "start": 1459,
+      "time": "24:19",
+      "en": "After the Rain",
+      "zh": "雨後・再聽",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 遠處的春天\n[Male] 在霧裡慢慢醒來\n[Both] 房間\n仍不急\n\n[Refrain]\n雨後\n不是結束\n是留的\n開始\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n舊林故淵\n是回家的詩\n這裏只回\n這一間空房\n\n[Refrain]\n雨後\n不是結束\n是留的\n開始\n\n[English — between refrains]\nAfter the rain, spring wakes slowly in the mist\nThe room still refuses hurry\nWe do not rush toward morning\nWe linger where the quiet began\n\n[Poetry]\n羈鳥戀舊林\n池魚思故淵\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你聽春\n[Male] 我聽房\n[Both] 都算留\n\n[Final refrain]\n雨已遠\n靜還近\n我們再聽\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-21/10-after-the-rain-zai-ting.md"
+    },
+    {
+      "n": "11",
+      "start": 1620,
+      "time": "27:00",
+      "en": "Half Curtain",
+      "zh": "半掩簾",
+      "voice": "女聲",
+      "lyrics": "[English — opening]\nThe curtain is only half drawn\nA finger of wind enters\nThe rest of the night stays kept\nAnd I breathe in the seam\n\n[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n簾只拉一半\n風進來一寸\n夜留下\n其餘\n\n[Refrain]\n半掩就好\n留也淺\n不必\n全開\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n後檐有樹影\n堂前有花事\n這裏只有\n一道簾縫\n\n[Refrain]\n半掩就好\n留也淺\n不必\n全開\n\n[Poetry]\n榆柳蔭後檐\n桃李羅堂前\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n開一半\n留一半\n剛剛好\n\n[Final refrain]\n簾還掩\n縫還亮\n我先停\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-21/11-half-curtain.md"
+    },
+    {
+      "n": "12",
+      "start": 1763,
+      "time": "29:23",
+      "en": "Condensation Trail",
+      "zh": "水痕",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n玻璃上\n一條水痕\n往下寫\n雨的記憶\n\n[Refrain]\n水痕慢\n字未成\n留在窗\n自己讀\n\n[English — after verse 1]\nA trail of condensation writes down the pane\nRain memory in a thin slow line\nI do not wipe it clear\nI read what the night still keeps\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n時節會換\n痕還在\n像一句\n沒說完\n\n[Refrain]\n水痕慢\n字未成\n留在窗\n自己讀\n\n[Poetry]\n白露沾野草\n時節忽復易\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n露會乾\n痕還彎\n我跟著\n\n[Final refrain]\n痕還在\n窗還濕\n再看一行\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-21/12-condensation-trail.md"
+    },
+    {
+      "n": "13",
+      "start": 1899,
+      "time": "31:39",
+      "en": "Coat on the Hook",
+      "zh": "掛著的外套",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 門邊掛勾\n[Male] 外套還決定留\n[Both] 像有人\n剛走又未走\n\n[Refrain]\n外套掛著\n人可以遠\n留可以\n很近\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n別離在詩裏\n掛勾在門邊\n布料還\n記著肩\n\n[Refrain]\n外套掛著\n人可以遠\n留可以\n很近\n\n[Poetry]\n行行重行行\n與君生別離\n\n[English — after poetry]\nA coat keeps the hook warm with almost-leaving\nSomeone went, and also stayed in fabric\nWe do not call them back aloud\nWe let the quiet hang with it\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你看勾\n[Male] 我看袖\n[Both] 都算留\n\n[Final refrain]\n衣還掛\n門還關\n我們不催\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-21/13-coat-on-the-hook.md"
+    },
+    {
+      "n": "14",
+      "start": 2058,
+      "time": "34:18",
+      "en": "Unread Page",
+      "zh": "未讀的一頁",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n書攤開在\n未讀的一頁\n句子停在\n半行\n\n[Refrain]\n頁未翻\n心已停\n留在墨\n還沒乾的地方\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n芙蓉可採\n遠道可想\n這裏只留\n一頁空白旁的字\n\n[Refrain]\n頁未翻\n心已停\n留在墨\n還沒乾的地方\n\n[Poetry]\n涉江採芙蓉\n蘭澤多芳草\n採之欲遺誰\n所思在遠道\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nAn unread page holds the night mid-sentence\nInk almost dry, meaning still soft\nI do not finish the line for it\nI leave the quiet where it paused\n\n[Final refrain]\n頁還開\n字還淺\n再停一刻\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-21/14-unread-page.md"
+    },
+    {
+      "n": "15",
+      "start": 2181,
+      "time": "36:21",
+      "en": "Soft Floorboard",
+      "zh": "輕響地板",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n地板輕輕響\n像房間\n自己換了\n一個呼吸\n\n[Refrain]\n輕響就夠\n不必腳步\n留也可以\n很輕\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n草屋數間\n是遠事\n這裏只有\n一寸木紋\n\n[Refrain]\n輕響就夠\n不必腳步\n留也可以\n很輕\n\n[English — before poetry]\nBefore the poem, hear the soft floorboard\nA breath the room takes alone\nNo need for a full footstep\nLinger is allowed to be this light\n\n[Poetry]\n方宅十餘畝\n草屋八九間\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n屋很小\n響很細\n我聽見\n\n[Final refrain]\n板還響\n夜還聽\n我放慢\n\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-21/15-soft-floorboard.md"
+    },
+    {
+      "n": "16",
+      "start": 2313,
+      "time": "38:33",
+      "en": "Stopped Clock",
+      "zh": "停住的鐘",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n指針停住\n不是壞掉\n是選擇\n落下\n\n[Refrain]\n鐘不走\n夜更準\n留就停在\n這一格\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n歲月會晚\n鐘可以不跟\n房間自己\n數靜\n\n[Refrain]\n鐘不走\n夜更準\n留就停在\n這一格\n\n[Poetry]\n歲月忽已晚\n思君令人老\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n晚是遠事\n停是近事\n我對準\n\n[Final refrain]\n針還停\n心還緩\n我先留\n\n[English — closing]\nThe clock has stopped on purpose\nNot broken — choosing to fall still\nNight becomes more exact without ticking\nAnd I stay inside this one kept mark\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-21/16-stopped-clock.md"
+    },
+    {
+      "n": "17",
+      "start": 2476,
+      "time": "41:16",
+      "en": "Key in the Dish",
+      "zh": "碟裡的鑰匙",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n鑰匙放回碟裡\n金屬輕輕一響\n像說\n今晚不走\n\n[Refrain]\n鑰在碟\n門在心\n留是一次\n放回\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n奇樹可折\n別經時\n這裏只折\n這一聲輕響\n\n[Refrain]\n鑰在碟\n門在心\n留是一次\n放回\n\n[Poetry]\n庭中有奇樹\n綠葉發華滋\n此物何足貴\n但感別經時\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nThe key returns to the dish with a soft click\nTonight decides not to leave\nI do not pocket the metal again\nI let the room keep the choice\n\n[Final refrain]\n鑰還在\n門還靜\n我不取\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-21/17-key-in-the-dish.md"
+    },
+    {
+      "n": "18",
+      "start": 2607,
+      "time": "43:27",
+      "en": "Hallway Light",
+      "zh": "走廊微光",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n門縫外\n一寸走廊光\n世界停在\n門外一尺\n\n[Refrain]\n光不進來\n我也不出去\n留在縫\n剛剛好\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n出戶可彷徨\n告誰可問\n這裏只看\n縫裏的淡\n\n[Refrain]\n光不進來\n我也不出去\n留在縫\n剛剛好\n\n[Poetry]\n出戶獨彷徨\n愁思當告誰\n\n[English — after poetry]\nHallway light waits one inch beyond the door\nThe world stays a foot away\nI neither invite it in nor step out\nI linger in the soft seam\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n誰在廊\n光在縫\n我側耳\n\n[Final refrain]\n縫還亮\n房還暗\n我再留\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-21/18-hallway-light.md"
+    },
+    {
+      "n": "19",
+      "start": 2749,
+      "time": "45:49",
+      "en": "Wet Shoes",
+      "zh": "未乾的鞋",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n門口鞋面\n還未乾透\n雨的最後\n證據\n\n[Refrain]\n鞋未乾\n人已進\n留從濕\n開始\n\n[English — after verse 1]\nWet shoes by the door keep the rain’s last proof\nSomeone has already come inside\nThe road still shines on leather\nAnd staying begins from this soft damp\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n旋歸是樂事\n濕鞋是近事\n水光還\n記著路\n\n[Refrain]\n鞋未乾\n人已進\n留從濕\n開始\n\n[Poetry]\n客行雖云樂\n不如早旋歸\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n歸已至\n濕未消\n我脫下\n\n[Final refrain]\n鞋還濕\n房已暖\n我進來了\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-21/19-wet-shoes.md"
+    },
+    {
+      "n": "20",
+      "start": 2944,
+      "time": "49:04",
+      "en": "Still Listening for 留",
+      "zh": "仍在聽留",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 燈還亮\n[Male] 窗還濕\n[Both] 空房裏\n仍在聽留\n\n[Refrain]\n仍在聽留\n不用說破\n像聽雨後\n還沒走完的靜\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n丘山很遠\n適俗更遠\n這裏只愛\n這一間空房\n\n[Refrain]\n仍在聽留\n不用說破\n像聽雨後\n還沒走完的靜\n\n[Poetry]\n少無適俗韻\n性本愛丘山\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你聽燈\n[Male] 我聽窗\n[Both] 都算留\n\n[Final refrain]\n雨已遠\n靜還在\n我們仍在聽留\n\n[English — closing]\nStill listening for 留 in the empty room\nLamp lit, window wet, chair empty on purpose\nNot a verdict — unfinished quiet after rain\nAnd we stay inside the linger\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-21/20-still-listening-for-liu.md"
+    }
+  ],
+  "warnings": [],
+  "lyricsSource": "songs/prompts/episode-21/*.md"
+}
