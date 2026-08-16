@@ -4,7 +4,7 @@
  */
 const GameEngine = (() => {
   const BASE_SCORE = 100;
-  const AUTO_NEXT_MS = 1000;
+  const AUTO_NEXT_MS = 1400;
 
   /** Combo multiplier per product spec */
   function comboMultiplier(combo) {
@@ -83,24 +83,27 @@ const GameEngine = (() => {
 
     if (isCorrect) {
       beat = beatFactor(delta);
-      // Prototype UX: correct answer inside the lyric window still counts as Good
-      // even if slightly off the ideal beat (keeps learning flow friendly).
-      const inWindow =
-        answerAtMs >= q.startTime && answerAtMs <= q.endTime + 500;
-      if (beat.factor === 0 && inWindow) {
+      // Demo / learning-friendly: any correct pick still scores at least Good.
+      // Timing only upgrades to Perfect when close to beatTime.
+      if (beat.factor === 0) {
         beat = { label: "Good", factor: 1.0 };
       }
     }
 
     let gained = 0;
-    if (isCorrect && beat.factor > 0) {
-      state.combo += 1;
-      state.maxCombo = Math.max(state.maxCombo, state.combo);
+    if (isCorrect) {
+      // Accuracy counts word correctness even if timing was off.
       state.correctCount += 1;
-      gained = Math.round(
-        BASE_SCORE * comboMultiplier(state.combo) * beat.factor
-      );
-      state.score += gained;
+      if (beat.factor > 0) {
+        state.combo += 1;
+        state.maxCombo = Math.max(state.maxCombo, state.combo);
+        gained = Math.round(
+          BASE_SCORE * comboMultiplier(state.combo) * beat.factor
+        );
+        state.score += gained;
+      } else {
+        state.combo = 0;
+      }
     } else {
       state.combo = 0;
     }
