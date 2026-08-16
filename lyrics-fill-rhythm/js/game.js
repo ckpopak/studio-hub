@@ -4,7 +4,7 @@
  */
 const GameEngine = (() => {
   const BASE_SCORE = 100;
-  const AUTO_NEXT_MS = 1400;
+  const AUTO_NEXT_MS = 1800;
 
   /** Combo multiplier per product spec */
   function comboMultiplier(combo) {
