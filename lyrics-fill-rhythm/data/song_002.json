@@ -1,0 +1,103 @@
+{
+  "songId": "song_002",
+  "bpm": 110,
+  "totalQuestions": 8,
+  "questions": [
+    {
+      "id": 1,
+      "startTime": 0,
+      "endTime": 4000,
+      "beatTime": 2500,
+      "lyricLine": "Good ______, sunshine!",
+      "lyricLineRomanization": "おはよう、______！",
+      "translation": "早安，陽光！",
+      "correctAnswer": "morning",
+      "options": ["morning", "evening", "night", "afternoon"],
+      "explanation": "早上問候用 Good morning"
+    },
+    {
+      "id": 2,
+      "startTime": 4000,
+      "endTime": 8000,
+      "beatTime": 6500,
+      "lyricLine": "Let's ______ some coffee.",
+      "lyricLineRomanization": "コーヒーを______ましょう。",
+      "translation": "我們去喝杯咖啡吧。",
+      "correctAnswer": "drink",
+      "options": ["drink", "drank", "drunk", "drive"],
+      "explanation": "drink 表喝（動詞原形）"
+    },
+    {
+      "id": 3,
+      "startTime": 8000,
+      "endTime": 12000,
+      "beatTime": 10500,
+      "lyricLine": "The weather is ______ today.",
+      "lyricLineRomanization": "今日の天気は______です。",
+      "translation": "今天天氣很好。",
+      "correctAnswer": "sunny",
+      "options": ["sunny", "funny", "runny", "bunny"],
+      "explanation": "sunny = 晴朗的"
+    },
+    {
+      "id": 4,
+      "startTime": 12000,
+      "endTime": 16000,
+      "beatTime": 14500,
+      "lyricLine": "I need to ______ the bus.",
+      "lyricLineRomanization": "バスに______なければなりません。",
+      "translation": "我必須趕公車。",
+      "correctAnswer": "catch",
+      "options": ["catch", "watch", "match", "fetch"],
+      "explanation": "catch the bus = 趕上公車"
+    },
+    {
+      "id": 5,
+      "startTime": 16000,
+      "endTime": 20000,
+      "beatTime": 18500,
+      "lyricLine": "Don't ______ late!",
+      "lyricLineRomanization": "______ないでね！",
+      "translation": "別遲到！",
+      "correctAnswer": "be",
+      "options": ["be", "been", "being", "by"],
+      "explanation": "Don't be late 是祈使句"
+    },
+    {
+      "id": 6,
+      "startTime": 20000,
+      "endTime": 24000,
+      "beatTime": 22500,
+      "lyricLine": "Please ______ the door.",
+      "lyricLineRomanization": "ドアを______ください。",
+      "translation": "請把門打開。",
+      "correctAnswer": "open",
+      "options": ["open", "close", "lock", "knock"],
+      "explanation": "open the door = 開門"
+    },
+    {
+      "id": 7,
+      "startTime": 24000,
+      "endTime": 28000,
+      "beatTime": 26500,
+      "lyricLine": "What ______ is it?",
+      "lyricLineRomanization": "いま何時______？",
+      "translation": "現在幾點？",
+      "correctAnswer": "time",
+      "options": ["time", "tide", "type", "team"],
+      "explanation": "What time is it? 問時間"
+    },
+    {
+      "id": 8,
+      "startTime": 28000,
+      "endTime": 32000,
+      "beatTime": 30500,
+      "lyricLine": "It's time to ______.",
+      "lyricLineRomanization": "______時間です。",
+      "translation": "該出發了。",
+      "correctAnswer": "go",
+      "options": ["go", "got", "gone", "going"],
+      "explanation": "It's time to go = 該走了"
+    }
+  ]
+}

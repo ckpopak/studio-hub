@@ -1,0 +1,43 @@
+{
+  "songs": [
+    {
+      "id": "song_001",
+      "title": "Hello! 你好！",
+      "titleEn": "Hello! Nǐ hǎo!",
+      "language": ["English", "日本語"],
+      "theme": "問候語練習",
+      "difficulty": 1,
+      "totalBlanks": 8,
+      "audioUrl": "audio/song_001.mp3",
+      "lyricsData": "data/song_001.json",
+      "coverImage": null,
+      "accent": "purple"
+    },
+    {
+      "id": "song_002",
+      "title": "Morning Light",
+      "titleEn": "Asa no Hikari",
+      "language": ["English", "日本語"],
+      "theme": "日常對話",
+      "difficulty": 2,
+      "totalBlanks": 8,
+      "audioUrl": "audio/song_002.mp3",
+      "lyricsData": "data/song_002.json",
+      "coverImage": null,
+      "accent": "pink"
+    },
+    {
+      "id": "song_003",
+      "title": "See You Tomorrow",
+      "titleEn": "また明日",
+      "language": ["English", "日本語"],
+      "theme": "道別與約定",
+      "difficulty": 3,
+      "totalBlanks": 10,
+      "audioUrl": "audio/song_003.mp3",
+      "lyricsData": "data/song_003.json",
+      "coverImage": null,
+      "accent": "cyan"
+    }
+  ]
+}

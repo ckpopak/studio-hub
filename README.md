@@ -57,6 +57,7 @@ Then open http://127.0.0.1:8080/
 - Café Siam TH×EN Atmosphere: http://127.0.0.1:8765/channels/siam/thenth/
 - Café Siam EN×JP Atmosphere: http://127.0.0.1:8765/channels/siam/enjp/
 - Café Siam 中文×TH Atmosphere: http://127.0.0.1:8765/channels/siam/thchi/
+- Lyrics Fill-in Rhythm: http://127.0.0.1:8765/lyrics-fill-rhythm/
 
 ## Layout
 
@@ -69,6 +70,7 @@ Then open http://127.0.0.1:8080/
 /channels/siam/thenth/         Thai × English (@cafesiamsoftmusicthai)
 /channels/siam/enjp/           English × Japanese (@cafesiamsoftmusicjap)
 /channels/siam/thchi/          中文 × Thai (@cafesiamsoftmusicchi)
+/lyrics-fill-rhythm/           Lyrics Fill-in Rhythm (lyric blank rhythm game prototype)
 /atmosphere.html               redirect → /channels/quietly/atmosphere.html
 /about.html                    redirect → /channels/quietly/about.html
 ```

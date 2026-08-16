@@ -1,0 +1,127 @@
+{
+  "songId": "song_003",
+  "bpm": 96,
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": 1,
+      "startTime": 0,
+      "endTime": 3500,
+      "beatTime": 2200,
+      "lyricLine": "It's getting ______.",
+      "lyricLineRomanization": "______なってきた。",
+      "translation": "天色漸晚。",
+      "correctAnswer": "late",
+      "options": ["late", "early", "ready", "busy"],
+      "explanation": "getting late = 越來越晚"
+    },
+    {
+      "id": 2,
+      "startTime": 3500,
+      "endTime": 7000,
+      "beatTime": 5500,
+      "lyricLine": "I have to ______ home.",
+      "lyricLineRomanization": "家に______ないといけない。",
+      "translation": "我得回家了。",
+      "correctAnswer": "go",
+      "options": ["go", "come", "stay", "leave"],
+      "explanation": "go home = 回家"
+    },
+    {
+      "id": 3,
+      "startTime": 7000,
+      "endTime": 10500,
+      "beatTime": 9000,
+      "lyricLine": "Thank you for ______.",
+      "lyricLineRomanization": "______くれてありがとう。",
+      "translation": "謝謝你今天來。",
+      "correctAnswer": "coming",
+      "options": ["coming", "going", "leaving", "staying"],
+      "explanation": "Thank you for coming 感謝對方到來"
+    },
+    {
+      "id": 4,
+      "startTime": 10500,
+      "endTime": 14000,
+      "beatTime": 12500,
+      "lyricLine": "I had a ______ time.",
+      "lyricLineRomanization": "______時間を過ごしました。",
+      "translation": "我度過了美好時光。",
+      "correctAnswer": "great",
+      "options": ["great", "grade", "grant", "green"],
+      "explanation": "have a great time = 玩得很開心"
+    },
+    {
+      "id": 5,
+      "startTime": 14000,
+      "endTime": 17500,
+      "beatTime": 16000,
+      "lyricLine": "Let's ______ again soon.",
+      "lyricLineRomanization": "またすぐに______ましょう。",
+      "translation": "我們很快再見面吧。",
+      "correctAnswer": "meet",
+      "options": ["meet", "met", "meat", "melt"],
+      "explanation": "Let's meet again soon"
+    },
+    {
+      "id": 6,
+      "startTime": 17500,
+      "endTime": 21000,
+      "beatTime": 19500,
+      "lyricLine": "Take ______!",
+      "lyricLineRomanization": "______をつけて！",
+      "translation": "保重！",
+      "correctAnswer": "care",
+      "options": ["care", "car", "card", "core"],
+      "explanation": "Take care 是道別祝福"
+    },
+    {
+      "id": 7,
+      "startTime": 21000,
+      "endTime": 24500,
+      "beatTime": 23000,
+      "lyricLine": "See you ______!",
+      "lyricLineRomanization": "______ね！",
+      "translation": "明天見！",
+      "correctAnswer": "tomorrow",
+      "options": ["tomorrow", "today", "tonight", "together"],
+      "explanation": "See you tomorrow = 明天見"
+    },
+    {
+      "id": 8,
+      "startTime": 24500,
+      "endTime": 28000,
+      "beatTime": 26500,
+      "lyricLine": "Don't ______ to call me.",
+      "lyricLineRomanization": "電話するのを______ないで。",
+      "translation": "別忘了打電話給我。",
+      "correctAnswer": "forget",
+      "options": ["forget", "forgive", "follow", "finish"],
+      "explanation": "Don't forget to… = 別忘了…"
+    },
+    {
+      "id": 9,
+      "startTime": 28000,
+      "endTime": 31500,
+      "beatTime": 30000,
+      "lyricLine": "I will ______ you.",
+      "lyricLineRomanization": "あなたを______します。",
+      "translation": "我會想你的。",
+      "correctAnswer": "miss",
+      "options": ["miss", "mass", "mess", "moss"],
+      "explanation": "I will miss you = 我會想念你"
+    },
+    {
+      "id": 10,
+      "startTime": 31500,
+      "endTime": 35000,
+      "beatTime": 33500,
+      "lyricLine": "Good ______!",
+      "lyricLineRomanization": "お______！",
+      "translation": "晚安！",
+      "correctAnswer": "night",
+      "options": ["night", "light", "right", "might"],
+      "explanation": "Good night 用於睡前道別"
+    }
+  ]
+}

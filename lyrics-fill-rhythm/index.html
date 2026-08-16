@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Lyrics Fill-in Rhythm</title>
+    <meta
+      name="description"
+      content="歌詞填空節奏遊戲：跟著節拍選出正確單字，練習英語與日語。"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main class="app" id="app">
+      <!-- Screen 1: Song select -->
+      <section class="screen" id="screen-select" aria-label="選擇歌曲">
+        <header class="screen-header">
+          <h1>🎵 選擇歌曲</h1>
+          <p>選擇你想練習的歌曲</p>
+        </header>
+        <div class="song-list" id="song-list" role="list"></div>
+      </section>
+
+      <!-- Screen 2: Gameplay -->
+      <section class="screen hidden" id="screen-game" aria-label="遊戲進行">
+        <div class="game-top">
+          <div class="score-box">Score: <span id="score-value">0</span></div>
+          <div class="combo-box" id="combo-value" aria-live="polite"></div>
+        </div>
+
+        <div class="progress-track" aria-hidden="true">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+
+        <div class="lyric-panel">
+          <div class="lyric-line" id="lyric-line">Hello, ______!</div>
+          <div class="lyric-sub" id="lyric-sub">こんにちは、______！</div>
+        </div>
+
+        <div class="beat-area">
+          <div class="beat-circle" id="beat-circle" aria-hidden="true">♪</div>
+          <p class="beat-hint" id="beat-hint">準備在節拍作答！</p>
+        </div>
+
+        <div class="options-grid" id="options-grid" role="group" aria-label="答案選項"></div>
+
+        <div class="game-footer">
+          <span class="q-counter" id="q-counter">第 1 / 8 題</span>
+          <button type="button" class="btn-next" id="btn-next">下一題</button>
+        </div>
+        <p class="audio-note" id="audio-note"></p>
+        <audio id="song-audio" preload="auto"></audio>
+      </section>
+
+      <!-- Screen 3: Results -->
+      <section class="screen results hidden" id="screen-results" aria-label="結果">
+        <h1>歌曲完成！</h1>
+        <p class="results__song" id="result-song">—</p>
+
+        <div class="accuracy-ring" role="img" aria-label="準確率">
+          <span class="accuracy-ring__value" id="accuracy-value">0%</span>
+          <span class="accuracy-ring__label">準確率</span>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat__value" id="result-score">0</span>
+            <span class="stat__label">總分</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value" id="result-correct">0/0</span>
+            <span class="stat__label">正確題數</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value" id="result-combo">🔥 0</span>
+            <span class="stat__label">最大連擊</span>
+          </div>
+        </div>
+
+        <div class="results-actions">
+          <button type="button" class="btn-primary" id="btn-replay">再玩一次</button>
+          <button type="button" class="btn-secondary" id="btn-back">選擇其他歌曲</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/sfx.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
