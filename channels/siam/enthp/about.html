@@ -3,205 +3,68 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>About · Cafe' Siam EN × TH</title>
+    <title>About — Cafe' Siam EN×TH</title>
     <meta
       name="description"
-      content="About Café Siam: a English × Thai listening café from n20dle — diction-first bilingual songs, romanized Thai after every line."
+      content="About Cafe' Siam English×Thai soft listening channel."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Noto+Sans+Thai:wght@300;400;500&family=Noto+Serif+JP:wght@400;500;600&family=Outfit:wght@300;400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Figtree:wght@350;400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+Thai:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/enthp.css" />
-    <style>
-      .page {
-        width: min(700px, calc(100% - 2.5rem));
-        margin: 0 auto;
-        padding: 7rem 0 4rem;
-        animation: rise 1.1s var(--ease) both;
-      }
-
-      @keyframes rise {
-        from {
-          opacity: 0;
-          transform: translateY(24px);
-        }
-        to {
-          opacity: 1;
-          transform: none;
-        }
-      }
-
-      .page__body p {
-        margin: 0 0 1.2rem;
-        max-width: 36rem;
-        color: var(--paper-dim);
-        font-size: 1.02rem;
-      }
-
-      .page__body strong {
-        color: var(--paper);
-        font-weight: 400;
-      }
-
-      .facts {
-        margin: 2.5rem 0 0;
-        border-top: 1px solid var(--line);
-      }
-
-      .facts h2,
-      .disclosure h2 {
-        margin: 1.75rem 0 0.5rem;
-        font-size: 0.72rem;
-        letter-spacing: 0.22em;
-        text-transform: uppercase;
-        color: var(--leaf-soft);
-        font-weight: 400;
-        font-family: "Outfit", sans-serif;
-      }
-
-      .fact {
-        display: grid;
-        grid-template-columns: 8rem 1fr;
-        gap: 1rem;
-        padding: 0.8rem 0;
-        border-bottom: 1px solid var(--line);
-        font-size: 0.95rem;
-      }
-
-      .fact dt {
-        margin: 0;
-        color: var(--leaf-soft);
-        letter-spacing: 0.06em;
-        font-size: 0.74rem;
-        text-transform: uppercase;
-        align-self: baseline;
-        padding-top: 0.15rem;
-      }
-
-      .fact dd {
-        margin: 0;
-        color: var(--paper);
-      }
-
-      .fact dd .th {
-        font-family: "Noto Sans Thai", sans-serif;
-      }
-
-      .disclosure {
-        margin-top: 2.5rem;
-        padding-top: 0.5rem;
-      }
-
-      .disclosure p {
-        margin: 0;
-        font-size: 0.9rem;
-        color: var(--paper-dim);
-        max-width: 34rem;
-      }
-
-      @media (max-width: 560px) {
-        .fact {
-          grid-template-columns: 1fr;
-          gap: 0.2rem;
-        }
-      }
-
-      @media (prefers-reduced-motion: reduce) {
-        .page {
-          animation: none;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="css/cafe.css" />
   </head>
   <body>
     <header class="site-nav">
-      <a class="site-nav__brand" href="index.html">Cafe' Siam</a>
+      <a class="site-nav__brand" href="index.html"
+        >Cafe' Siam<span>English × Thai</span></a
+      >
       <nav class="site-nav__links" aria-label="Primary">
-        <a href="index.html">Atmosphere</a>
-        <a href="songs.html">Atlas</a>
+        <a href="index.html">Home</a>
+        <a href="browse.html">Browse</a>
+        <a href="listen.html">Listen</a>
         <a class="is-active" href="about.html">About</a>
-        <a href="../">All cafés</a>
-        <a href="../../../index.html">Studio</a>
       </nav>
     </header>
 
-    <main class="page">
-      <p class="eyebrow">Channel · EN × TH</p>
-      <h1 class="brand">
-        Cafe' Siam
-        <span>English × Thai listening café</span>
-      </h1>
-      <p class="lede">
-        Soft songs that teach themselves — English × Thai, with romanized Thai
-        after every line.
-      </p>
+    <main class="wrap" style="padding-bottom: 3rem">
+      <header class="page-head">
+        <p class="eyebrow">@cafesiamsoftmusic</p>
+        <h1>A soft room for learning Thai by ear</h1>
+        <p>
+          Cafe' Siam English × Thai is its own channel surface — separate from
+          QuietLY and from other Café Siam language pairs. Songs come from
+          n20dle calbenetic production; lyric sheets keep English, Thai, and
+          romanized Thai together.
+        </p>
+      </header>
 
-      <div class="page__body">
-        <p>
-          Café Siam is the English × Thai room of <strong>n20dle</strong>, a
-          small bilingual-learning song factory. The promise is simple:
-          <strong>relax, relax · memory through songs · no pressure · free.</strong>
+      <div class="lyric-sheet" style="max-width: 40rem">
+        <p class="lyric-sheet__label">What you can do here</p>
+        <p class="lyric-line__en">Browse by word depth</p>
+        <p class="lyric-line__roman">Beginner · Elementary · Intermediate</p>
+        <p class="lyric-line__en" style="margin-top: 1rem">Browse by content</p>
+        <p class="lyric-line__roman">
+          Home, city, café days, work tasks, feelings, language drills, and more
         </p>
-        <p>
-          Each song is diction-first: a male–female duet trades the same line in
-          English and Thai, with romanized Thai printed after every phrase so
-          you can follow by ear. Styles stay soft — café folk, café jazz,
-          neo-soul, acoustic — never club pulse, so the words stay clear.
-        </p>
-        <p>
-          Songs run about three to four minutes and climb a gentle ladder from
-          beginner to intermediate scenes: ordering coffee, asking for Wi-Fi,
-          sharing food, getting lost, making plans. Open the atlas to read a
-          lyric sheet, or let Atmosphere autoplay the room.
+        <p class="lyric-line__en" style="margin-top: 1rem">Read the full sheet</p>
+        <p class="lyric-line__roman">
+          Production lyrics from lang-song-p25-production, with romanization
+          preserved or filled for reading practice
         </p>
       </div>
-
-      <dl class="facts" aria-label="Channel facts">
-        <h2>The channel</h2>
-        <div class="fact">
-          <dt>Brand</dt>
-          <dd>n20dle calbenetic</dd>
-        </div>
-        <div class="fact">
-          <dt>Gloss</dt>
-          <dd>EN × TH</dd>
-        </div>
-        <div class="fact">
-          <dt>Format</dt>
-          <dd>~3–4 min · same-line gloss · male–female duet</dd>
-        </div>
-        <div class="fact">
-          <dt>Style</dt>
-          <dd>Soft café folk / jazz / neo-soul · no EDM pulse</dd>
-        </div>
-        <div class="fact">
-          <dt>Catalog</dt>
-          <dd>Songs and counting</dd>
-        </div>
-      </dl>
-
-      <aside class="disclosure" aria-label="Production disclosure">
-        <h2>Production note</h2>
-        <p>
-          Music is made with Suno and may involve AI-assisted production.
-          Listener-facing copy comes first; this disclosure stays below it.
-        </p>
-      </aside>
     </main>
 
-    <footer class="wrap site-footer">
-      <a href="index.html">Atmosphere</a>
-      <a href="songs.html">Atlas</a>
+    <footer class="site-footer wrap">
       <a
         href="https://www.youtube.com/@cafesiamsoftmusic"
         target="_blank"
         rel="noopener noreferrer"
         >YouTube</a
       >
-      <span>n20dle calbenetic · lyrics from catalog, not invented.</span>
+      <span>Channel ID UCvwBBIq_rVNg1QiJR63b18g</span>
     </footer>
   </body>
 </html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Listen — Cafe' Siam EN×TH</title>
+    <meta
+      name="description"
+      content="Cafe' Siam listening room: soft music with English × Thai lyric sheets open."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Figtree:wght@350;400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+Thai:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/atmosphere.css" />
+    <link rel="stylesheet" href="css/cafe.css" />
+    <style>
+      .atm-body .site-nav {
+        position: fixed;
+        inset: 0 0 auto;
+        background: transparent;
+        border: 0;
+      }
+      .atm-sheet__body .lyric-line {
+        border: 0;
+        padding: 0.45rem 0;
+        animation: none;
+      }
+      .atm-sheet__body .lyric-line__en {
+        color: rgba(238, 246, 243, 0.92);
+        font-size: 1rem;
+      }
+      .atm-sheet__body .lyric-line__thai {
+        color: #fff;
+        font-size: 1.05rem;
+      }
+      .atm-sheet__body .lyric-line__roman {
+        color: rgba(210, 181, 106, 0.9);
+      }
+      .atm-sheet__body .lyric-section {
+        color: rgba(158, 184, 180, 0.85);
+        margin-top: 0.85rem;
+      }
+    </style>
+  </head>
+  <body class="atm-body">
+    <div class="stage" id="stage" aria-hidden="true">
+      <div class="stage__visuals" id="visuals"></div>
+      <div class="stage__veil"></div>
+      <div class="stage__grain"></div>
+    </div>
+
+    <header class="site-nav">
+      <a class="site-nav__brand" href="index.html"
+        >Cafe' Siam<span>EN × TH</span></a
+      >
+      <nav class="site-nav__links" aria-label="Primary">
+        <a href="browse.html">Browse</a>
+        <a class="is-active" href="listen.html">Listen</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <header class="atm-chrome" style="top: var(--nav-h)">
+      <span class="serif" id="world-title">EN × TH</span>
+      <div class="atm-chrome__center">
+        <span id="world-sub">Listening room</span>
+      </div>
+      <div class="atm-chrome__right">
+        <label class="atm-select-wrap">
+          <span class="sr-only">Song</span>
+          <select id="song-select" aria-label="Choose song"></select>
+        </label>
+        <a id="open-sheet" href="browse.html">Full sheet</a>
+      </div>
+    </header>
+
+    <main class="atm-copy">
+      <div class="atm-copy__head">
+        <p class="atm-kicker" id="track-kicker">Song —</p>
+        <h1 class="atm-track serif" id="track-jp">—</h1>
+        <p class="atm-track-th" id="track-th">—</p>
+        <p class="atm-hint" id="learn-hint">
+          English — Thai — romanized Thai. Sit with the line while the café plays.
+        </p>
+      </div>
+      <div class="atm-sheet" id="lyrics-sheet" aria-label="Full lyrics">
+        <p class="atm-sheet__label">Listening sheet</p>
+        <div class="atm-sheet__body" id="lyrics-body"></div>
+      </div>
+    </main>
+
+    <div class="atm-player" id="player-shell" aria-hidden="true">
+      <div id="yt-player"></div>
+    </div>
+
+    <footer class="atm-footer">
+      <div class="atm-progress" aria-hidden="true">
+        <div class="atm-progress__bar" id="progress-bar"></div>
+      </div>
+      <div class="atm-footer__row">
+        <button type="button" class="atm-btn" id="btn-prev">Prev</button>
+        <button type="button" class="atm-btn" id="btn-toggle">Pause</button>
+        <button type="button" class="atm-btn" id="btn-next">Next</button>
+        <button type="button" class="atm-btn" id="btn-shuffle" aria-pressed="true">
+          Shuffle on
+        </button>
+        <span class="atm-time" id="time-label">0:00</span>
+      </div>
+    </footer>
+
+    <div class="atm-gate" id="gate">
+      <div class="atm-gate__card">
+        <span class="atm-gate__mark" aria-hidden="true">EN</span>
+        <h1 class="atm-gate__title">Cafe' Siam · EN × TH</h1>
+        <p class="atm-gate__blurb">
+          Soft music autoplays. English × Thai lyric sheets stay open — with
+          romanized Thai for reading along.
+        </p>
+        <button type="button" class="atm-gate__btn" id="btn-begin">
+          Begin listening
+        </button>
+      </div>
+    </div>
+
+    <script src="js/atmosphere.js"></script>
+  </body>
+</html>

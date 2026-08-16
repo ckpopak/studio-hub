@@ -119,6 +119,46 @@
     );
   }
 
+  function renderStructuredLyrics(rows) {
+    var html = [];
+    (rows || []).forEach(function (row) {
+      if (row.type === "section") {
+        html.push(
+          '<p class="lyric-section">' + escapeHtml(row.label || "") + "</p>"
+        );
+        return;
+      }
+      if (row.type !== "line") return;
+      html.push('<div class="lyric-line">');
+      if (row.voice) {
+        html.push(
+          '<span class="lyric-line__voice">' +
+            escapeHtml(row.voice) +
+            "</span>"
+        );
+      }
+      if (row.en) {
+        html.push(
+          '<div class="lyric-line__en">' + escapeHtml(row.en) + "</div>"
+        );
+      }
+      if (row.thai) {
+        html.push(
+          '<div class="lyric-line__thai">' + escapeHtml(row.thai) + "</div>"
+        );
+      }
+      if (row.roman) {
+        html.push(
+          '<div class="lyric-line__roman">' + escapeHtml(row.roman) + "</div>"
+        );
+      }
+      html.push("</div>");
+    });
+    lyricsBody.innerHTML =
+      html.join("") || '<span class="atm-lyric-line">—</span>';
+    scheduleFitLyrics();
+  }
+
   function renderFullLyrics(lyrics) {
     var lines = String(lyrics || "").split(/\r?\n/);
     var html = [];
@@ -207,7 +247,12 @@
   function fillSelect() {
     songSelect.innerHTML = songs
       .map(function (song) {
-        var label = (song.title_jp || song.title_core || song.title).slice(0, 28);
+        var label = (
+          song.title_en ||
+          song.title_jp ||
+          song.title_core ||
+          song.title
+        ).slice(0, 28);
         return (
           '<option value="' +
           escapeHtml(song.id) +
@@ -228,13 +273,23 @@
       " / " +
       String(songs.length).padStart(3, "0") +
       (song.upload_date ? " · " + formatDate(song.upload_date) : "");
-    trackJp.textContent = song.title_jp || song.title_core || song.title;
-    trackTh.textContent = song.title_th || "";
-    worldTitle.textContent = song.title_jp || "EN × TH";
+    trackJp.textContent =
+      song.title_en || song.title_jp || song.title_core || song.title;
+    trackTh.textContent = song.title_thai || song.title_th || "";
+    worldTitle.textContent = song.title_en || song.title_jp || "EN × TH";
     document.title =
-      (song.title_jp || "Cafe' Siam") + " · Atmosphere · Cafe' Siam EN × TH";
+      (song.title_en || song.title_jp || "Cafe' Siam") +
+      " · Listen · Cafe' Siam EN × TH";
     songSelect.value = song.id;
-    renderFullLyrics(song.lyrics);
+    var openSheet = document.getElementById("open-sheet");
+    if (openSheet) {
+      openSheet.href = "song.html?id=" + encodeURIComponent(song.id);
+    }
+    if (song.lines && song.lines.length) {
+      renderStructuredLyrics(song.lines);
+    } else {
+      renderFullLyrics(song.lyrics);
+    }
     setVisual(visualIndex + 1);
     if (history.replaceState) {
       history.replaceState(null, "", "?id=" + encodeURIComponent(song.id));
@@ -398,8 +453,13 @@
     })
     .then(function (data) {
       songs = (data.songs || []).filter(function (s) {
-        return s && s.id;
+        return s && s.id && s.has_lyrics;
       });
+      if (!songs.length) {
+        songs = (data.songs || []).filter(function (s) {
+          return s && s.id;
+        });
+      }
       if (!songs.length) throw new Error("No songs");
       fillSelect();
       var want = qsId();
