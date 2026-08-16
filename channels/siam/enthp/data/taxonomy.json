@@ -1,0 +1,110 @@
+{
+  "channel": "Cafe' Siam | Soft Music & English-Thai Listening",
+  "handle": "@cafesiamsoftmusic",
+  "pair_label": "English × Thai",
+  "facets": {
+    "difficulty": [
+      {
+        "id": "beginner",
+        "label": "Beginner",
+        "blurb": "Short phrases, high repetition"
+      },
+      {
+        "id": "elementary",
+        "label": "Elementary",
+        "blurb": "Everyday scenes, medium lines"
+      },
+      {
+        "id": "intermediate",
+        "label": "Intermediate",
+        "blurb": "Denser topics and longer lines"
+      }
+    ],
+    "category": [
+      {
+        "id": "home-belonging",
+        "label": "Home & belonging"
+      },
+      {
+        "id": "city-street",
+        "label": "City & streets"
+      },
+      {
+        "id": "cafe-soft-day",
+        "label": "Café & soft days"
+      },
+      {
+        "id": "work-daily",
+        "label": "Work & daily tasks"
+      },
+      {
+        "id": "time-days",
+        "label": "Time & days"
+      },
+      {
+        "id": "feelings-heart",
+        "label": "Feelings & heart"
+      },
+      {
+        "id": "learning-language",
+        "label": "Learning language"
+      },
+      {
+        "id": "caution-scam",
+        "label": "Caution & scams"
+      },
+      {
+        "id": "story-mystery",
+        "label": "Story & mystery"
+      },
+      {
+        "id": "playful",
+        "label": "Playful & pop"
+      },
+      {
+        "id": "blessings",
+        "label": "Blessings & wishes"
+      },
+      {
+        "id": "general",
+        "label": "General listening"
+      }
+    ],
+    "lyrics": [
+      {
+        "id": "with-lyrics",
+        "label": "Full lyrics sheet"
+      },
+      {
+        "id": "with-roman",
+        "label": "Has romanized Thai"
+      },
+      {
+        "id": "pending",
+        "label": "Lyrics pending"
+      }
+    ]
+  },
+  "counts": {
+    "songs": 188,
+    "difficulty": {
+      "elementary": 136,
+      "intermediate": 5,
+      "beginner": 47
+    },
+    "category": {
+      "home-belonging": 23,
+      "city-street": 11,
+      "caution-scam": 1,
+      "time-days": 39,
+      "learning-language": 137,
+      "cafe-soft-day": 25,
+      "feelings-heart": 24,
+      "playful": 48,
+      "story-mystery": 6,
+      "blessings": 1,
+      "work-daily": 21
+    },
+    "with_lyrics": 132
+  }
+}

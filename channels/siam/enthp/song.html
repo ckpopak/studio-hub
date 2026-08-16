@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Song — Cafe' Siam EN×TH</title>
+    <meta name="description" content="Full English × Thai lyric sheet with romanized Thai." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Figtree:wght@350;400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+Thai:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/cafe.css" />
+  </head>
+  <body>
+    <header class="site-nav">
+      <a class="site-nav__brand" href="index.html"
+        >Cafe' Siam<span>English × Thai</span></a
+      >
+      <nav class="site-nav__links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="browse.html">Browse</a>
+        <a href="listen.html">Listen</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main class="wrap">
+      <header class="song-hero">
+        <p class="eyebrow" id="song-kicker">Lyric sheet</p>
+        <h1 id="song-en">—</h1>
+        <p class="song-hero__th" id="song-th">—</p>
+        <div class="song-card__tags" id="song-tags"></div>
+        <div class="song-actions">
+          <a class="btn btn--primary" id="btn-listen" href="listen.html">Listen here</a>
+          <a
+            class="btn btn--ghost"
+            id="btn-yt"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            >YouTube</a
+          >
+          <a class="btn btn--ghost" href="browse.html">Back to browse</a>
+        </div>
+      </header>
+
+      <article class="lyric-sheet" id="lyric-sheet" aria-label="Full lyrics">
+        <p class="lyric-sheet__label">English · Thai · romanized Thai</p>
+        <div id="lyric-body"></div>
+      </article>
+      <p class="empty" id="empty" hidden>No lyric sheet for this upload yet.</p>
+    </main>
+
+    <footer class="site-footer wrap">
+      <span id="source-note"></span>
+    </footer>
+
+    <script src="js/song.js"></script>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Browse songs — Cafe' Siam EN×TH</title>
+    <meta
+      name="description"
+      content="Browse Cafe' Siam English×Thai songs by difficulty, theme, and lyric availability."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Figtree:wght@350;400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+Thai:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/cafe.css" />
+  </head>
+  <body>
+    <header class="site-nav">
+      <a class="site-nav__brand" href="index.html"
+        >Cafe' Siam<span>English × Thai</span></a
+      >
+      <nav class="site-nav__links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a class="is-active" href="browse.html">Browse</a>
+        <a href="listen.html">Listen</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main class="wrap">
+      <header class="page-head">
+        <p class="eyebrow">Song atlas</p>
+        <h1>Browse by how you want to listen</h1>
+        <p>
+          Filter by word depth, by scene or topic, and open a full lyric sheet
+          with romanized Thai.
+        </p>
+      </header>
+
+      <div class="search">
+        <label class="visually-hidden" for="q" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">Search</label>
+        <input id="q" type="search" placeholder="Search English, Thai, romanization…" autocomplete="off" />
+      </div>
+
+      <section class="facets" aria-label="Filters">
+        <div class="facet">
+          <div class="facet__label">By word depth</div>
+          <div class="facet__chips" id="diff-chips"></div>
+        </div>
+        <div class="facet">
+          <div class="facet__label">By content</div>
+          <div class="facet__chips" id="cat-chips"></div>
+        </div>
+        <div class="facet">
+          <div class="facet__label">Lyrics</div>
+          <div class="facet__chips" id="lyr-chips"></div>
+        </div>
+      </section>
+
+      <div class="results-meta">
+        <span id="result-count">—</span>
+        <button type="button" class="chip" id="clear-filters">Clear filters</button>
+      </div>
+
+      <ul class="song-grid" id="song-grid"></ul>
+      <p class="empty" id="empty" hidden>No songs match these filters.</p>
+    </main>
+
+    <footer class="site-footer wrap">
+      <a href="listen.html">Listening room</a>
+      <a
+        href="https://www.youtube.com/@cafesiamsoftmusic"
+        target="_blank"
+        rel="noopener noreferrer"
+        >YouTube</a
+      >
+    </footer>
+
+    <script src="js/browse.js"></script>
+  </body>
+</html>
