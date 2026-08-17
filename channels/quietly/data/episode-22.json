@@ -1,0 +1,235 @@
+{
+  "episode": 22,
+  "slug": "greenhouse-night-warmth",
+  "title": {
+    "en": "Greenhouse Night Warmth",
+    "zh": "溫室夜聽暖"
+  },
+  "logline": "溫室還亮著一盞過道燈。外冷內溫——暖不是火，是玻璃裏不肯散的空氣。",
+  "videoId": "E0_t_VcuYME",
+  "youtubeTitle": "[playlist] QuietLY · 暖 — Night Greenhouse / Slow English-led Jazz (Mandarin poetry islands)",
+  "comics": [
+    {
+      "en": "One aisle lamp is still lit in the greenhouse.",
+      "zh": "溫室還亮著一盞過道燈。"
+    },
+    {
+      "en": "Outside is cold; inside the air stays.",
+      "zh": "外冷內溫。"
+    },
+    {
+      "en": "Warmth is not fire — only air that will not scatter.",
+      "zh": "暖不是火，是玻璃裏不肯散的空氣。"
+    },
+    {
+      "en": "Fog on the glass writes what the night will not say.",
+      "zh": "霧玻璃寫下夜不肯說的。"
+    }
+  ],
+  "hero": "assets/ep22-hero.png",
+  "comicImages": [],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "0:00",
+      "en": "Fogged Glass",
+      "zh": "霧玻璃",
+      "voice": "女聲",
+      "lyrics": "[Mandarin — poetry]\n綠樹陰濃夏日長\n樓台倒影入池塘\n\n[Poetry]\n綠樹陰濃夏日長\n樓台倒影入池塘\n\n[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\nFog writes soft letters on the glass\nI read them without wiping\nOutside stays thin and cold\nInside keeps its own weather\n\n[Refrain]\nWarm without hurry\nGlass holds the night\nI listen for 暖\nAnd do not ask for fire\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\nA leaf presses its shadow to the pane\nOne drop slides like a slow clock\nNo one rushes the condensation\nThe aisle lamp stays kind\n\n[Refrain]\nWarm without hurry\nGlass holds the night\nI listen for 暖\nAnd do not ask for fire\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\nFog is not a wall\nOnly a softer way\nTo keep the cold outside\n\n[Final refrain]\nGlass still fogged\nWarmth still quiet\nI stay listening\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-22/01-fogged-glass.md"
+    },
+    {
+      "n": "02",
+      "start": 174,
+      "time": "2:54",
+      "en": "Iron Frame",
+      "zh": "鐵架",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\nIron shelves hold green patience\nRows of quiet stems\nNight walks the aisle\nWithout taking anything\n\n[Refrain]\nFrame by frame\nWarmth stays held\nNo bloom needs\nTo prove the hour\n\n[Mandarin — poetry]\n水晶簾動微風起\n滿架薔薇一院香\n\n[Poetry]\n水晶簾動微風起\n滿架薔薇一院香\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\nThe metal is cool under fingertips\nThe air above it is mild\nI learn the difference\nAnd call it 暖\n\n[Refrain]\nFrame by frame\nWarmth stays held\nNo bloom needs\nTo prove the hour\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\nRoses in the old poem\nHere, only iron and leaf\nSame soft room of scent\n\n[Final refrain]\nFrame still steady\nNight still mild\nI keep walking slow\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-22/02-iron-frame.md"
+    },
+    {
+      "n": "03",
+      "start": 388,
+      "time": "6:28",
+      "en": "Drip Line",
+      "zh": "滴水管",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\nA drip counts time without a clock\nOne bead, then another\nSoil drinks in secret\nThe hose remembers rain\n\n[Refrain]\nSoft water\nSoft night\nWarmth is measured\nIn small returns\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\nNo storm enters this glass house\nOnly timed kindness\nFalling where roots wait\nQuiet as dusk perfume\n\n[Refrain]\nSoft water\nSoft night\nWarmth is measured\nIn small returns\n\n[Mandarin — poetry]\n疏影橫斜水清淺\n暗香浮動月黃昏\n\n[Poetry]\n疏影橫斜水清淺\n暗香浮動月黃昏\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\nI do not hurry the drip\nIt already knows\nHow to arrive\n\n[Final refrain]\nLine still ticking\nLeaf still drinking\nI listen longer\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-22/03-drip-line.md"
+    },
+    {
+      "n": "04",
+      "start": 527,
+      "time": "8:47",
+      "en": "Aisle Lamp",
+      "zh": "過道燈",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\nOne lamp keeps the aisle honest\nNeither bright nor lonely\nGreen faces turn a little\nToward that amber\n\n[Refrain]\nLamp soft\nPath soft\nWarmth walks\nBetween the rows\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\nI follow the glow to the far end\nWhere pots wait empty\nAnd still feel invited\nBy light alone\n\n[Refrain]\nLamp soft\nPath soft\nWarmth walks\nBetween the rows\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Mandarin — poetry]\n眾芳搖落獨暄妍\n占盡風情向小園\n\n[Poetry]\n眾芳搖落獨暄妍\n占盡風情向小園\n\n[Bridge — almost spoken]\nSmall garden of iron and leaf\nThe lamp is enough\nTo call it home for an hour\n\n[Final refrain]\nLamp still on\nAisle still warm\nI do not leave yet\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-22/04-aisle-lamp.md"
+    },
+    {
+      "n": "05",
+      "start": 714,
+      "time": "11:54",
+      "en": "Leaf Underside",
+      "zh": "葉背",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] Turn a leaf\n[Male] Find the cooler green\n[Both] Dew hides there\nLike a private climate\n\n[Refrain]\nUnder the leaf\nWarmth is quieter\nWe listen close\nAnd do not flip the world\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n[Female] Vein by vein\n[Male] Night by night\n[Both] The underside keeps\nWhat the lamp cannot see\n\n[Refrain]\nUnder the leaf\nWarmth is quieter\nWe listen close\nAnd do not flip the world\n\n[Mandarin — poetry]\n唯有綠荷紅菡萏\n卷舒開合任天真\n\n[Poetry]\n唯有綠荷紅菡萏\n卷舒開合任天真\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] You hear water\n[Male] I hear green\n[Both] Both are 暖\n\n[Final refrain]\nLeaf still bowed\nDew still held\nWe stay under it\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-22/05-leaf-underside.md"
+    },
+    {
+      "n": "06",
+      "start": 873,
+      "time": "14:33",
+      "en": "Empty Pot",
+      "zh": "空花盆",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\nAn empty pot keeps a circle of dust\nShape of what might grow\nI do not fill it tonight\nI let the space stay ready\n\n[Refrain]\nEmpty is not cold\nHere it is waiting\nWarmth can live\nIn a hollow rim\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\nElsewhere flowers fade in poems\nHere the pot is honest\nNo bloom, no grief\nOnly room for later green\n\n[Refrain]\nEmpty is not cold\nHere it is waiting\nWarmth can live\nIn a hollow rim\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\nI set my hand on clay\nIt keeps a little day-heat\nEven after dark\n\n[Final refrain]\nPot still empty\nAir still kind\nI close with 暖\n\n[Mandarin — poetry]\n此花此葉常相映\n翠減紅衰愁殺人\n\n[Poetry]\n此花此葉常相映\n翠減紅衰愁殺人\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-22/06-empty-pot.md"
+    },
+    {
+      "n": "07",
+      "start": 1088,
+      "time": "18:08",
+      "en": "Soft Hose",
+      "zh": "軟管",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\nThe hose lies coiled like a sleeping path\nSoft rubber, soft intent\nWhen it wakes it will give\nWithout raising its voice\n\n[Refrain]\nCoil and rest\nWater later\nWarmth first\nIn the waiting\n\n[Mandarin — poetry]\n有情芍藥含春淚\n無力薔薇臥曉枝\n\n[Poetry]\n有情芍藥含春淚\n無力薔薇臥曉枝\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\nSpring tears belong to peonies\nHere only a quiet tool\nLearning not to hurry\nToward the roots\n\n[Refrain]\nCoil and rest\nWater later\nWarmth first\nIn the waiting\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\nI step over the hose carefully\nAs if it were a guest\nSleeping in the aisle\n\n[Final refrain]\nHose still soft\nNight still mild\nI keep my steps slow\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-22/07-soft-hose.md"
+    },
+    {
+      "n": "08",
+      "start": 1249,
+      "time": "20:49",
+      "en": "Condensation",
+      "zh": "凝水",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\nBeads gather where glass meets breath\nTiny maps of inside weather\nI do not wipe the story clean\nI let it write itself down\n\n[Refrain]\nCondensation\nSlow grammar\nWarm air talking\nTo cold night\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\nBanana leaves stay folded in the old line\nHere the glass unfolds water\nNo shared sorrow required\nOnly shared temperature\n\n[Refrain]\nCondensation\nSlow grammar\nWarm air talking\nTo cold night\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained English, no trap]\nRap soft — count the beads, count the breath, leave the pane unread\nWarmth is the argument that never raises volume\n\n[Mandarin — poetry]\n芭蕉不展丁香結\n同向春風各自愁\n\n[Poetry]\n芭蕉不展丁香結\n同向春風各自愁\n\n[Final refrain]\nBeads still falling\nGlass still speaking\nI pocket nothing\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-22/08-condensation.md"
+    },
+    {
+      "n": "09",
+      "start": 1414,
+      "time": "23:34",
+      "en": "Door-Crack Cold",
+      "zh": "門縫冷",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\nA thin knife of cold slips the door\nThen stops, surprised by green air\nOutside wants winter\nInside answers gently\n\n[Refrain]\nCrack of cold\nRoom of warm\nI stand between\nAnd choose the leaf\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\nCicadas and sunset lotuses live in poems\nHere only a door seam\nTeaching the difference\nBetween weather and shelter\n\n[Refrain]\nCrack of cold\nRoom of warm\nI stand between\nAnd choose the leaf\n\n[Mandarin — poetry]\n柳葉鳴蜩綠暗\n荷花落日紅酣\n\n[Poetry]\n柳葉鳴蜩綠暗\n荷花落日紅酣\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\nI close the door one finger more\nNot to shut the world out\nOnly to keep 暖 from thinning\n\n[Final refrain]\nCold still testing\nWarmth still winning\nI stay inside\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-22/09-door-crack-cold.md"
+    },
+    {
+      "n": "10",
+      "start": 1567,
+      "time": "26:07",
+      "en": "Unopened Bud",
+      "zh": "未開的芽",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] A bud keeps its secret closed\n[Male] No need to bloom for us\n[Both] Warmth is patience\nWrapped in green\n\n[Refrain]\nUnopened\nStill enough\nWe listen for 暖\nBefore the show\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n[Female] Wind lifts lotus in the poem\n[Male] Here the bud lifts nothing yet\n[Both] And that is also music\n\n[Refrain]\nUnopened\nStill enough\nWe listen for 暖\nBefore the show\n\n[Mandarin — poetry]\n葉上初陽乾宿雨\n水面清圓\n一一風荷舉\n\n[Poetry]\n葉上初陽乾宿雨\n水面清圓\n一一風荷舉\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] You wait\n[Male] I wait\n[Both] Bud waits with us\n\n[Final refrain]\nBud still sealed\nNight still kind\nWe do not force spring\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-22/10-unopened-bud.md"
+    },
+    {
+      "n": "11",
+      "start": 1709,
+      "time": "28:29",
+      "en": "Night Watering",
+      "zh": "夜澆",
+      "voice": "女聲",
+      "lyrics": "[Mandarin — poetry]\n黃梅時節家家雨\n青草池塘處處蛙\n\n[Poetry]\n黃梅時節家家雨\n青草池塘處處蛙\n\n[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\nNight watering is a private rain\nNo thunder, no street\nOnly a can tipping kindness\nInto dark soil\n\n[Refrain]\nWater at night\nRoots believe\nWarmth travels\nDownward first\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\nFrogs and plum-rain live elsewhere\nHere the greenhouse makes its own weather\nQuiet, exact, unpaid\nAnd enough\n\n[Refrain]\nWater at night\nRoots believe\nWarmth travels\nDownward first\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\nI finish the row\nLeave wet crescents on clay\nThen listen to the drink\n\n[Final refrain]\nSoil still drinking\nLamp still low\nI set the can down\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-22/11-night-watering.md"
+    },
+    {
+      "n": "12",
+      "start": 1872,
+      "time": "31:12",
+      "en": "Glass Against Night",
+      "zh": "玻璃對外",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\nGlass faces the black orchard of night\nCity light far as a rumor\nInside, green keeps council\nWith one warm lamp\n\n[Refrain]\nAgainst the night\nWarmth holds line\nI do not cross\nThe cold pane\n\n[Mandarin — poetry]\n有約不來過夜半\n閑敲棋子落燈花\n\n[Poetry]\n有約不來過夜半\n閑敲棋子落燈花\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\nAn old poem waits for a late guest\nI wait for nothing\nOnly the glass\nDoing its quiet work\n\n[Refrain]\nAgainst the night\nWarmth holds line\nI do not cross\nThe cold pane\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\nChess flowers fall in that other room\nHere only condensation\nMarks the hour\n\n[Final refrain]\nNight still outside\nGreen still inside\nI stay with the pane\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-22/12-glass-against-night.md"
+    },
+    {
+      "n": "13",
+      "start": 2030,
+      "time": "33:50",
+      "en": "Last Aisle",
+      "zh": "最後一排",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] The last aisle is darker\n[Male] And somehow kinder\n[Both] Shelves thin out\nWarmth concentrates\n\n[Refrain]\nEnd of the row\nEnd of hurry\nWe walk slower\nWhere green is spare\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n[Female] Moss on steps in the old line\n[Male] Grass entering a curtain\n[Both] Here moss is fog on glass\nAnd grass is leaf-shadow\n\n[Refrain]\nEnd of the row\nEnd of hurry\nWe walk slower\nWhere green is spare\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Mandarin — poetry]\n苔痕上階綠\n草色入簾青\n\n[Poetry]\n苔痕上階綠\n草色入簾青\n\n[Bridge — almost spoken]\n[Female] Almost done\n[Male] Almost home\n[Both] Last aisle still 暖\n\n[Final refrain]\nAisle still ending\nLight still amber\nWe turn once more\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-22/13-last-aisle.md"
+    },
+    {
+      "n": "14",
+      "start": 2157,
+      "time": "35:57",
+      "en": "Almost Dark",
+      "zh": "將近暗",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\nAlmost dark, the greenhouse lowers its voice\nLeaves become silhouettes\nI keep one lamp for the path\nAnd let the rest go velvet\n\n[Refrain]\nNearly night\nNearly quiet\nWarmth does not need\nA full stage\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\nScholars talk in the old house poem\nHere no guests, no titles\nOnly green company\nAnd a thinning of light\n\n[Refrain]\nNearly night\nNearly quiet\nWarmth does not need\nA full stage\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained English, no trap]\nRap soft — dim the rows, keep the pulse dry, leave trap outside the glass\nAlmost dark is still a kind of dawn for roots\n\n[Mandarin — poetry]\n談笑有鴻儒\n往來無白丁\n\n[Poetry]\n談笑有鴻儒\n往來無白丁\n\n[Final refrain]\nDark almost here\nWarmth still legal\nI do not flip every switch\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-22/14-almost-dark.md"
+    },
+    {
+      "n": "15",
+      "start": 2272,
+      "time": "37:52",
+      "en": "One Warm Leaf",
+      "zh": "仍暖的葉",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\nOne leaf still holds the day's last heat\nAgainst my wrist, a small season\nWinter presses the roof\nAnd fails for a moment\n\n[Refrain]\nOne leaf\nOne warmth\nEnough to name\nThe whole glass house\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\nPear blossoms open in a sudden spring of snow-poem\nHere no blizzard theater\nOnly a single leaf\nTeaching 暖 by touch\n\n[Refrain]\nOne leaf\nOne warmth\nEnough to name\nThe whole glass house\n\n[Mandarin — poetry]\n忽如一夜春風來\n千樹萬樹梨花開\n\n[Poetry]\n忽如一夜春風來\n千樹萬樹梨花開\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\nI release it back to the stem\nHeat returns to green\nAs if borrowed politely\n\n[Final refrain]\nLeaf still soft\nNight still cold beyond\nI keep the lesson\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-22/15-one-warm-leaf.md"
+    },
+    {
+      "n": "16",
+      "start": 2416,
+      "time": "40:16",
+      "en": "Lights Dim",
+      "zh": "燈漸暗",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\nLights dim along the iron spine\nGreen deepens into hush\nClosing time without a bell\nOnly a soft surrender of amber\n\n[Refrain]\nDim and stay\nWarmth remains\nEven when light\nLearns less\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\nLate spring fights in colors elsewhere\nHere the fight is over\nLeaves keep their posts\nIn almost-dark kindness\n\n[Refrain]\nDim and stay\nWarmth remains\nEven when light\nLearns less\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\nI walk toward the exit glow\nThen pause — not leaving yet\nThe dim is a blanket\n\n[Final refrain]\nLights still fading\nAir still mild\nI end on 暖\n\n[Mandarin — poetry]\n草木知春不久歸\n百般紅紫鬥芳菲\n\n[Poetry]\n草木知春不久歸\n百般紅紫鬥芳菲\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-22/16-lights-dim.md"
+    },
+    {
+      "n": "17",
+      "start": 2599,
+      "time": "43:19",
+      "en": "Outer Frost Light",
+      "zh": "外霜光",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\nFrost light scrapes the outer glass\nA pale rumor of ice\nInside, nothing freezes\nExcept the wish to rush\n\n[Refrain]\nOuter frost\nInner mild\nWarmth is the border\nI trust tonight\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\nPoplar fluff flies like snow in the poem\nHere frost is only light\nNo talent needed\nTo keep the leaves unharmed\n\n[Refrain]\nOuter frost\nInner mild\nWarmth is the border\nI trust tonight\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained English, no trap]\nRap soft — frost on the outside story, green on the inside beat, never trap\nI count the panes like quiet measures\n\n[Mandarin — poetry]\n楊花榆莢無才思\n惟解漫天作雪飛\n\n[Poetry]\n楊花榆莢無才思\n惟解漫天作雪飛\n\n[Final refrain]\nFrost still glittering\nHouse still holding\nI stay on this side\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-22/17-outer-frost-light.md"
+    },
+    {
+      "n": "18",
+      "start": 2727,
+      "time": "45:27",
+      "en": "Wet Still",
+      "zh": "未乾",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\nWet still — leaf and pot and path\nNight watering's afterimage\nNothing asks to be dried\nBefore it has finished shining\n\n[Refrain]\nStill wet\nStill warm\nStill listening\nWithout a towel\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\nStreet rain soft as butter in the old line\nGrass that vanishes up close\nHere wetness stays honest\nAnd green does not disappear\n\n[Refrain]\nStill wet\nStill warm\nStill listening\nWithout a towel\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Mandarin — poetry]\n天街小雨潤如酥\n草色遙看近卻無\n\n[Poetry]\n天街小雨潤如酥\n草色遙看近卻無\n\n[Bridge — almost spoken]\nI leave the sheen alone\nLet the greenhouse keep\nIts small bright weather\n\n[Final refrain]\nWet still true\nWarmth still near\nI do not hurry dry\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-22/18-wet-still.md"
+    },
+    {
+      "n": "19",
+      "start": 2868,
+      "time": "47:48",
+      "en": "Keep the Weather",
+      "zh": "自有天氣",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\nThis house keeps its own weather\nNot spring's parade, not city's green\nA sealed kindness\nMade of leaf and lamp and drip\n\n[Refrain]\nOwn weather\nOwn pace\nWarmth is local\nAnd enough\n\n[Mandarin — poetry]\n最是一年春好處\n絕勝煙柳滿皇都\n\n[Poetry]\n最是一年春好處\n絕勝煙柳滿皇都\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\nBest of the year belongs to early spring poems\nSmoke-willow capitals elsewhere\nHere the empire is one aisle\nAnd I am briefly citizen\n\n[Refrain]\nOwn weather\nOwn pace\nWarmth is local\nAnd enough\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\nI pocket no souvenir soil\nOnly the temperature\nUnder my tongue\n\n[Final refrain]\nWeather still kept\nDoor still kind\nI bow to 暖\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-22/19-keep-the-weather.md"
+    },
+    {
+      "n": "20",
+      "start": 3065,
+      "time": "51:05",
+      "en": "Still Listening for 暖",
+      "zh": "仍在聽暖",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] Fogged glass, iron frame, drip\n[Male] Lamp, leaf, door-crack cold\n[Both] We walked the greenhouse night\nStill listening for warmth\n\n[Refrain]\nStill listening for warmth\nNot heat, not hurry\nOnly air that stays\nWhere green is kept\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n[Female] A spring outing finds flowers by the river\n[Male] Boundless light made new\n[Both] Our outing ends in glass\nAnd the newness is mild\n\n[Refrain]\nStill listening for 暖\nNot heat, not hurry\nOnly air that stays\nWhere green is kept\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] You hear the drip\n[Male] I hear the lamp\n[Both] Both are 暖\n\n[Final refrain]\nNight still outside\nWarmth still inside\nWe are still listening for 暖\n\n[Mandarin — poetry]\n勝日尋芳泗水濱\n無邊光景一時新\n\n[Poetry]\n勝日尋芳泗水濱\n無邊光景一時新\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-22/20-still-listening-for-nuan.md"
+    }
+  ],
+  "warnings": [],
+  "lyricsSource": "songs/prompts/episode-22/*.md"
+}

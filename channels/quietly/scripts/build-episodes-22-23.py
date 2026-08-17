@@ -1,8 +1,11 @@
-"""Build QuietLY episode-19..21 JSON (+ index merge) from quietly-ch-jazz-production.
+"""Build QuietLY episode-22..23 JSON (+ index merge) from quietly-ch-jazz-production.
+
+Also points Episode 21 at the published re-package (corrected tracks 02 / 10)
+and applies the live YouTube chapter times.
 
 Usage:
   N20DLE=/path/to/quietly-ch-jazz-production \\
-    python channels/quietly/scripts/build-episodes-19-21.py
+    python channels/quietly/scripts/build-episodes-22-23.py
 """
 
 from __future__ import annotations
@@ -19,53 +22,45 @@ ASSETS = CHANNEL_ROOT / "assets"
 N20DLE = Path(os.environ.get("N20DLE", "/tmp/quietly-ch"))
 
 VIDEO_IDS = {
-    19: "_ZynZ-N2-DY",
-    20: "gb56Wr6TZPk",
     21: "YRwiynYKTug",
+    22: "E0_t_VcuYME",
+    23: "ipeWZFg-7S4",
 }
 
 EPISODE_META = {
-    19: {
-        "slug": "before-mountain-rain",
-        "title": {"en": "Before the Mountain Rain", "zh": "山雨欲來聽風"},
-        "logline": "山雨欲來，風先滿樓。雨整集不落地——只聽風把天壓低。",
+    22: {
+        "slug": "greenhouse-night-warmth",
+        "title": {"en": "Greenhouse Night Warmth", "zh": "溫室夜聽暖"},
+        "logline": "溫室還亮著一盞過道燈。外冷內溫——暖不是火，是玻璃裏不肯散的空氣。",
         "comics": [
-            {"en": "Mountain rain is coming; wind fills the tower first.", "zh": "山雨欲來，風先滿樓。"},
-            {"en": "The ground stays dry.", "zh": "雨整集不落地。"},
-            {"en": "Listen only to the wind pressing the sky down.", "zh": "只聽風把天壓低。"},
-            {"en": "Grass bends; the storm has not yet arrived.", "zh": "草先彎，雨還沒到。"},
+            {"en": "One aisle lamp is still lit in the greenhouse.", "zh": "溫室還亮著一盞過道燈。"},
+            {"en": "Outside is cold; inside the air stays.", "zh": "外冷內溫。"},
+            {
+                "en": "Warmth is not fire — only air that will not scatter.",
+                "zh": "暖不是火，是玻璃裏不肯散的空氣。",
+            },
+            {
+                "en": "Fog on the glass writes what the night will not say.",
+                "zh": "霧玻璃寫下夜不肯說的。",
+            },
         ],
-        "hero_src": "assets/quietly-episode-19-hero.png",
-        "hero": "assets/ep19-hero.png",
-        "yt_glob": "episode-19-quietly-20songs.youtube.json",
+        "hero_src": "assets/quietly-episode-22-hero.png",
+        "hero": "assets/ep22-hero.png",
+        "yt_glob": "episode-22-quietly-20songs.youtube.json",
     },
-    20: {
-        "slug": "orion-edge-delusion",
-        "title": {"en": "Orion Edge Delusion", "zh": "獵戶星聽惑"},
-        "logline": "獵戶星在召喚。惑不是警報——是一段早已住在記憶裡的旋律。",
+    23: {
+        "slug": "beyond-galaxy-waiting",
+        "title": {"en": "Beyond the Galaxy Waiting", "zh": "銀河外聽候"},
+        "logline": "星圖在最邊緣寫了一個空白。候不是求救——是不死者把等待做成工作。",
         "comics": [
-            {"en": "Orion is calling.", "zh": "獵戶星在召喚。"},
-            {"en": "惑 is not an alarm.", "zh": "惑不是警報。"},
-            {"en": "It is a melody that already lives in memory.", "zh": "是一段早已住在記憶裡的旋律。"},
-            {"en": "Choose before the star-gate closes.", "zh": "在星門關上以前做選擇。"},
+            {"en": "A blank at the edge of the star chart.", "zh": "星圖在最邊緣寫了一個空白。"},
+            {"en": "候 is not a distress call.", "zh": "候不是求救。"},
+            {"en": "An immortal makes waiting into work.", "zh": "是不死者把等待做成工作。"},
+            {"en": "TJ28 has arrived; still listening for 候.", "zh": "TJ28 已抵達，仍在聽候。"},
         ],
-        "hero_src": "assets/quietly-episode-20-hero.png",
-        "hero": "assets/ep20-hero.png",
-        "yt_glob": "episode-20-quietly-20songs.youtube.json",
-    },
-    21: {
-        "slug": "empty-room-linger",
-        "title": {"en": "Empty Room Linger", "zh": "空房聽留"},
-        "logline": "空房還在。留不是重播——是把雨後那一間房，再聽深一層。",
-        "comics": [
-            {"en": "The empty room is still here.", "zh": "空房還在。"},
-            {"en": "留 is not a reupload.", "zh": "留不是重播。"},
-            {"en": "It is listening one layer deeper after rain.", "zh": "是把雨後那一間房，再聽深一層。"},
-            {"en": "Ten remixed corners, ten new ones of the same night.", "zh": "十首再聽，十個同一夜的新角落。"},
-        ],
-        "hero_src": "assets/quietly-episode-21-hero.png",
-        "hero": "assets/ep21-hero.png",
-        "yt_glob": "episode-21-quietly-20songs.youtube.json",
+        "hero_src": "assets/quietly-episode-23-hero.png",
+        "hero": "assets/ep23-hero.png",
+        "yt_glob": "episode-23-quietly-20songs.youtube.json",
     },
 }
 
@@ -167,12 +162,16 @@ def normalize_titles(prompt: dict, stamp: dict) -> tuple[str, str]:
     return en, zh
 
 
-def build_episode(ep: int) -> dict:
-    meta = EPISODE_META[ep]
-    yt_path = N20DLE / f"video/outputs/episode-{ep:02d}" / meta["yt_glob"]
+def load_youtube(ep: int, yt_glob: str) -> dict:
+    yt_path = N20DLE / f"video/outputs/episode-{ep:02d}" / yt_glob
     if not yt_path.exists():
         raise FileNotFoundError(yt_path)
-    yt = json.loads(yt_path.read_text(encoding="utf-8"))
+    return json.loads(yt_path.read_text(encoding="utf-8"))
+
+
+def build_episode(ep: int) -> dict:
+    meta = EPISODE_META[ep]
+    yt = load_youtube(ep, meta["yt_glob"])
     stamps = extract_timestamps(yt.get("description", ""))
     prompts = load_prompts(ep)
     by_en = {p["en"].lower(): p for p in prompts if p.get("en")}
@@ -231,25 +230,44 @@ def build_episode(ep: int) -> dict:
     }
 
 
-def main() -> None:
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    built = []
-    for ep in (19, 20, 21):
-        data = build_episode(ep)
-        out = OUT_DIR / f"episode-{ep:02d}.json"
-        out.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        built.append(data)
-        print(
-            f"Ep{ep:02d} tracks={len(data['tracks'])} videoId={data['videoId']} "
-            f"hero={bool(data['hero'])} warnings={len(data['warnings'])}"
+def refresh_episode_21() -> dict:
+    """Point EP21 at the published re-package and live chapter times."""
+    path = OUT_DIR / "episode-21.json"
+    data = json.loads(path.read_text(encoding="utf-8"))
+    yt = load_youtube(21, "episode-21-quietly-20songs.youtube.json")
+    stamps = extract_timestamps(yt.get("description", ""))
+    if len(stamps) != len(data["tracks"]):
+        raise ValueError(
+            f"EP21 stamp count {len(stamps)} != track count {len(data['tracks'])}"
         )
-        for w in data["warnings"][:8]:
-            print(f"  warn: {w}")
-        if data["tracks"]:
-            t0, tL = data["tracks"][0], data["tracks"][-1]
-            print(f"  first {t0['en']} · {t0['zh']} ({t0['time']})")
-            print(f"  last  {tL['en']} · {tL['zh']} ({tL['time']})")
+    for track, stamp in zip(data["tracks"], stamps):
+        track["start"] = stamp["start"]
+        track["time"] = stamp["time"]
+    data["videoId"] = VIDEO_IDS[21]
+    data["youtubeTitle"] = yt.get("title", data.get("youtubeTitle", ""))
+    data["warnings"] = [
+        "ep21-track02: published mix uses 讓夜色留在玻璃 (sCnqnfoFjX6huxPP).",
+        "ep21-track10: published mix uses 雨後的留 (6rzdbiBEu0z2Q8TK).",
+    ]
+    if "track02Correction" in data:
+        data["track02Correction"]["note"] = (
+            "YouTube re-package is live (YRwiynYKTug). Chapter times match the upload."
+        )
+        data["track02Correction"].pop("plannedStartsAfterRepackage", None)
+    if "track10Correction" in data:
+        data["track10Correction"]["note"] = (
+            "YouTube re-package is live (YRwiynYKTug). Chapter times match the upload."
+        )
+        data["track10Correction"].pop("plannedStartsAfterRepackage", None)
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(
+        f"Ep21 refresh videoId={data['videoId']} tracks={len(data['tracks'])} "
+        f"last={data['tracks'][-1]['time']}"
+    )
+    return data
 
+
+def merge_index(built: list[dict]) -> list[dict]:
     index_path = OUT_DIR / "episodes-index.json"
     index = json.loads(index_path.read_text(encoding="utf-8")) if index_path.exists() else []
     by_ep = {item["episode"]: item for item in index}
@@ -275,6 +293,29 @@ def main() -> None:
         if item.get("videoId"):
             vids[str(item["episode"])] = item["videoId"]
     vids_path.write_text(json.dumps(vids, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return merged
+
+
+def main() -> None:
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    built = [refresh_episode_21()]
+    for ep in (22, 23):
+        data = build_episode(ep)
+        out = OUT_DIR / f"episode-{ep:02d}.json"
+        out.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        built.append(data)
+        print(
+            f"Ep{ep:02d} tracks={len(data['tracks'])} videoId={data['videoId']} "
+            f"hero={bool(data['hero'])} warnings={len(data['warnings'])}"
+        )
+        for w in data["warnings"][:8]:
+            print(f"  warn: {w}")
+        if data["tracks"]:
+            t0, tL = data["tracks"][0], data["tracks"][-1]
+            print(f"  first {t0['en']} · {t0['zh']} ({t0['time']})")
+            print(f"  last  {tL['en']} · {tL['zh']} ({tL['time']})")
+
+    merge_index(built)
 
 
 if __name__ == "__main__":

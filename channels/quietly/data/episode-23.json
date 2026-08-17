@@ -1,0 +1,235 @@
+{
+  "episode": 23,
+  "slug": "beyond-galaxy-waiting",
+  "title": {
+    "en": "Beyond the Galaxy Waiting",
+    "zh": "銀河外聽候"
+  },
+  "logline": "星圖在最邊緣寫了一個空白。候不是求救——是不死者把等待做成工作。",
+  "videoId": "ipeWZFg-7S4",
+  "youtubeTitle": "[playlist] QuietLY · 候 — Beyond the Galaxy / Slow Mandarin Jazz (TJ28)",
+  "comics": [
+    {
+      "en": "A blank at the edge of the star chart.",
+      "zh": "星圖在最邊緣寫了一個空白。"
+    },
+    {
+      "en": "候 is not a distress call.",
+      "zh": "候不是求救。"
+    },
+    {
+      "en": "An immortal makes waiting into work.",
+      "zh": "是不死者把等待做成工作。"
+    },
+    {
+      "en": "TJ28 has arrived; still listening for 候.",
+      "zh": "TJ28 已抵達，仍在聽候。"
+    }
+  ],
+  "hero": "assets/ep23-hero.png",
+  "comicImages": [],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "0:00",
+      "en": "Blank on the Chart",
+      "zh": "星圖空白",
+      "voice": "女聲",
+      "lyrics": "[English — opening]\nThe chart marks this edge as blank\nNot empty — only unseeable\nI am not going farther\nI am being folded into another frequency\n\n[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n星圖在這裡\n寫了一個空白\n不是沒有星\n是看不見\n\n[Refrain]\n聽一點候\n不用說破\n空白還在\n我先停\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n折光還沒開口\n船還在原來的座標\n只是時間\n換了一個版本\n\n[Refrain]\n聽一點候\n不用說破\n空白還在\n我先停\n\n[Poetry]\n路漫漫其修遠兮\n吾將上下而求索\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n空白不是無\n是另一層\n還在轉\n\n[Final refrain]\n圖還空白\n我還在\n先聽候\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-23/01-blank-on-the-chart.md"
+    },
+    {
+      "n": "02",
+      "start": 137,
+      "time": "2:17",
+      "en": "Refraction Domain",
+      "zh": "折光域",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n折光域不是黑洞\n也不是雲\n是銀河疊著\n另一個頻率\n\n[Refrain]\n光在折\n時在換\n候就候在\n這一層\n\n[English — after verse 1]\nNot a hole, not a cloud\nA layer running on another clock\nThe ship does not travel\nIt is exchanged\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n穿過它\n並不前往遠方\n同一顆星\n可能已熄、未生\n\n[Refrain]\n光在折\n時在換\n候就候在\n這一層\n\n[Poetry]\n日月忽其不淹兮\n春與秋其代序\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n春與秋\n在詩裏輪\n在這裏疊\n\n[Final refrain]\n光還折\n星還在\n我不催\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-23/02-refraction-domain.md"
+    },
+    {
+      "n": "03",
+      "start": 290,
+      "time": "4:50",
+      "en": "Same Star, Other Time",
+      "zh": "同星異時",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n同一顆星\n仍掛在原位\n只是活在\n沒發生過的歷史\n\n[Refrain]\n星還在\n史不同\n候不必\n改座標\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n參商不相見\n是古事\n這裏只是\n同一點光，兩個時辰\n\n[Refrain]\n星還在\n史不同\n候不必\n改座標\n\n[English — before poetry]\nBefore the poem, stay with one star\nIt has not moved\nOnly its century has been swapped\nAnd I keep the same quiet watch\n\n[Poetry]\n人生不相見\n動如參與商\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n見與不見\n都算在\n這一顆\n\n[Final refrain]\n星還原位\n時還折\n我看著\n\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-23/03-same-star-other-time.md"
+    },
+    {
+      "n": "04",
+      "start": 427,
+      "time": "7:07",
+      "en": "Scattered Fragments",
+      "zh": "同時的碎片",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n艦沒有炸\n只被拆成\n同時存在的\n幾個片段\n\n[Refrain]\n一段留\n一段墜\n一段停在\n即將墜毀\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n山嶽可隔\n茫茫是遠事\n這裏的碎片\n沒有先後\n\n[Refrain]\n一段留\n一段墜\n一段停在\n即將墜毀\n\n[Poetry]\n明日隔山嶽\n世事兩茫茫\n\n[English — after poetry]\nThe hull does not explode\nIt becomes several nows at once\nOne stays, one falls, one forever\nIn the second before impact\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n先後是舊曆\n同時是新傷\n我撿起\n\n[Final refrain]\n片還在\n秒還停\n我不拼完\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-23/04-scattered-fragments.md"
+    },
+    {
+      "n": "05",
+      "start": 595,
+      "time": "9:55",
+      "en": "Unnamed Rock",
+      "zh": "無名岩星",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 岩星沒有名字\n[Male] 地圖也不給它一筆\n[Both] TJ28\n被留在這裏\n\n[Refrain]\n無名也好\n候也夠\n不死不是\n不落地\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n[Female] 少壯是別處的事\n[Male] 蒼髮也到不了這具身體\n[Both] 只有岩\n記得重量\n\n[Refrain]\n無名也好\n候也夠\n不死不是\n不落地\n\n[English — between refrains]\nNo name on the rock\nNo rescue on the schedule\nWe stand where the map refused ink\nAnd wait without shrinking\n\n[Poetry]\n少壯能幾時\n鬢髮各已蒼\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你聽岩\n[Male] 我聽空\n[Both] 都算候\n\n[Final refrain]\n星還無名\n人還在\n我們先停\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-23/05-unnamed-rock.md"
+    },
+    {
+      "n": "06",
+      "start": 717,
+      "time": "11:57",
+      "en": "Seven Moons",
+      "zh": "七輪月",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n七輪月亮\n輪流把影子\n放在同一塊\n岩石上\n\n[Refrain]\n月很多\n夜很準\n候就數\n這七輪\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n秉燭是舊禮\n夢寐是遠事\n這裏只對\n七種淡光\n\n[Refrain]\n月很多\n夜很準\n候就數\n這七輪\n\n[Poetry]\n夜闌更秉燭\n相對如夢寐\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n一輪過\n一輪來\n我還醒\n\n[Final refrain]\n月還七\n影還在\n我先候\n\n[English — closing]\nSeven moons take turns\nLaying one shadow on the same stone\nI do not choose a favorite\nI count them as a clock\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-23/06-seven-moons.md"
+    },
+    {
+      "n": "07",
+      "start": 854,
+      "time": "14:14",
+      "en": "Twin Suns",
+      "zh": "纏繞雙日",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n兩顆太陽\n互相纏繞\n把白天\n拉成兩種熱\n\n[Refrain]\n日纏日\n影重影\n候在縫裏\n不選邊\n\n[English — after verse 1]\nTwo suns braid each other\nDay has two kinds of heat\nI stand in the seam\nAnd do not pick a side\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n天山月是遠詩\n這裏沒有天山\n只有雙日\n不肯分開\n\n[Refrain]\n日纏日\n影重影\n候在縫裏\n不選邊\n\n[Poetry]\n明月出天山\n蒼茫雲海間\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n出與入\n都算晝\n我側身\n\n[Final refrain]\n日還纏\n縫還在\n我不走\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-23/07-twin-suns.md"
+    },
+    {
+      "n": "08",
+      "start": 987,
+      "time": "16:27",
+      "en": "Blue Snow",
+      "zh": "藍雪",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n三百一十二天\n落下一次藍雪\n不是季節\n是這顆星的標點\n\n[Refrain]\n雪很藍\n期很長\n候就寫在\n這一場\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n瀚海冰是舊邊塞\n這裏沒有邊塞\n只有藍\n按期到達\n\n[Refrain]\n雪很藍\n期很長\n候就寫在\n這一場\n\n[Poetry]\n瀚海闌干百丈冰\n愁雲慘淡萬里凝\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nThree hundred twelve days then blue snow\nA punctuation, not a storm\nI do not pray for it\nI only keep the interval honest\n\n[Final refrain]\n雪還藍\n期還準\n我不提前\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-23/08-blue-snow.md"
+    },
+    {
+      "n": "09",
+      "start": 1111,
+      "time": "18:31",
+      "en": "Call Home",
+      "zh": "呼叫母星",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n最初牠呼叫母星\n訊號越過雙日\n穿過沒有盡頭的\n星塵\n\n[Refrain]\n呼很遠\n答很空\n候不是\n這一聲\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n東門送是人間別\n天山路是遠雪\n這裏只有\n自己的回程噪聲\n\n[Refrain]\n呼很遠\n答很空\n候不是\n這一聲\n\n[English — before poetry]\nBefore the poem, a call goes out\nPast two suns, through unending dust\nNo mother world answers\nOnly the path the signal already walked\n\n[Poetry]\n輪台東門送君去\n去時雪滿天山路\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n去是舊航\n回是空頻\n我放下話筒\n\n[Final refrain]\n呼還在耳\n星還不答\n我先停呼\n\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-23/09-call-home.md"
+    },
+    {
+      "n": "10",
+      "start": 1259,
+      "time": "20:59",
+      "en": "Echo of Selves",
+      "zh": "自己的回聲",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 回來的不是無人\n[Male] 是許多個自己同時說話\n[Both] 有的仍在求救\n有的已返航\n\n[Refrain]\n回聲疊\n我不辨\n候就聽\n這許多我\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n[Female] 君不見是古送別\n[Male] 馬行處是雪上的痕跡\n[Both] 這裏的痕\n是自己的頻率\n\n[Refrain]\n回聲疊\n我不辨\n候就聽\n這許多我\n\n[English — between refrains]\nNot silence — many selves at once\nSome still calling from the bridge\nSome already home\nSome never born\n\n[Poetry]\n山回路轉不見君\n雪上空留馬行處\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你聽求救\n[Male] 我聽返航\n[Both] 都算我\n\n[Final refrain]\n聲還疊\n我不拆\n我們先聽\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-23/10-echo-of-selves.md"
+    },
+    {
+      "n": "11",
+      "start": 1416,
+      "time": "23:36",
+      "en": "Stop Calling",
+      "zh": "停止呼救",
+      "voice": "女聲",
+      "lyrics": "[English — opening]\nThe calling stops\nNot as surrender\nAs understanding\nThe echo was already a crowd of me\n\n[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n於是停止呼救\n不是放棄\n是聽懂了\n回聲裏的自己\n\n[Refrain]\n不呼也好\n候仍在\n靜不是\n沒有人\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n海樓是雲的舊幻\n這裏不造樓\n只把呼叫\n輕輕闔上\n\n[Refrain]\n不呼也好\n候仍在\n靜不是\n沒有人\n\n[Poetry]\n月下飛天鏡\n雲生結海樓\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n鏡可飛\n樓可結\n話筒先歇\n\n[Final refrain]\n呼已停\n耳還開\n我改為候\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-23/11-stop-calling.md"
+    },
+    {
+      "n": "12",
+      "start": 1546,
+      "time": "25:46",
+      "en": "Dates in Stone",
+      "zh": "岩上記日",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n在岩層上刻下\n每一次藍雪的日期\n不是日記\n是工作\n\n[Refrain]\n日很淺\n石很硬\n候就刻在\n這一筆\n\n[English — after verse 1]\nEach blue snow is cut into rock\nNot a diary, a duty\nThe home-river of the poem is elsewhere\nThe interval is here\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n故鄉水可憐\n行舟可送\n這裏沒有水\n只有日期的凹痕\n\n[Refrain]\n日很淺\n石很硬\n候就刻在\n這一筆\n\n[Poetry]\n仍憐故鄉水\n萬里送行舟\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n舟已遠\n石還近\n我再刻\n\n[Final refrain]\n痕還在\n期還準\n我不擦\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-23/12-dates-in-stone.md"
+    },
+    {
+      "n": "13",
+      "start": 1703,
+      "time": "28:23",
+      "en": "Wreckage Array",
+      "zh": "接收陣列",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 殘艦零件排成陣\n[Male] 不是祭壇\n[Both] 是耳朵\n放在風裏\n\n[Refrain]\n陣很靜\n風很薄\n候就架在\n這些鐵\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n[Female] 冰塞川是舊難路\n[Male] 雪滿山是舊難登\n[Both] 這裏不渡河\n只接收\n\n[Refrain]\n陣很靜\n風很薄\n候就架在\n這些鐵\n\n[Poetry]\n欲渡黃河冰塞川\n將登太行雪滿山\n\n[English — after poetry]\nWreckage becomes an ear\nNot a shrine\nIce and mountain of the old hard road\nStay in the poem; the array only listens\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你聽鐵\n[Male] 我聽風\n[Both] 都算陣\n\n[Final refrain]\n陣還開\n訊號未定\n我們不拆\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-23/13-wreckage-array.md"
+    },
+    {
+      "n": "14",
+      "start": 1848,
+      "time": "30:48",
+      "en": "Waiting Is Work",
+      "zh": "等待是工作",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n對不死者\n等待不是空白\n是漫長的\n工作\n\n[Refrain]\n不急逃\n不祈奇蹟\n候是日課\n不是罰\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n垂釣夢日是詩裏的偶然\n這裏沒有溪\n只有把每一個三百一十二天\n做成一件事\n\n[Refrain]\n不急逃\n不祈奇蹟\n候是日課\n不是罰\n\n[Poetry]\n閒來垂釣碧溪上\n忽復乘舟夢日邊\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nWaiting is not empty for the undying\nIt is long work\nNo hurry to flee, no luxury of miracle\nOnly the next honest interval\n\n[Final refrain]\n工還在\n空白沒有\n我不稱為等死\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-23/14-waiting-is-work.md"
+    },
+    {
+      "n": "15",
+      "start": 1960,
+      "time": "32:40",
+      "en": "Which Self Returns",
+      "zh": "帶走的是誰",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n若來的是\n從未迷失的我\n帶走的會是我\n還是牠自己\n\n[Refrain]\n問很輕\n答未到\n候裏藏著\n這一道題\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n青天大道是舊不得出\n這裏不是出不去\n是不知\n哪一個算出門\n\n[Refrain]\n問很輕\n答未到\n候裏藏著\n這一道題\n\n[English — before poetry]\nBefore the poem, keep the unsolved\nIf the unlost self arrives\nWhom does it take home\nMe, or only itself\n\n[Poetry]\n大道如青天\n我獨不得出\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n出是誰的出\n門是誰的門\n我先不答\n\n[Final refrain]\n題還在\n人未到\n我仍候\n\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-23/15-which-self-returns.md"
+    },
+    {
+      "n": "16",
+      "start": 2108,
+      "time": "35:08",
+      "en": "Illusion of Home",
+      "zh": "回家的幻覺",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n最怕被找到時\n才發現回家\n只是另一個宇宙\n替牠準備的幻覺\n\n[Refrain]\n家很像\n路很真\n候最怕\n是假航線\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n投箸茫然是席上的舊難\n這裏沒有席\n只有一條\n可能發光的錯路\n\n[Refrain]\n家很像\n路很真\n候最怕\n是假航線\n\n[Poetry]\n停杯投箸不能食\n拔劍四顧心茫然\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nThe fear is not loneliness\nIt is being found\nAnd learning home was a kindness\nWritten by another universe\n\n[Final refrain]\n幻還可能\n陣還聽著\n我把怕放輕\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-23/16-illusion-of-home.md"
+    },
+    {
+      "n": "17",
+      "start": 2232,
+      "time": "37:12",
+      "en": "Cross-Night Signal",
+      "zh": "跨夜訊號",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n陣列捉到一段\n似曾相識的旋律\n像另一夜\n有人在別的星圖裏低聲\n\n[Refrain]\n曲很淡\n夜很隔\n候像跨過\n另一首的頻率\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n寄心與月是人間的遠信\n夜郎是遠地\n這裏只借用\n那一點「曾經聽過」\n不借用那夜的座標\n\n[Refrain]\n曲很淡\n夜很隔\n候像跨過\n另一首的頻率\n\n[Poetry]\n我寄愁心與明月\n隨君直到夜郎西\n\n[English — after poetry]\nA familiar phrase arrives\nNot Orion’s old pull, only a cousin frequency\nAs if another night called across\nAnd the array answered without claiming it\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n惑是別集的字\n候是這集的工\n旋律只點頭\n\n[Final refrain]\n訊號還淡\n我不追星門\n只記下這一句\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-23/17-cross-night-signal.md"
+    },
+    {
+      "n": "18",
+      "start": 2435,
+      "time": "40:35",
+      "en": "Overlapping Voices",
+      "zh": "重疊的聲",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 副歌忽然變寬\n[Male] 不是高潮\n[Both] 是許多 TJ28\n同時把氣放輕\n\n[Refrain]\n聲重疊\n心不搶\n候被唱成\n一層一層\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n[Female] 子規啼是遠春\n[Male] 五溪是遠路\n[Both] 這裏沒有春路\n只有同名的呼吸\n\n[Refrain]\n聲重疊\n心不搶\n候被唱成\n一層一層\n\n[English — between refrains]\nThe refrain widens\nNot a climax\nLayered breath of many TJ28\nAnswering on one frequency\n\n[Poetry]\n楊花落盡子規啼\n聞道龍標過五溪\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你唱這一層\n[Male] 我唱那一層\n[Both] 都不急\n\n[Final refrain]\n疊還在\n名還同\n我們輕一點\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-23/18-overlapping-voices.md"
+    },
+    {
+      "n": "19",
+      "start": 2555,
+      "time": "42:35",
+      "en": "I Have Arrived",
+      "zh": "我已抵達",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n結尾不是獲救\n是一聲微弱卻清晰\nTJ28\n我已抵達\n\n[Refrain]\n話很短\n空很長\n候停在\n這一句後面\n\n[English — after verse 1]\nNot rescue — a thin clear line\nTJ28, I have arrived\nThen space enough\nTo doubt the speaker\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n叢菊兩開是人間的兩年\n故園心是遠繫\n這裏只繫住\n這五個字\n\n[Refrain]\n話很短\n空很長\n候停在\n這一句後面\n\n[Poetry]\n叢菊兩開他日淚\n孤舟一繫故園心\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n淚是舊秋\n抵達是新聲\n我不追問\n\n[Final refrain]\n句還在\n人未露面\n我聽完留白\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-23/19-i-have-arrived.md"
+    },
+    {
+      "n": "20",
+      "start": 2734,
+      "time": "45:34",
+      "en": "Still Listening for 候",
+      "zh": "仍在聽候",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 說話者是救援\n[Male] 或是另一個 TJ28\n[Both] 我們仍在聽候\n不把答案說破\n\n[Refrain]\n仍在聽候\n不用說破\n像聽藍雪\n還沒落完的那一夜\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n[Female] 波浪兼天是遠江\n[Male] 風雲接地是遠塞\n[Both] 這裏只有岩\n與一句未完的通訊\n\n[Refrain]\n仍在聽候\n不用說破\n像聽藍雪\n還沒落完的那一夜\n\n[Poetry]\n江間波浪兼天湧\n塞上風雲接地陰\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你聽抵達\n[Male] 我聽回聲\n[Both] 都算候\n\n[Final refrain]\n雪未落\n訊未完\n我們仍在聽候\n\n[English — closing]\nStill listening for 候 on the unnamed rock\nSeven moons, twin suns, the array still open\nNot a verdict — an arrival that might be the self\nAnd we stay inside the wait\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-23/20-still-listening-for-hou.md"
+    }
+  ],
+  "warnings": [],
+  "lyricsSource": "songs/prompts/episode-23/*.md"
+}
