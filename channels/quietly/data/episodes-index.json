@@ -294,11 +294,40 @@
     },
     "logline": "空房還在。留不是重播——是把雨後那一間房，再聽深一層。",
     "trackCount": 20,
-    "videoId": "e-SNL8sZMUM",
+    "videoId": "YRwiynYKTug",
     "href": "worlds/empty-room-linger.html",
     "hasHero": true,
     "warnings": [
-      "track02 → 讓夜色留在玻璃; track10 → 雨後的留; YouTube re-package pending"
+      "ep21-track02: published mix uses 讓夜色留在玻璃 (sCnqnfoFjX6huxPP).",
+      "ep21-track10: published mix uses 雨後的留 (6rzdbiBEu0z2Q8TK)."
     ]
+  },
+  {
+    "episode": 22,
+    "slug": "greenhouse-night-warmth",
+    "title": {
+      "en": "Greenhouse Night Warmth",
+      "zh": "溫室夜聽暖"
+    },
+    "logline": "溫室還亮著一盞過道燈。外冷內溫——暖不是火，是玻璃裏不肯散的空氣。",
+    "trackCount": 20,
+    "videoId": "E0_t_VcuYME",
+    "href": "worlds/greenhouse-night-warmth.html",
+    "hasHero": true,
+    "warnings": []
+  },
+  {
+    "episode": 23,
+    "slug": "beyond-galaxy-waiting",
+    "title": {
+      "en": "Beyond the Galaxy Waiting",
+      "zh": "銀河外聽候"
+    },
+    "logline": "星圖在最邊緣寫了一個空白。候不是求救——是不死者把等待做成工作。",
+    "trackCount": 20,
+    "videoId": "ipeWZFg-7S4",
+    "href": "worlds/beyond-galaxy-waiting.html",
+    "hasHero": true,
+    "warnings": []
   }
 ]
