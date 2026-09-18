@@ -1,0 +1,103 @@
+{
+  "songId": "song_001",
+  "bpm": 100,
+  "totalQuestions": 8,
+  "questions": [
+    {
+      "id": 1,
+      "startTime": 0,
+      "endTime": 4000,
+      "beatTime": 2500,
+      "lyricLine": "Hello, ______!",
+      "lyricLineRomanization": "こんにちは、______！",
+      "translation": "你好，大家！",
+      "correctAnswer": "everyone",
+      "options": ["everyone", "someone", "anyone", "no one"],
+      "explanation": "「大家好」的英文是「Hello, everyone!」"
+    },
+    {
+      "id": 2,
+      "startTime": 4000,
+      "endTime": 8000,
+      "beatTime": 6500,
+      "lyricLine": "How are ______ today?",
+      "lyricLineRomanization": "今日は______ですか？",
+      "translation": "你今天好嗎？",
+      "correctAnswer": "you",
+      "options": ["you", "your", "yours", "yourself"],
+      "explanation": "問候對方用 How are you"
+    },
+    {
+      "id": 3,
+      "startTime": 8000,
+      "endTime": 12000,
+      "beatTime": 10500,
+      "lyricLine": "I am ______, thank you.",
+      "lyricLineRomanization": "私は______です、ありがとう。",
+      "translation": "我很好，謝謝。",
+      "correctAnswer": "fine",
+      "options": ["fine", "find", "five", "fire"],
+      "explanation": "I am fine 是常見回覆"
+    },
+    {
+      "id": 4,
+      "startTime": 12000,
+      "endTime": 16000,
+      "beatTime": 14500,
+      "lyricLine": "Nice to ______ you!",
+      "lyricLineRomanization": "お______できてうれしい！",
+      "translation": "很高興認識你！",
+      "correctAnswer": "meet",
+      "options": ["meet", "met", "meat", "mean"],
+      "explanation": "初次見面說 Nice to meet you"
+    },
+    {
+      "id": 5,
+      "startTime": 16000,
+      "endTime": 20000,
+      "beatTime": 18500,
+      "lyricLine": "My ______ is Anna.",
+      "lyricLineRomanization": "私の______はアンナです。",
+      "translation": "我的名字是 Anna。",
+      "correctAnswer": "name",
+      "options": ["name", "game", "same", "fame"],
+      "explanation": "自我介紹：My name is…"
+    },
+    {
+      "id": 6,
+      "startTime": 20000,
+      "endTime": 24000,
+      "beatTime": 22500,
+      "lyricLine": "Where are you ______ from?",
+      "lyricLineRomanization": "どちらから______ましたか？",
+      "translation": "你來自哪裡？",
+      "correctAnswer": "from",
+      "options": ["from", "for", "form", "farm"],
+      "explanation": "Where are you from? 問出身地"
+    },
+    {
+      "id": 7,
+      "startTime": 24000,
+      "endTime": 28000,
+      "beatTime": 26500,
+      "lyricLine": "Have a ______ day!",
+      "lyricLineRomanization": "______な一日を！",
+      "translation": "祝你有美好的一天！",
+      "correctAnswer": "nice",
+      "options": ["nice", "night", "nine", "noise"],
+      "explanation": "Have a nice day 是常用祝福"
+    },
+    {
+      "id": 8,
+      "startTime": 28000,
+      "endTime": 32000,
+      "beatTime": 30500,
+      "lyricLine": "See you ______!",
+      "lyricLineRomanization": "また______ね！",
+      "translation": "稍後見！",
+      "correctAnswer": "later",
+      "options": ["later", "letter", "ladder", "lighter"],
+      "explanation": "See you later 表示稍後見"
+    }
+  ]
+}
