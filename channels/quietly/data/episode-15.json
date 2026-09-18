@@ -36,198 +36,200 @@
       "en": "Current Takes the Leaf",
       "zh": "水帶走葉",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-15/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n溪岸邊一片葉\n不必決定去向\n水先動\n它就跟\n\n[Refrain]\n順一點\n再順一點\n不是放棄\n是跟得上\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n鵝卵石把腳磨圓\n我也把著急\n磨成一點聲音\n\n[Refrain]\n順一點\n再順一點\n不是放棄\n是跟得上\n\n[Poetry]\n潮平兩岸闊\n風正一帆懸\n\n[English — after poetry]\nLet the current take the leaf\nNo map is needed for this turn\nThe bank keeps watching\nWhile the water knows the way\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n順不是漂失\n是終於肯\n跟著水流呼吸\n\n[Final refrain]\n葉走遠了\n岸還在\n我還在\n卻輕一點\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-15/01-current-takes-the-leaf.md"
     },
     {
       "n": "02",
-      "start": 0,
-      "time": "0:00",
+      "start": 131,
+      "time": "2:11",
       "en": "Willow Doesn't Argue",
       "zh": "柳不爭辯",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-15/"
+      "lyrics": "[English — opening]\nThe willow does not argue with the wind\nIt bends and still remains a tree\nI learn the same soft grammar\nBeside this quiet bank\n\n[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n柳條垂到水面\n從不解釋彎度\n風來就彎\n風停就回\n\n[Refrain]\n不爭辯\n也算一種順\n溪水懂\n柳也懂\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n我曾用力撐直自己\n像怕被看成軟弱\n今天把腰\n還給晚風\n\n[Refrain]\n不爭辯\n也算一種順\n溪水懂\n柳也懂\n\n[Poetry]\n渡頭餘落日\n墟里上孤煙\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n渡頭有日落\n我有一個\n終於肯鬆的肩膀\n\n[Final refrain]\n柳還在彎\n水還在走\n我不辯了\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-15/02-willow-doesnt-argue.md"
     },
     {
       "n": "03",
-      "start": 0,
-      "time": "0:00",
+      "start": 267,
+      "time": "4:27",
       "en": "Pebble Turns Once",
       "zh": "石子翻一次",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-15/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n石子被水翻一次\n就換一面光\n不必翻很多次\n才算前進\n\n[Refrain]\n翻一次\n就夠了\n順有時\n只要一小步\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n溪底的紋路\n不是給人讀的\n是給水流過的\n\n[Refrain]\n翻一次\n就夠了\n順有時\n只要一小步\n\n[English — before poetry]\nBefore the poem, stay here:\none turn of a pebble is enough\nthe current does not demand\na grand conversion\n\n[Poetry]\n江流天地外\n山色有無中\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n遠山有無之間\n我也在有無之間\n卻不再卡住\n\n[Final refrain]\n石翻了\n水繼續\n我跟上\n\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-15/03-pebble-turns-once.md"
     },
     {
       "n": "04",
-      "start": 0,
-      "time": "0:00",
+      "start": 416,
+      "time": "6:56",
       "en": "Soft Yes",
       "zh": "輕聲的順",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-15/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n不是什麼都答應\n是把反抗\n從日常裏抽出來\n留一點空給流動\n\n[Refrain]\n輕聲的順\n不是沒有邊界\n是不再把每件事\n都變成角力\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n雁往家鄉那邊飛\n信還在路上\n時間自己會換班\n我不需要打架\n\n[Refrain]\n輕聲的順\n不是沒有邊界\n是不再把每件事\n都變成角力\n\n[Poetry]\n鄉書何處達\n歸雁洛陽邊\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nA soft yes to the next small turn\nNot surrender, just less friction\nDawn arrives without asking\nAnd I walk with it\n\n[Final refrain]\n輕聲說好\n不是輸\n是終於聽得見\n自己的節奏\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-15/04-soft-yes-rap.md"
     },
     {
       "n": "05",
-      "start": 0,
-      "time": "0:00",
+      "start": 534,
+      "time": "8:54",
       "en": "Two Banks Same Water",
       "zh": "兩岸同水",
       "voice": "男女混唱",
-      "lyrics": "",
-      "source": "songs/prompts/episode-15/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 你在左岸\n[Male] 我在右岸\n[Both] 同一條水\n不必走成同一足跡\n\n[Refrain]\n各自順流\n也算同行\n順不是\n變成同一個人\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n九派通向遠方\n我們通向各自的呼吸\n中間那條亮線\n把我們輕輕連著\n\n[Refrain]\n各自順流\n也算同行\n順不是\n變成同一個人\n\n[English — between refrains]\nTwo banks share one water\nNo need to match every step\nThe current holds both sides\nWithout forcing them together\n\n[Poetry]\n楚塞三湘接\n荊門九派通\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你順你的\n[Male] 我順我的\n[Both] 水沒有偏心\n\n[Final refrain]\n岸還分開\n水還相連\n我們也這樣\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-15/05-two-banks-same-water.md"
     },
     {
       "n": "06",
-      "start": 0,
-      "time": "0:00",
+      "start": 708,
+      "time": "11:48",
       "en": "Driftwood Rests",
       "zh": "浮木靠岸",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-15/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n浮木終於靠岸\n不是被打敗\n是走夠了\n願意停一下\n\n[Refrain]\n靠一靠\n喘一口氣\n順也可以\n包含休息\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n霧氣近了又遠\n像很多念頭\n不必追到盡頭\n\n[Refrain]\n靠一靠\n喘一口氣\n順也可以\n包含休息\n\n[Poetry]\n白雲回望合\n青靄入看無\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n停不是終點\n是讓身體\n記得自己還在\n\n[Final refrain]\n木還濕\n岸還暖\n我先靠著\n\n[English — closing]\nDriftwood rests against the bank\nNot lost, only finished with rushing\nThe mist comes and goes\nAnd so can I\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-15/06-driftwood-rests.md"
     },
     {
       "n": "07",
-      "start": 0,
-      "time": "0:00",
+      "start": 856,
+      "time": "14:16",
       "en": "Ford Without Force",
       "zh": "淺灘不硬過",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-15/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n淺灘可以繞\n也可以慢慢踩\n不必把膝蓋\n撞給證明\n\n[Refrain]\n不硬過\n就過了\n順常常長得\n像退半步\n\n[English — after verse 1]\nI cross the shallow ford without force\nThe water shows me where to place my feet\nNo proof is required\nOnly a quieter courage\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n遠空的波紋\n提醒我\n用力不一定到達\n\n[Refrain]\n不硬過\n就過了\n順常常長得\n像退半步\n\n[Poetry]\n郡邑浮前浦\n波瀾動遠空\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n有些關口\n不是闖\n是等水變淺\n\n[Final refrain]\n腳還濕\n心不急\n我就過了\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-15/07-ford-without-force.md"
     },
     {
       "n": "08",
-      "start": 0,
-      "time": "0:00",
+      "start": 1009,
+      "time": "16:49",
       "en": "Follow the Bend",
       "zh": "跟著彎走",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-15/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n溪會轉彎\n我不裝直線\n直線常常是\n自己嚇自己的劇本\n\n[Refrain]\n跟著彎走\n視線會換\n不是迷路\n是地形先說了算\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n月色把樹點成細霜\n我也把自己\n從硬計畫裏鬆開\n\n[Refrain]\n跟著彎走\n視線會換\n不是迷路\n是地形先說了算\n\n[Poetry]\n江流宛轉繞芳甸\n月照花林皆似霰\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nFollow the bend without apology\nThe creek was never a ruler line\nI keep my step soft\nAnd let the turn teach me\n\n[Final refrain]\n彎過去了\n岸還亮\n我還在走\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-15/08-follow-the-bend-rap.md"
     },
     {
       "n": "09",
-      "start": 0,
-      "time": "0:00",
+      "start": 1127,
+      "time": "18:47",
       "en": "Minnows Know",
       "zh": "小魚知道",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-15/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n小魚不讀地圖\n卻很少撞岸\n它們聽水流\n比聽指令更準\n\n[Refrain]\n知道就好\n不必宣布\n順是身體\n先學會的事\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n月光照很遠\n我也只需要\n看清腳下一寸\n\n[Refrain]\n知道就好\n不必宣布\n順是身體\n先學會的事\n\n[Poetry]\n灩灩隨波千萬里\n何處春江無月明\n\n[English — after poetry]\nMinnows know the current by feel\nThey do not ask the river for a plan\nI borrow that quiet knowing\nAnd move a little freer\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n千萬里的波\n從這一寸開始\n我先把這一寸\n走順\n\n[Final refrain]\n魚過去了\n水紋還在\n我笑一下\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-15/09-minnows-know.md"
     },
     {
       "n": "10",
-      "start": 0,
-      "time": "0:00",
+      "start": 1284,
+      "time": "21:24",
       "en": "The Longest Yes",
       "zh": "最長的順",
       "voice": "男女混唱",
-      "lyrics": "",
-      "source": "songs/prompts/episode-15/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 順得久\n[Male] 比順得快更難\n[Both] 不是沒有意見\n是意見不再卡住呼吸\n\n[Refrain]\n最長的順\n像月色\n一直在\n卻不吵\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n代代的水流\n年年的月\n提醒我\n急沒有那麼重要\n\n[Refrain]\n最長的順\n像月色\n一直在\n卻不吵\n\n[English — between refrains]\nThe longest yes is quiet\nIt lasts longer than a sudden leap\nWe keep walking with the water\nWithout needing to win the night\n\n[Poetry]\n人生代代無窮已\n江月年年望相似\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你慢慢\n[Male] 我慢慢\n[Both] 月還是那個月\n\n[Final refrain]\n順得久一點\n心就寬一點\n岸也近一點\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-15/10-the-longest-yes.md"
     },
     {
       "n": "11",
-      "start": 0,
-      "time": "0:00",
+      "start": 1423,
+      "time": "23:43",
       "en": "Reed Leans With",
       "zh": "蘆葦同傾",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-15/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n蘆葦不對抗風\n它同方向傾一下\n過後又立起\n像什麼都沒有發生\n\n[Refrain]\n同傾\n不是倒下\n是借一點力\n保住根\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n白沙在水邊看不清\n很多堅持\n其實也可以看不清\n\n[Refrain]\n同傾\n不是倒下\n是借一點力\n保住根\n\n[English — before poetry]\nBefore poetry arrives, lean with the reed\nFrost can pass without being chased\nI keep my root\nAnd borrow the wind's direction\n\n[Poetry]\n空裏流霜不覺飛\n汀上白沙看不見\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n看不見的沙\n仍在托住岸\n我也托住自己\n\n[Final refrain]\n葦還在\n風過去了\n我還立著\n\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-15/11-reed-leans-with.md"
     },
     {
       "n": "12",
-      "start": 0,
-      "time": "0:00",
+      "start": 1577,
+      "time": "26:17",
       "en": "No Need to Push",
       "zh": "不必硬推",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-15/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n水自己會往低處\n我不必扮演泵\n硬推只會濺起\n一臉自己的水\n\n[Refrain]\n不必硬推\n讓重力幫忙\n順常常是\n少做一件錯的事\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n月亮很老\n問題也很老\n新的只有\n我今晚願不願鬆\n\n[Refrain]\n不必硬推\n讓重力幫忙\n順常常是\n少做一件錯的事\n\n[Poetry]\n江畔何人初見月\n江月何年初照人\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nNo need to push the river uphill\nIt already knows the lower ground\nI keep my hands open\nAnd let the night do less harm\n\n[Final refrain]\n水還在流\n我不推了\n路反而清楚\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-15/12-no-need-to-push-rap.md"
     },
     {
       "n": "13",
-      "start": 0,
-      "time": "0:00",
+      "start": 1704,
+      "time": "28:24",
       "en": "Ferry Waits",
       "zh": "渡船等一等",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-15/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n渡船可以等一等\n不是所有班次\n都值得硬趕上\n\n[Refrain]\n等一等\n也是順\n讓時機\n走到腳邊\n\n[English — after verse 1]\nThe ferry can wait one breath longer\nNot every departure is mine\nI keep the good weather\nWithout chasing every whistle\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n好風日不必搶\n留一點醉意給晚一點的光\n\n[Refrain]\n等一等\n也是順\n讓時機\n走到腳邊\n\n[Poetry]\n襄陽好風日\n留醉與山翁\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n山翁不怕晚\n我也不怕\n晚一點的順\n\n[Final refrain]\n船還在\n我上船\n心不喘\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-15/13-ferry-waits.md"
     },
     {
       "n": "14",
-      "start": 0,
-      "time": "0:00",
+      "start": 1883,
+      "time": "31:23",
       "en": "Sandbar Middle",
       "zh": "沙洲中間",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-15/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n站在沙洲中間\n左岸右岸都看得見\n暫時不必選邊\n先把腳站穩\n\n[Refrain]\n中間也可以\n是一種順\n不用立刻\n變成結論\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n霜在空中不自覺\n很多變化\n其實也不用自我提醒\n\n[Refrain]\n中間也可以\n是一種順\n不用立刻\n變成結論\n\n[Poetry]\n中歲頗好道\n晚家南山陲\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n看不見的白沙\n仍接住我\n這就夠了\n\n[Final refrain]\n洲還在\n水還分\n我先站好\n\n[English — closing]\nStanding mid-sandbar is enough for now\nBoth banks remain possible\nI do not force a verdict\nWhile the water keeps moving\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-15/14-sandbar-middle.md"
     },
     {
       "n": "15",
-      "start": 0,
-      "time": "0:00",
+      "start": 2022,
+      "time": "33:42",
       "en": "Echo After Step",
       "zh": "腳步有回聲",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-15/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n踩進淺水\n有小小回聲\n像世界輕輕說\n你來了就好\n\n[Refrain]\n有回聲\n就順了\n不是被批准\n是被接住\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n林間老人不怕晚歸\n談笑可以沒有期限\n我也給自己\n一點沒有期限\n\n[Refrain]\n有回聲\n就順了\n不是被批准\n是被接住\n\n[Poetry]\n偶然值林叟\n談笑無還期\n\n[English — after poetry]\nAn echo after one soft step\nMeans the bank heard me arrive\nI do not need a schedule\nTo belong to this water\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n無還期不是迷路\n是允許\n多待一會兒\n\n[Final refrain]\n回聲散了\n水還亮\n我還在\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-15/15-echo-after-step.md"
     },
     {
       "n": "16",
-      "start": 0,
-      "time": "0:00",
+      "start": 2157,
+      "time": "35:57",
       "en": "Go Where Water Goes",
       "zh": "水往哪走",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-15/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n水往哪走\n我就往哪看\n不是沒主見\n是主見終於不打架\n\n[Refrain]\n獨往也可以順\n勝事不必廣播\n自己知道\n就夠亮\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n溪岸沒有觀眾席\n只有石頭\n把我的腳步\n記成溫度\n\n[Refrain]\n獨往也可以順\n勝事不必廣播\n自己知道\n就夠亮\n\n[Poetry]\n興來每獨往\n勝事空自知\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nGo where the water goes for a while\nNot forever, just long enough to unclench\nI keep my own quiet wins\nWithout needing a crowd\n\n[Final refrain]\n水還在指\n我還在跟\n心不頂牛\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-15/16-go-where-water-goes-rap.md"
     },
     {
       "n": "17",
-      "start": 0,
-      "time": "0:00",
+      "start": 2289,
+      "time": "38:09",
       "en": "Evening Same Direction",
       "zh": "晚風同向",
       "voice": "男女混唱",
-      "lyrics": "",
-      "source": "songs/prompts/episode-15/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 光往西\n[Male] 月往東\n[Both] 我們卻同向\n順著今晚的呼吸\n\n[Refrain]\n同向\n不是同速\n是不再\n互相拉扯\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n池邊月慢慢上來\n像提醒\n轉換可以很安靜\n\n[Refrain]\n同向\n不是同速\n是不再\n互相拉扯\n\n[English — between refrains]\nEvening moves in one soft direction\nWe stop pulling against each other\nWest light, east moon\nAnd a shared unforced breath\n\n[Poetry]\n山光忽西落\n池月漸東上\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你慢也可以\n[Male] 我快也可以\n[Both] 只要不逆著彼此\n\n[Final refrain]\n光落了\n月來了\n我們還順\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-15/17-evening-same-direction.md"
     },
     {
       "n": "18",
-      "start": 0,
-      "time": "0:00",
+      "start": 2416,
+      "time": "40:16",
       "en": "Shoes by the Water",
       "zh": "鞋放水邊",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-15/"
+      "lyrics": "[English — opening]\nShoes rest by the water's edge\nBare feet learn the temperature first\nI take the evening slowly\nAnd let ease arrive before duty\n\n[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n鞋放在水邊\n腳先認識溫度\n世界還沒要求\n我先對自己溫柔\n\n[Refrain]\n先放著\n先試試\n順常常開始於\n一個很小的決定\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n晚涼從髮間過來\n像許可\n今晚可以不那麼端正\n\n[Refrain]\n先放著\n先試試\n順常常開始於\n一個很小的決定\n\n[Poetry]\n散發乘夕涼\n開軒臥閑敞\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n閑敞不是懶\n是把空間\n還給呼吸\n\n[Final refrain]\n鞋還在\n水很涼\n我笑了\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-15/18-shoes-by-the-water.md"
     },
     {
       "n": "19",
-      "start": 0,
-      "time": "0:00",
+      "start": 2554,
+      "time": "42:34",
       "en": "After the Rush",
       "zh": "急過之後",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-15/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n急過之後\n溪還是那條溪\n它沒有因為我忙\n就變得更短\n\n[Refrain]\n之後\n才聽見滴響\n順在忙完的\n空白裏出現\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n香氣不喊我\n它只經過\n像很多本來就夠的事\n\n[Refrain]\n之後\n才聽見滴響\n順在忙完的\n空白裏出現\n\n[English — before poetry]\nBefore the poem, notice this:\nafter the rush the creek is still here\nfragrance does not shout\nand clarity arrives as a soft drip\n\n[Poetry]\n荷風送香氣\n竹露滴清響\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n清響很小\n卻把夜晚\n放回正確的大小\n\n[Final refrain]\n急退了\n水還在\n我聽見了\n\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-15/19-after-the-rush.md"
     },
     {
       "n": "20",
-      "start": 0,
-      "time": "0:00",
+      "start": 2687,
+      "time": "44:47",
       "en": "Still Listening for 順",
       "zh": "仍在聽順",
       "voice": "男女混唱",
-      "lyrics": "",
-      "source": "songs/prompts/episode-15/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 順不是結局\n[Male] 是一直在聽\n[Both] 溪岸還沒散場\n水還肯帶我們一程\n\n[Refrain]\n仍在聽順\n像聽潮\n一起來\n一起遠\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n明月和潮一起出生\n我也和今晚\n一起把肩膀放低\n\n[Refrain]\n仍在聽順\n像聽潮\n一起來\n一起遠\n\n[Poetry]\n春江潮水連海平\n海上明月共潮生\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你聽水\n[Male] 我聽風\n[Both] 都算順\n\n[Final refrain]\n潮還在\n月還在\n我們仍在聽順\n\n[English — closing]\nStill listening for 順 beside the bank\nNot a final answer, a continuing current\nTide and moon rise together\nAnd we keep a soft pace with both\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-15/20-still-listening-for-shun.md"
     }
-  ]
+  ],
+  "warnings": [],
+  "lyricsSource": "songs/prompts/episode-15/*.md"
 }

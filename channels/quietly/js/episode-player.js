@@ -115,46 +115,69 @@
     var activeIndex = 0;
     var userSeeking = false;
 
-    var tracklist = document.getElementById("tracklist");
+    var tracklistA = document.getElementById("tracklist-a");
+    var tracklistB = document.getElementById("tracklist-b");
+    var tracklistLegacy = document.getElementById("tracklist");
     var songs = document.getElementById("songs");
     var nowTrack = document.getElementById("now-track");
     var dock = document.getElementById("dock");
     var dockTrack = document.getElementById("dock-track");
     var dockJump = document.getElementById("dock-jump");
     var session = document.getElementById("session");
+    var splitAt = Math.ceil(tracks.length / 2);
 
     function label(track) {
       return track.en + " · " + track.zh;
     }
 
+    function trackRow(t, i) {
+      return (
+        '<li><button type="button" data-index="' +
+        i +
+        '">' +
+        '<span class="tracklist__n">' +
+        t.n +
+        "</span>" +
+        '<span class="tracklist__t">' +
+        escapeHtml(t.en) +
+        ' <span class="zh">' +
+        escapeHtml(t.zh) +
+        "</span></span>" +
+        '<span class="tracklist__time">' +
+        (t.time || formatTime(t.start)) +
+        "</span>" +
+        "</button></li>"
+      );
+    }
+
     function render() {
-      tracklist.innerHTML = tracks
-        .map(function (t, i) {
-          return (
-            '<li><button type="button" data-index="' +
-            i +
-            '">' +
-            '<span class="tracklist__n">' +
-            t.n +
-            "</span>" +
-            '<span class="tracklist__t">' +
-            escapeHtml(t.en) +
-            ' <span class="zh">' +
-            escapeHtml(t.zh) +
-            "</span></span>" +
-            '<span class="tracklist__time">' +
-            (t.time || formatTime(t.start)) +
-            "</span>" +
-            "</button></li>"
-          );
-        })
-        .join("");
+      if (tracklistA && tracklistB) {
+        tracklistA.innerHTML = tracks
+          .slice(0, splitAt)
+          .map(function (t, i) {
+            return trackRow(t, i);
+          })
+          .join("");
+        tracklistB.innerHTML = tracks
+          .slice(splitAt)
+          .map(function (t, i) {
+            return trackRow(t, i + splitAt);
+          })
+          .join("");
+      } else if (tracklistLegacy) {
+        tracklistLegacy.innerHTML = tracks
+          .map(function (t, i) {
+            return trackRow(t, i);
+          })
+          .join("");
+      }
 
       songs.innerHTML = tracks
         .map(function (t, i) {
           var voice = t.voice
             ? '<span class="song__voice">' + escapeHtml(t.voice) + "</span>"
             : "";
+          var side = i < splitAt ? "A" : "B";
           return (
             '<article class="song reveal" id="song-' +
             t.n +
@@ -168,7 +191,9 @@
             escapeHtml(t.zh) +
             "</span></h3>" +
             '<div class="song__actions">' +
-            '<span class="song__index">Track ' +
+            '<span class="song__index">Side ' +
+            side +
+            " · Track " +
             t.n +
             " · " +
             (t.time || formatTime(t.start)) +
@@ -176,7 +201,7 @@
             voice +
             '<button class="song__play" type="button" data-index="' +
             i +
-            '">Play</button>' +
+            '">Drop needle</button>' +
             "</div></div>" +
             '<div class="song__body zh">' +
             renderLyricsHtml(t.lyrics) +
@@ -203,9 +228,14 @@
       if (dockTrack) dockTrack.textContent = text;
 
       Array.prototype.forEach.call(
-        tracklist.querySelectorAll("button"),
-        function (btn, i) {
-          btn.classList.toggle("is-active", i === index);
+        document.querySelectorAll(
+          "#tracklist button, #tracklist-a button, #tracklist-b button"
+        ),
+        function (btn) {
+          btn.classList.toggle(
+            "is-active",
+            Number(btn.getAttribute("data-index")) === index
+          );
         }
       );
       Array.prototype.forEach.call(
@@ -254,7 +284,11 @@
     function bindClicks() {
       document.addEventListener("click", function (ev) {
         var btn = ev.target.closest("[data-index]");
-        if (!btn || !btn.closest("#tracklist, #songs")) return;
+        if (
+          !btn ||
+          !btn.closest("#tracklist, #tracklist-a, #tracklist-b, #songs")
+        )
+          return;
         var index = Number(btn.getAttribute("data-index"));
         if (Number.isNaN(index)) return;
         var fromList = Boolean(btn.closest("#tracklist"));
@@ -340,7 +374,8 @@
   }
   var src = document.body.getAttribute("data-episode");
   if (!src) return;
-  fetch(src)
+  var bust = src.indexOf("?") >= 0 ? "&" : "?";
+  fetch(src + bust + "v=20260815f")
     .then(function (r) {
       return r.json();
     })

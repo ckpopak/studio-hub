@@ -36,198 +36,192 @@
       "en": "First Petal Joy",
       "zh": "第一瓣的樂",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-13/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n花坡剛亮\n風先笑一下\n第一瓣落下\n像把樂輕輕放在掌心\n不響\n卻夠溫暖\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n樂一點\n再樂一點\n不用盛大\n也能明亮\n\n[Verse 2]\n淺草沒過鞋面\n遠堤還在綠裏\n我把腳步放慢\n讓喜悅自己走路\n\n[Poetry]\n亂花漸欲迷人眼\n淺草才能沒馬蹄\n最愛湖東行不足\n綠楊陰裏白沙堤\n\n[English — after poetry]\nLet the first petal teach the slope\nNo parade, no loud claim\nOnly the quiet work of becoming glad\nStay where the joy is light\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n也許樂\n不是狂歡\n只是終於\n肯讓一天變輕\n\n[Final refrain]\n第一瓣還在\n樂也還在\n風繼續說\n我不打斷\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-13/01-first-petal-joy.md"
     },
     {
       "n": "02",
-      "start": 0,
-      "time": "0:00",
+      "start": 151,
+      "time": "2:31",
       "en": "Bee Path Gold",
       "zh": "蜂路金光",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-13/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[English — opening]\nGold threads of bees write across the flowers\nI do not need to chase them\nJoy can pass by\nAnd still leave the hillside warmer\n\n[Instrumental — 10 seconds]\n\n[Verse 1]\n蜜蜂畫一條金線\n從這朵到那朵\n我不追\n只站在坡上看樂經過\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n金線彎過\n心也彎過\n忙得很輕\n像一種野外的樂\n\n[Verse 2]\n荷紅很遠\n卻像提醒\n顏色可以盛大\n心情可以低調\n\n[Poetry]\n畢竟西湖六月中\n風光不與四時同\n接天蓮葉無窮碧\n映日荷花別樣紅\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n不採蜜\n也算參與\n看一眼\n就夠甜\n\n[Final refrain]\n蜂走遠了\n金線還在空氣裏\n樂也還在\n像沒說完的甜\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-13/02-bee-path-gold.md"
     },
     {
       "n": "03",
-      "start": 0,
-      "time": "0:00",
-      "en": "Apricot Over Wall",
-      "zh": "紅杏出牆",
-      "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-13/"
-    },
-    {
-      "n": "04",
-      "start": 0,
-      "time": "0:00",
+      "start": 356,
+      "time": "5:56",
       "en": "Soft Joy",
       "zh": "輕聲的樂",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-13/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n我笑一下不是表演\n是坡上風真的剛好\n細雨斜來\n也不趕路\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n輕聲的樂\n不是熱鬧\n是把力氣\n留給繼續走\n\n[Verse 2]\n白鷺一閃\n桃花在水裏開會\n沒有主席\n卻有共識：今天可以樂\n\n[Poetry]\n西塞山前白鷺飛\n桃花流水鱖魚肥\n青箬笠\n綠蓑衣\n斜風細雨不須歸\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nSoft joy, not a carnival\nRain can fall and still feel kind\nI nod to the hillside work\nAnd let the hurry go unused\n\n[Final refrain]\n笑過之後\n風也鬆一點\n樂在口袋裏\n不發亮\n卻夠用\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-13/04-soft-joy-rap.md"
     },
     {
-      "n": "05",
-      "start": 0,
-      "time": "0:00",
+      "n": "04",
+      "start": 453,
+      "time": "7:33",
       "en": "Two Kites Meet",
       "zh": "兩紙鳶相遇",
       "voice": "男女混唱",
-      "lyrics": "",
-      "source": "songs/prompts/episode-13/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 東風把線拉高\n[Male] 西風把線放鬆\n[Both] 兩紙鳶在坡上相遇\n沒有誰贏\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n相遇就好\n不必飛成同一高度\n樂是並肩的線\n不是互相糾纏\n\n[English — between refrains]\nTwo kites meet and keep their strings\nNo one must disappear\nJoy is the shared air\nBetween different flying\n\n[Refrain — return]\n相遇就好\n不必飛成同一高度\n樂是並肩的線\n不是互相糾纏\n\n[Verse 2]\n楊柳醉了\n我們也輕一點\n誰也不急著落地\n這就是野外的樂\n\n[Poetry]\n草長鶯飛二月天\n拂堤楊柳醉春煙\n兒童散學歸來早\n忙趁東風放紙鳶\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你帶色彩\n[Male] 我帶風聲\n[Both] 天空接住全部\n\n[Final refrain]\n風走了\n草還在搖\n像記得\n那一次溫柔的交叉\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-13/05-two-kites-meet.md"
     },
     {
-      "n": "06",
-      "start": 0,
-      "time": "0:00",
+      "n": "05",
+      "start": 632,
+      "time": "10:32",
       "en": "Wooden Bench No Hurry",
       "zh": "木椅不急",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-13/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n木椅不寬\n卻夠兩人坐下\n花坡在面前展開\n像一張慢慢的樂譜\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n不急\n不爭先\n坐下\n樂就自己來\n\n[Verse 2]\n相思不必急著採完\n留幾枝給明天\n今天先聽風\n把句子吹完整\n\n[Poetry]\n紅豆生南國\n春來發幾枝\n願君多採擷\n此物最相思\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n遠路可以等\n椅子先溫暖\n樂是允許\n停一下\n\n[Final refrain]\n椅還暖\n坡還亮\n樂還在\n像沒走完的小路\n\n[English — closing]\nNo hurry on this wooden bench\nThe slope keeps writing soft notes\nJoy arrives when we sit\nAnd let the wind finish the phrase\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-13/06-wooden-bench-no-hurry.md"
     },
     {
-      "n": "07",
-      "start": 0,
-      "time": "0:00",
+      "n": "06",
+      "start": 782,
+      "time": "13:02",
       "en": "Smoke Flowers March",
       "zh": "煙花三月",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-13/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n三月的煙花\n不是爆炸\n是遠坡一層粉霧\n把離別說得很輕\n\n[English — after verse 1]\nMarch flowers smoke across the hills\nA farewell can still be glad\nThe sail grows small\nAnd the sky grows kind\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n走也可以樂\n留也可以樂\n風把兩邊\n都說成春天\n\n[Verse 2]\n帆影變小\n天更寬\n我把祝福\n放進花香裏寄出\n\n[Poetry]\n故人西辭黃鶴樓\n煙花三月下揚州\n孤帆遠影碧空盡\n唯見長江天際流\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n遠了不是失去\n是讓眼睛休息\n近處的花\n繼續開\n\n[Final refrain]\n煙散了\n花還在\n樂像長江\n慢慢流遠也不急\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-13/07-smoke-flowers-march.md"
     },
     {
-      "n": "08",
-      "start": 0,
-      "time": "0:00",
+      "n": "07",
+      "start": 974,
+      "time": "16:14",
       "en": "One More Cup",
       "zh": "再盡一杯",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-13/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n朝雨剛停\n柳還青\n我不是勸你醉\n是勸你慢一點離開快樂\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n再盡一杯\n不是告別儀式\n是把樂\n喝進身體裏帶走\n\n[Verse 2]\n陽關很遠\n花坡很近\n今天先把顏色\n裝滿口袋\n\n[Poetry]\n渭城朝雨浥輕塵\n客舍青青柳色新\n勸君更盡一杯酒\n西出陽關無故人\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nOne more cup of quiet joy\nNot to forget the road\nBut to carry a warm hillside\nPast the next gate\n\n[Final refrain]\n杯空了\n柳還新\n樂還在袖口\n像沒揮完的手\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-13/08-one-more-cup-rap.md"
     },
     {
-      "n": "09",
-      "start": 0,
-      "time": "0:00",
+      "n": "08",
+      "start": 1082,
+      "time": "18:02",
       "en": "Peach Deep Song",
       "zh": "桃潭歌聲",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-13/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n船還沒走\n歌聲先到\n花坡像岸\n把踏歌接住\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n情深\n樂也深\n不是比較\n是互相映照\n\n[Verse 2]\n千尺水深\n不如一句真\n我把快樂\n唱成可帶走的風\n\n[Poetry]\n李白乘舟將欲行\n忽聞岸上踏歌聲\n桃花潭水深千尺\n不及汪倫送我情\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — English nested]\nA song arrives before the boat leaves\nFriendship sounds like footsteps on the bank\nJoy can be that deep\nWithout needing to measure it\n\n[Spoken Mandarin tag]\n情不必量\n\n[Final refrain]\n歌停了\n花還開\n樂像潭水\n看起來靜\n其實很深\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-13/09-peach-deep-song.md"
     },
     {
-      "n": "10",
-      "start": 0,
-      "time": "0:00",
+      "n": "09",
+      "start": 1251,
+      "time": "20:51",
       "en": "The Longest Joy",
       "zh": "最長的樂",
       "voice": "男女混唱",
-      "lyrics": "",
-      "source": "songs/prompts/episode-13/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 不是沒有聲音\n[Male] 是樂拉得很長\n[Both] 長到夠裝下\n一整個黃昏的花坡\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n樂得久\n比樂得響更難\n慢慢認\n慢慢亮\n\n[Verse 2]\n鐘聲很遠\n也能變成安慰\n遠方的夜\n不妨礙近處的暖\n\n[English — before poetry]\nBefore the poem, stay with this:\nthe longest joy is not the loudest\nit stretches across the hillside\nuntil evening itself feels held\n\n[Poetry]\n月落烏啼霜滿天\n江楓漁火對愁眠\n姑蘇城外寒山寺\n夜半鐘聲到客船\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Both] 最長的樂\n不是高潮\n是一直還在\n\n[Final refrain]\n花暗了\n樂還在延長\n像一條溫柔的線\n沒有急著打結\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-13/10-the-longest-joy.md"
     },
     {
-      "n": "11",
-      "start": 0,
-      "time": "0:00",
+      "n": "10",
+      "start": 1373,
+      "time": "22:53",
       "en": "Half River Red",
       "zh": "半江紅",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-13/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n殘陽鋪過來\n花坡一半暖\n一半涼\n樂就住在那條分界\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n半紅\n也夠亮\n不必整片燃燒\n才叫快樂\n\n[Verse 2]\n露珠像小鏡子\n把一天收好\n我把笑容\n也收成一顆\n\n[Poetry]\n一道殘陽鋪水中\n半江瑟瑟半江紅\n可憐九月初三夜\n露似真珠月似弓\n\n[English — after poetry]\nHalf the river turns red\nHalf stays cool\nJoy can live on that edge\nWithout needing the whole sky to blaze\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n弓月很細\n卻能掛住夜\n樂也可以\n細而有力\n\n[Final refrain]\n紅退了\n露還亮\n樂還掛著\n像沒鬆開的弓\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-13/11-half-river-red.md"
     },
     {
-      "n": "12",
-      "start": 0,
-      "time": "0:00",
+      "n": "11",
+      "start": 1528,
+      "time": "25:28",
       "en": "Silver Disk",
       "zh": "白銀盤",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-13/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n無風也是一種樂\n鏡子不用急著磨亮\n遠山像青螺\n放在安靜的盤子裏\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n相和\n也是樂\n不是表演\n是彼此剛剛好\n\n[Verse 2]\n花坡遠望\n也能變成湖光\n我把心放平\n顏色自己來\n\n[Poetry]\n湖光秋月兩相和\n潭面無風鏡未磨\n遙望洞庭山水翠\n白銀盤裏一青螺\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nSilver disk, green spiral\nJoy can be this still\nNo wind required\nOnly two things agreeing softly\n\n[Final refrain]\n盤還在\n螺還青\n樂像無風\n卻把一切托住\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-13/12-silver-disk-rap.md"
     },
     {
-      "n": "13",
-      "start": 0,
-      "time": "0:00",
+      "n": "12",
+      "start": 1649,
+      "time": "27:29",
       "en": "Many Sides One Joy",
       "zh": "橫看側看",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-13/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[English — opening]\nSeen from the side, a ridge\nSeen from below, a peak\nJoy changes shape with walking\nAnd still belongs to the same hill\n\n[Instrumental — 10 seconds]\n\n[Verse 1]\n橫看是花海\n側看是小路\n樂也一樣\n換個角度就換一種笑\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n各不同\n也同在\n樂不是單一面\n是整座坡的名字\n\n[Verse 2]\n身在其中\n反而看不清\n走遠一步\n才發現自己剛快樂過\n\n[Poetry]\n橫看成嶺側成峰\n遠近高低各不同\n不識廬山真面目\n只緣身在此山中\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n真面目\n也許就是\n允許不完整的看見\n\n[Final refrain]\n我走遠了\n坡還在\n樂還在\n像沒被說完的山\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-13/13-many-sides-one-joy.md"
     },
     {
-      "n": "14",
-      "start": 0,
-      "time": "0:00",
+      "n": "13",
+      "start": 1803,
+      "time": "30:03",
       "en": "Orange Green Season",
       "zh": "橙黃橘綠",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-13/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n荷蓋收了\n菊還立著\n花坡進入\n一種沉靜的樂\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n好景\n不在最吵的季節\n在顏色\n學會收斂的時候\n\n[Verse 2]\n橙黃橘綠\n像兩種成熟的笑\n我把它們記下來\n當冬天的乾糧\n\n[Poetry]\n荷盡已無擎雨蓋\n菊殘猶有傲霜枝\n一年好景君須記\n最是橙黃橘綠時\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n殘也是一種完整\n樂懂得這個\n就不急著盛開\n\n[Final refrain]\n霜來了\n枝還傲\n樂還甜\n像沒摘完的橘\n\n[English — closing]\nRemember the orange-and-green hour\nWhen flowers finish loudly\nAnd joy becomes quieter fruit\nWorth carrying home\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-13/14-orange-green-season.md"
     },
     {
-      "n": "15",
-      "start": 0,
-      "time": "0:00",
+      "n": "14",
+      "start": 1947,
+      "time": "32:27",
       "en": "Fallen Red Feeds",
       "zh": "落紅護花",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-13/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n花瓣落地\n不是結束\n是樂換一種工作\n去護住下一輪\n\n[English — after verse 1]\nFallen red is not a cold goodbye\nIt turns into spring mud\nAnd keeps feeding the next bloom\nJoy can work underground\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n落也樂\n護也樂\n循環很安靜\n卻很有力量\n\n[Verse 2]\n天涯可以遠\n泥土很近\n我把告別\n變成養分\n\n[Poetry]\n浩蕩離愁白日斜\n吟鞭東指即天涯\n落紅不是無情物\n化作春泥更護花\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n無情的樣子\n常常最有情\n樂懂這個\n就不慌\n\n[Final refrain]\n泥還暖\n芽還藏\n樂還在地下\n輕輕護著\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-13/15-fallen-red-feeds.md"
     },
     {
-      "n": "16",
-      "start": 0,
-      "time": "0:00",
+      "n": "15",
+      "start": 2095,
+      "time": "34:55",
       "en": "No Lonely Road",
       "zh": "莫愁前路",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-13/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n雪可以紛紛\n樂也可以紛紛\n不是否認冷\n是承認路上仍有人\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n莫愁\n前路有光\n花坡只是起點\n把勇氣點亮\n\n[Verse 2]\n知己不一定同走\n也可以同在心裏\n我把名字\n借給風傳一下\n\n[Poetry]\n千里黃雲白日曛\n北風吹雁雪紛紛\n莫愁前路無知己\n天下誰人不識君\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nDo not fear the empty road\nJoy can travel in company\nEven when the snow keeps falling\nSomeone still knows your name\n\n[Final refrain]\n雲還黃\n雁還飛\n樂還跟著\n像沒說完的保重\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-13/16-no-lonely-road-rap.md"
     },
     {
-      "n": "17",
-      "start": 0,
-      "time": "0:00",
+      "n": "16",
+      "start": 2227,
+      "time": "37:07",
       "en": "Sunny Rainy Song",
       "zh": "無晴卻有晴",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-13/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n東邊有太陽\n西邊在下雨\n花坡站在中間\n樂也學會雙面\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n無晴\n卻有晴\n樂常常這樣\n說不清卻真實\n\n[English — between refrains]\nSun on one side, rain on the other\nJoy can hold both weathers\nAnd still keep singing\nAs if the slope understood\n\n[Refrain — return]\n無晴\n卻有晴\n樂常常這樣\n說不清卻真實\n\n[Verse 2]\n歌聲從遠處來\n我不必看清臉\n聽見就夠\n讓心情起一點浪\n\n[Poetry]\n楊柳青青江水平\n聞郎江上唱歌聲\n東邊日出西邊雨\n道是無晴卻有晴\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n矛盾也可以美\n像濕亮的葉子\n又冷又暖\n\n[Final refrain]\n雨停了\n陽還在\n樂還笑著\n像一句雙關的晴\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-13/17-sunny-rainy-song.md"
     },
     {
-      "n": "18",
-      "start": 0,
-      "time": "0:00",
+      "n": "17",
+      "start": 2371,
+      "time": "39:31",
       "en": "River Flowers Fire",
       "zh": "江花紅勝火",
       "voice": "男女混唱",
-      "lyrics": "",
-      "source": "songs/prompts/episode-13/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 記得那種紅\n[Male] 記得那種藍\n[Both] 花坡今晚\n把它們溫柔地複習\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n舊曾諳\n也是樂\n不是懷舊病\n是把好顏色帶回身體\n\n[Verse 2]\n火不必燒人\n綠不必解釋\n我們並肩看\n一天自己開花\n\n[English — before poetry]\nBefore the poem returns south:\nriver flowers redder than fire\nriver water greener than dye\nJoy can be a remembered color\nStill warm on this hillside\n\n[Poetry]\n江南好\n風景舊曾諳\n日出江花紅勝火\n春來江水綠如藍\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Both] 江南很遠\n樂很近\n近在呼吸裏\n\n[Final refrain]\n紅退成暮色\n藍沉成安靜\n樂還留著\n像舊風景的新一次\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-13/18-river-flowers-fire.md"
     },
     {
-      "n": "19",
-      "start": 0,
-      "time": "0:00",
+      "n": "18",
+      "start": 2520,
+      "time": "42:00",
       "en": "Peach Outside Bamboo",
       "zh": "竹外桃花",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-13/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n三兩枝就夠\n不必整片喧鬧\n樂常常是\n剛剛好的稀疏\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n水暖\n鴨先知\n我也先知\n腳下的坡開始軟\n\n[Verse 2]\n蘆芽還短\n未來還藏\n我把期待\n放得很輕\n\n[Poetry]\n竹外桃花三兩枝\n春江水暖鴨先知\n蔞蒿滿地蘆芽短\n正是河豚欲上時\n\n[English — after poetry]\nA few peach branches are enough\nDucks know the water first\nJoy often arrives that way\nQuiet, early, and already true\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n先知不是炫耀\n是身體先高興\n再告訴嘴巴\n\n[Final refrain]\n枝還少\n暖還在\n樂還先到\n像鴨劃開的一條線\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-13/19-peach-outside-bamboo.md"
     },
     {
-      "n": "20",
-      "start": 0,
-      "time": "0:00",
+      "n": "19",
+      "start": 2672,
+      "time": "44:32",
       "en": "Still Listening for 樂",
       "zh": "仍在聽樂",
       "voice": "男女混唱",
-      "lyrics": "",
-      "source": "songs/prompts/episode-13/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 花坡還沒散場\n[Male] 樂也還沒說完\n[Both] 我們站在暮色裏\n繼續聽\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n樂不是結局\n是一直在聽\n聽風\n聽顏色慢慢收\n\n[Verse 2]\n輕舟過山\n像一天過完\n快樂可以快\n也可以留下餘溫\n\n[Poetry]\n朝辭白帝彩雲間\n千里江陵一日還\n兩岸猿聲啼不住\n輕舟已過萬重山\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Both] 萬重山之後\n還有坡\n還有一點未熄的亮\n\n[Final refrain]\n雲散了\n坡還在\n樂還在耳邊\n像沒停的輕舟\n\n[English — closing]\nStill listening for joy\nNot as a finale\nBut as a soft current\nThat keeps the hillside awake\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-13/20-still-listening-for-le.md"
     }
-  ]
+  ],
+  "warnings": [
+    "unpublished:Apricot Over Wall"
+  ],
+  "lyricsSource": "songs/prompts/episode-13/*.md"
 }

@@ -36,198 +36,200 @@
       "en": "First Leaf Answer",
       "zh": "第一片葉的答",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-12/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n竹澗剛醒\n水聲先說話\n第一片葉\n輕輕點一下頭\n像答應了什麼\n又什麼都不強求\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n和一點\n再和一點\n不用齊聲\n也能同在\n\n[Verse 2]\n石頭被水摸圓\n青苔把縫填滿\n我把呼吸放低\n聽自己不再爭辯\n\n[Poetry]\n好雨知時節\n當春乃發生\n隨風潛入夜\n潤物細無聲\n\n[English — after poetry]\nLet the soft rain teach the ground\nNo argument, no hurry\nOnly the quiet work of becoming green\nStay where the answer is gentle\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n也許和\n不是妥協\n只是終於\n肯讓風從兩邊來\n\n[Final refrain]\n第一片葉還在\n和也還在\n水繼續說\n我不打斷\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-12/01-first-leaf-answer.md"
     },
     {
       "n": "02",
-      "start": 0,
-      "time": "0:00",
+      "start": 182,
+      "time": "3:02",
       "en": "Shared Cup Steam",
       "zh": "共杯熱氣",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-12/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[English — opening]\nSteam rises between two quiet hands\nWe do not need a speech\nJust this shared warmth\nAnd the morning agreeing with us\n\n[Instrumental — 10 seconds]\n\n[Verse 1]\n兩隻杯靠得很近\n熱氣先握手\n我們還沒開口\n茶已經替我們和了\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n熱氣上升\n心慢慢落下\n共一杯\n就夠證明在場\n\n[Verse 2]\n桑麻的話很舊\n舊得剛好誠實\n竹影掃過桌面\n像替我們簽名\n\n[Poetry]\n綠樹村邊合\n青山郭外斜\n開軒面場圃\n把酒話桑麻\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n不談輸贏\n只談今天的水溫\n和剛好\n不用更多證明\n\n[Final refrain]\n杯空了\n熱氣還在\n和也還在\n像沒說完的那口茶\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-12/02-shared-cup-steam.md"
     },
     {
       "n": "03",
-      "start": 0,
-      "time": "0:00",
+      "start": 401,
+      "time": "6:41",
       "en": "Moss Fills the Crack",
       "zh": "苔補裂縫",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-12/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n裂縫不喊痛\n青苔慢慢來\n把缺口填成綠色\n像一句溫柔的和\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n補一點\n軟一點\n不必完美\n只要還能走過去\n\n[Verse 2]\n蜻蜓先到\n荷尖才露\n世界常常這樣\n先有停靠\n才有開始\n\n[English — before poetry]\nBefore the poem, listen:\nthe crack is not a failure\nit is a place for living green\nto practice harmony slowly\n\n[Poetry]\n泉眼無聲惜細流\n樹陰照水愛晴柔\n小荷才露尖尖角\n早有蜻蜓立上頭\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n我學會\n不用力氣去塞滿\n讓時間\n用綠色工作\n\n[Final refrain]\n裂縫還在\n卻不再刺眼\n苔把它變成\n一條軟邊界\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-12/03-moss-fills-the-crack.md"
     },
     {
       "n": "04",
-      "start": 0,
-      "time": "0:00",
+      "start": 533,
+      "time": "8:53",
       "en": "Soft Agreement",
       "zh": "輕聲同意",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-12/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n我點頭不是放棄\n是終於聽懂水聲\n源頭活著\n鏡子才清\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n輕聲同意\n不是沉默\n是把力氣\n留給繼續\n\n[Verse 2]\n天光雲影\n在水裡開會\n沒有主席\n卻有共識\n\n[Poetry]\n半畝方塘一鑑開\n天光雲影共徘徊\n問渠那得清如許\n為有源頭活水來\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nSoft agreement, not surrender\nClear water needs a living source\nI nod to the quiet work\nAnd let the argument go unused\n\n[Final refrain]\n點頭之後\n風也鬆一點\n和在口袋裡\n不發亮\n卻夠用\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-12/04-soft-agreement-rap.md"
     },
     {
       "n": "05",
-      "start": 0,
-      "time": "0:00",
+      "start": 638,
+      "time": "10:38",
       "en": "Two Winds Meet",
       "zh": "兩陣風相遇",
       "voice": "男女混唱",
-      "lyrics": "",
-      "source": "songs/prompts/episode-12/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 東風帶來濕氣\n[Male] 西風帶來乾葉\n[Both] 它們在竹澗相遇\n沒有誰贏\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n相遇就好\n不必合併成一種風\n和是並肩\n不是互相消除\n\n[English — between refrains]\nTwo winds meet and keep their names\nNo one must disappear\nHarmony is the shared air\nBetween different weather\n\n[Refrain — return]\n相遇就好\n不必合併成一種風\n和是並肩\n不是互相消除\n\n[Verse 2]\n山看我們\n我們看山\n誰也不厭煩\n這就是長久的和\n\n[Poetry]\n眾鳥高飛盡\n孤雲獨去閒\n相看兩不厭\n只有敬亭山\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你帶雨\n[Male] 我帶光\n[Both] 地面接住全部\n\n[Final refrain]\n風走了\n竹還在搖\n像記得\n那一次溫柔的交叉\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-12/05-two-winds-meet.md"
     },
     {
       "n": "06",
-      "start": 0,
-      "time": "0:00",
+      "start": 790,
+      "time": "13:10",
       "en": "Wooden Bridge No Hurry",
       "zh": "木橋不急",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-12/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n木橋不寬\n卻夠兩人錯身\n水在下面趕路\n我們在上面慢走\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n不急\n不爭先\n到對岸\n也算一種和\n\n[Verse 2]\n疑無路的時候\n柳暗花明會來\n只要腳步\n還肯彼此讓一寸\n\n[Poetry]\n山重水複疑無路\n柳暗花明又一村\n莫笑農家臘酒渾\n豐年留客足雞豚\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n橋板吱呀\n像在勸我們\n把速度\n還給風景\n\n[Final refrain]\n對岸有煙\n像有人在煮飯\n生活的和\n聞起來很香\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-12/06-wooden-bridge-no-hurry.md"
     },
     {
       "n": "07",
-      "start": 0,
-      "time": "0:00",
+      "start": 909,
+      "time": "15:09",
       "en": "Stone Tea Table",
       "zh": "石茶台",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-12/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n石茶台涼\n杯痕還暖\n晴也相宜\n雨也相宜\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n淡妝濃抹\n都是一種和\n不必選邊\n才算完整\n\n[Verse 2]\n水光說話\n山色回答\n石台安靜\n把兩者都留下\n\n[Poetry]\n水光瀲灩晴方好\n山色空蒙雨亦奇\n欲把西湖比西子\n淡妝濃抹總相宜\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — English nested]\nFair or misted, both belong\nI stop choosing sides\nAnd drink what the morning pours\nOn this cool stone table\n\n\n[Spoken Mandarin tag]\nEnglish arrives like steam:\n\n[Final refrain]\n杯放回石上\n圓形的印\n像一個小小的\n暫時的圓滿\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-12/07-stone-tea-table.md"
     },
     {
       "n": "08",
-      "start": 0,
-      "time": "0:00",
+      "start": 1051,
+      "time": "17:31",
       "en": "Reed and Root",
       "zh": "蘆與根",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-12/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n蘆葦搖擺\n根卻咬住泥\n表面像妥協\n底下是堅持\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[English — after Verse 1]\nRoots hold while the reeds sway\nSoft is not the same as weak\nI keep my ground in the mud\nAnd still make room for the wind\n\n[Instrumental — 10 seconds]\n\n[Refrain]\n搖可以\n斷不行\n和是有根的柔軟\n\n[Verse 2]\n溪上青草\n不比誰更高\n只比誰\n更能一起綠\n\n[Poetry]\n茅檐低小\n溪上青青草\n醉里吳音相媚好\n白髮誰家翁媼\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n翁媼的話很軟\n軟到能裝下整條溪\n我學這一種\n不刺人的力氣\n\n[Final refrain]\n風停了\n蘆還直一點\n根不說話\n泥都懂\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-12/08-reed-and-root-rap.md"
     },
     {
       "n": "09",
-      "start": 0,
-      "time": "0:00",
+      "start": 1171,
+      "time": "19:31",
       "en": "Birds Answer Birds",
       "zh": "鳥答鳥",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-12/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n這邊叫一聲\n那邊回一聲\n不是比賽\n是確認還在\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n答一聲\n再答一聲\n和就在來回之間\n\n[Verse 2]\n翠柳很忙\n青天很寬\n我們像鳥\n用聲音握手\n\n[Poetry]\n兩個黃鸝鳴翠柳\n一行白鷺上青天\n窗含西嶺千秋雪\n門泊東吳萬里船\n\n[English — after poetry]\nOne call, one answer\nNot a contest of volume\nJust proof that we are both here\nIn the same green morning\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n不必同調\n只要聽得見\n彼此的存在\n\n[Final refrain]\n鳥飛遠了\n回聲還留在葉上\n像未完成的\n溫柔句點\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-12/09-birds-answer-birds.md"
     },
     {
       "n": "10",
-      "start": 0,
-      "time": "0:00",
+      "start": 1334,
+      "time": "22:14",
       "en": "The Longest Harmony",
       "zh": "最長的和",
       "voice": "男女混唱",
-      "lyrics": "",
-      "source": "songs/prompts/episode-12/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[English — opening]\nThe longest harmony is quiet\nTwo voices learning the same river\nNot louder, only nearer\nYear after patient year\n\n[Instrumental — 10 seconds]\n\n[Verse 1]\n[Both] 最長的和\n不是大聲合唱\n[Female] 是河洲上\n[Male] 兩種叫聲\n[Both] 彼此認得\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n和得久\n比和得響更難\n慢慢認\n慢慢靠近\n\n[Verse 2]\n好逑不是佔有\n是願意同行\n竹澗作證\n水聲點頭\n\n[Poetry]\n關關雎鳩\n在河之洲\n窈窕淑女\n君子好逑\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n如果一天不夠\n就用一生的慢\n把和練成習慣\n\n[Final refrain]\n關關還在\n河洲還在\n我們把腳步\n放進同一種節奏\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-12/10-the-longest-harmony.md"
     },
     {
       "n": "11",
-      "start": 0,
-      "time": "0:00",
+      "start": 1473,
+      "time": "24:33",
       "en": "Shade Enough for Two",
       "zh": "夠兩人的蔭",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-12/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n樹蔭不偏心\n夠兩人坐下\n陽光被切成碎片\n落在共同的膝蓋\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n蔭夠了\n心就寬\n和有時\n只是一起乘涼\n\n[Verse 2]\n燕子飛\n鴛鴦睡\n各有節奏\n同一片暖沙\n\n[English — before poetry]\nBefore the old lines arrive\nsit with me in this shared shade\nHarmony can be as plain\nas two people resting\n\n[Poetry]\n遲日江山麗\n春風花草香\n泥融飛燕子\n沙暖睡鴛鴦\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n我挪一寸\n你挪一寸\n陰影剛好完整\n\n[Final refrain]\n日頭偏了\n蔭換位置\n我們跟著挪\n也不爭吵\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-12/11-shade-enough-for-two.md"
     },
     {
       "n": "12",
-      "start": 0,
-      "time": "0:00",
+      "start": 1585,
+      "time": "26:25",
       "en": "No Winner Needed",
       "zh": "不必分勝負",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-12/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n沉舟不攔路\n病樹不妒春\n千帆自己過\n萬木自己青\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n不必分勝負\n春也不是獎盃\n和是讓路\n也讓生長\n\n[Verse 2]\n早鶯忙\n新燕也忙\n忙成風景\n不是敵人\n\n[Poetry]\n沉舟側畔千帆過\n病樹前頭萬木春\n幾處早鶯爭暖樹\n誰家新燕啄春泥\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nNo winner needed in this grove\nBoats pass, trees green, birds work\nI put the scoreboard down\nAnd walk lighter beside you\n\n[Final refrain]\n春繼續\n我不攔截\n這就是\n我能給的和\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-12/12-no-winner-needed.md"
     },
     {
       "n": "13",
-      "start": 0,
-      "time": "0:00",
+      "start": 1741,
+      "time": "29:01",
       "en": "Reed Mist Handshake",
       "zh": "蘆霧握手",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-12/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n霧伸出手\n蘆葦接住\n看不清臉\n卻知道方向\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n在水一方\n也算靠近\n和不一定\n要肩並肩\n\n[English — between refrains]\nMist shakes hands with the reeds\nDistance is not refusal\nHarmony can live across water\nIf we keep looking true\n\n[Refrain — return]\n在水一方\n也算靠近\n和不一定\n要肩並肩\n\n[Verse 2]\n白露成霜\n冷得誠實\n我仍願意\n隔水相認\n\n[Poetry]\n蒹葭蒼蒼\n白露為霜\n所謂伊人\n在水一方\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n伊人可以是你\n也可以是一種心境\n只要還肯\n向對岸點頭\n\n[Final refrain]\n霧散一點\n水還在\n那首蒼蒼\n仍替我們握著\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-12/13-reed-mist-handshake.md"
     },
     {
       "n": "14",
-      "start": 0,
-      "time": "0:00",
+      "start": 1899,
+      "time": "31:39",
       "en": "Hoe Under Moon",
       "zh": "月下荷鋤",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-12/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n草很多\n豆很少\n仍舊早起\n仍舊整理\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n和土地說話\n要用手\n不是口號\n\n[Verse 2]\n月送來\n我荷鋤歸\n一天的爭執\n都埋回土裡\n\n[Poetry]\n種豆南山下\n草盛豆苗稀\n晨興理荒穢\n帶月荷鋤歸\n\n[English — after poetry]\nI carry the hoe home under moonlight\nWeeds and beans both taught me\nHarmony is returning to the work\nWithout demanding a perfect field\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n稀也罷\n盛也罷\n盡力之後\n就能睡\n\n[Final refrain]\n門未關\n土還香\n和在指縫\n洗不掉\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-12/14-hoe-under-moon.md"
     },
     {
       "n": "15",
-      "start": 0,
-      "time": "0:00",
+      "start": 2026,
+      "time": "33:46",
       "en": "Ferry Without Crowd",
       "zh": "無人野渡",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-12/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n船自己橫著\n沒有人催開船\n急的是潮\n不是我們\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n無人也和\n空也是一種安排\n舟自橫\n心自穩\n\n[Verse 2]\n涼天適合散步\n也適合不說話\n懷想不必喊\n風會代傳\n\n[Poetry]\n春潮帶雨晚來急\n野渡無人舟自橫\n懷君屬秋夜\n散步詠涼天\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n把位置讓給風景\n把自己放小\n和就出現\n\n[Final refrain]\n雨停一點\n船還橫著\n像一句\n不必修改的話\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-12/15-ferry-without-crowd.md"
     },
     {
       "n": "16",
-      "start": 0,
-      "time": "0:00",
+      "start": 2189,
+      "time": "36:29",
       "en": "Green Again",
       "zh": "又綠",
       "voice": "男女混唱",
-      "lyrics": "",
-      "source": "songs/prompts/episode-12/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Male — soft rap] 岸又綠了\n不是為了誰的劇本\n風做完它的工作\n就把顏色還給泥土\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n[Female] 又綠\n又一次和\n[Both] 遠山隔著\n心卻能還\n\n[Verse 2]\n一水間\n數重山\n距離很真\n牽掛也很真\n\n[Poetry]\n京口瓜洲一水間\n鐘山只隔數重山\n春風又綠江南岸\n明月何時照我還\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nGreen again without permission\nSpring does not ask who owns the bank\nI let the color return\nAnd call that harmony\n\n[Final refrain]\n明月未到\n綠已先到\n我把歸期\n放進風裡\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-12/16-green-again-rap.md"
     },
     {
       "n": "17",
-      "start": 0,
-      "time": "0:00",
+      "start": 2291,
+      "time": "38:11",
       "en": "Plum in Cold",
       "zh": "寒中梅",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-12/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n寒不是敵人\n梅把它當成季節\n獨自開\n卻把香分給路人\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n和寒共存\n不必先勝利\n暗香一來\n牆角也寬\n\n[Verse 2]\n不是雪\n卻一樣白得乾淨\n分別很細\n靠鼻子知道\n\n[Poetry]\n牆角數枝梅\n凌寒獨自開\n遙知不是雪\n為有暗香來\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — English nested]\nIn the cold I do not argue\nI bloom in my corner\nAnd let the scent travel\nFarther than my voice\n\n\n[Spoken Mandarin tag]\nIn the cold I do not argue\n\n[Final refrain]\n雪會化\n香還在\n和有時\n是獨自也能溫柔\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-12/17-plum-in-cold.md"
     },
     {
       "n": "18",
-      "start": 0,
-      "time": "0:00",
+      "start": 2417,
+      "time": "40:17",
       "en": "Willow Scissors",
       "zh": "柳剪春風",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-12/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n春風像剪刀\n卻不傷人\n只把粗枝\n剪成細綠\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[English — after Verse 1]\nAfter the first verse, the wind cuts gently\nNot to wound the tree\nBut to shape a greener welcome\nHarmony can be a careful craft\n\n[Instrumental — 10 seconds]\n\n[Refrain]\n剪是為了生長\n不是為了攻擊\n和也需要\n這種精準的溫柔\n\n[Verse 2]\n萬條綠絲\n隨手一揚\n像無數小小的\n和好的手勢\n\n[Poetry]\n碧玉妝成一樹高\n萬條垂下綠絲絛\n不知細葉誰裁出\n二月春風似剪刀\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n誰裁出細葉\n不必署名\n風做完就走\n名留給春天\n\n[Final refrain]\n絲絛掃過肩\n像被春輕輕簽字\n我點頭\n收下這次修剪\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-12/18-willow-scissors.md"
     },
     {
       "n": "19",
-      "start": 0,
-      "time": "0:00",
+      "start": 2569,
+      "time": "42:49",
       "en": "Peach Still Here",
       "zh": "桃花還在",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-12/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n外面說春完了\n這裡桃花才開始\n時間不統一\n也能各自盛開\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n還在\n就很好\n和是允許\n不同的花期\n\n[English — between refrains]\nSpring is not finished everywhere\nSome blossoms keep their own clock\nHarmony is letting late beauty\nArrive without apology\n\n[Refrain — return]\n還在\n就很好\n和是允許\n不同的花期\n\n[Verse 2]\n找春的人\n常常走太快\n轉進來一看\n花在等\n\n[Poetry]\n人間四月芳菲盡\n山寺桃花始盛開\n長恨春歸無覓處\n不知轉入此中來\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n無覓處\n其實有處\n只是需要\n再慢一個彎\n\n[Final refrain]\n花瓣落下\n也像一種答應\n我把春\n重新放進口袋\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-12/19-peach-still-here.md"
     },
     {
       "n": "20",
-      "start": 0,
-      "time": "0:00",
+      "start": 2718,
+      "time": "45:18",
       "en": "Still Listening for 和",
       "zh": "仍在聽和",
       "voice": "男女混唱",
-      "lyrics": "",
-      "source": "songs/prompts/episode-12/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Both] 仍在聽和\n竹澗還沒散場\n[Female] 松子落下\n[Male] 像一句句句點\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n和不是結局\n是一直在聽\n聽水\n聽人\n聽自己肯不肯軟下來\n\n[Verse 2]\n白蓮被采\n浮萍分開又合\n痕跡坦白\n世界仍願意癒合\n\n[Poetry]\n空山松子落\n幽人應未眠\n小娃撐小艇\n偷采白蓮回\n不解藏蹤跡\n浮萍一道開\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n幽人未眠\n因為還有聲音值得守\n我們也未走\n因為和還在發生\n\n[Final refrain]\n[Both] 聽\n再聽\n和在\n我們之間\n也在水裡\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-12/20-still-listening-for-he.md"
     }
-  ]
+  ],
+  "warnings": [],
+  "lyricsSource": "songs/prompts/episode-12/*.md"
 }

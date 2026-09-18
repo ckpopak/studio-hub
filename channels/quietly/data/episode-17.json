@@ -1,0 +1,227 @@
+{
+  "episode": 17,
+  "slug": "winter-night-melancholy",
+  "title": {
+    "en": "Winter Night Melancholy",
+    "zh": "冬夜聽愁"
+  },
+  "logline": "冬天把想念放進骨頭裡。它不問你為什麼難過，只在夜裡把聲音收得更薄。",
+  "videoId": "IOQYuGxei0s",
+  "youtubeTitle": "[playlist] QuietLY · 愁 — Winter Snow / Slow Mandarin Jazz",
+  "comics": [
+    {
+      "en": "Winter puts longing into the bone.",
+      "zh": "冬天把想念放進骨頭裡。"
+    },
+    {
+      "en": "It does not ask why you ache.",
+      "zh": "它不問你為什麼難過。"
+    },
+    {
+      "en": "Night only thins every sound.",
+      "zh": "只在夜裡把聲音收得更薄。"
+    },
+    {
+      "en": "Listen for 愁 without saying everything.",
+      "zh": "聽愁，不必把一切說完。"
+    }
+  ],
+  "hero": "assets/ep17-hero.png",
+  "comicImages": [],
+  "tracks": [
+    {
+      "n": "01",
+      "start": 0,
+      "time": "0:00",
+      "en": "Frost Mailbox",
+      "zh": "霜信箱",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n老巷口那隻信箱\n霜蓋住了投口\n像把話\n先凍住\n\n[Refrain]\n聽一點愁\n不用說破\n雪自己落\n信箱也懂\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n寒蛩在階下低語\n我沒有信要寄\n只是路過\n仍停一下\n\n[Refrain]\n聽一點愁\n不用說破\n雪自己落\n信箱也懂\n\n[Poetry]\n砌下寒蛩語\n簬幕淡烟如\n\n[English — after poetry]\nThe frost on the mailbox holds its breath\nNo letter needs to leave tonight\nSnow writes what words forget\nAnd the alley keeps the rest\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n愁不是喊\n是霜在邊緣\n悄悄加厚\n\n[Final refrain]\n信箱還在\n霜還在\n我聽了一點\n愁\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-17/01-frost-mailbox.md"
+    },
+    {
+      "n": "02",
+      "start": 209,
+      "time": "3:29",
+      "en": "Snow on the Steps",
+      "zh": "階上有雪",
+      "voice": "男聲",
+      "lyrics": "[English — opening]\nSnow rests on the steps without asking\nI do not need to climb tonight\nThe city grows colder at dusk\nAnd I let my hurry soften\n\n[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n階上的雪\n還沒有人踩\n像給猶豫\n留一層白\n\n[Refrain]\n階上有雪\n愁也淺\n不必踩深\n先站一會\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n積雪浮在雲端那麼輕\n我卻在樓梯口\n把腳步\n放得更輕\n\n[Refrain]\n階上有雪\n愁也淺\n不必踩深\n先站一會\n\n[Poetry]\n終南陰嶺秀\n積雪浮雲端\n林表明霽色\n城中增暮寒\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n暮寒進城\n我也讓\n一點冷\n進來\n\n[Final refrain]\n雪還白\n階還空\n我先聽\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-17/02-snow-on-the-steps.md"
+    },
+    {
+      "n": "03",
+      "start": 354,
+      "time": "5:54",
+      "en": "Stairwell Light",
+      "zh": "樓梯燈",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n樓梯間那盞燈\n黃得舊\n照見扶手上的\n細雪\n\n[Refrain]\n樓梯燈亮\n愁不亮\n只是照見\n誰還在\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n開門若是雪滿山\n這裏只有\n一層樓的高度\n和一盞不走的暖\n\n[Refrain]\n樓梯燈亮\n愁不亮\n只是照見\n誰還在\n\n[English — before poetry]\nBefore the poem, stay here:\nthe stairwell light is old and kind\nit shows the snow on the rail\nwithout asking who climbs\n\n[Poetry]\n隔牖風驚竹\n開門雪滿山\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n風驚竹在遠方\n這裏只有\n暖氣管\n輕輕響\n\n[Final refrain]\n燈還在\n雪還在\n我往上\n慢一點\n\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-17/03-stairwell-light.md"
+    },
+    {
+      "n": "04",
+      "start": 543,
+      "time": "9:03",
+      "en": "Forgotten Scarf",
+      "zh": "欄杆圍巾",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n欄杆上掛著圍巾\n像被誰忘記\n北風過巷\n它也不掙扎\n\n[Refrain]\n圍巾還在\n人走了\n愁也\n不必追回\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n雁往南飛\n名字往北\n圍巾留在\n這層轉角\n\n[Refrain]\n圍巾還在\n人走了\n愁也\n不必追回\n\n[Poetry]\n木落雁南度\n北風江上寒\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nA scarf forgot on the iron rail\nThe alley wind does not explain\nSomeone left a small warmth\nAnd winter kept it plain\n\n[Final refrain]\n不追了\n圍巾還掛\n風還過\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-17/04-forgotten-scarf.md"
+    },
+    {
+      "n": "05",
+      "start": 687,
+      "time": "11:27",
+      "en": "Radiator Tick",
+      "zh": "暖氣嘀",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 暖氣管嘀一聲\n[Male] 像夜裏的鐘\n[Both] 雪在外面加厚\n屋裏還有一點溫\n\n[Refrain]\n暖氣管嘀\n外頭是雪\n愁在管裏\n慢慢走\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n窗戶明是因為雪\n折竹聲在遠處\n我們在舊樓梯間\n把呼吸放慢\n\n[Refrain]\n暖氣管嘀\n外頭是雪\n愁在管裏\n慢慢走\n\n[English — between refrains]\nThe radiator ticks once in the dark\nSnow thickens without a sound\nWe do not need to name the weight\nJust listen while it falls around\n\n[Poetry]\n已訝衾枕冷\n複見窗戶明\n夜深知雪重\n時聞折竹聲\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 衾枕冷在外\n[Male] 暖在管裏\n[Both] 愁在縫隙\n\n[Final refrain]\n嘀\n雪重\n我們還在聽\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-17/05-radiator-tick.md"
+    },
+    {
+      "n": "06",
+      "start": 850,
+      "time": "14:10",
+      "en": "Boots Still Wet",
+      "zh": "鞋還濕",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n門口那雙靴\n還濕著\n像剛從雪裏\n回來又出門\n\n[Refrain]\n鞋還濕\n路還長\n愁不必\n晾乾才說\n\n[English — after verse 1]\nBoots still wet beside the door\nHalf the alley on the sole\nI do not ask where they went\nOnly that they came back whole\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n急雪舞回風\n靴底留著\n半條巷的\n未說完\n\n[Refrain]\n鞋還濕\n路還長\n愁不必\n晾乾才說\n\n[Poetry]\n亂雲低薄暮\n急雪舞回風\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n薄暮壓雲\n我壓低\n聲音\n\n[Final refrain]\n靴還濕\n雪還舞\n我繼續\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-17/07-boots-still-wet.md"
+    },
+    {
+      "n": "07",
+      "start": 1010,
+      "time": "16:50",
+      "en": "Empty Thermos",
+      "zh": "空保溫杯",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n空保溫杯在欄杆上\n熱氣早就散了\n像一句\n來不及說出口的暖\n\n[Refrain]\n空杯也是\n一種愁\n不必填滿\n才算活著\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n漁人歸去\n蓑衣上還有雪\n杯子空了\n手還記得溫\n\n[Refrain]\n空杯也是\n一種愁\n不必填滿\n才算活著\n\n[Poetry]\n江上晚來堪畫處\n漁人一蓑歸\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nEmpty thermos on the rail\nThe heat already left its ghost\nSome warmth does not need refilling\nTo prove someone was close\n\n[Final refrain]\n杯空\n雪滿\n我還在\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-17/08-empty-thermos.md"
+    },
+    {
+      "n": "08",
+      "start": 1151,
+      "time": "19:11",
+      "en": "Shovel Far Away",
+      "zh": "遠鏟雪",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n巷尾有人鏟雪\n聲音很遠\n像夢裏\n冰河輕輕響\n\n[Refrain]\n遠鏟雪\n近聽愁\n不必走近\n也聽見\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n雪海邊的風\n從不問名字\n我只把耳朵\n借給遠處\n\n[Refrain]\n遠鏟雪\n近聽愁\n不必走近\n也聽見\n\n[English — before poetry]\nA shovel scrapes far down the lane\nIce rivers in a distant dream\nI lie awake and listen soft\nTo snow on the fire escape seam\n\n[Poetry]\n君不見走馬川行雪海邊\n黃塵與水怪相連\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n夜闌\n風雪\n都在\n外面\n\n[Final refrain]\n鏟聲遠\n愁很近\n我閉眼\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-17/09-shovel-far-away.md"
+    },
+    {
+      "n": "09",
+      "start": 1278,
+      "time": "21:18",
+      "en": "Unopened Letter",
+      "zh": "信未拆",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 門縫下那封信\n[Male] 還沒拆\n[Both] 像把時間\n先凍在紙裏\n\n[Refrain]\n信未拆\n愁已讀\n一半在字裏\n一半在等\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n天地悠悠\n古人不見\n這封信\n也許永遠不必見\n\n[Refrain]\n信未拆\n愁已讀\n一半在字裏\n一半在等\n\n[English — between refrains]\nThe letter waits unopened still\nTime frozen in the fold\nWe do not need the past to speak\nTo feel the night grow old\n\n[Poetry]\n前不見古人\n後不見來者\n念天地之悠悠\n獨愴然而涕下\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 前不見\n[Male] 後不見\n[Both] 信在現在\n\n[Final refrain]\n紙還白\n雪還下\n我們聽\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-17/10-unopened-letter.md"
+    },
+    {
+      "n": "10",
+      "start": 1441,
+      "time": "24:01",
+      "en": "Breath on Glass",
+      "zh": "玻璃一口氣",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n對著樓梯窗\n呵一口氣\n霧起又散\n像短暫的話\n\n[Refrain]\n一口氣\n說不出\n愁就\n這樣化開\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n曲徑通幽\n這裏只有\n轉角和\n一塊玻璃\n\n[Refrain]\n一口氣\n說不出\n愁就\n這樣化開\n\n[English — before poetry]\nBefore poetry arrives, breathe on the glass\nA small fog writes and fades away\nNot every thought needs keeping\nSome melt before they stay\n\n[Poetry]\n曲徑通幽處\n禪房花木深\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n通幽處在遠山\n這口氣\n在指間\n\n[Final refrain]\n霧散了\n玻璃還冷\n我還在\n\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-17/11-breath-on-glass.md"
+    },
+    {
+      "n": "11",
+      "start": 1571,
+      "time": "26:11",
+      "en": "Icicle on Gutter",
+      "zh": "簷下冰",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n簷下冰柱\n滴得很慢\n像時間\n也凍住了一截\n\n[Refrain]\n簷下冰\n滴一聲\n愁就\n輕一點\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n繡簾垂在遠方\n這裏只有\n滴水\n和舊鐵皮\n\n[Refrain]\n簷下冰\n滴一聲\n愁就\n輕一點\n\n[Poetry]\n碧闌干外繡簾垂\n猩色龍鬚地毯\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nIcicle on the gutter line\nEach drop takes its own time\nWinter does not rush the melt\nAnd neither do I\n\n[Final refrain]\n滴\n停\n再滴\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-17/12-icicle-on-gutter.md"
+    },
+    {
+      "n": "12",
+      "start": 1669,
+      "time": "27:49",
+      "en": "Footprints Fading",
+      "zh": "腳印淺了",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n雪上的腳印\n正在被填平\n像誰來過\n又像沒有\n\n[Refrain]\n腳印淺了\n愁還在\n不必留痕\n才算走過\n\n[English — after verse 1]\nFootprints fading in the snow\nSomeone passed or maybe not\nThe alley fills the shallow marks\nAnd leaves the rest forgot\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n密密縫的針腳\n在遠方\n這裏只有\n被雪蓋住的步\n\n[Refrain]\n腳印淺了\n愁還在\n不必留痕\n才算走過\n\n[Poetry]\n慈母手中線\n遊子身上衣\n臨行密密縫\n意恐遲遲歸\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n遲遲歸\n是遠方的事\n腳印是\n今晚的事\n\n[Final refrain]\n印淺了\n雪還下\n我慢走\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-17/13-footprints-fading.md"
+    },
+    {
+      "n": "13",
+      "start": 1838,
+      "time": "30:38",
+      "en": "Gate Half Snowed",
+      "zh": "半掩的門",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n半掩的門\n雪堆在門檻\n像這條巷\n也只想開一半\n\n[Refrain]\n半掩的門\n半點愁\n不用推開\n全說\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n斷水水更流\n我學著\n不與雪\n硬碰\n\n[Refrain]\n半掩的門\n半點愁\n不用推開\n全說\n\n[Poetry]\n抽刀斷水水更流\n舉杯消愁愁更愁\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n消愁愁更愁\n不如\n聽雪落\n\n[Final refrain]\n門半掩\n雪半滿\n我過去\n\n[English — closing]\nHalf the gate lost under snow\nThe alley opens just enough\nI do not force the full way in\nSome doors stay soft and rough\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-17/14-gate-half-snowed.md"
+    },
+    {
+      "n": "14",
+      "start": 2027,
+      "time": "33:47",
+      "en": "Streetlight in Snow",
+      "zh": "路燈見雪",
+      "voice": "女聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n路燈照著雪\n一粒一粒\n像慢速的\n碎光\n\n[Refrain]\n路燈見雪\n不見人\n愁在光裏\n靜靜走\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n地白如中庭\n這裏沒有桂花\n只有雪\n在燈下轉\n\n[Refrain]\n路燈見雪\n不見人\n愁在光裏\n靜靜走\n\n[Poetry]\n中庭地白樹棲鴉\n冷露無聲濕桂花\n\n[English — after poetry]\nStreetlight catches every flake\nA slow parade of silver dust\nNo one needs to walk beneath\nFor winter to be just\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n冷露無聲\n雪也\n無聲\n\n[Final refrain]\n燈還亮\n雪還落\n我站一會\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-17/15-streetlight-in-snow.md"
+    },
+    {
+      "n": "15",
+      "start": 2170,
+      "time": "36:10",
+      "en": "Name Almost Spoken",
+      "zh": "差一點開口",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n名字到嘴邊\n又收回去\n像怕驚動\n這條靜巷\n\n[Refrain]\n差一點開口\n就差一點\n愁在\n沒說出的那裏\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n西風生翠蘿\n這裏只有\n北風\n和舊轉角\n\n[Refrain]\n差一點開口\n就差一點\n愁在\n沒說出的那裏\n\n[Poetry]\n遙夜泛清瑟\n西風生翠蘿\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nA name almost spoken aloud\nThen folded back inside\nThe alley does not need to know\nWhat winter keeps untried\n\n[Final refrain]\n沒說\n也聽見\n愁\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-17/16-name-almost-spoken.md"
+    },
+    {
+      "n": "16",
+      "start": 2309,
+      "time": "38:29",
+      "en": "Old Calendar Page",
+      "zh": "舊月曆",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 牆上舊月曆\n[Male] 還停在十月\n[Both] 歸期未寫\n雪先來了\n\n[Refrain]\n舊月曆\n新雪\n愁在\n未翻的那頁\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n巴山夜雨在遠方\n這裏是\n冬夜\n和未撕的日\n\n[Refrain]\n舊月曆\n新雪\n愁在\n未翻的那頁\n\n[English — between refrains]\nOld calendar on the wall\nStill showing last October's page\nReturn dates left blank again\nWhile snow rewrites the stage\n\n[Poetry]\n君問歸期未有期\n巴山夜雨漲秋池\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 未有期\n[Male] 不必問\n[Both] 先聽雪\n\n[Final refrain]\n頁未翻\n雪已厚\n我們聽\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-17/17-old-calendar-page.md"
+    },
+    {
+      "n": "17",
+      "start": 2458,
+      "time": "40:58",
+      "en": "Stove Glow",
+      "zh": "爐紅微光",
+      "voice": "女聲",
+      "lyrics": "[English — opening]\nStove glow through a half-drawn blind\nA small red warmth inside the frame\nThe alley stays in blue and white\nBut something soft remains\n\n[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n某戶窗後\n爐火微紅\n像一小塊\n沒有說出口的暖\n\n[Refrain]\n爐紅微光\n照不遠\n卻讓\n愁淺一點\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n隔窗知漏雨\n這裏隔窗\n知的是\n雪不是雨\n\n[Refrain]\n爐紅微光\n照不遠\n卻讓\n愁淺一點\n\n[Poetry]\n隔窗知漏雨\n不異江湖到\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n江湖在遠\n爐紅在\n近窗\n\n[Final refrain]\n光還在\n雪還下\n我借一點暖\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-17/18-stove-glow.md"
+    },
+    {
+      "n": "18",
+      "start": 2606,
+      "time": "43:26",
+      "en": "Empty Bench Snow",
+      "zh": "長椅積雪",
+      "voice": "男聲",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n轉角長椅\n積滿雪\n像等過誰\n又像沒等\n\n[Refrain]\n長椅積雪\n無人坐\n愁也\n不必有人\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n樓台高鎖在夢裏\n酒醒簾幕\n這裏只有\n空椅和雪\n\n[Refrain]\n長椅積雪\n無人坐\n愁也\n不必有人\n\n[English — before poetry]\nBefore the poem, notice this:\nbench buried under quiet snow\nno one sat and no one left\njust winter moving slow\n\n[Poetry]\n夢後樓台高鎖\n酒醒簾幕低垂\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n簾幕低垂\n是別處\n雪在\n這把椅\n\n[Final refrain]\n椅還在\n雪還積\n我繞過\n\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-17/19-empty-bench-snow.md"
+    },
+    {
+      "n": "19",
+      "start": 2809,
+      "time": "46:49",
+      "en": "Still Listening for 愁",
+      "zh": "仍在聽愁",
+      "voice": "男女混唱",
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 冬夜還沒散\n[Male] 雪還在落\n[Both] 舊巷還在\n聽一點愁\n\n[Refrain]\n仍在聽愁\n不用說破\n像聽雪\n一層一層\n\n[Instrumental break — 20 seconds, no vocal]\n\n[Verse 2]\n忽忘寒是遠事\n這裏記得\n每一陣\n北風\n\n[Refrain]\n仍在聽愁\n不用說破\n像聽雪\n一層一層\n\n[Poetry]\n只知逐勝忽忘寒\n小立春風夕氣間\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你聽雪\n[Male] 我聽風\n[Both] 都算愁\n\n[Final refrain]\n雪還在\n巷還在\n我們仍在聽愁\n\n[English — closing]\nStill listening for 愁 in the old alley\nNot drama, just the quiet weight\nSnow keeps the walk-up world soft\nAnd we keep the listening late\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-17/20-still-listening-for-chou.md"
+    }
+  ],
+  "warnings": [
+    "unpublished:Frost Window"
+  ],
+  "lyricsSource": "songs/prompts/episode-17/*.md"
+}

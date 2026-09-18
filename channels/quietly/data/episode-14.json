@@ -32,202 +32,204 @@
     {
       "n": "01",
       "start": 0,
-      "time": "0:00",
+      "time": "00:00",
       "en": "Hand Opens",
       "zh": "手鬆開",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-14/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n我握太久\n掌心有了自己的天氣\n霧原沒有催我\n只把草尖放低\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n手鬆開\n霧就進來\n不是失去\n是空出一點地方\n\n[Verse 2]\n舊事像石子\n從指縫落下\n聲音很小\n地面卻接得很穩\n\n[Poetry]\n移舟泊煙渚\n日暮客愁新\n野曠天低樹\n江清月近人\n\n[English — after poetry]\nLet the hand open slowly\nThe field is not asking for proof\nWhat falls can become quiet\nWhat stays can breathe\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n放下不是命令\n是手先累了\n終於肯休息\n\n[Final refrain]\n掌心空了\n霧更近了\n我還在\n卻輕一點\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-14/01-hand-opens.md"
     },
     {
       "n": "02",
-      "start": 0,
-      "time": "0:00",
+      "start": 143,
+      "time": "02:23",
       "en": "Unmarked Grass Path",
       "zh": "無名草徑",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-14/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[English — opening]\nNo sign tells me where to go\nThe grass keeps the path open\nI leave my name behind\nAnd walk without an answer\n\n[Instrumental — 10 seconds]\n\n[Verse 1]\n草徑沒有名字\n反而走得進去\n鞋底沾一點露\n不必留下地址\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n無名就好\n不用被記住\n放下稱呼\n路還是路\n\n[Verse 2]\n我曾替每件事命名\n名字越多\n背越重\n今天只叫它風\n\n[Poetry]\n人閒桂花落\n夜靜春山空\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n地圖收起來\n腳知道方向\n霧比標誌可靠\n\n[Final refrain]\n無名草徑\n仍把我帶過\n不問我是誰\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-14/02-unmarked-grass-path.md"
     },
     {
       "n": "03",
-      "start": 0,
-      "time": "0:00",
+      "start": 286,
+      "time": "04:46",
       "en": "Stone After Rain",
       "zh": "雨後石",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-14/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n雨後的石\n沒有解釋濕\n它只是慢慢亮\n像終於不再反駁\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n讓它濕著\n讓它亮著\n放下不是擦乾\n是不用躲\n\n[Verse 2]\n霧原的水窪\n把天空還回來\n我把昨夜\n還給昨夜\n\n[English — before poetry]\nBefore the poem, stay here:\na wet stone does not apologize\nit holds the light\nwithout trying to keep it\n\n[Poetry]\n獨憐幽草澗邊生\n上有黃鸝深樹鳴\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n有些事不必修好\n只要不再追問\n為什麼發生\n\n[Final refrain]\n石還濕著\n我也還在\n卻不再急著\n把自己擦乾\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-14/03-stone-after-rain.md"
     },
     {
       "n": "04",
-      "start": 0,
-      "time": "0:00",
+      "start": 396,
+      "time": "06:36",
       "en": "Low Voice Release",
       "zh": "低聲放下",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-14/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n雨打葉子\n不是針對我\n我不再把每一聲\n都當成判決\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n低聲放下\n不是投降\n是把肩膀\n還給自己的身體\n\n[Verse 2]\n路很泥\n鞋很慢\n可是霧原沒有比分\n只有往前\n\n[Poetry]\n莫聽穿林打葉聲\n何妨吟嘯且徐行\n竹杖芒鞋輕勝馬\n誰怕\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nNo need to fight the falling rain\nI keep a low, steady step\nWhat once felt heavy\nCan lose its claim on me\n\n[Final refrain]\n葉聲還大\n心聲變小\n我把自己\n帶過這場雨\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-14/04-low-voice-release.md"
     },
     {
       "n": "05",
-      "start": 0,
-      "time": "0:00",
+      "start": 493,
+      "time": "08:13",
       "en": "Two Clouds Pass",
       "zh": "兩朵雲過",
       "voice": "男女混唱",
-      "lyrics": "",
-      "source": "songs/prompts/episode-14/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 你帶著昨天\n[Male] 我帶著不甘\n[Both] 霧原很寬\n不必再互相佔滿\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n各自飄過\n也算相逢\n放下不是\n把彼此抹掉\n\n[English — between refrains]\nTwo clouds pass without a contract\nNo one has to become the other\nThe open sky holds both\nThen lets both go\n\n[Refrain — return]\n各自飄過\n也算相逢\n放下不是\n把彼此抹掉\n\n[Verse 2]\n兩朵雲不必合成一朵\n天空還是天空\n我們也還是我們\n\n[Poetry]\n落霞與孤鶩齊飛\n秋水共長天一色\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Female] 你向東\n[Male] 我向西\n[Both] 風沒有偏心\n\n[Final refrain]\n雲走遠了\n霧還在\n我把告別\n放得很輕\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-14/05-two-clouds-pass.md"
     },
     {
       "n": "06",
-      "start": 0,
-      "time": "0:00",
+      "start": 649,
+      "time": "10:49",
       "en": "Empty Pocket Warmth",
       "zh": "空口袋暖",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-14/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n口袋空了\n走路反而有聲音\n原來我一直帶著\n不屬於我的石頭\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n空一點\n暖一點\n放下重量\n才摸到風\n\n[Verse 2]\n低草擦過膝蓋\n像替我拍掉\n那些說不出口的\n必須\n\n[Poetry]\n久在樊籠裏\n復得返自然\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\nEmpty pockets, warmer hands\nI do not need to carry every stone\nThe field makes room for me\nAnd I make room for air\n\n[Final refrain]\n口袋還空\n手卻暖了\n這就夠了\n\n[English — closing]\n不用證明自由\n霧原已經打開\n我只要走進去\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-14/06-empty-pocket-warmth.md"
     },
     {
       "n": "07",
-      "start": 0,
-      "time": "0:00",
+      "start": 776,
+      "time": "12:56",
       "en": "Distant Ridge Doesn't Ask",
       "zh": "遠嶺不問",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-14/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n遠嶺不問\n我為何停下\n它只把輪廓\n放在霧後面\n\n[English — after verse 1]\nThe distant ridge asks nothing\nIt keeps its quiet outline\nI stop explaining my weather\nAnd let the horizon be enough\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n不必回答\n不必解釋\n遠處不催\n我也不催\n\n[Verse 2]\n月色留給江\n霧色留給原\n我把過去\n留給它自己的時間\n\n[Poetry]\n落木千山天遠大\n澄江一道月分明\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n有些理解\n不必說出口\n看見就完成\n\n[Final refrain]\n嶺還遠\n心不趕\n我把問題\n放到背後\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-14/07-distant-ridge-doesnt-ask.md"
     },
     {
       "n": "08",
-      "start": 0,
-      "time": "0:00",
+      "start": 921,
+      "time": "15:21",
       "en": "Cup on the Ground",
       "zh": "杯放在地",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-14/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n杯放在地\n不是不喝\n是今天不想\n用烈的東西蓋住心\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n放在地上\n讓土接住\n不必每次痛\n都變成故事\n\n[Verse 2]\n霧原沒有戰場\n只有草\n我不再向自己\n證明勇敢\n\n[Poetry]\n醉臥沙場君莫笑\n古來征戰幾人回\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nSet the cup down gently\nNo battle needs my name tonight\nThe ground can hold the silence\nBetter than another drink\n\n[Final refrain]\n杯還在地\n霧還在升\n我把夜\n還給安靜\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-14/08-cup-on-the-ground.md"
     },
     {
       "n": "09",
-      "start": 0,
-      "time": "0:00",
+      "start": 1034,
+      "time": "17:14",
       "en": "Rope Loosens",
       "zh": "繩結鬆",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-14/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n繩結鬆了\n不是因為忘記\n是手終於承認\n拉得太久\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n鬆一點\n流一點\n愁不是東西\n不必鎖緊\n\n[Verse 2]\n水往東去\n我往霧裏走\n兩種離開\n都不必責怪\n\n[Poetry]\n問君能有幾多愁\n恰似一江春水向東流\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — English nested]\nA knot loosens without a speech\nSorrow keeps moving like water\nI do not have to stop it\nTo know it will pass\n\n[Spoken Mandarin tag]\n結有它的時間\n\n[Final refrain]\n繩不再勒手\n路不再勒心\n我還記得\n卻不再抓緊\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-14/09-rope-loosens.md"
     },
     {
       "n": "10",
-      "start": 0,
-      "time": "0:00",
+      "start": 1201,
+      "time": "20:01",
       "en": "The Longest Exhale",
       "zh": "最長呼氣",
       "voice": "男女混唱",
-      "lyrics": "",
-      "source": "songs/prompts/episode-14/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 不是沒有風\n[Male] 是不再跟風爭\n[Both] 呼氣很長\n長到霧都停一下\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n呼得久\n比忍得久更難\n把胸口\n慢慢還給空氣\n\n[Verse 2]\n天色不必站隊\n晴或雨\n都可以經過\n不必住下\n\n[English — before poetry]\nBefore the poem, breathe out:\nthe longest release is not defeat\nit is the body remembering\nthere is room beyond the storm\n\n[Poetry]\n回首向來蕭瑟處\n歸去\n也無風雨也無晴\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Both] 風雨都過\n不是因為贏了\n是因為走了\n\n[Final refrain]\n呼氣還長\n霧還很低\n我把自己\n放回原野\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-14/10-longest-exhale.md"
     },
     {
       "n": "11",
-      "start": 0,
-      "time": "0:00",
+      "start": 1344,
+      "time": "22:24",
       "en": "Seed Head Nods",
       "zh": "草穗點頭",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-14/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n草穗點頭\n不是同意誰\n只是風過來\n它剛好願意彎\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n彎一下\n不等於斷\n放下防備\n也是一種直\n\n[Verse 2]\n遊子走遠\n落日還慢\n我不把每個背影\n都叫遺憾\n\n[Poetry]\n浮雲遊子意\n落日故人情\n\n[English — after poetry]\nA seed head nods in wind\nIt does not promise anything\nIt only knows how to bend\nAnd remain rooted\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n故人有故人的路\n我有霧原的晚\n\n[Final refrain]\n草穗又直\n心卻柔了\n這次我不追\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-14/11-seed-head-nods.md"
     },
     {
       "n": "12",
-      "start": 0,
-      "time": "0:00",
+      "start": 1460,
+      "time": "24:20",
       "en": "Mist Without Owner",
       "zh": "無主的霧",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-14/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n霧沒有主人\n也不需要被命名\n它蓋過地面\n又慢慢離開\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n無主就自由\n無需佔有\n放下不是空白\n是沒有鎖頭\n\n[Verse 2]\n繁華像很遠的燈\n霧原不收門票\n我把眼睛\n從比較裡拿回來\n\n[Poetry]\n興亡千古繁華夢\n詩眼倦天涯\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nNo owner for the mist\nNo title for the field\nI stop keeping score\nAnd let the world stay open\n\n[Final refrain]\n霧散一點\n我也鬆一點\n不再把自己\n關進名字\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-14/12-mist-without-owner.md"
     },
     {
       "n": "13",
-      "start": 0,
-      "time": "0:00",
+      "start": 1569,
+      "time": "26:09",
       "en": "One Stone Less",
       "zh": "少一顆石",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-14/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[English — opening]\nOne stone less\nAnd the pocket remembers air\nI do not become smaller\nI become easier to carry\n\n[Instrumental — 10 seconds]\n\n[Verse 1]\n少一顆石\n口袋就知道\n原來輕\n不是想像\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n少一點\n夠一點\n放下不是缺\n是終於合身\n\n[Verse 2]\n我把執念排成小堆\n一顆一顆\n交給霧裡\n看不清的草\n\n[Poetry]\n山光悅鳥性\n潭影空人心\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n空人心\n不是空掉自己\n是讓影子有出口\n\n[Final refrain]\n少一顆石\n多一點路\n我還走得下去\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-14/13-one-stone-less.md"
     },
     {
       "n": "14",
-      "start": 0,
-      "time": "0:00",
+      "start": 1702,
+      "time": "28:22",
       "en": "Frost Line Fades",
       "zh": "霜線淡",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-14/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n霜線淡下去\n不是冬天投降\n是光終於\n不用那麼用力\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n淡一點\n看得見\n放下刺眼\n才看見路\n\n[Verse 2]\n遠山很冷\n柴門很小\n我不再要求\n每一晚都被理解\n\n[Poetry]\n日暮蒼山遠\n天寒白屋貧\n柴門聞犬吠\n風雪夜歸人\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n歸人可以慢\n門不必先開\n\n[Final refrain]\n霜還在\n路也在\n我把期待\n放低一寸\n\n[English — closing]\nThe frost line fades at dusk\nNot because winter loses\nBut because light can soften\nAnd still show the way\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-14/14-frost-line-fades.md"
     },
     {
       "n": "15",
-      "start": 0,
-      "time": "0:00",
+      "start": 1841,
+      "time": "30:41",
       "en": "Old Letter Into Water",
       "zh": "舊信入水",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-14/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n舊信不燒\n也不珍藏\n我把它折小\n放進水窪裡\n\n[English — after verse 1]\nAn old letter enters water\nThe ink does not need a trial\nIt can fade without betrayal\nAnd leave the road intact\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n字淡了\n路還在\n放下不是否認\n是不用重讀\n\n[Verse 2]\n雪泥留過爪\n飛鴻已遠\n我終於不再\n替昨天站崗\n\n[Poetry]\n人生到處知何似\n應似飛鴻踏雪泥\n泥上偶然留指爪\n鴻飛那復計東西\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n偶然留下\n不等於永遠欠著\n\n[Final refrain]\n信慢慢濕\n手慢慢空\n我往前走\n沒有回頭\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-14/15-old-letter-into-water.md"
     },
     {
       "n": "16",
-      "start": 0,
-      "time": "0:00",
+      "start": 2011,
+      "time": "33:31",
       "en": "No Debt to Wind",
       "zh": "不欠風",
       "voice": "男聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-14/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n我不欠風\n一個漂亮的答案\n風也不欠我\n一場剛好的順利\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n不欠了\n就走吧\n放下帳本\n世界還會綠\n\n[Verse 2]\n舊船在岸\n新帆過去\n我不必把每次停下\n都算成輸\n\n[Poetry]\n山中相送罷\n日暮掩柴扉\n春草明年綠\n王孫歸不歸\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Soft jazz-rap — restrained, no trap]\nNo debt to the wind\nNo score to settle with spring\nNew sails keep passing\nAnd I can let them pass\n\n[Final refrain]\n帳本合上\n草又綠了\n我把比較\n留在岸邊\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-14/16-no-debt-to-wind.md"
     },
     {
       "n": "17",
-      "start": 0,
-      "time": "0:00",
+      "start": 2123,
+      "time": "35:23",
       "en": "Night Doesn't Keep",
       "zh": "夜不挽留",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-14/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n夜不挽留\n蟲聲也不挽留\n它們只把暖\n從窗紗後面送來\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n不留也好\n不求也好\n放下挽留\n才聽見暖\n\n[English — between refrains]\nNight does not keep me\nThe insects do not ask me to stay\nWarmth passes through the dark\nWithout needing a promise\n\n[Refrain — return]\n不留也好\n不求也好\n放下挽留\n才聽見暖\n\n[Verse 2]\n霧原的夜\n比我想像安靜\n原來不抓住\n也不會立刻消失\n\n[Poetry]\n今夜偏知春氣暖\n蟲聲新透綠窗紗\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n想念可以來\n不用坐下\n\n[Final refrain]\n夜還深\n暖還透\n我把手\n放回自己身邊\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-14/17-night-doesnt-keep.md"
     },
     {
       "n": "18",
-      "start": 0,
-      "time": "0:00",
+      "start": 2263,
+      "time": "37:43",
       "en": "Open Field",
       "zh": "空闊地",
       "voice": "男女混唱",
-      "lyrics": "",
-      "source": "songs/prompts/episode-14/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 地很闊\n[Male] 人很小\n[Both] 小不是壞事\n不用裝滿全部\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n空闊一點\n心就遠一點\n放下中央\n讓風有位置\n\n[Verse 2]\n草低下來\n牛羊出現\n我把自己\n也放回普通裡\n\n[English — before poetry]\nBefore the poem opens wide:\nwe do not need to fill the horizon\nthe field is large enough\nfor every unfinished thing\n\n[Poetry]\n天蒼蒼\n野茫茫\n風吹草低見牛羊\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Both] 天很高\n我們不必證明\n自己多重要\n\n[Final refrain]\n風過草低\n霧還未盡\n我不再怕\n看見自己很小\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-14/18-reedless-open-field.md"
     },
     {
       "n": "19",
-      "start": 0,
-      "time": "0:00",
+      "start": 2391,
+      "time": "39:51",
       "en": "Water Mark Gone",
       "zh": "水痕已淡",
       "voice": "女聲",
-      "lyrics": "",
-      "source": "songs/prompts/episode-14/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n水痕淡了\n石頭沒有追問\n我也不必\n替每次退潮作證\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n淡了就淡了\n不必留底\n放下痕跡\n才看見石頭\n\n[Verse 2]\n松花釀酒\n春水煎茶\n小事已經夠\n不再要大結局\n\n[Poetry]\n山中何事\n松花釀酒\n春水煎茶\n\n[English — after poetry]\nWater marks fade from stone\nNothing asks them to return\nA small cup of tea is enough\nFor the day to become complete\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n何事不必很多\n一點就夠\n\n[Final refrain]\n痕淡了\n茶暖了\n我把餘下的\n交給霧\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-14/19-water-mark-gone.md"
     },
     {
       "n": "20",
-      "start": 0,
-      "time": "0:00",
+      "start": 2529,
+      "time": "42:09",
       "en": "Still Leaving Room",
       "zh": "仍留空位",
       "voice": "男女混唱",
-      "lyrics": "",
-      "source": "songs/prompts/episode-14/"
+      "lyrics": "[Instrumental intro — 35 seconds, no vocal]\n\n[Verse 1]\n[Female] 霧原還沒散\n[Male] 我也還沒說完\n[Both] 但不用說完\n也可以回去\n\n[Instrumental interlude — 20 seconds, no vocal]\n\n[Refrain]\n仍留空位\n給風經過\n放下不是結局\n是門沒有鎖\n\n[Verse 2]\n青山像故鄉\n不必真的抵達\n我把想念\n放成遠遠的顏色\n\n[Poetry]\n行人無限秋風思\n隔水青山似故鄉\n\n[Instrumental break — 25 seconds, no vocal]\n\n[Bridge — almost spoken]\n[Both] 走吧\n不帶走全部\n也不留下自己\n\n[Final refrain]\n霧慢慢散\n空位還在\n我把放下\n留給明天\n\n[English — closing]\nStill leaving room for wind\nStill leaving room for silence\nRelease is not a final door\nIt is the door left open\n\n[Instrumental coda — 40 seconds, gradual fade, no vocal]",
+      "source": "songs/prompts/episode-14/20-still-leaving-room.md"
     }
-  ]
+  ],
+  "warnings": [],
+  "lyricsSource": "songs/prompts/episode-14/*.md"
 }
